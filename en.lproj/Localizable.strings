@@ -1,0 +1,343 @@
+"clear_all_tooltip" = "Clear all items.";
+"about_tooltip" = "Read more about application.";
+"quit_tooltip" = "Quit application.";
+"clear_all" = "Clear All";
+"about" = "About CleanClip...";
+"quit" = "Quit";
+"preferences" = "Preferences...";
+"preferences_ignore" = "Ignore";
+"preferences_general" = "General";
+"preferences_storage" = "Storage";
+"accessibility_alert_message" = "“CleanClip” would like to control this computer using accessibility features.";
+"accessibility_alert_comment" = "Grant access to this application in Security & Privacy preferences, located in System Preferences.\n\nClick + button, select CleanClip and toggle on the checkbox next to it.";
+"accessibility_alert_deny" = "Deny";
+"accessibility_alert_open" = "Open System Preferences";
+"clear_alert_message" = "Are you sure you want to clear all content?";
+"clear_alert_comment" = "You can't undo this action.";
+"clear_alert_cancel" = "Not Now";
+"clear_alert_confirm" = "Clear All";
+
+// MARK: - CleanClip
+"license_intro" = "Search and use everything you copied right at the input position, not in the menu bar 1000 miles away.";
+"license_title" = "Welcome to CleanClip!";
+"feature_0" = "Quick Access";
+"feature_0_intro" = "⌘ + ; One-click access to the history popup";
+"feature_1" = "Context Switching-Free";
+"feature_1_intro" = "No need to switch focus, the popup always appears at the cursor position";
+"feature_2" = "Pinboards";
+"feature_2_intro" = "Double-click ⌘ + ; to quickly access the Pinboards";
+"feature_3" = "Paste Stack";
+"feature_3_intro" = "⌘ + ' to quickly collect content and organize it for efficient use";
+"feature_4" = "Quick Search";
+"feature_4_intro" = "Type a letter to instantly search and find even the oldest records";
+"feature_5" = "Auto Save Copies";
+"feature_5_intro" = "No need to worry about losing important content. CleanClip will automatically save it for you";
+"close" = "Close";
+"congrats_permanent_member" = "Congratulations! You are now a lifetime member!";
+"congrats_member" = "Congratulations! You are now a premium member!";
+"get_start" = "Get Started!";
+"unbind_device_failure" = "Failed to unbind device";
+"unbind_device" = "Unbind Device";
+"input_serial_number_hint" = "Enter the license to activate";
+"activate_failed" = "Activation failed";
+"activate" = "Activate";
+"purchase_serial_number" = "Buy a License";
+"start_trial" = "Start Trial";
+
+"plan" = "License Manager";
+"activate_tooltip" = "Enter the serial number to become a member";
+"deactivate_tooltip" = "Unbind this device";
+"plan_tooltip" = "Membership status management";
+"manual" = "Quick Start Guide...";
+"manual_tooltip" = "View Quick Start Guide";
+// 菜单栏版本
+"menu_version" = "Version: %@";
+
+"no_records_found" = "No records found📝";
+"next_page" = "Next Page";
+"prev_page" = "Previous Page";
+"preview" = "Preview";
+"search_number" = "Number Search";
+"switch_item" = "Switch Option";
+
+"paste_to" = "Paste to %@";
+"lines" = "%@ lines";
+"words" = "%@ words";
+"chars" = "%@ characters";
+
+"ignore" = "Ignore Copies from %@";
+"cancel_ignore" = "Allow Copies from %@";
+
+// MARK: CopyStack
+"copystack" = "Paste Stack";
+"open_copystack" = "Open Paste Stack";
+"open_copystack_tooltip" = "Open Paste Stack";
+"stack_empty" = "Stack is Empty";
+
+"clear_stack" = "Clear";
+
+"plain_mode" = "Plain Mode";
+"paste_as_plain" = "**Plain** Text";
+"paste_as_origin" = "**Original** Text";
+
+"toggle_recording" = "Record Status";
+"stop_recording" = "Pause";
+"start_to_record" = "Resume";
+
+"reverse_order_desc" = "Order";
+"reverse_order" = "Reverse";
+
+// MARK: PIN
+"pin" = "Star";
+"unpin" = "Unstar";
+"delete" = "Delete";
+"tab_pin" = "Fav";
+"tab_all" = "All";
+
+// popup tip
+"tip_history_item" = "Right-click to show menu";
+"tip_tab_to_next" = "⇥ Expand/Next Page";
+"tip_tab_to_prev" = "⇧⇥ Prev Page";
+"tip_paste_stack" = "Paste Stack";
+"tip_show_help" = "Help";
+"tip_search" = "⌘F Open Search\na-z Direct Search";
+"tip_tab" = "%@ Switch Tabs";
+"tip_right_click" = "Right-click";
+"tip_context_menu" = "Delete/Pin";
+
+"tip_format_brush" = "Format Brush";
+"tip_show_tutorial" = "Show Quick Menu Help";
+
+// Output Format
+"preview" = "Preview";
+"remove_extra_spaces" = "**Strip Extra** Whitespaces";
+"strip_all_whitespaces" = "**StripAll**Whitespaces";
+"make_title_case" = "**Title** Case";
+"make_sentence_case" = "**Sentence** Case";
+"capitalize_words" = "**Capitalize** Words";
+"make_upper_case" = "MAKE **UPPER** CASE";
+"make_lower_case" = "make **lower** case";
+
+// Paste stack options
+"post_action_title" = "Post-Pasting action";
+"none" = "None";
+
+// Migration
+"migration_data_upgrading" = "Upgrading data...";
+"migration_data_upgrading_claim" = "Based on your data volume, the upgrade may take seconds to minutes";
+"migrate_upgrading" = "Data Upgrades";
+"migrate_start" = "OK";
+"migrate_upgraded" = "Data upgrade successful!";
+
+// edit
+"edit" = "Edit";
+"edit_text" = "Edit Text";
+
+// 新手引导
+"tutorial_title" = "Try these fantastic features";
+// 快捷菜单
+"quick_menu" = "Quick Menu";
+"quick_use_short" = "Quick Use";
+"quick_use" = "Quick Use - A shortcut menu that focuses on keyboard efficiency";
+"quickuse_desc" = "1. ⌘; Open the quick menu\n2. a-z: Start searching directly, type 'image' to search for images, type 'file' to search for files\n3. Spacebar: Preview\n4. ⇥/⇧⇥: Scroll up/down\n5. Number keys/Enter: Paste corresponding items";
+"preset_paste_format" = "Set Default Paste Format";
+"preset_paste_format_desc" = "After setting the format, all items will be pasted according to the specified format.\nCurrently supported formats include: plain text, all lowercase, all uppercase, etc.\nExciting plan: Open the conversion interface to support developers to freely develop rich conversion methods.";
+"quick_paste_format" = "Quick Format Paste";
+"quick_paste_format_desc" = "1. Long press the content index number to bring up the format menu\n2. Long press the spacebar to preview the formatted text\n3. Short press the format index number to confirm the selection";
+"drag_image_to_file" = "Paste Image as File";
+"drag_image_to_file_desc" = "Images can be directly pasted or dragged as files, whether using the quick menu or the paste stack.";
+"call_pinboards" = "Pin and Use Commonly Used Content";
+"call_pinboards_desc" = "Press the quick menu shortcut ⌘; twice to view the pinned commonly used content, no need to remember new key combinations.\nPin commonly used items to keep them at the top of the list, preventing them from being overwhelmed by new items and using them anytime.";
+
+// 粘贴队列
+"paste_stack" = "Paste Stack";
+"paste_stack_intro" = "Introduction";
+"paste_stack_intro_desc" = "When the paste stack is opened, the copied content will automatically enter the stack, and ⌘V will paste the next item in the stack in order.\n1. Click the 'up and down arrow buttons' at the bottom to reverse the list\n2. 'Drag items' to change the order\n3. 'Click #' to switch to the specified item\n4. 'Post-Pasting action' option will automatically press the corresponding key after pasting";
+"paste_stack_fill_form" = "Assist in Form Filling";
+"paste_stack_fill_form_desc" = "Using the paste stack can assist in filling out forms by copying and pasting in order.";
+"paste_stack_quick_fill_form" = "Quick Form Filling - Split Copy";
+"paste_stack_quick_fill_form_desc" = "Use ⌘⇧C 'Split Copy' to directly split multiple lines into multiple items and copy them to the paste stack. The 'Post-Pasting action' option helps automatically switch to the next cell, making quick form filling even more powerful!";
+"paste_stack_collect" = "Collect Information";
+"paste_stack_collect_desc" = "Collect content on multiple pages and paste them all at once on the target page, optimizing the process and saving time.";
+
+// 菜单栏
+"status_bar" = "Status Bar";
+"status_bar_functions" = "Status Bar Functions";
+"status_bar_functions_desc" = "1. Display the most recent copied record\n2. Hold ⌥ and click the icon to pause or resume clipboard monitoring\n3. Quickly block copied content from the current app\n4. License manager\n5. Quick start guide";
+
+// 主窗口
+"main_window" = "Main Window";
+"main_window_soon" = "Coming Soon";
+"main_window_soon_desc" = "The main window provides a resident, easy-to-browse, drag-and-drop, and manage window, making it more convenient for mouse users.";
+
+// 导航
+"previous" = "Previous";
+"next" = "Next";
+"done" = "Finish Tutorial";
+
+// MARK: - PinnedWindow
+"pinned_window" = "Open Main Window";
+"pinned_window_tooltip" = "The main window is a resident window for managing and organizing clipboard content";
+
+// MARK: Title
+"pin_apps_all" = "All Applications";
+"pin_apps_all_tooltip" = "Show All Applications";
+"pin_apps_frontmost" = "Follow Frontmost Application";
+"pin_apps_frontmost_tooltip" = "Always show the content of the frontmost application";
+"pin_apps_empty" = "Source app list will be displayed here";
+"pin_bottom_accent_color" = "Accent Color";
+"pin_bottom_accent_color_system" = "Use System Accent Color";
+"pin_bottom_appearence" = "Appearance";
+"pin_bottom_appearence_line_spacing" = "Line Spacing";
+"pin_bottom_auto_collect_tooltip" = "Automatically collect to the current list";
+"pin_bottom_collapse_or_expand_tooltip" = "Collapse/Expand Window";
+"pin_bottom_pin_tooltip" = "Automatically resize the window based on mouse hover state";
+"pin_bottom_scroll_to_top_tooltip" = "Scroll to Top";
+"pin_bottom_setting_tooltip" = "Options";
+"pin_bottom_content" = "Content";
+"pin_bottom_all_as_default_filter" = "Default Display:";
+
+"pin_context_delete_lists" = "Delete";
+"pin_context_remove_from_lists" = "Remove from List";
+"pin_context_manage_lists" = "View Info";
+"pin_context_add_new_lists" = "Add List";
+"pin_context_add_to_lists" = "Add to List";
+"pin_context_alias" = "Set Alias";
+"pin_context_copy_to_clipboard" = "Copy to Clipboard";
+"pin_context_delete" = "Delete";
+"pin_context_merge_paste" = "Merge and Paste";
+"pin_context_paste" = "Paste";
+"pin_context_paste_as_plain" = "Paste as Plain Text";
+"pin_context_preview" = "Preview";
+"pin_context_preview_when_hover" = "Enable Preview on Hover";
+
+// MARK: Content List
+"pin_contents_appname_tooltip" = "Application Name";
+// Empty Page
+"pin_contents_list_empty" = "List is Empty";
+"pin_contents_list_empty_desc" = "Try copying some content";
+
+// MARK: Add List Window
+"pin_lists_title" = "Edit List";
+"pin_lists_name" = "Name:";
+"pin_lists_color" = "Color:";
+"pin_lists_color_preview" = "Color Preview:";
+
+"pin_lists_delete" = "Delete";
+"pin_lists_done" = "Done";
+
+"pin_lists_smartlist" = "Smart List";
+"pin_lists_match" = "Match";
+"pin_lists_match_all" = "All";
+"pin_lists_match_any" = "Any";
+"pin_lists_match_following" = "Conditions:";
+
+"pin_lists_unknown" = "Unknown";
+
+// Filters
+"pin_lists_filter_belongs" = "Belongs to";
+"pin_lists_filter_not_belongs" = "Does not belong to";
+"pin_lists_filter_lists_empty" = "List is empty";
+
+"pin_lists_filter_contains" = "Contains";
+"pin_lists_filter_starts_with" = "Starts with";
+"pin_lists_filter_ends_with" = "Ends with";
+"pin_lists_filter_include" = "Include";
+"pin_lists_filter_exclude" = "Exclude";
+"pin_lists_filter_matches_word" = "Matches Word";
+"pin_lists_filter_regular_expression" = "Regular Expression";
+
+"pin_lists_filter_from" = "From";
+"pin_lists_filter_not_from" = "Not from";
+
+"pin_lists_filter_is" = "Is";
+"pin_lists_filter_is_not" = "Is not";
+"pin_lists_filter_link" = "Link";
+
+"pin_lists_filter_media_type_file" = "File";
+"pin_lists_filter_media_type_html" = "HTML";
+"pin_lists_filter_media_type_image" = "Image";
+"pin_lists_filter_media_type_link" = "Link";
+"pin_lists_filter_media_type_other" = "Other";
+"pin_lists_filter_media_type_rtf" = "Rich Text";
+"pin_lists_filter_media_type_text" = "Text";
+
+"pin_lists_filter_text_length_eq" = "Equals";
+"pin_lists_filter_text_length_gt" = "Greater than";
+"pin_lists_filter_text_length_gt_eq" = "Greater than or equal to";
+"pin_lists_filter_text_length_lt" = "Less than";
+"pin_lists_filter_text_length_lt_eq" = "Less than or equal to";
+
+"pin_lists_filter_remote_title" = "This item is from";
+"pin_lists_filter_remote_other" = "Other Devices";
+"pin_lists_filter_remote_this" = "This Mac";
+
+"pin_lists_filter_type_app" = "Application";
+"pin_lists_filter_type_keyword" = "Keyword";
+"pin_lists_filter_type_link" = "Link";
+"pin_lists_filter_type_lists" = "Lists";
+"pin_lists_filter_type_media_type" = "Media Type";
+"pin_lists_filter_type_remote_copies" = "Source Device";
+"pin_lists_filter_type_text_length" = "Text Length";
+
+"pin_title_app_all" = "All";
+"pin_title_back_tooltip" = "Back to Default Display List";
+"pin_title_application_tooltip" = "Current Application Scope";
+"pin_title_pin_tooltip" = "Click to Pin or Follow Frontmost Application";
+"pin_title_scope_all" = "All";
+"pin_title_lists_favorite" = "Favorite";
+"pin_title_lists_image" = "Image";
+"pin_title_lists_file" = "File";
+"pin_title_lists_link" = "Link";
+"pin_title_lists_email" = "Email";
+"pin_title_lists_remote" = "Remote";
+"pin_title_lists_notes" = "From Notes";
+"pin_title_scope_tooltip" = "Specify the scope of the search content";
+"pin_title_search_tooltip" = "⌘F Quickly show or hide the search box";
+
+"pin_unknown" = "Unknown";
+
+// pin tutorial
+"main_window_intro_short" = "Introduction";
+"main_window_intro" = "Main Window - A fixed window with powerful content organization and management capabilities";
+"main_window_intro_desc" = "The Main Window is a fixed window on the screen that allows you to batch operate, manage, and use clipboard records.\nFilter: Freely filter the displayed items based on App + List.\nSearch: Quickly search within the filtering range.\nSelection: Left-click to select a single item; ⌘+click to add an item; ⇧+click to add all items between two selections;\nPaste: Double-click to paste a single item; drag and drop or right-click menu to batch operate multiple items.";
+"main_window_follow_frontmost" = "Automatically Follow Frontmost App";
+"main_window_follow_frontmost_desc" = "When selecting the Follow Frontmost App mode, the app filter will automatically follow the changes of the frontmost app and display the clipboard history of that app.\nThis mode, when used with lists, can create many possibilities and provide dedicated spaces for each app, unlocking the potential of the app.";
+"main_window_youtubelinks_short" = "Smart Lists";
+"main_window_youtubelinks" = "Smart Lists - Smart filtering items based on conditions";
+"main_window_youtubelinks_desc" = "With Smart Lists, you can freely set filtering conditions to obtain the desired content.\nThe currently supported filtering conditions include: media type, keyword matching, regular expression matching, character length, source app, source device, and location in the collection.";
+"main_window_manual_collection" = "Collection Lists - Manual Management";
+"main_window_manual_collection_desc" = "Select one or more 'items', right-click and choose 'Add to Lists' to save them to a specific lists.\nCollection lists can be filtered by smart lists, allowing for more possibilities.";
+"main_window_sketch" = "Collection Lists - Auto Collection";
+"main_window_sketch_desc" = "Select a collection list, enable the auto collection option below, and any content you copy will be automatically saved to the specified list.\nYou can set an alias for it, making it easy to access the list whenever you need.\nMany apps, especially content creation apps like Sketch and Final Cut Pro, lack a convenient collection feature.\nIf your favorite apps don't support collections, this feature will be extremely useful to you!";
+
+// Pro
+"pro_unpaid_version" = "%@ times remaining today";
+
+// quickmenu settings
+"quickmenu_option_show_shortcut" = "Always Show Shortcut Tips";
+"quickmenu_option_show_when_hover" = "Auto Display on Hover";
+"quickmenu_option" = "Toolbar Options";
+"quickmenu_appr_always_expand" = "Default Number of Items";
+"quickmenu_appr_always_expand_5" = "5 Items";
+"quickmenu_appr_always_expand_10" = "10 Items";
+"quickmenu_general_preview_on_hover" = "Auto Preview on Hover";
+"quickmenu_general_default_action" = "Default Action";
+"quickmenu_general_default_action_auto_paste" = "Auto Paste";
+"quickmenu_general_default_action_copy" = "Copy Only";
+"quickmenu_tip_prefences" = "Preferences";
+// Tool List
+"quickmenu_option_switch" = "Switch Item ⌘[0-9]";
+"quickmenu_option_search" = "Search ⌘F";
+"quickmenu_option_switchTab" = "Switch List ⌘;";
+"quickmenu_option_copy" = "Copy to Clipboard ⌘C";
+"quickmenu_option_star" = "Bookmark ⌘S";
+"quickmenu_option_delete" = "Delete ⌘D";
+"quickmenu_option_edit" = "Edit ⌘E";
+"quickmenu_option_alias" = "Set Alias ⌘A";
+
+// ocr
+"preferences_ocr_primary_language" = "Primary Language";
+"preferences_ocr_revision" = "Revision";
+"preferences_ocr_reindex" = "Update Search Index";
+"quickmenu_preview_ocr_header" = "Text in Image:";

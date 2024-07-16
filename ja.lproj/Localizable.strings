@@ -1,0 +1,343 @@
+"clear_all_tooltip" = "全ての項目をクリアします。";
+"about_tooltip" = "アプリケーションについての詳細を表示します。";
+"quit_tooltip" = "アプリケーションを終了します。";
+"clear_all" = "クリア";
+"about" = "CleanClipについて";
+"quit" = "終了";
+"preferences" = "設定";
+"preferences_ignore" = "無視";
+"preferences_general" = "一般";
+"preferences_storage" = "保管";
+"accessibility_alert_message" = "“CleanClip”は、アクセシビリティ機能を使用してこのコンピュータを制御することを求めています。";
+"accessibility_alert_comment" = "システム環境設定の“セキュリティとプライバシー”環境設定で、このアプリケーションへのアクセスを許可してください。\n\n“+“ボタンをクリックし、“CleanClip“を選択して、その横のチェックボックスをオンにします。";
+"accessibility_alert_deny" = "拒否";
+"accessibility_alert_open" = "“システム環境設定”を開く";
+"clear_alert_message" = "履歴をクリアしますか？";
+"clear_alert_comment" = "このアクションは元に戻すことができません。";
+"clear_alert_cancel" = "キャンセル";
+"clear_alert_confirm" = "クリア";
+
+// MARK: - CleanClip
+"license_intro" = "遠く離れたメニューバーではなく、入力位置でコピーしたすべてのものを検索して使用できます。";
+"license_title" = "CleanClipへようこそ！";
+"feature_0" = "クイックアクセス";
+"feature_0_intro" = "⌘ + ; 履歴ポップアップへのワンクリックアクセス";
+"feature_1" = "コンテキスト切り替え不要";
+"feature_1_intro" = "フォーカスを切り替える必要がなく、ポップアップは常にカーソルの位置に表示されます。";
+"feature_2" = "ピンボード";
+"feature_2_intro" = "⌘ + ; をダブルクリックして、ピンボードにすばやくアクセス";
+"feature_3" = "ペーストをスタック";
+"feature_3_intro" = "⌘+ 'を使用すると、コンテンツをすばやく収集し、効率的に整理できます";
+"feature_4" = "クイック検索";
+"feature_4_intro" = "一文字入力するだけで、最も古い記録でも即座に検索して見つけられます";
+"feature_5" = "コピーの自動保存";
+"feature_5_intro" = "重要なコンテンツを失う心配はありません。CleanClipが自動的に保存してくれます";
+"close" = "閉じる";
+"congrats_permanent_member" = "おめでとうございます！あなたはライフタイムメンバーになりました！";
+"congrats_member" = "おめでとうございます！あなたはプレミアムメンバーになりました！";
+"get_start" = "始めましょう！";
+"unbind_device_failure" = "デバイスの解除に失敗しました";
+"unbind_device" = "デバイスの登録を解除";
+"input_serial_number_hint" = "アクティベートするライセンスを入力";
+"activate_failed" = "アクティベーションに失敗しました";
+"activate" = "有効";
+"purchase_serial_number" = "ライセンスを購入";
+"start_trial" = "トライアルを開始";
+
+"plan" = "ライセンス管理";
+"activate_tooltip" = "会員になるためにシリアル番号を入力してください";
+"deactivate_tooltip" = "このデバイスの登録を解除";
+"plan_tooltip" = "メンバーシップのステータス管理";
+"manual" = "クイックスタートガイド";
+"manual_tooltip" = "クイックスタートガイドを表示";
+// 菜单栏版本
+"menu_version" = "バージョン %@";
+
+"no_records_found" = "記録が見つかりません📝";
+"next_page" = "次のページ";
+"prev_page" = "前のページ";
+"preview" = "プレビュー";
+"search_number" = "番号検索";
+"switch_item" = "オプションを切り替える";
+
+"paste_to" = "%@ に貼り付け";
+"lines" = "%@ 行";
+"words" = "%@ 単語";
+"chars" = "%@ 文字";
+
+"ignore" = "%@ からのコピーを無視";
+"cancel_ignore" = "%@ からのコピーを許可";
+
+// MARK: CopyStack
+"copystack" = "ペーストをスタック";
+"open_copystack" = "ペーストスタックを開く";
+"open_copystack_tooltip" = "ペーストスタックを開く";
+"stack_empty" = "スタックが空です";
+
+"clear_stack" = "クリア";
+
+"plain_mode" = "プレーンモード";
+"paste_as_plain" = "**プレーン** テキスト";
+"paste_as_origin" = "**元の** テキスト";
+
+"toggle_recording" = "記録状態";
+"stop_recording" = "一時停止";
+"start_to_record" = "再開";
+
+"reverse_order_desc" = "注文";
+"reverse_order" = "反転";
+
+// MARK: PIN
+"pin" = "お気に入り";
+"unpin" = "お気に入り解除";
+"delete" = "削除";
+"tab_pin" = "お気に入り";
+"tab_all" = "All";
+
+// popup tip
+"tip_history_item" = "右クリックでメニューを表示";
+"tip_tab_to_next" = "⇥ 展開/次のページ";
+"tip_tab_to_prev" = "⇧⇥ 前のページ";
+"tip_paste_stack" = "ペーストをスタック";
+"tip_show_help" = "ヘルプ";
+"tip_search" = "⌘F 検索を開く\na-z 直接検索";
+"tip_tab" = "%@ タブの切り替え";
+"tip_right_click" = "右クリック";
+"tip_context_menu" = "削除/ピン留め";
+
+"tip_format_brush" = "ブラシのフォーマット";
+"tip_show_tutorial" = "クイックメニューのヘルプを表示";
+
+// Output Format
+"preview" = "プレビュー";
+"remove_extra_spaces" = "** 余分な** 空白を削除";
+"strip_all_whitespaces" = "**全ての**空白を削除";
+"make_title_case" = "**タイトル** ケース";
+"make_sentence_case" = "**文** ケース";
+"capitalize_words" = "**大文字** 単語";
+"make_upper_case" = "**大文字**に変換";
+"make_lower_case" = "**小文字** に変換";
+
+// Paste stack options
+"post_action_title" = "貼り付け後のアクション";
+"none" = "無し";
+
+// Migration
+"migration_data_upgrading" = "データをアップグレード中...";
+"migration_data_upgrading_claim" = "データ量によっては、アップグレードに数秒から数分かかる場合があります";
+"migrate_upgrading" = "データのアップグレード";
+"migrate_start" = "OK";
+"migrate_upgraded" = "データのアップグレードに成功しました！";
+
+// edit
+"edit" = "編集";
+"edit_text" = "テキストの編集";
+
+// 新手引导
+"tutorial_title" = "これらの素晴らしい機能をお試しください";
+// 快捷菜单
+"quick_menu" = "クイックメニュー";
+"quick_use_short" = "クイック使用";
+"quick_use" = "クイック使用 - キーボードの効率に焦点を当てたショートカットメニュー";
+"quickuse_desc" = "•⌘; クイックメニューを開く\n2. a-z: 直接検索を開始し、「image」と入力して画像を検索、「file」と入力してファイルを検索\n3. スペースバー: プレビュー\n4. ⇥/⇧⇥: 上/下にスクロール\n5. 数字キー/エンター: 該当する項目を貼り付け";
+"preset_paste_format" = "デフォルトの貼り付け形式を設定";
+"preset_paste_format_desc" = "形式を設定した後、全ての項目は指定された形式に従って貼り付けられます。\n現在サポートされている形式には、プレーンテキスト、全て小文字、全て大文字などがあります。\nエキサイティングな計画：変換インターフェイスを開放し、開発者が自由に豊富な変換方法を開発できるようにサポートします。";
+"quick_paste_format" = "クイック形式貼り付け";
+"quick_paste_format_desc" = "1. コンテンツのインデックス番号を長押しして、形式メニューを表示します\n2. スペースバーを長押しして、フォーマットされたテキストをプレビューします\n3. 形式のインデックス番号を短押しして、選択を確定します";
+"drag_image_to_file" = "画像をファイルとして貼り付け";
+"drag_image_to_file_desc" = "画像は、クイックメニューやペーストスタックを使用する場合でも、直接貼り付けたりファイルとしてドラッグしたりすることができます。";
+"call_pinboards" = "よく使うコンテンツをピン留めして使用する";
+"call_pinboards_desc" = "クイックメニューショートカット⌘; を2回押して、ピン留めされたよく使うコンテンツを表示できます。新しいキーコンビネーションを覚える必要はありません。\nよく使うアイテムをピン留めしてリストの上部に保持し、新しいアイテムに埋もれることなく、いつでも使用できるようにします。";
+
+// 粘贴队列
+"paste_stack" = "ペーストをスタック";
+"paste_stack_intro" = "イントロダクション";
+"paste_stack_intro_desc" = "ペーストスタックが開かれると、コピーされたコンテンツは自動的にスタックに入り、⌘Vを押すとスタック内の次のアイテムが順番に貼り付けられます。\n1. 下部の「上下矢印ボタン」をクリックしてリストの順序を逆にします\n2. 「アイテムをドラッグ」して順序を変更します\n3. 「#をクリック」して指定されたアイテムに切り替えます\n4. 「貼り付け後のアクション」オプションは、貼り付け後に自動的に対応するキーを押します";
+"paste_stack_fill_form" = "フォーム入力のサポート";
+"paste_stack_fill_form_desc" = "ペーストスタックを使用することで、順番にコピー＆ペーストを行いながらフォームの入力をサポートします。";
+"paste_stack_quick_fill_form" = "クイックフォーム入力 - 分割コピー";
+"paste_stack_quick_fill_form_desc" = "⌘⇧C「分割コピー」を使用して、複数行を複数のアイテムに直接分割し、それらを貼り付けスタックにコピーします。「貼り付け後のアクション」オプションは、自動的に次のセルに切り替えるのに役立ち、クイックフォーム入力をさらに強力にします！";
+"paste_stack_collect" = "収集される情報";
+"paste_stack_collect_desc" = "複数のページの内容を収集し、ターゲットページに一度にすべて貼り付けることで、プロセスを最適化し時間を節約します。";
+
+// 菜单栏
+"status_bar" = "ステータスバー";
+"status_bar_functions" = "ステータスバー機能";
+"status_bar_functions_desc" = "1. 最新のコピー記録を表示\n2. ⌥キーを押しながらアイコンをクリックして、クリップボードの監視を一時停止または再開\n3. 現在のアプリからコピーされた内容を迅速にブロック\n4. ライセンスマネージャー\n5. クイックスタートガイド";
+
+// 主窗口
+"main_window" = "メインウインドウ";
+"main_window_soon" = "近日公開";
+"main_window_soon_desc" = "メインウィンドウは、常駐型で、閲覧が容易で、ドラッグ＆ドロップが可能で、管理しやすいウィンドウを提供し、マウスユーザーにとってより便利になります。";
+
+// 导航
+"previous" = "前へ";
+"next" = "次へ";
+"done" = "チュートリアルを終了する";
+
+// MARK: - PinnedWindow
+"pinned_window" = "メインウィンドウを開く";
+"pinned_window_tooltip" = "メインウィンドウは、クリップボードの内容を管理・整理するための常駐型ウィンドウです。";
+
+// MARK: Title
+"pin_apps_all" = "すべてのアプリケーション";
+"pin_apps_all_tooltip" = "すべてのアプリケーションを表示";
+"pin_apps_frontmost" = "最前面のアプリケーションを追跡";
+"pin_apps_frontmost_tooltip" = "常に最前面のアプリケーションの内容を表示する";
+"pin_apps_empty" = "ソースとなるアプリのリストがここに表示されます";
+"pin_bottom_accent_color" = "アクセントカラー";
+"pin_bottom_accent_color_system" = "システムのアクセントカラーを使用";
+"pin_bottom_appearence" = "外観";
+"pin_bottom_appearence_line_spacing" = "行の間隔";
+"pin_bottom_auto_collect_tooltip" = "自動的に現在のリストに収集";
+"pin_bottom_collapse_or_expand_tooltip" = "ウィンドウを折りたたむ/展開";
+"pin_bottom_pin_tooltip" = "マウスのホバー状態に基づいてウィンドウのサイズを自動的に調整する";
+"pin_bottom_scroll_to_top_tooltip" = "一番上までスクロール";
+"pin_bottom_setting_tooltip" = "オプション";
+"pin_bottom_content" = "コンテンツ";
+"pin_bottom_all_as_default_filter" = "デフォルト表示";
+
+"pin_context_delete_lists" = "削除";
+"pin_context_remove_from_lists" = "リストから削除";
+"pin_context_manage_lists" = "情報を見る";
+"pin_context_add_new_lists" = "リストを追加";
+"pin_context_add_to_lists" = "リストに追加";
+"pin_context_alias" = "別名設定";
+"pin_context_copy_to_clipboard" = "クリップボードにコピー";
+"pin_context_delete" = "削除";
+"pin_context_merge_paste" = "結合してペースト";
+"pin_context_paste" = "ペースト";
+"pin_context_paste_as_plain" = "プレーンテキストとしてペースト";
+"pin_context_preview" = "プレビュー";
+"pin_context_preview_when_hover" = "ホバーでプレビューを有効にする";
+
+// MARK: Content List
+"pin_contents_appname_tooltip" = "アプリケーション名";
+// Empty Page
+"pin_contents_list_empty" = "リストは空です";
+"pin_contents_list_empty_desc" = "コンテンツをコピーしてみてください";
+
+// MARK: Add List Window
+"pin_lists_title" = "リストを編集";
+"pin_lists_name" = "名前:";
+"pin_lists_color" = "カラー:";
+"pin_lists_color_preview" = "カラープレビュー:";
+
+"pin_lists_delete" = "削除";
+"pin_lists_done" = "完了";
+
+"pin_lists_smartlist" = "スマートリスト";
+"pin_lists_match" = "一致";
+"pin_lists_match_all" = "All";
+"pin_lists_match_any" = "任意";
+"pin_lists_match_following" = "条件:";
+
+"pin_lists_unknown" = "不明";
+
+// Filters
+"pin_lists_filter_belongs" = "所属";
+"pin_lists_filter_not_belongs" = "所属していない";
+"pin_lists_filter_lists_empty" = "リストは空です";
+
+"pin_lists_filter_contains" = "含む";
+"pin_lists_filter_starts_with" = "で始まる";
+"pin_lists_filter_ends_with" = "で終わる";
+"pin_lists_filter_include" = "含む";
+"pin_lists_filter_exclude" = "除く";
+"pin_lists_filter_matches_word" = "一致する単語";
+"pin_lists_filter_regular_expression" = "正規表現";
+
+"pin_lists_filter_from" = "から";
+"pin_lists_filter_not_from" = "からではない";
+
+"pin_lists_filter_is" = "である";
+"pin_lists_filter_is_not" = "ではない";
+"pin_lists_filter_link" = "リンク";
+
+"pin_lists_filter_media_type_file" = "ファイル";
+"pin_lists_filter_media_type_html" = "HTML";
+"pin_lists_filter_media_type_image" = "画像";
+"pin_lists_filter_media_type_link" = "リンク";
+"pin_lists_filter_media_type_other" = "その他";
+"pin_lists_filter_media_type_rtf" = "リッチテキスト";
+"pin_lists_filter_media_type_text" = "テキスト";
+
+"pin_lists_filter_text_length_eq" = "等しい";
+"pin_lists_filter_text_length_gt" = "より大きい";
+"pin_lists_filter_text_length_gt_eq" = "より大きいまたは等しい";
+"pin_lists_filter_text_length_lt" = "より小さい";
+"pin_lists_filter_text_length_lt_eq" = "より少ないまたは等しい";
+
+"pin_lists_filter_remote_title" = "このアイテムは以下のものです:";
+"pin_lists_filter_remote_other" = "その他のデバイス";
+"pin_lists_filter_remote_this" = "この Mac";
+
+"pin_lists_filter_type_app" = "アプリケーション";
+"pin_lists_filter_type_keyword" = "キーワード";
+"pin_lists_filter_type_link" = "リンク";
+"pin_lists_filter_type_lists" = "リスト";
+"pin_lists_filter_type_media_type" = "メディアの種類";
+"pin_lists_filter_type_remote_copies" = "ソースデバイス";
+"pin_lists_filter_type_text_length" = "テキストの長さ";
+
+"pin_title_app_all" = "All";
+"pin_title_back_tooltip" = "デフォルトの表示リストに戻る";
+"pin_title_application_tooltip" = "現在のアプリケーションの適用範囲";
+"pin_title_pin_tooltip" = "クリックして最前面のアプリケーションをピン留めまたは追跡";
+"pin_title_scope_all" = "All";
+"pin_title_lists_favorite" = "お気に入り";
+"pin_title_lists_image" = "画像";
+"pin_title_lists_file" = "ファイル";
+"pin_title_lists_link" = "リンク";
+"pin_title_lists_email" = "メール";
+"pin_title_lists_remote" = "リモート";
+"pin_title_lists_notes" = "ノートから";
+"pin_title_scope_tooltip" = "検索内容の範囲を指定する";
+"pin_title_search_tooltip" = "⌘F 検索ボックスを素早く表示または非表示にする";
+
+"pin_unknown" = "不明";
+
+// pin tutorial
+"main_window_intro_short" = "イントロダクション";
+"main_window_intro" = "メインウィンドウ - 強力なコンテンツの整理と管理機能を備えた固定ウィンドウ";
+"main_window_intro_desc" = "メインウィンドウは、クリップボードの記録を一括操作、管理、使用するための画面上の固定ウィンドウです。\nフィルター: アプリとリストに基づいて表示アイテムを自由にフィルタリングできます。\n検索: フィルタリングの範囲内で素早く検索できます。\n選択: 左クリックで1つのアイテムを選択; ⌘+クリックでアイテムを追加; ⇧+クリックで2つの選択の間のすべてのアイテムを追加。\nペースト: ダブルクリックで1つのアイテムを貼り付け; ドラッグ&ドロップまたは右クリックメニューで複数のアイテムを一括操作。";
+"main_window_follow_frontmost" = "最前面のアプリを自動的に追跡する";
+"main_window_follow_frontmost_desc" = "最前面のアプリを追跡するモードを選択すると、アプリフィルターは自動的に最前面のアプリの変更に追従し、そのアプリのクリップボード履歴を表示します。\nこのモードは、リストと組み合わせて使用することで多くの可能性を生み出し、各アプリに専用のスペースを提供し、アプリの潜在能力を引き出すことができます。";
+"main_window_youtubelinks_short" = "スマートリスト";
+"main_window_youtubelinks" = "スマートリスト - 条件に基づいてアイテムをスマートにフィルタリング";
+"main_window_youtubelinks_desc" = "スマートリストを使用すると、フィルタリング条件を自由に設定して、必要なコンテンツを取得することができます。\n現在サポートされているフィルタリング条件には、メディアタイプ、キーワードマッチング、正規表現マッチング、文字の長さ、ソースアプリ、ソースデバイス、収集場所が含まれます。";
+"main_window_manual_collection" = "コレクションリスト - 手動管理";
+"main_window_manual_collection_desc" = "一つまたは複数の「アイテム」を選択し、右クリックして「リストに追加」を選ぶと、特定のリストに保存できます。\nコレクションリストはスマートリストによってフィルタリングでき、より多くの可能性を提供します。";
+"main_window_sketch" = "コレクションリスト - 自動コレクション";
+"main_window_sketch_desc" = "コレクションリストを選択し、下にある自動収集オプションを有効にすると、コピーした内容が自動的に指定されたリストに保存されます。\nリストにエイリアスを設定することで、必要なときにいつでも簡単にリストにアクセスできます。\nSketchやFinal Cut Proのようなコンテンツ制作アプリを含む多くのアプリは、便利な収集機能を欠いています。\nお気に入りのアプリがコレクションをサポートしていない場合、この機能は非常に便利です！";
+
+// Pro
+"pro_unpaid_version" = "今日の残り %@ 回";
+
+// quickmenu settings
+"quickmenu_option_show_shortcut" = "ショートカットのヒントを常に表示";
+"quickmenu_option_show_when_hover" = "ホバーで自動表示";
+"quickmenu_option" = "ツールバーオプション";
+"quickmenu_appr_always_expand" = "デフォルトのアイテム数";
+"quickmenu_appr_always_expand_5" = "5つのアイテム";
+"quickmenu_appr_always_expand_10" = "10つのアイテム";
+"quickmenu_general_preview_on_hover" = "ホバーで自動プレビュー";
+"quickmenu_general_default_action" = "デフォルトのアクション";
+"quickmenu_general_default_action_auto_paste" = "自動ペースト";
+"quickmenu_general_default_action_copy" = "コピーのみ";
+"quickmenu_tip_prefences" = "詳細設定";
+// Tool List
+"quickmenu_option_switch" = "アイテム切り替え ⌘[0-9]";
+"quickmenu_option_search" = "検索 ⌘F";
+"quickmenu_option_switchTab" = "リストの切り替え ⌘;";
+"quickmenu_option_copy" = "クリップボードにコピー ⌘C";
+"quickmenu_option_star" = "ブックマーク ⌘S";
+"quickmenu_option_delete" = "削除 ⌘D";
+"quickmenu_option_edit" = "編集 ⌘E";
+"quickmenu_option_alias" = "別名設定 ⌘A";
+
+// ocr
+"preferences_ocr_primary_language" = "第一言語";
+"preferences_ocr_revision" = "リビジョン";
+"preferences_ocr_reindex" = "検索インデックスを更新";
+"quickmenu_preview_ocr_header" = "画像内のテキスト:";

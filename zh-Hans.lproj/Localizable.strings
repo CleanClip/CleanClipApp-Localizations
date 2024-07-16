@@ -1,0 +1,357 @@
+"search_placeholder" = "搜索...";
+"clear_tooltip" = "清除未固定的项目。\n按住 ⇧ 以全部清除。";
+"clear_all_tooltip" = "清除全部项目。";
+"about_tooltip" = "查看更多应用信息";
+"quit_tooltip" = "退出应用";
+"clear" = "清除";
+"clear_all" = "全部清除";
+"about" = "关于";
+"quit" = "退出";
+"preferences" = "偏好设置";
+"preferences_advanced" = "高级";
+"preferences_appearance" = "外观";
+"preferences_ignore" = "忽略";
+"preferences_general" = "通用";
+"preferences_pins" = "固定";
+"preferences_storage" = "贮存";
+"copy_modifiers_config" = "• 按住 %@ 选择项目以复制";
+"paste_modifiers_config" = "• 按住 %@ 选择项目以复制并粘贴";
+"format_modifiers_config" = "• 按住 %@ 选择项目以复制并匹配格式粘贴";
+"accessibility_alert_message" = "“CleanClip“想要使用“辅助功能”控制此计算机。";
+"accessibility_alert_comment" = "在“系统偏好设置”中的“安全性和隐私”设置中授予此应用程序权限。\n\n单击 ”+” 按钮，选择 ”CleanClip” 并打开旁边的复选框。";
+"accessibility_alert_deny" = "拒绝";
+"accessibility_alert_open" = "打开系统偏好设置";
+"clear_alert_message" = "确定要清除全部历史记录吗？";
+"clear_alert_comment" = "无法撤消此操作。";
+"clear_alert_cancel" = "取消";
+"clear_alert_confirm" = "清除";
+"key_used_error" = "键位已被使用。";
+"active_screen" = "活动屏幕";
+"screen" = "屏幕";
+
+// MARK: - CleanClip
+"license_intro" = "重新重视剪贴板内容的价值！";
+"license_title" = "欢迎使用 CleanClip！";
+"feature_0" = "快速使用";
+"feature_0_intro" = "⌘ + ; 一键呼出历史弹窗";
+"feature_1" = "无需上下文切换";
+"feature_1_intro" = "无需切换视野焦点，弹窗总在输入光标处出现";
+"feature_2" = "固定面板";
+"feature_2_intro" = "双击 ⌘ + ; 快速访问固定面板";
+"feature_3" = "粘贴队列";
+"feature_3_intro" = "⌘ + ' 帮助你快速收集内容，然后集中整理使用";
+"feature_4" = "快速搜索";
+"feature_4_intro" = "键入字母快速搜索，再久远的记录也瞬间找到";
+"feature_5" = "自动保存";
+"feature_5_intro" = "自动保存复制记录，无需担心丢失重要内容";
+"close" = "关闭";
+"congrats_permanent_member" = "恭喜成为尊贵的永久会员";
+"congrats_member" = "恭喜成为尊贵的付费会员";
+"get_start" = "开始使用！";
+"unbind_device_failure" = "解绑设备失败";
+"unbind_device" = "解绑设备";
+"input_serial_number_hint" = "输入序列号解锁会员权益";
+"activate_failed" = "激活失败";
+"activate" = "激活";
+"purchase_serial_number" = "购买序列号";
+"start_trial" = "开始试用";
+
+"plan" = "会员管理";
+"activate_tooltip" = "输入序列号，成为会员";
+"deactivate_tooltip" = "解绑这台设备";
+"plan_tooltip" = "会员状态管理";
+"manual" = "快速入门指南";
+"manual_tooltip" = "查看快速入门指南";
+// 菜单栏版本
+"menu_version" = "版本：%@";
+
+"no_records_found" = "没有找到记录📝";
+"next_page" = "下一页";
+"prev_page" = "上一页";
+"preview" = "预览";
+"next_page_or_expand" = "展开/下一页";
+"help" = "操作提示";
+"expand" = "展开更多";
+"search" = "搜索";
+"search_number" = "数字搜索";
+"switch_item" = "切换选项";
+
+"paste_to" = "粘贴到 %@";
+"lines" = "%@ 行";
+"words" = "%@ 字";
+"chars" = "%@ 字符";
+
+"ignore" = "忽略来自 %@ 的复制项";
+"cancel_ignore" = "允许来自 %@ 的复制项";
+
+// MARK: CopyStack
+"copystack" = "粘贴队列";
+"open_copystack" = "打开粘贴队列";
+"open_copystack_tooltip" = "打开粘贴队列";
+"stack_empty" = "队列为空";
+"clear_stack" = "清空";
+
+"plain_mode" = "纯文本模式";
+"paste_as_plain" = "粘贴为**纯文本**";
+"paste_as_origin" = "粘贴**原文本**";
+
+"toggle_recording" = "监听状态";
+"stop_recording" = "暂停监听";
+"start_to_record" = "开始监听";
+
+"reverse_order_desc" = "排序";
+"reverse_order" = "反转顺序";
+
+// MARK: PIN
+"pin" = "收藏";
+"unpin" = "取消收藏";
+"delete" = "删除";
+"tab_pin" = "收藏";
+"tab_all" = "全部";
+
+// popup tip
+"tip_history_item" = "右键显示菜单";
+"tip_tab_to_next" = "⇥ 展开/下一页";
+"tip_tab_to_prev" = "⇧⇥ 上一页";
+"tip_paste_stack" = "粘贴队列";
+"tip_show_help" = "帮助";
+"tip_search" = "⌘F 打开搜索\na-z 直接搜索";
+"tip_tab" = "⌘; 切换选项卡";
+"tip_right_click" = "右键";
+"tip_context_menu" = "删除/固定";
+
+"tip_format_brush" = "格式刷";
+"tip_show_tutorial" = "显示快捷菜单操作帮助";
+
+// 输出格式
+"preview" = "预览";
+"remove_extra_spaces" = "**去除多余**空格";
+"strip_all_whitespaces" = "**去除所有**空格";
+"make_title_case" = "**标题**大小写";
+"make_sentence_case" = "**句首字母**大写";
+"capitalize_words" = "**单词首字母**大写";
+"make_upper_case" = "全部**大写**";
+"make_lower_case" = "全部**小写**";
+
+"post_action_title" = "粘贴后按下";
+"none" = "无";
+
+// Migration
+"migration_data_upgrading" = "数据升级中...";
+"migration_data_upgrading_claim" = "根据你的数据数量，所需时间可能在几秒到几分钟";
+"migrate_upgrading" = "正在升级";
+"migrate_start" = "开始使用";
+"migrate_upgraded" = "升级完成";
+
+// 编辑
+"edit" = "编辑";
+"edit_text" = "编辑文字";
+
+// 新手教学
+"tutorial_title" = "试试这些强大的功能";
+// 快捷菜单
+"quick_menu" = "快捷菜单";
+"quick_use_short" = "快速使用";
+"quick_use" = "快速使用 - 注重键盘使用效率的快捷使用菜单";
+"quickuse_desc" = "1. ⌘；调起快捷菜单\n2. a-z 直接开始搜索，输入 image 可搜索图片，输入 file 可搜索文件\n3. 空格键预览\n4. ⇥/⇧⇥ 上下翻页\n5. 数字键/回车 粘贴对应的项";
+"preset_paste_format" = "统一预设粘贴格式";
+"preset_paste_format_desc" = "预设置好格式后，所有的项目都按照指定格式粘贴。\n目前支持的格式有：纯文本粘贴、全小写、全大写等。\n令人激动的计划：开放转换接口，支持开发者自由开发丰富的转化方法";
+"quick_paste_format" = "快速格式化粘贴";
+"quick_paste_format_desc" = "1. 长按内容下标数字弹出格式菜单按下\n2. 长按空格键预览格式化后的文字\n3. 短按格式下标数字确认选择";
+"drag_image_to_file" = "图片粘贴为文件";
+"drag_image_to_file_desc" = "无论是使用快捷窗口还是粘贴队列，都可以把图片直接粘贴或拖拽为文件。";
+"call_pinboards" = "固定、使用常用内容";
+"call_pinboards_desc" = "连按两次快捷菜单快捷键 ⌘；查看已固定的常用内容，无需记忆新的组合键。\n固定常用项目使它们永远留在列表顶部，防止被新项目淹没，随时使用。";
+
+// Paste Stack
+"paste_stack" = "粘贴队列";
+"paste_stack_intro" = "粘贴队列用法简介";
+"paste_stack_intro_desc" = "⌘' 打开粘贴队列后，复制的内容会自动进入队列，⌘V 会按序列依次粘贴队列里的下一项。\n1. 点击底部的「上下箭头按钮」可反转列表\n2.「拖拽项目」可调换顺序\n3.「点击 #」 切换到指定项目\n4.「粘贴后按下」选项会在粘贴后自动按下对应按键";
+"paste_stack_fill_form" = "辅助填表";
+"paste_stack_fill_form_desc" = "使用粘贴队列可以辅助填写表单，依次复制、然后依次粘贴。";
+"paste_stack_quick_fill_form" = "快速填表-拆分复制";
+"paste_stack_quick_fill_form_desc" = "使用 ⌘⇧C 「拆分复制」，可以把多行直接拆分成多项复制到粘贴队列里。「粘贴后按下」选项自动帮助切换到下一个格子，快速填表不要太强！";
+"paste_stack_collect" = "收集信息";
+"paste_stack_collect_desc" = "在多个页面收集内容后，到目标页面统一粘贴，优化流程，节约时间。";
+
+// Status Bar
+"status_bar" = "菜单栏";
+"status_bar_functions" = "菜单栏功能";
+"status_bar_functions_desc" = "1. 显示最近一条复制记录\n2. 按住 ⌥ 点击图标，可以暂停、恢复监听剪贴板\n3. 快速屏蔽来自当前应用的复制内容\n4. 序列号管理\5. 快速入门教程";
+
+// 主窗口
+"main_window" = "主窗口";
+"main_window_soon" = "即将发布";
+"main_window_soon_desc" = "主窗口提供了一个可常驻的、易于鼠标快速浏览、拖拽、管理的窗口，更方便键盘党的使用。";
+
+// 导航
+"previous" = "上一个";
+"next" = "下一个";
+"done" = "完成教学";
+
+// MARK: - PinnedWindow
+"pinned_window" = "打开主窗口";
+"pinned_window_tooltip" = "主窗口是方便管理、组织剪贴板内容的常驻窗口";
+
+// MARK: 标题
+"pin_apps_all" = "全部应用";
+"pin_apps_all_tooltip" = "显示全部应用内容";
+"pin_apps_frontmost" = "跟随前台应用";
+"pin_apps_frontmost_tooltip" = "总是显示前台应用的内容";
+"pin_apps_empty" = "来源应用列表将在此显示";
+"pin_bottom_accent_color" = "强调色";
+"pin_bottom_accent_color_system" = "使用系统强调色";
+"pin_bottom_appearence" = "外观";
+"pin_bottom_appearence_line_spacing" = "行间距";
+"pin_bottom_auto_collect_tooltip" = "自动收集到当前列表";
+"pin_bottom_collapse_or_expand_tooltip" = "收缩/展开窗口";
+"pin_bottom_pin_tooltip" = "根据鼠标悬浮状态自动缩放窗口";
+"pin_bottom_scroll_to_top_tooltip" = "滚动到顶部";
+"pin_bottom_setting_tooltip" = "选项";
+"pin_bottom_content" = "内容";
+"pin_bottom_all_as_default_filter" = "默认展示：";
+
+"pin_context_delete_lists" = "删除";
+"pin_context_manage_lists" = "查看信息";
+"pin_context_add_new_lists" = "新建列表";
+"pin_context_add_to_lists" = "添加到列表";
+"pin_context_alias" = "设置别名";
+"pin_context_copy_to_clipboard" = "复制到剪贴板";
+"pin_context_delete" = "删除";
+"pin_context_remove_from_lists" = "从列表中移除";
+"pin_context_merge_paste" = "合并粘贴";
+"pin_context_paste" = "粘贴";
+"pin_context_paste_as_plain" = "粘贴为纯文本";
+"pin_context_preview" = "预览";
+"pin_context_preview_when_hover" = "开启鼠标悬停预览";
+
+// MARK: 内容列表
+"pin_contents_appname_tooltip" = "应用名称";
+// 空页面
+"pin_contents_list_empty" = "列表为空";
+"pin_contents_list_empty_desc" = "复制一些内容试试";
+
+// MARK: 添加列表窗口
+"pin_lists_title" = "编辑列表";
+"pin_lists_name" = "名称:";
+"pin_lists_color" = "颜色:";
+"pin_lists_color_preview" = "颜色预览:";
+
+"pin_lists_delete" = "删除";
+"pin_lists_done" = "完成";
+
+"pin_lists_smartlist" = "智能列表";
+"pin_lists_match" = "满足";
+"pin_lists_match_all" = "全部";
+"pin_lists_match_any" = "任意";
+"pin_lists_match_following" = "条件:";
+
+"pin_lists_unknown" = "未知";
+
+// 过滤器
+"pin_lists_filter_belongs" = "属于";
+"pin_lists_filter_not_belongs" = "不属于";
+"pin_lists_filter_lists_empty" = "列表为空";
+
+"pin_lists_filter_contains" = "包含";
+"pin_lists_filter_starts_with" = "开始于";
+"pin_lists_filter_ends_with" = "结束于";
+"pin_lists_filter_include" = "包含";
+"pin_lists_filter_exclude" = "不包含";
+"pin_lists_filter_matches_word" = "匹配单词";
+"pin_lists_filter_regular_expression" = "正则匹配";
+
+"pin_lists_filter_from" = "来自";
+"pin_lists_filter_not_from" = "不来自";
+
+"pin_lists_filter_is" = "是";
+"pin_lists_filter_is_not" = "不是";
+"pin_lists_filter_link" = "链接";
+
+"pin_lists_filter_media_type_file" = "文件";
+"pin_lists_filter_media_type_html" = "HTML";
+"pin_lists_filter_media_type_image" = "图片";
+"pin_lists_filter_media_type_link" = "链接";
+"pin_lists_filter_media_type_other" = "其他";
+"pin_lists_filter_media_type_rtf" = "富文本";
+"pin_lists_filter_media_type_text" = "文本";
+
+"pin_lists_filter_text_length_eq" = "等于";
+"pin_lists_filter_text_length_gt" = "大于";
+"pin_lists_filter_text_length_gt_eq" = "大于等于";
+"pin_lists_filter_text_length_lt" = "小于";
+"pin_lists_filter_text_length_lt_eq" = "小于等于";
+
+"pin_lists_filter_remote_title" = "这个项目来自";
+"pin_lists_filter_remote_other" = "其它设备";
+"pin_lists_filter_remote_this" = "本机";
+
+"pin_lists_filter_type_app" = "应用";
+"pin_lists_filter_type_keyword" = "关键词";
+"pin_lists_filter_type_link" = "链接";
+"pin_lists_filter_type_lists" = "列表";
+"pin_lists_filter_type_media_type" = "媒体类型";
+"pin_lists_filter_type_remote_copies" = "来源设备";
+"pin_lists_filter_type_text_length" = "文本长度";
+
+"pin_title_app_all" = "全部";
+"pin_title_back_tooltip" = "返回全部应用列表";
+"pin_title_application_tooltip" = "当前应用范围";
+"pin_title_pin_tooltip" = "点击以固定或跟随前台应用";
+"pin_title_scope_all" = "全部";
+"pin_title_lists_favorite" = "收藏";
+"pin_title_lists_image" = "图片";
+"pin_title_lists_file" = "文件";
+"pin_title_lists_link" = "链接";
+"pin_title_lists_email" = "邮箱";
+"pin_title_lists_remote" = "远程设备";
+"pin_title_lists_notes" = "来自备忘录";
+"pin_title_scope_tooltip" = "指定查询内容的范围";
+"pin_title_search_tooltip" = "⌘F 快速显示、隐藏搜索框";
+
+"pin_unknown" = "未知";
+
+// pin tutorial
+"main_window_intro_short" = "主窗口介绍";
+"main_window_intro" = "主窗口 - 拥有强大的内容组织、管理能力的固定窗口";
+"main_window_intro_desc" = "主窗口是固定在屏幕上，拥有对剪贴板记录进行批量操作、管理、使用的窗口。\n筛选：根据 App + 列表自由筛选显示的项目范围。\n搜索：在筛选范围内快速搜索。\n选择：左键单击进行单选；⌘+单击添加项目；⇧+单击添加两次选择间的全部项目；\n使用：双击粘贴单个项目；拖拽或右键菜单批量操作多个项目。";
+"main_window_follow_frontmost" = "自动跟随前台应用";
+"main_window_follow_frontmost_desc" = "选择跟随前台应用模式后，应用筛选器会自动跟随前台应用变化，显示该应用的历史复制记录。\n该模式与列表配合使用，可以扩展出很多玩法，可以为每一个 App 新增专用收藏空间，释放应用潜力。";
+"main_window_youtubelinks_short" = "智能列表";
+"main_window_youtubelinks" = "智能列表 - 根据条件智能筛选项目";
+"main_window_youtubelinks_desc" = "利用智能列表，可以自由地设定筛选条件，从而获取到想要的内容。\n目前支持的筛选条件有: 媒体类型、关键字匹配、正则匹配、字符长度、来源 App、来源设备、所在收藏夹。";
+"main_window_manual_collection" = "收藏列表 - 手动管理";
+"main_window_manual_collection_desc" = "选中单个或多个\"项目\"，右键菜单选择\"添加到列表\"，即可将项目收藏到指定的列表中。\n收藏列表可以被智能列表筛选，这样就可以实现更多的玩法。";
+"main_window_sketch" = "收藏列表 - 自动收集";
+"main_window_sketch_desc" = "选择一个收藏列表，启用下方自动收集选项，你复制的内容会自动收集到指定目录。\n你可以为它设置别名，以后随时打开这个目录，方便取用。\n很多 App 特别是内容创作 App 缺少好用的收藏功能，比如 Sketch、Final Cut Pro 等等。\n如果你的常用 App 不支持收藏夹功能，那么这个功能对你非常有用！";
+
+// Pro
+"pro_unpaid_version" = "今日剩余 %@ 次";
+
+// quickmenu 设置项
+"quickmenu_option_show_shortcut" = "总是展示快捷键提示";
+"quickmenu_option_show_when_hover" = "鼠标悬停自动显示";
+"quickmenu_option" = "工具栏选项";
+"quickmenu_appr_always_expand" = "默认条数";
+"quickmenu_appr_always_expand_5" = "5 条";
+"quickmenu_appr_always_expand_10" = "10 条";
+"quickmenu_general_preview_on_hover" = "鼠标悬停时自动预览";
+"quickmenu_general_default_action" = "默认行为";
+"quickmenu_general_default_action_auto_paste" = "自动粘贴";
+"quickmenu_general_default_action_copy" = "仅复制";
+"quickmenu_tip_prefences" = "偏好设置";
+// 工具列表
+"quickmenu_option_switch" = "切换项目 ⌘[0-9]";
+"quickmenu_option_search" = "搜索 ⌘F";
+"quickmenu_option_switchTab" = "切换列表 ⌘;";
+"quickmenu_option_copy" = "复制到剪贴板 ⌘C";
+"quickmenu_option_star" = "收藏 ⌘S";
+"quickmenu_option_delete" = "删除 ⌘D";
+"quickmenu_option_edit" = "编辑 ⌘E";
+"quickmenu_option_alias" = "设置别名 ⌘A";
+
+// ocr
+"preferences_ocr_primary_language" = "主要语言";
+"preferences_ocr_revision" = "修正版本";
+"preferences_ocr_reindex" = "更新搜索索引";
+"quickmenu_preview_ocr_header" = "图片中的文字：";

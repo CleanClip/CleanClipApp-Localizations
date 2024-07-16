@@ -1,0 +1,343 @@
+"clear_all_tooltip" = "Vymazať všetky položky.";
+"about_tooltip" = "Prečítaj si viac o aplikácii.";
+"quit_tooltip" = "Ukončiť aplikáciu.";
+"clear_all" = "Vymazať všetko";
+"about" = "O apke CleanClip...";
+"quit" = "Ukončiť";
+"preferences" = "Preferencie...";
+"preferences_ignore" = "Ignorovať";
+"preferences_general" = "Všeobecné";
+"preferences_storage" = "Úložisko";
+"accessibility_alert_message" = "\"CleanClip\" by chcel ovládať tento počítač pomocou funkcií Prístupnosti.";
+"accessibility_alert_comment" = "Udeľ prístup CleanClip v Systémových nastaveniach > Súkromie a bezpečnosť > Prístupnosť.";
+"accessibility_alert_deny" = "Zakázať";
+"accessibility_alert_open" = "Otvoriť Systémové nastavenia";
+"clear_alert_message" = "Naozaj chceš vymazať všetok obsah?";
+"clear_alert_comment" = "Túto akciu nemožno vrátiť späť.";
+"clear_alert_cancel" = "Teraz nie";
+"clear_alert_confirm" = "Odstrániť všetko";
+
+// MARK: - CleanClip
+"license_intro" = "Vyhľadaj a použi všetko skopírované priamo na mieste vkladania, nie v lište vzdialenej na 1000 míľ.";
+"license_title" = "Vitaj v CleanClip!";
+"feature_0" = "Rýchly prístup";
+"feature_0_intro" = "⌘ + ; Prístup do kontextového okna histórie jediným kliknutím";
+"feature_1" = "Bez prepínania kontextu";
+"feature_1_intro" = "Nie je potrebné prepínať inde, kontextové okno sa vždy zobrazí na pozícii kurzora";
+"feature_2" = "Nástenky";
+"feature_2_intro" = "Rýchle otvorenie nástenky dvojitým kliknutím na ⌘ + ;";
+"feature_3" = "Zásobník prilepenia";
+"feature_3_intro" = "⌘ + ' na rýchle zhromažďovanie obsahu a jeho usporiadanie pre efektívne využitie";
+"feature_4" = "Rýchle vyhľadávanie";
+"feature_4_intro" = "Zadaj písmeno pre okamžité vyhľadanie a nájdenie aj tých najstarších záznamov";
+"feature_5" = "Automatické ukladanie kopírovania";
+"feature_5_intro" = "Nemusíš sa obávať straty dôležitého obsahu. CleanClip ho automaticky uloží za Teba";
+"close" = "Zavrieť";
+"congrats_permanent_member" = "Gratulujeme! Odteraz si doživotným členom!";
+"congrats_member" = "Gratulujeme! Odteraz si prémiovým členom!";
+"get_start" = "Začíname!";
+"unbind_device_failure" = "Nepodarilo sa odpojiť zariadenie";
+"unbind_device" = "Odpojiť zariadenie";
+"input_serial_number_hint" = "Zadajte licenciu pre aktiváciu";
+"activate_failed" = "Aktivácia zlyhala";
+"activate" = "Aktivovať";
+"purchase_serial_number" = "Zakúpiť licenciu";
+"start_trial" = "Spustiť skúšobnú verziu";
+
+"plan" = "Správca licencií";
+"activate_tooltip" = "Zadaj sériové číslo a staň sa členom";
+"deactivate_tooltip" = "Odpojiť toto zariadenie";
+"plan_tooltip" = "Správa stavu členstva";
+"manual" = "Stručná príručka...";
+"manual_tooltip" = "Zobraziť stručnú príručku";
+// 菜单栏版本
+"menu_version" = "Verzia: %@";
+
+"no_records_found" = "Nenašli sa žiadne záznamy📝";
+"next_page" = "Nasledujúca stránka";
+"prev_page" = "Predchádzajúca stránka";
+"preview" = "Náhľad";
+"search_number" = "Vyhľadávanie čísel";
+"switch_item" = "Možnosť prepínania";
+
+"paste_to" = "Prilepiť do %@";
+"lines" = "%@ riadkov";
+"words" = "%@ slov";
+"chars" = "%@ znakov";
+
+"ignore" = "Ignorovať kopírovanie z %@";
+"cancel_ignore" = "Povoliť kopírovanie z %@";
+
+// MARK: CopyStack
+"copystack" = "Zásobník prilepenia";
+"open_copystack" = "Otvoriť Zásobník prilepenia";
+"open_copystack_tooltip" = "Otvoriť Zásobník prilepenia";
+"stack_empty" = "Zásobník je prázdny";
+
+"clear_stack" = "Odstrániť";
+
+"plain_mode" = "Obyčajný text";
+"paste_as_plain" = "**Obyčajný** text";
+"paste_as_origin" = "**Pôvodný** text";
+
+"toggle_recording" = "Zaznamenávanie";
+"stop_recording" = "Pozastaviť";
+"start_to_record" = "Pokračovať";
+
+"reverse_order_desc" = "Poradie";
+"reverse_order" = "Obrátiť";
+
+// MARK: PIN
+"pin" = "S hviezdičkou";
+"unpin" = "Bez hviezdičky";
+"delete" = "Odstrániť";
+"tab_pin" = "Obľ";
+"tab_all" = "Všetko";
+
+// popup tip
+"tip_history_item" = "Pravým klikom zobrazíš menu";
+"tip_tab_to_next" = "⇥ Rozbaliť/Nasledujúca stránka";
+"tip_tab_to_prev" = "⇧⇥ Predchádzajúca stránka";
+"tip_paste_stack" = "Zásobník prilepenia";
+"tip_show_help" = "Pomoc";
+"tip_search" = "⌘F Otvoriť vyhľadávanie \na-z Priame vyhľadávanie";
+"tip_tab" = "%@ Prepnúť karty";
+"tip_right_click" = "Pravý klik";
+"tip_context_menu" = "Odstrániť/Pripnúť";
+
+"tip_format_brush" = "Formátovanie";
+"tip_show_tutorial" = "Zobraziť pomocníka rýchleho menu";
+
+// Output Format
+"preview" = "Náhľad";
+"remove_extra_spaces" = "Odstrániť **nadbytočné medzery**";
+"strip_all_whitespaces" = "Odstrániť **všetky medzery**";
+"make_title_case" = "**Titulky** Veľkým písmom";
+"make_sentence_case" = "Vety **Veľkým písmom**";
+"capitalize_words" = "**Slová Veľkým Písmom**";
+"make_upper_case" = "IBA **VEĽKÉ** PÍSMENÁ";
+"make_lower_case" = "iba **malé** písmená";
+
+// Paste stack options
+"post_action_title" = "Akcia po prilepení";
+"none" = "Žiadna";
+
+// Migration
+"migration_data_upgrading" = "Aktualizácia údajov...";
+"migration_data_upgrading_claim" = "V závislosti od objemu dát môže aktualizácia trvať sekundy až minúty";
+"migrate_upgrading" = "Aktualizácie údajov";
+"migrate_start" = "OK";
+"migrate_upgraded" = "Aktualizácia údajov úspešná!";
+
+// edit
+"edit" = "Upraviť";
+"edit_text" = "Upraviť text";
+
+// 新手引导
+"tutorial_title" = "Vyskúšaj tieto fantastické funkcie";
+// 快捷菜单
+"quick_menu" = "Rýchle menu";
+"quick_use_short" = "Rýchle použitie";
+"quick_use" = "Rýchle použitie – Ponuka skratiek, ktorá sa zameriava na efektivitu klávesnice";
+"quickuse_desc" = "1. ⌘; Otvor rýchle menu\n2. a-z: Na vyhľadávanie obrázkov zadaj \"image\", na vyhľadávanie súborov zadaj \"file\"\n3. Medzerník: Náhľad\n4. ⇥/⇧⇥: Posúvanie nahor/dole\n5. Číselné tlačidlá/Enter: Prilepenie zodpovedajúcej položky";
+"preset_paste_format" = "Nastaviť predvolený formát prilepenia";
+"preset_paste_format_desc" = "Po nastavení formátu sa všetky položky prilepia podľa zadaného formátu.\nMedzi aktuálne podporované formáty patria: obyčajný text, iba malé písmená, iba veľké písmená atď.\nZábavný plán: Otvor konverzné rozhranie na podporu vývojárov pre použitie bohatých metód konverzie.";
+"quick_paste_format" = "Formát rýchleho prilepenia";
+"quick_paste_format_desc" = "1. Dlhé stlačenie indexového čísla obsahu zobrazí ponuku formátovania\n2. Dlhé stlačenie medzerníka zobrazí náhľad formátovaného textu\n3. Krátke stlačenie indexového čísla formátu potvrdí výber";
+"drag_image_to_file" = "Prilepiť obrázok ako súbor";
+"drag_image_to_file_desc" = "Obrázky je možné priamo prilepiť alebo pretiahnuť ako súbory, či už pomocou rýchleho menu alebo zásobníka prilepenia.";
+"call_pinboards" = "Pripnúť a používať bežne používaný obsah";
+"call_pinboards_desc" = "Stlač skratku rýchleho menu ⌘; dvakrát pre zobrazenie bežne používaného pripnutého obsahu, nemusíš si pamätať nové klávesové skratky.\nPripni bežne používané položky na umiestnenie na začiatok zoznamu, aby si zabránil ich zahlteniu novými položkami a ich použitiu kedykoľvek.";
+
+// 粘贴队列
+"paste_stack" = "Zásobník prilepenia";
+"paste_stack_intro" = "Predstavenie";
+"paste_stack_intro_desc" = "Po otvorení zásobníka prilepenia skopírovaný obsah automaticky vstúpi do zásobníka a ⌘V prilepí ďalšiu položku do zásobníka v poradí.\n1. Klikni na \"tlačidlo so šípkami nahor a nadol\" v dolnej časti pre opačné usporiadanie zoznamu.\n2. Potiahnutím položiek zmeníš poradie\n3. \"Kliknutím na #\" prepneš na zadanú položku\n4. Možnosť \"Po prilepení\" automaticky stlačí príslušné tlačidlo po prilepení";
+"paste_stack_fill_form" = "Pomoc pri vypĺňaní formulárov";
+"paste_stack_fill_form_desc" = "Použitie zásobníka prilepenia pomôže pri vypĺňaní formulárov kopírovaním a vkladaním v poradí.";
+"paste_stack_quick_fill_form" = "Rýchle vypĺňanie formulárov - Oddelené kopírovanie";
+"paste_stack_quick_fill_form_desc" = "Pomocou ⌘⇧C \"Oddeleného kopírovania\" môžeš priamo rozdeliť viac riadkov na viac položiek a skopírovať ich do zásobníka na prilepenie. Možnosť \"Po prilepení\" pomáha automaticky prejsť na ďalšiu bunku, vďaka čomu je rýchle vypĺňanie formulára ešte jednoduchšie!";
+"paste_stack_collect" = "Zbierať informácie";
+"paste_stack_collect_desc" = "Zhromažďuj obsah z viacerých stránok a prilep všetko naraz na cieľovej stránke pre optimalizáciu procesu a šetrenie času.";
+
+// 菜单栏
+"status_bar" = "Stavová lišta";
+"status_bar_functions" = "Funkcie stavovej lišty";
+"status_bar_functions_desc" = "1. Zobrazí posledný skopírovaný záznam\n2. Podrž ⌥ a klikni na ikonu pozastaviť alebo obnov monitorovanie schránky\n3. Rýchle zablokovanie skopírovaného obsahu z aktuálnej aplikácie\n4. Správca licencií\n5. Stručná príručka";
+
+// 主窗口
+"main_window" = "Hlavné okno";
+"main_window_soon" = "Už čoskoro";
+"main_window_soon_desc" = "Hlavné okno je stále dostupné, prehľadné, s možnosťou presúvania myšou a s jednoduchou správou pre pohodlné ovládanie myšou.";
+
+// 导航
+"previous" = "Predchádzajúci";
+"next" = "Ďaľší";
+"done" = "Dokončiť tutoriál";
+
+// MARK: - PinnedWindow
+"pinned_window" = "Otvoriť hlavné okno";
+"pinned_window_tooltip" = "Hlavné okno je rezidentné okno na správu a organizáciu obsahu schránky";
+
+// MARK: Title
+"pin_apps_all" = "Všetky aplikácie";
+"pin_apps_all_tooltip" = "Zobraziť všetky aplikácie";
+"pin_apps_frontmost" = "Podľa apky v popredí";
+"pin_apps_frontmost_tooltip" = "Vždy zobrazovať obsah apky v popredí";
+"pin_apps_empty" = "Tu sa zobrazí zoznam zdrojových aplikácií";
+"pin_bottom_accent_color" = "Farba zvýraznenia";
+"pin_bottom_accent_color_system" = "Použiť farbu zvýraznenia systému";
+"pin_bottom_appearence" = "Vzhľad";
+"pin_bottom_appearence_line_spacing" = "Medzery medzi riadkami";
+"pin_bottom_auto_collect_tooltip" = "Automaticky zbierať do aktuálneho zoznamu";
+"pin_bottom_collapse_or_expand_tooltip" = "Zbaliť/Rozbaliť okno";
+"pin_bottom_pin_tooltip" = "Automaticky zmeniť veľkosť okna na základe stavu pri prejdení myšou";
+"pin_bottom_scroll_to_top_tooltip" = "Prejsť na začiatok";
+"pin_bottom_setting_tooltip" = "Možnosti";
+"pin_bottom_content" = "Obsah";
+"pin_bottom_all_as_default_filter" = "Predvolené zobrazenie:";
+
+"pin_context_delete_lists" = "Odstrániť";
+"pin_context_remove_from_lists" = "Odstrániť zo zoznamu";
+"pin_context_manage_lists" = "Zobraziť info";
+"pin_context_add_new_lists" = "Pridať zoznam";
+"pin_context_add_to_lists" = "Pridať do zoznamu";
+"pin_context_alias" = "Nastaviť alias";
+"pin_context_copy_to_clipboard" = "Kopírovať do schránky";
+"pin_context_delete" = "Odstrániť";
+"pin_context_merge_paste" = "Zlúčiť a prilepiť";
+"pin_context_paste" = "Prilepiť";
+"pin_context_paste_as_plain" = "Prilepiť ako obyčajný text";
+"pin_context_preview" = "Náhľad";
+"pin_context_preview_when_hover" = "Povoliť náhľad pri prejdení myšou";
+
+// MARK: Content List
+"pin_contents_appname_tooltip" = "Názov aplikácie";
+// Empty Page
+"pin_contents_list_empty" = "Zoznam je prázdny";
+"pin_contents_list_empty_desc" = "Začni kopírovať nejaký obsah";
+
+// MARK: Add List Window
+"pin_lists_title" = "Upraviť zoznam";
+"pin_lists_name" = "Názov:";
+"pin_lists_color" = "Farba:";
+"pin_lists_color_preview" = "Ukážka farby:";
+
+"pin_lists_delete" = "Odstrániť";
+"pin_lists_done" = "Hotovo";
+
+"pin_lists_smartlist" = "Inteligentný zoznam";
+"pin_lists_match" = "Zhoda";
+"pin_lists_match_all" = "Všetko";
+"pin_lists_match_any" = "Akýkoľvek";
+"pin_lists_match_following" = "Podmienky:";
+
+"pin_lists_unknown" = "Neznámy";
+
+// Filters
+"pin_lists_filter_belongs" = "Patrí do";
+"pin_lists_filter_not_belongs" = "Nepatrí do";
+"pin_lists_filter_lists_empty" = "Zoznam je prázdny";
+
+"pin_lists_filter_contains" = "Obsahuje";
+"pin_lists_filter_starts_with" = "Začína sa";
+"pin_lists_filter_ends_with" = "Končí sa";
+"pin_lists_filter_include" = "Obsahuje";
+"pin_lists_filter_exclude" = "Vylúčiť";
+"pin_lists_filter_matches_word" = "Zhodné slovo";
+"pin_lists_filter_regular_expression" = "Regulárny výraz";
+
+"pin_lists_filter_from" = "Od";
+"pin_lists_filter_not_from" = "Nie od";
+
+"pin_lists_filter_is" = "Je";
+"pin_lists_filter_is_not" = "Nie je";
+"pin_lists_filter_link" = "Odkaz";
+
+"pin_lists_filter_media_type_file" = "Súbor";
+"pin_lists_filter_media_type_html" = "HTML";
+"pin_lists_filter_media_type_image" = "Obrázok";
+"pin_lists_filter_media_type_link" = "Odkaz";
+"pin_lists_filter_media_type_other" = "Iné";
+"pin_lists_filter_media_type_rtf" = "Bohatý text";
+"pin_lists_filter_media_type_text" = "Text";
+
+"pin_lists_filter_text_length_eq" = "Rovná sa";
+"pin_lists_filter_text_length_gt" = "Väčšie ako";
+"pin_lists_filter_text_length_gt_eq" = "Väčšie alebo rovné";
+"pin_lists_filter_text_length_lt" = "Menej ako";
+"pin_lists_filter_text_length_lt_eq" = "Menej alebo rovná sa";
+
+"pin_lists_filter_remote_title" = "Táto položka je z";
+"pin_lists_filter_remote_other" = "Iné zariadenia";
+"pin_lists_filter_remote_this" = "Tento Mac";
+
+"pin_lists_filter_type_app" = "Aplikácia";
+"pin_lists_filter_type_keyword" = "Kľúčové slovo";
+"pin_lists_filter_type_link" = "Odkaz";
+"pin_lists_filter_type_lists" = "Zoznamy";
+"pin_lists_filter_type_media_type" = "Typ média";
+"pin_lists_filter_type_remote_copies" = "Zdrojové zariadenie";
+"pin_lists_filter_type_text_length" = "Dĺžka textu";
+
+"pin_title_app_all" = "Všetko";
+"pin_title_back_tooltip" = "Späť na predvolený zoznam zobrazenia";
+"pin_title_application_tooltip" = "Aktuálny rozsah aplikácie";
+"pin_title_pin_tooltip" = "Kliknutím pripni alebo Podľa apky v popredí";
+"pin_title_scope_all" = "Všetko";
+"pin_title_lists_favorite" = "Obľúbené";
+"pin_title_lists_image" = "Obrázok";
+"pin_title_lists_file" = "Súbor";
+"pin_title_lists_link" = "Odkaz";
+"pin_title_lists_email" = "Email";
+"pin_title_lists_remote" = "Vzdialené";
+"pin_title_lists_notes" = "Z poznámok";
+"pin_title_scope_tooltip" = "Určiť rozsah obsahu vyhľadávania";
+"pin_title_search_tooltip" = "⌘F Rýchle zobrazenie alebo skrytie vyhľadávacieho poľa";
+
+"pin_unknown" = "Neznámy";
+
+// pin tutorial
+"main_window_intro_short" = "Predstavenie";
+"main_window_intro" = "Hlavné okno - stála súčasť obrazovky s pokročilými možnosťami pre organizáciu a manažment obsahu";
+"main_window_intro_desc" = "Hlavné okno je stála súčasť obrazovky, pomocou ktorej môžeš hromadne spravovať a využívať položky zo schránky.\nFilter: Filtruj zobrazené položky na základe aplikácie + zoznamu.\nVyhľadávanie: Rýchle vyhľadávanie v rozsahu filtrovania.\nVýber: Ľavé kliknutie vyberie jednu položku; ⌘+kliknutie pridá položku; ⇧+kliknutie pridá všetky položky medzi dvomi výbermi;\nPrilepenie: Dvojité kliknutie prilepí jednu položku; pre hromadnú správu položiek, presuň myšou alebo vykonaj pravé kliknutie na menu.";
+"main_window_follow_frontmost" = "Automaticky podľa apky v popredí";
+"main_window_follow_frontmost_desc" = "Po výbere režimu \"Podľa apky v popredí\" bude filter automaticky sledovať aplikáciu v popredí a zobrazí históriu schránky danej aplikácie.\nTento režim môže pri použití so zoznamami vytvoriť veľa možností a poskytnúť vyhradené priestory pre každú aplikáciu, čím sa odomkne potenciál aplikácie.";
+"main_window_youtubelinks_short" = "Inteligentné zoznamy";
+"main_window_youtubelinks" = "Inteligentné zoznamy - inteligentné filtrovanie položiek na základe podmienok";
+"main_window_youtubelinks_desc" = "Pomocou inteligentných zoznamov môžeš ľubovoľne nastaviť podmienky filtrovania na získanie požadovaného obsahu.\nAktuálne podporované podmienky filtrovania sú: typ média, kľúčové slová, regulárne výrazy, počet znakov, zdrojová aplikácia, zdrojové zariadenie a umiestnenie v zozname.";
+"main_window_manual_collection" = "Zoznamy - manuálna správa";
+"main_window_manual_collection_desc" = "Vyber jednu alebo viac položiek, pravým kliknutím a výberom položky \"Pridať do zoznamu\" ich ulož do konkrétnych zoznamov.\nZoznamy je možné filtrovať pomocou inteligentných zoznamov pre viac možností.";
+"main_window_sketch" = "Zoznamy - automatické pridanie";
+"main_window_sketch_desc" = "Vyber zoznam, zapni možnosť automatického pridania nižšie a všetok obsah, ktorý skopíruješ, sa automaticky uloží do zadaného zoznamu.\nMôžeš preň nastaviť alias, vďaka ktorému budeš mať k zoznamu rýchly prístup, kedykoľvek budeš potrebovať.\nMnohé aplikácie, najmä aplikácie na tvorbu obsahu, ako napr. Sketch a Final Cut Pro, nemajú pohodlnú funkciu pridania.\nAk tvoja obľúbená aplikácia nepodporuje pridanie, táto funkcia bude pre Teba mimoriadne užitočná!";
+
+// Pro
+"pro_unpaid_version" = "Zostáva %@ krát dnes";
+
+// quickmenu settings
+"quickmenu_option_show_shortcut" = "Vždy zobrazovať tipy na skratky";
+"quickmenu_option_show_when_hover" = "Automatické zobrazenie pri prejdení myšou";
+"quickmenu_option" = "Možnosti panela nástrojov";
+"quickmenu_appr_always_expand" = "Predvolený počet položiek";
+"quickmenu_appr_always_expand_5" = "5 položiek";
+"quickmenu_appr_always_expand_10" = "10 položiek";
+"quickmenu_general_preview_on_hover" = "Automatický náhľad pri prejdení myšou";
+"quickmenu_general_default_action" = "Predvolená akcia";
+"quickmenu_general_default_action_auto_paste" = "Automatické prilepenie";
+"quickmenu_general_default_action_copy" = "Iba kopírovať";
+"quickmenu_tip_prefences" = "Predvoľby";
+// Tool List
+"quickmenu_option_switch" = "Prepnúť položku ⌘[0-9]";
+"quickmenu_option_search" = "Hľadať ⌘F";
+"quickmenu_option_switchTab" = "Prepnúť zoznam ⌘;";
+"quickmenu_option_copy" = "Kopírovať do schránky ⌘C";
+"quickmenu_option_star" = "Záložka ⌘S";
+"quickmenu_option_delete" = "Odstrániť ⌘D";
+"quickmenu_option_edit" = "Upraviť ⌘E";
+"quickmenu_option_alias" = "Nastaviť alias ⌘A";
+
+// ocr
+"preferences_ocr_primary_language" = "Primárny jazyk";
+"preferences_ocr_revision" = "Revízia";
+"preferences_ocr_reindex" = "Aktualizovať index vyhľadávania";
+"quickmenu_preview_ocr_header" = "Text v obrázku:";
