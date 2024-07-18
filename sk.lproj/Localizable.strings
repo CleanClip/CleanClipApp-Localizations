@@ -341,3 +341,49 @@
 "preferences_ocr_revision" = "Revízia";
 "preferences_ocr_reindex" = "Aktualizovať index vyhľadávania";
 "quickmenu_preview_ocr_header" = "Text v obrázku:";
+
+// MARK: - settings
+// General
+"check_update" = "Skontrolovať teraz";
+"check_update_desc" = "Automaticky kontrolovať aktualizácie";
+"sounds" = "Zvuky";
+"sounds_desc" = "Prehrať zvuk pri pridaní novej položky do histórie a pri výbere predchádzajúcej položky.";
+"launch_at_login" = "Spustiť pri štarte";
+
+// Menu Icon
+"show_menu_icon" = "Zobraziť ikonu v lište";
+"show_menu_icon_desc" = "Ak sa ikona menu nezobrazuje, môžeš ju otvoriť kliknutím na ikonu v spodnej časti kontextového okna histórie.";
+
+"show_recently_desc" = "Zobraziť posledné kopírovanie vedľa ikony v lište";
+
+// Quick Menu
+"quick_menu_title" = "Rýchle menu:";
+"quick_menu_shortcut_desc" = "Globálna klávesová skratka na otvorenie aplikácie.
+Predvolene: 「⌘ + ;」";
+
+"popup_at" = "Vyskakovacie okno na:";
+"window_center" = "Stred okna";
+"mouse_cursor" = "Kurzor myši";
+"text_cursor" = "Textový kurzor";
+"screen_center" = "Stred obrazovky";
+
+// Main Window
+"main_window_title" = "Hlavné okno:";
+"main_window_shortcut_desc" = "Globálna klávesová skratka na otvorenie hlavného okna.";
+
+// Paste Stack
+"paste_stack_title" = "Zásobník prilepenia:";
+"paste_stack_desc" = "Globálna klávesová skratka na otvorenie zásobníka prilepenia. Predvolene: 「⌘ + '」";
+
+"split_copy" = "Rozdeliť kopírovanie:";
+"split_copy_desc" = "Rozdeliť kopírovanie rozdelí viac riadkov textu na samostatné položky na kopírovanie.";
+
+// MARK: - Storage
+"number_of_copies" = "Počet položiek histórie, ktoré sa majú uchovávať";
+
+// MARK: - Ignore
+"app" = "Application";
+"ignore_or_not" = "Ignore";
+"bundle_id" = "Bundle Id";
+"select_all" = "Select All";
+"unselect_all" = "Unselect All";

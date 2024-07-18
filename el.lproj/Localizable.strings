@@ -341,3 +341,49 @@
 "preferences_ocr_revision" = "Αναθεώρηση";
 "preferences_ocr_reindex" = "Ενημέρωση Ευρετηρίου Αναζήτησης";
 "quickmenu_preview_ocr_header" = "Κείμενο σε Eικόνα:";
+
+// MARK: - settings
+// General
+"check_update" = "Έλεγχος τώρα";
+"check_update_desc" = "Αυτόματος έλεγχος για ενημερώσεις";
+"sounds" = "Ήχοι";
+"sounds_desc" = "Αναπαραγωγή εφέ ήχου όταν ένα νέο στοιχείο προστίθεται στο ιστορικό και το προηγούμενο στοιχείο είναι επιλεγμένο.";
+"launch_at_login" = "Άνοιγμα κατά την εκκίνηση";
+
+// Menu Icon
+"show_menu_icon" = "Εμφάνιση εικονιδίου μενού";
+"show_menu_icon_desc" = "Αν το εικονίδιο μενού δεν εμφανίζεται, μπορείτε να ανοίξετε το μενού πατώντας στο εικονίδιο στο κάτω μέρος του αναδυόμενου ιστορικού.";
+
+"show_recently_desc" = "Εμφάνιση πρόσφατων αντιγράφων δίπλα στο εικονίδιο μενού";
+
+// Quick Menu
+"quick_menu_title" = "Γρήγορο Μενού:";
+"quick_menu_shortcut_desc" = "Καθολικό κλειδί συντόμευσης για το άνοιγμα της εφαρμογής.
+Προεπιλογή: 「⌘ + ;」";
+
+"popup_at" = "Αναδυόμενο Παράθυρο:";
+"window_center" = "Κεντράρισμα παραθύρου";
+"mouse_cursor" = "Δείκτης Ποντικιού";
+"text_cursor" = "Κέρσορας Κειμένου";
+"screen_center" = "Κέντρο της οθόνης";
+
+// Main Window
+"main_window_title" = "Κεντρικό παράθυρο:";
+"main_window_shortcut_desc" = "Καθολικό πλήκτρο συντόμευσης για άνοιγμα του κύριου παραθύρου.";
+
+// Paste Stack
+"paste_stack_title" = "Επικόλληση Στοίβας:";
+"paste_stack_desc" = "Καθολικό κλειδί συντόμευσης για το άνοιγμα της εφαρμογής. Προεπιλογή: 「⌘ + '」";
+
+"split_copy" = "Διαχωρισμός Αντιγράφου:";
+"split_copy_desc" = "Ο διαχωρισμός αντιγράφου θα χωρίσει πολλαπλές γραμμές κειμένου σε ξεχωριστά στοιχεία για αντιγραφή.";
+
+// MARK: - Storage
+"number_of_copies" = "Αριθμός στοιχείων ιστορικού προς διατήρηση";
+
+// MARK: - Ignore
+"app" = "Application";
+"ignore_or_not" = "Ignore";
+"bundle_id" = "Bundle Id";
+"select_all" = "Select All";
+"unselect_all" = "Unselect All";

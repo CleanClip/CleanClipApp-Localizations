@@ -341,3 +341,61 @@
 "preferences_ocr_revision" = "Revision";
 "preferences_ocr_reindex" = "Update Search Index";
 "quickmenu_preview_ocr_header" = "Text in Image:";
+
+// MARK: - settings
+// General
+"check_update" = "Check now";
+"check_update_desc" = "Check for updates automatically";
+"sounds" = "Sounds";
+"sounds_desc" = "Play sound effects when a new item is added to the history and the previous item is selected.";
+"launch_at_login" = "Launch at login";
+"shortcuts" = "Shortcuts";
+
+// Menu Icon
+"show_menu_icon" = "Show menu icon";
+"show_menu_icon_desc" = "If the menu icon is not displayed, you can open the menu by tapping on the icon at the bottom of the history popup.";
+
+"show_recently_desc" = "Show recent copy next to menu icon";
+
+// Quick Menu
+"quick_menu_title" = "Quick Menu:";
+"quick_menu_shortcut_desc" = "Global shortcut key to open application.";
+
+"popup_at" = "Popup At:";
+"window_center" = "Window Center";
+"mouse_cursor" = "Mouse Cursor";
+"text_cursor" = "Text Cursor";
+"screen_center" = "Screen Center";
+
+// Main Window
+"main_window_title" = "Main Window:";
+"main_window_shortcut_desc" = "Global shortcut key to open main window.";
+"main_window_auto_collapse" = "Auto Collapse";
+"main_window_full_mode" = "Full Height";
+
+// Paste Stack
+"paste_stack_title" = "Paste Stack:";
+"paste_stack_desc" = "Global shortcut key to open paste stack. Default: 「⌘ + '」";
+
+"split_copy" = "Split Copy: ";
+"split_copy_desc" = "Split Copy will split multiple lines of text into separate items for copying.";
+
+"paste_stack_order" = "Default Order:";
+"paste_stack_order_stack" = "Stack Order";
+"paste_stack_order_queue" = "Queue Order";
+
+// MARK: - Storage
+"number_of_copies" = "Number of history items to keep";
+
+// MARK: - Ignore
+"app" = "Application";
+"ignore_or_not" = "Ignore";
+"bundle_id" = "Bundle Id";
+"select_all" = "Select All";
+"unselect_all" = "Unselect All";
+
+// MARK: - About
+"acknowledgements" = "Acknowledgements";
+"visit_website" = "Visite Website";
+"contact_us" = "Contact Us";
+"copyright" = "©️Copyright";

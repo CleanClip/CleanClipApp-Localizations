@@ -341,3 +341,49 @@
 "preferences_ocr_revision" = "リビジョン";
 "preferences_ocr_reindex" = "検索インデックスを更新";
 "quickmenu_preview_ocr_header" = "画像内のテキスト:";
+
+// MARK: - settings
+// General
+"check_update" = "今すぐ確認";
+"check_update_desc" = "アップデートを自動で確認する";
+"sounds" = "効果音";
+"sounds_desc" = "履歴に新しいアイテムが追加され、前のアイテムが選択されたときに、効果音を再生する。";
+"launch_at_login" = "ログイン時に起動";
+
+// Menu Icon
+"show_menu_icon" = "メニューアイコンを表示";
+"show_menu_icon_desc" = "メニューアイコンが表示されていない場合、履歴ポップアップの下部にあるアイコンをタップすることでメニューを開くことができます。";
+
+"show_recently_desc" = "メニューアイコンの隣に最近のコピーを表示";
+
+// Quick Menu
+"quick_menu_title" = "クイックメニュー:";
+"quick_menu_shortcut_desc" = "アプリケーションを開くためのグローバル ショートカット キー。
+デフォルト: 「⌘ + ;」";
+
+"popup_at" = "ポップアップ表示:";
+"window_center" = "ウィンドウの中央";
+"mouse_cursor" = "マウスカーソル";
+"text_cursor" = "テキストカーソル";
+"screen_center" = "画面の中央";
+
+// Main Window
+"main_window_title" = "メインウインドウ";
+"main_window_shortcut_desc" = "メインウィンドウを開くためのグローバルショートカットキー。";
+
+// Paste Stack
+"paste_stack_title" = "ペーストスタック:";
+"paste_stack_desc" = "ペーストスタックを開くためのグローバルショートカットキー。デフォルト：「⌘+'」";
+
+"split_copy" = "分割コピー：";
+"split_copy_desc" = "分割コピーでは、複数行のテキストを別々のアイテムに分割してコピーします。";
+
+// MARK: - Storage
+"number_of_copies" = "保持する履歴項目数";
+
+// MARK: - Ignore
+"app" = "Application";
+"ignore_or_not" = "Ignore";
+"bundle_id" = "Bundle Id";
+"select_all" = "Select All";
+"unselect_all" = "Unselect All";

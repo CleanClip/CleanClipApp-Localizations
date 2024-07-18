@@ -332,3 +332,49 @@
 "preferences_ocr_primary_language" = "Primaire taal";
 "preferences_ocr_revision" = "Revisie";
 "preferences_ocr_reindex" = "Zoekindex bijwerken";
+
+// MARK: - settings
+// General
+"check_update" = "Controleer nu";
+"check_update_desc" = "Controleer automatisch voor updates";
+"sounds" = "Geluiden";
+"sounds_desc" = "Geluidseffecten afspelen wanneer een nieuw item wordt toegevoegd aan de geschiedenis en het vorige item is geselecteerd.";
+"launch_at_login" = "Opstarten bij inloggen";
+
+// Menu Icon
+"show_menu_icon" = "Menu-pictogram tonen";
+"show_menu_icon_desc" = "Als het menu-icoon niet wordt weergegeven, kunt u het menu openen door op het pictogram onderaan de historie te tikken.";
+
+"show_recently_desc" = "Toon recente kopie naast het menu-pictogram";
+
+// Quick Menu
+"quick_menu_title" = "Snel Menu:";
+"quick_menu_shortcut_desc" = "Algemene sneltoets om de applicatie te openen.
+Standaard: 「⌘ + ;」";
+
+"popup_at" = "Pop-up bij:";
+"window_center" = "Venster Centrum";
+"mouse_cursor" = "Muis cursor";
+"text_cursor" = "Tekst cursor";
+"screen_center" = "Scherm centrum";
+
+// Main Window
+"main_window_title" = "Hoofdvenster:";
+"main_window_shortcut_desc" = "Globale sneltoets om het hoofdvenster te openen.";
+
+// Paste Stack
+"paste_stack_title" = "Plak Stack:";
+"paste_stack_desc" = "Algemene sneltoets om de plakstapel te openen. Standaardinstelling: 「⌘ + '」";
+
+"split_copy" = "Splits kopie:";
+"split_copy_desc" = "Split kopie splitst meerdere regels tekst op in afzonderlijke items om te kopiëren.";
+
+// MARK: - Storage
+"number_of_copies" = "Aantal in de geschiedenis te bewaren items";
+
+// MARK: - Ignore
+"app" = "Application";
+"ignore_or_not" = "Ignore";
+"bundle_id" = "Bundle Id";
+"select_all" = "Select All";
+"unselect_all" = "Unselect All";

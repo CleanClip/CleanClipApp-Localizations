@@ -332,3 +332,49 @@
 "preferences_ocr_primary_language" = "Langue principale";
 "preferences_ocr_revision" = "Révision";
 "preferences_ocr_reindex" = "Mettre à jour l'index";
+
+// MARK: - settings
+// General
+"check_update" = "Vérifier maintenant";
+"check_update_desc" = "Vérifier les mises à jour automatiquement";
+"sounds" = "Sons";
+"sounds_desc" = "Activer les effets sonores lorsqu'un nouvel élément est ajouté à l'historique et que l'élément précédent est sélectionné.";
+"launch_at_login" = "Lancer au démarrage";
+
+// Menu Icon
+"show_menu_icon" = "Afficher les icônes du menu";
+"show_menu_icon_desc" = "Si l'icône du menu n'est pas affichée, vous pouvez ouvrir le menu en appuyant sur l'icône en bas de la fenêtre de l'historique.";
+
+"show_recently_desc" = "Afficher la copie récente à côté de l'icône du menu";
+
+// Quick Menu
+"quick_menu_title" = "Menu Rapide :";
+"quick_menu_shortcut_desc" = "Raccourci pour ouvrir l'application.
+Par défaut: 「⌘ + ;」";
+
+"popup_at" = "Popup à :";
+"window_center" = "Centre de la fenêtre";
+"mouse_cursor" = "Curseur de la souris";
+"text_cursor" = "Curseur de texte";
+"screen_center" = "Centre de l'écran";
+
+// Main Window
+"main_window_title" = "Fenêtre principale:";
+"main_window_shortcut_desc" = "Touche de raccourci pour ouvrir la fenêtre principale.";
+
+// Paste Stack
+"paste_stack_title" = "Coller la pile :";
+"paste_stack_desc" = "Touche de raccourci pour ouvrir la pile de colle. Par défaut: 「⌘ + '」";
+
+"split_copy" = "Fractionner la copie:";
+"split_copy_desc" = "Fractionner la copie divise plusieurs lignes de texte en éléments séparés à copier.";
+
+// MARK: - Storage
+"number_of_copies" = "Nombre d'éléments à garder dans l'historique";
+
+// MARK: - Ignore
+"app" = "Application";
+"ignore_or_not" = "Ignore";
+"bundle_id" = "Bundle Id";
+"select_all" = "Select All";
+"unselect_all" = "Unselect All";

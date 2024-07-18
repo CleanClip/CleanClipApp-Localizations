@@ -354,3 +354,50 @@
 "preferences_ocr_revision" = "修訂版本";
 "preferences_ocr_reindex" = "更新搜尋索引";
 "quickmenu_preview_ocr_header" = "圖片中的文字：";
+
+// MARK: - settings
+// General
+"check_update" = "立即檢查更新";
+"check_update_desc" = "自動檢查更新";
+"sounds" = "音效";
+"sounds_desc" = "記錄新項目和選擇上一項目時播放音效。";
+"launch_at_login" = "登入時啟動";
+
+// Menu Icon
+"show_menu_icon" = "選單列圖示";
+"show_menu_icon_desc" = "如未顯示選單圖示，可點擊歷史記錄彈窗底部的圖示開啟選單";
+
+"show_recently_desc" = "在選單列圖示前顯示最近的複製內容";
+
+// Quick Menu
+"quick_menu_title" = "快捷視窗:";
+"quick_menu_shortcut_desc" = "打開快捷視窗的全域快捷鍵。
+預設: 「⌘ + ;」";
+
+"popup_at" = "彈窗位置:";
+"window_center" = "視窗中心";
+"mouse_cursor" = "滑鼠游標";
+"text_cursor" = "文字游標";
+"screen_center" = "螢幕中心";
+
+// Main Window
+"main_window_title" = "主視窗:";
+"main_window_shortcut_desc" = "打開主視窗的全域快捷鍵。";
+
+// Paste Stack
+"paste_stack_title" = "貼上佇列:";
+"paste_stack_desc" = "開啟貼上佇列的全域快捷鍵。
+預設：「⌘ + '」";
+
+"split_copy" = "拆分複製:";
+"split_copy_desc" = "拆分複製會將多行文字拆分成多個項目進行複製";
+
+// MARK: - Storage
+"number_of_copies" = "保留歷史記錄條數";
+
+// MARK: - Ignore
+"app" = "Application";
+"ignore_or_not" = "Ignore";
+"bundle_id" = "Bundle Id";
+"select_all" = "Select All";
+"unselect_all" = "Unselect All";

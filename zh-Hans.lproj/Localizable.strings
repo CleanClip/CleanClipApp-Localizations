@@ -355,3 +355,63 @@
 "preferences_ocr_revision" = "修正版本";
 "preferences_ocr_reindex" = "更新搜索索引";
 "quickmenu_preview_ocr_header" = "图片中的文字：";
+
+// MARK: - settings
+// General
+"check_update" = "检查更新";
+"check_update_desc" = "自动检查更新";
+"sounds" = "声效";
+"sounds_desc" = "记录新项目和选择上一个项目时播放声效。";
+"launch_at_login" = "登录时启动";
+"shortcuts" = "快捷键";
+
+// Menu Icon
+"show_menu_icon" = "菜单栏图标";
+"show_menu_icon_desc" = "若不显示菜单图标，可点击历史记录弹窗底部的图标打开菜单";
+
+"show_recently_desc" = "在菜单栏图标前显示最近的复制内容";
+
+// Quick Menu
+"quick_menu_title" = "快捷窗口:";
+"quick_menu_shortcut_desc" = "打开快捷窗口的全局快捷键。
+默认: 「⌘ + ;」";
+
+"popup_at" = "弹窗位置:";
+"window_center" = "窗口中心";
+"mouse_cursor" = "鼠标光标";
+"text_cursor" = "文字光标";
+"screen_center" = "屏幕中心";
+
+// Main Window
+"main_window_title" = "主窗口:";
+"main_window_shortcut_desc" = "打开主窗口的全局快捷键。";
+"main_window_auto_collapse" = "自动收起";
+"main_window_full_mode" = "完整高度";
+
+// Paste Stack
+"paste_stack_title" = "粘贴队列:";
+"paste_stack_desc" = "打开粘贴队列的全局快捷键。
+默认: 「⌘ + '」";
+
+"split_copy" = "拆分复制:";
+"split_copy_desc" = "拆分复制会把多行文本拆分成多项分别复制";
+
+"paste_stack_order" = "默认顺序";
+"paste_stack_order_stack" = "堆栈顺序";
+"paste_stack_order_queue" = "队列顺序";
+
+// MARK: - Storage
+"number_of_copies" = "保留历史记录条数";
+
+// MARK: - Ignore
+"app" = "Application";
+"ignore_or_not" = "Ignore";
+"bundle_id" = "Bundle Id";
+"select_all" = "Select All";
+"unselect_all" = "Unselect All";
+
+// MARK: - About
+"acknowledgements" = "Acknowledgements";
+"visit_website" = "访问网站";
+"contact_us" = "联系我们";
+"copyright" = "©️版权所有";
