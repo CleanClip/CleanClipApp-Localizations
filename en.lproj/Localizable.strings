@@ -343,7 +343,19 @@
 "quickmenu_preview_ocr_header" = "Text in Image:";
 
 // MARK: - settings
-// General
+// MARK: settings name
+"settings_general" = "General";
+"settings_shortcuts" = "Shortcuts";
+"settings_paste_format" = "Paste Format";
+"settings_lists" = "Lists";
+"settings_quick_menu" = "Quick Menu";
+"settings_main_window" = "Main Window";
+"settings_paste_stack" = "Paste Stack";
+"settings_ignore" = "Ignore";
+"settings_ocr" = "OCR";
+"settings_about" = "About";
+
+// MARK: General
 "check_update" = "Check now";
 "check_update_desc" = "Check for updates automatically";
 "sounds" = "Sounds";
@@ -357,7 +369,7 @@
 
 "show_recently_desc" = "Show recent copy next to menu icon";
 
-// Quick Menu
+// MARK: Quick Menu
 "quick_menu_title" = "Quick Menu:";
 "quick_menu_shortcut_desc" = "Global shortcut key to open application.";
 
@@ -367,13 +379,13 @@
 "text_cursor" = "Text Cursor";
 "screen_center" = "Screen Center";
 
-// Main Window
+// MARK: Main Window
 "main_window_title" = "Main Window:";
 "main_window_shortcut_desc" = "Global shortcut key to open main window.";
 "main_window_auto_collapse" = "Auto Collapse";
 "main_window_full_mode" = "Full Height";
 
-// Paste Stack
+// MARK: Paste Stack
 "paste_stack_title" = "Paste Stack:";
 "paste_stack_desc" = "Global shortcut key to open paste stack. Default: 「⌘ + '」";
 
@@ -383,19 +395,43 @@
 "paste_stack_order" = "Default Order:";
 "paste_stack_order_stack" = "Stack Order";
 "paste_stack_order_queue" = "Queue Order";
+"paste_stack_order_shuffle" = "Shuffle Order";
 
-// MARK: - Storage
+// MARK: Storage
 "number_of_copies" = "Number of history items to keep";
 
-// MARK: - Ignore
+// MARK: Ignore
+"ignore_apps" = "忽略的应用程序";
 "app" = "Application";
 "ignore_or_not" = "Ignore";
 "bundle_id" = "Bundle Id";
 "select_all" = "Select All";
 "unselect_all" = "Unselect All";
 
-// MARK: - About
+// MARK: About
 "acknowledgements" = "Acknowledgements";
 "visit_website" = "Visite Website";
 "contact_us" = "Contact Us";
 "copyright" = "©️Copyright";
+
+// MARK: settings lists
+"lists_desc" = "通过收集列表、智能列表更好地组织你的内容";
+"lists_name" = "名字";
+"is_smartlist" = "智能列表";
+"count" = "数量";
+"desc" = "智能列表描述";
+
+// MARK: settings shortcuts
+"name" = "功能";
+"shortcuts" = "快捷键";
+"shortcuts_quick_menu" = "开关快捷菜单";
+"shortcuts_main_window" = "开关主窗口";
+"shortcuts_paste_stack" = "开关粘贴队列";
+"shortcuts_split_copy" = "拆分复制";
+"shortcuts_split_copy_desc" = "把选中的文本自动按行拆分复制成多项";
+
+// MARK: settings output formats
+"output_format_desc" = "预设输出格式，文字将格式化成指定的格式粘贴";
+
+// MARK: settings ocr
+"ocr_desc" = "自动对复制的图片进行 OCR，以后可以使用文字搜索图片";
