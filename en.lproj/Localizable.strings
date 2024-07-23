@@ -373,11 +373,12 @@
 "quick_menu_title" = "Quick Menu:";
 "quick_menu_shortcut_desc" = "Global shortcut key to open application.";
 
-"popup_at" = "Popup At:";
+"popup_at" = "Popup At";
 "window_center" = "Window Center";
 "mouse_cursor" = "Mouse Cursor";
 "text_cursor" = "Text Cursor";
 "screen_center" = "Screen Center";
+"popup_at_fallback" = "由于系统限制，在一些应用中无法正确定位输入位置，请为之选择一项备选位置";
 
 // MARK: Main Window
 "main_window_title" = "Main Window:";
