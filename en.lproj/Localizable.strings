@@ -354,6 +354,7 @@
 "settings_ignore" = "Ignore";
 "settings_ocr" = "OCR";
 "settings_about" = "About";
+"settings_appupdates" = "Software Update Available";
 
 // MARK: General
 "check_update" = "Check now";
@@ -436,3 +437,9 @@
 
 // MARK: settings ocr
 "ocr_desc" = "自动对复制的图片进行 OCR，以后可以使用文字搜索图片";
+
+// MARK: settings appUpdates
+"avaiable_updates" = "Available Updates";
+"beta_updates" = "Beta Updates";
+"install_now" = "Restart and Update";
+"updates_more_info" = "More Info...";
