@@ -355,9 +355,10 @@
 "settings_ocr" = "OCR";
 "settings_about" = "About";
 "settings_appupdates" = "Software Update Available";
+"settings_license" = "License";
 
 // MARK: General
-"check_update" = "Check now";
+"check_update" = "Check Update";
 "check_update_desc" = "Check for updates automatically";
 "sounds" = "Sounds";
 "sounds_desc" = "Play sound effects when a new item is added to the history and the previous item is selected.";
@@ -443,3 +444,8 @@
 "beta_updates" = "Beta Updates";
 "install_now" = "Restart and Update";
 "updates_more_info" = "More Info...";
+
+// MARK: settings license
+"upgrade_to_pro" = "升级到 Pro";
+"free_amount_today" = "今日免费额度使用";
+"upgrade_to_pro_for_unlimited_access" = "升级到 Pro 获取全部功能的不限次使用!";
