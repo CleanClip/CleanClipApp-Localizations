@@ -356,6 +356,7 @@
 "settings_about" = "About";
 "settings_appupdates" = "Software Update Available";
 "settings_license" = "License";
+"upgrade_to_recommand_os_version" = "推荐使用 macOS 13.0+ 以获得最佳体验!";
 
 // MARK: General
 "check_update" = "Check Update";
