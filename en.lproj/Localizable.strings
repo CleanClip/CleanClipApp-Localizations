@@ -341,7 +341,7 @@
 "preferences_ocr_primary_language" = "Primary Language";
 "preferences_ocr_revision" = "Revision";
 "preferences_ocr_reindex" = "Update Search Index";
-"quickmenu_preview_ocr_header" = "Text in Image:";
+"quickmenu_preview_ocr_header" = "Text in Image";
 
 // MARK: - settings
 // MARK: settings name
