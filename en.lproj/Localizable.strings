@@ -322,6 +322,7 @@
 "quickmenu_appr_always_expand_5" = "5 Items";
 "quickmenu_appr_always_expand_10" = "10 Items";
 "quickmenu_general_preview_on_hover" = "Auto Preview on Hover";
+"quickmenu_general_preview_on_hover_delay" = "Preview Delay";
 "quickmenu_general_default_action" = "Default Action";
 "quickmenu_general_default_action_auto_paste" = "Auto Paste";
 "quickmenu_general_default_action_copy" = "Copy Only";
