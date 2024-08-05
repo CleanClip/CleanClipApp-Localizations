@@ -223,6 +223,9 @@
 "pin_lists_color" = "Color:";
 "pin_lists_color_preview" = "Color Preview:";
 
+"pin_lists_shortcut" = "在快捷窗口中打开：";
+"pin_lists_shortcut_for_pin" = "在主窗口中打开：";
+
 "pin_lists_delete" = "Delete";
 "pin_lists_done" = "Done";
 
@@ -434,6 +437,52 @@
 "shortcuts_paste_stack" = "开关粘贴队列";
 "shortcuts_split_copy" = "拆分复制";
 "shortcuts_split_copy_desc" = "把选中的文本自动按行拆分复制成多项";
+"shortcuts_lists" = "设置快捷键快速打开列表";
+"shortcuts_lists_name" = "列表名字";
+"shortcuts_for_quick" = "在快捷菜单中打开";
+"shortcuts_for_pin" = "在主窗口中打开";
+
+// shortcuts display
+"shortcuts_for_quick_menu" = "快捷菜单常用快捷键";
+
+"shortcuts_display_select_item" = "使用项目";
+"shortcuts_display_select_item_shortcut" = "[0-9]/⮐";
+
+"shortcuts_display_move_to_item" = "移动到项目";
+"shortcuts_display_move_to_item_shortcut" = "⌘[0-9]/↑↓";
+
+"shortcuts_display_format_options_menu" = "格式化选单";
+"shortcuts_display_format_options_menu_shortcut" = "长按[0-9]/⮐";
+
+"shortcuts_display_preview" = "预览";
+"shortcuts_display_preview_shortcut" = "空格";
+
+"shortcuts_display_favorate" = "保存到收藏";
+"shortcuts_display_favorate_shortcut" = "⌘S";
+
+"shortcuts_display_alias" = "添加别名";
+"shortcuts_display_alias_shortcut" = "⌘A";
+
+"shortcuts_display_edit" = "编辑项目";
+"shortcuts_display_edit_shortcut" = "⌘E";
+
+"shortcuts_display_copy_to_clipboard" = "复制到剪贴板";
+"shortcuts_display_copy_to_clipboard_shortcut" = "⌘C";
+
+"shortcuts_display_switch_next_tab" = "下一个列表";
+"shortcuts_display_switch_next_tab_shortcut" = "和打开快捷菜单按键一致";
+
+"shortcuts_display_switch_next_tab2" = "下一个列表2";
+"shortcuts_display_switch_next_tab2_shortcut" = "⌘→";
+
+"shortcuts_display_switch_prev_tab" = "上一个列表";
+"shortcuts_display_switch_prev_tab_shortcut" = "⌘←";
+
+"shortcuts_display_search" = "开始搜索";
+"shortcuts_display_search_shortcut" = "⌘F";
+
+"shortcuts_display_search2" = "直接开始搜索";
+"shortcuts_display_search2_shortcut" = "直接输入字符";
 
 // MARK: settings output formats
 "output_format_desc" = "预设输出格式，文字将格式化成指定的格式粘贴";
