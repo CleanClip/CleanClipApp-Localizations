@@ -366,6 +366,7 @@
 "check_update" = "Check Update";
 "check_update_desc" = "Check for updates automatically";
 "sounds" = "Sounds";
+"sounds_selection" = "选择声音";
 "sounds_desc" = "Play sound effects when a new item is added to the history and the previous item is selected.";
 "launch_at_login" = "Launch at login";
 "shortcuts" = "Shortcuts";
