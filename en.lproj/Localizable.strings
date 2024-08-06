@@ -496,6 +496,7 @@
 "beta_updates" = "Beta Updates";
 "install_now" = "Restart and Update";
 "updates_more_info" = "More Info...";
+"new_version" = "New Version";
 
 // MARK: settings license
 "upgrade_to_pro" = "升级到 Pro";
