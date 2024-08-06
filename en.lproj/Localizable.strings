@@ -208,7 +208,9 @@
 "pin_context_merge_paste" = "Merge and Paste";
 "pin_context_paste" = "Paste";
 "pin_context_paste_as_plain" = "Paste as Plain Text";
+"pin_context_paste_as" = "Paste as...";
 "pin_context_preview" = "Preview";
+"pin_context_edit" = "Edit";
 "pin_context_preview_when_hover" = "Enable Preview on Hover";
 
 // MARK: Content List
