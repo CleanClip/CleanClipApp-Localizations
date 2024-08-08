@@ -121,6 +121,8 @@
 // Paste stack options
 "post_action_title" = "Post-Pasting action";
 "none" = "None";
+"post_action_text" = "Text";
+"post_action_text_content" = "Text Added at the End";
 
 // Migration
 "migration_data_upgrading" = "Upgrading data...";
@@ -204,6 +206,7 @@
 "pin_context_add_to_lists" = "Add to List";
 "pin_context_alias" = "Set Alias";
 "pin_context_copy_to_clipboard" = "Copy to Clipboard";
+"pin_context_split_to_multilines" = "Split into Multiple Items";
 "pin_context_delete" = "Delete";
 "pin_context_merge_paste" = "Merge and Paste";
 "pin_context_paste" = "Paste";
@@ -322,7 +325,7 @@
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "Always Show Shortcut Tips";
 "quickmenu_option_show_when_hover" = "Auto Display on Hover";
-"quickmenu_option_show_when_cmd_down" = "Auto Display on COMMAND Down";
+"quickmenu_option_show_when_cmd_down" = "Auto Display on ⌘ Down";
 "quickmenu_option" = "Toolbar Options";
 "quickmenu_appr_always_expand" = "Default Number of Items";
 "quickmenu_appr_always_expand_5" = "5 Items";
@@ -332,6 +335,7 @@
 "quickmenu_general_default_action" = "Default Action";
 "quickmenu_general_default_action_auto_paste" = "Auto Paste";
 "quickmenu_general_default_action_copy" = "Copy Only";
+"quickmenu_general_move_to_top" = "Move to Top after Use";
 "quickmenu_tip_prefences" = "Preferences";
 // Tool List
 "quickmenu_option_switch" = "Switch Item ⌘[0-9]";
@@ -509,3 +513,6 @@
 "upgrade_to_pro" = "升级到 Pro";
 "free_amount_today" = "今日免费额度使用";
 "upgrade_to_pro_for_unlimited_access" = "升级到 Pro 获取全部功能的不限次使用!";
+
+// MARK: - Preset resources
+"preset_resources" = "⚡️ 按下回车或数字键，粘贴内容\n✏️ 长按回车或数字键，打开格式化选单\n👀 按下空格键或鼠标悬浮进行预览\n🖱️ 长按项目进行拖拽，松开粘贴\n👇 按下 Tab 展开或翻页\n🔍 ⌘F 或直接按下字母键开始搜索\n📋 ⌘C 复制当前项到剪贴板\n❌ ⌘D 删除\n📝 ⌘A 设置别名\n⭐ ⌘S 添加到默认收藏夹\n☰ 点击右键查看菜单项\n✂️ 选中多行内容后按下⌘⇧C拆分成多行复制\n📚 ⌘' 打开粘贴队列帮助你按顺序粘贴多个项目\n🖱️ ⌘⇧C 打开主窗口，进行批量管理和使用，对鼠标更友好\n";
