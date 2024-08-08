@@ -1,0 +1,134 @@
+name: Run Translation Script
+
+on:
+  workflow_dispatch:
+    inputs:
+      commitash:
+        description: 'The commitash'
+        required: false
+        default: ''
+        type: string
+      prev_commitash:
+        description: 'The prev commitash'
+        required: false
+        default: ''
+        type: string
+
+  create:
+    tags:
+      - '*'
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0  # 获取所有标签和历史
+
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt  # 确保您有一个 requirements.txt 文件列出了所有依赖
+
+    - name: Get tags or commitash
+      id: get_params
+      run: |
+        if [[ "${{ github.event_name }}" == "create" ]]; then
+          CURRENT_TAG=${GITHUB_REF#refs/tags/}
+          PREVIOUS_TAG=$(git describe --tags --abbrev=0 ${CURRENT_TAG}^ 2>/dev/null || echo "")
+          echo "PARAM1=${PREVIOUS_TAG}" >> $GITHUB_OUTPUT
+          echo "PARAM2=${CURRENT_TAG}" >> $GITHUB_OUTPUT
+        else
+          COMMITASH=${{ github.event.inputs.commitash }}
+          PREVIOUS_COMMITASH=${{ github.event.inputs.prev_commitash }}
+          echo "PARAM1=${PREVIOUS_COMMITASH}" >> $GITHUB_OUTPUT
+          echo "PARAM2=${COMMITASH}" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Run translation script
+      run: |
+        python translation.py --prev=${{ steps.get_params.outputs.PARAM1 }} --target=${{ steps.get_params.outputs.PARAM2 }}
+
+        # 设置 Git 用户配置
+        git config --global user.name "GA TranslationBot"
+        git config --global user.email "translationbot@gokoding.com"
+
+        # 获取当前分支名称
+        CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+        
+        # 创建新的分支名称
+        NEW_BRANCH="update-translations-$(date +%s)"
+        
+        # 创建新分支并切换到该分支
+        git checkout -b $NEW_BRANCH
+        
+        # 添加所有更改
+        git add .
+        
+        # 提交更改
+        git commit -m "Update translations"
+        
+        # 推送新分支到远程仓库
+        git push origin $NEW_BRANCH
+        
+        # 输出分支信息，供后续步骤使用
+        echo "CURRENT_BRANCH=${CURRENT_BRANCH}" >> $GITHUB_OUTPUT
+        echo "NEW_BRANCH=${NEW_BRANCH}" >> $GITHUB_OUTPUT
+      id: git_ops
+      
+    - name: Create Pull Request
+      uses: actions/github-script@v6
+      with:
+        github-token: ${{secrets.GITHUB_TOKEN}}
+        script: |
+          const { CURRENT_BRANCH, NEW_BRANCH } = process.env
+          const pullRequest = await github.rest.pulls.create({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            title: 'Update translations',
+            body: 'This PR updates translations.',
+            head: NEW_BRANCH,
+            base: 'main'
+          })
+          console.log(pullRequest)
+          console.log(`::set-output name=PR_URL::${pullRequest.data.html_url}`)
+      env:
+        CURRENT_BRANCH: ${{ steps.git_ops.outputs.CURRENT_BRANCH }}
+        NEW_BRANCH: ${{ steps.git_ops.outputs.NEW_BRANCH }}
+      id: git_pr
+    
+    - name: Send Telegram Success Message
+      if: success()
+      uses: appleboy/telegram-action@master
+      with:
+        to: ${{ secrets.TELEGRAM_TO }}
+        token: ${{ secrets.TELEGRAM_TOKEN }}
+        format: 'markdown'
+        message: |
+          🚀 Translation workflow completed successfully!
+          *Repository*: ${{ github.repository }}
+          *Branch*: ${{ github.ref }}
+          *Commit*: ${{ github.sha }}
+          *Pull Request*: ${{ env.PR_URL }}
+      env:
+        PR_URL: ${{ steps.git_pr.outputs.PR_URL }}
+
+    - name: Send Telegram Failure Message
+      if: failure()
+      uses: appleboy/telegram-action@master
+      with:
+        to: ${{ secrets.TELEGRAM_TO }}
+        token: ${{ secrets.TELEGRAM_TOKEN }}
+        format: 'markdown'
+        message: |
+          ❌ Translation workflow failed!
+          *Repository*: ${{ github.repository }}
+          *Branch*: ${{ github.ref }}
+          *Commit*: ${{ github.sha }}
+          Please check the logs for more information.
