@@ -26,7 +26,7 @@
 "feature_1_intro" = "Δεν χρειάζεται να αλλάξετε την εστίαση, το αναδυόμενο παράθυρο εμφανίζεται πάντα στη θέση του κέρσορα";
 "feature_2" = "Pinboards";
 "feature_2_intro" = "Διπλό κλικ ⌘ + ; για γρήγορη πρόσβαση στα Pinboards";
-"feature_3" = "Επικόλληση Στοίβας";
+"feature_3" = "Ουρά Επικόλλησης";
 "feature_3_intro" = "⌘ + ' για γρήγορη συλλογή περιεχομένου και οργάνωσή του για αποτελεσματική χρήση";
 "feature_4" = "Γρήγορη αναζήτηση";
 "feature_4_intro" = "Πληκτρολογήστε ένα γράμμα για άμεση αναζήτηση και βρείτε ακόμη και παλαιότερες εγγραφές";
@@ -69,10 +69,10 @@
 "cancel_ignore" = "Να επιτρέπονται αντίγραφα από το %@";
 
 // MARK: CopyStack
-"copystack" = "Επικόλληση Στοίβας";
-"open_copystack" = "Άνοιγμα Επικόλλησης Στοίβας";
-"open_copystack_tooltip" = "Άνοιγμα Επικόλλησης Στοίβας";
-"stack_empty" = "Η Στοίβα είναι Κενή";
+"copystack" = "Ουρά Επικόλλησης";
+"open_copystack" = "Άνοιγμα Ουράς Επικόλλησης";
+"open_copystack_tooltip" = "Άνοιγμα Ουράς Επικόλλησης";
+"stack_empty" = "Η ουρά είναι άδεια";
 
 "clear_stack" = "Εκκαθάριση";
 
@@ -98,7 +98,7 @@
 "tip_history_item" = "Δεξί κλικ για εμφάνιση μενού";
 "tip_tab_to_next" = "⇥ Επέκταση/Επόμενη Σελίδα";
 "tip_tab_to_prev" = "⇧⇥ Προηγούμενη Σελίδα";
-"tip_paste_stack" = "Επικόλληση Στοίβας";
+"tip_paste_stack" = "Ουρά Επικόλλησης";
 "tip_show_help" = "Βοήθεια";
 "tip_search" = "⌘F Άνοιγμα Αναζήτησης\na-z Άμεση Αναζήτηση";
 "tip_tab" = "%@ Εναλλαγή Καρτελών";
@@ -121,6 +121,8 @@
 // Paste stack options
 "post_action_title" = "Ενέργεια μετά την Επικόλληση";
 "none" = "Κανένα";
+"post_action_text" = "Κείμενο";
+"post_action_text_content" = "Κείμενο προστέθηκε στο τέλος";
 
 // Migration
 "migration_data_upgrading" = "Ενημέρωση δεδομένων...";
@@ -145,18 +147,18 @@
 "quick_paste_format" = "Επικόλληση Γρήγορης Μορφοποίησης";
 "quick_paste_format_desc" = "1. Πατήστε παρατεταμένα τον αριθμό ευρετηρίου περιεχομένου για να εμφανιστεί το μενού μορφής\n2. Πατήστε παρατεταμένα το πλήκτρο διαστήματος για να δείτε το μορφοποιημένο κείμενο\n3. Πατήστε σύντομα τον αριθμό ευρετηρίου μορφής για να επιβεβαιώσετε την επιλογή";
 "drag_image_to_file" = "Επικόλληση εικόνας ως αρχείο";
-"drag_image_to_file_desc" = "Οι εικόνες μπορούν να επικολληθούν άμεσα ή να σύρονται ως αρχεία, είτε χρησιμοποιώντας το γρήγορο μενού είτε τη στοίβα επικόλλησης.";
+"drag_image_to_file_desc" = "Οι εικόνες μπορούν να επικολληθούν απευθείας ή να σύρονται ως αρχεία, είτε χρησιμοποιώντας το γρήγορο μενού είτε την ουρά επικόλλησης.";
 "call_pinboards" = "Καρφίτσωμα και Χρήση Συχνού Χρησιμοποιημένου Περιεχομένου";
 "call_pinboards_desc" = "Πατήστε δύο φορές το μενού συντόμευσης ⌘; για να δείτε τα συχνά καρφιτσωμένα χρησιμοποιούμενα περιεχόμενα, χωρίς την ανάγκη να θυμάστε νέους συνδυασμούς πλήκτρων.\nΚαρφιτσώστε τα συχνά χρησιμοποιούμενα στοιχεία για να τα κρατάτε στην κορυφή της λίστας, αποτρέποντας την υπερβολική τους παρέμβαση από νέα στοιχεία και χρησιμοποιώντας τα οποιαδήποτε στιγμή.";
 
 // 粘贴队列
-"paste_stack" = "Επικόλληση Στοίβας";
+"paste_stack" = "Ουρά Επικόλλησης";
 "paste_stack_intro" = "Εισαγωγή";
-"paste_stack_intro_desc" = "Όταν ανοίξει η στοίβα επικόλλησης, το αντιγραμμένο περιεχόμενο θα μπαίνει αυτόματα στη στοίβα, και θα επικολλήσει το επόμενο στοιχείο στη στοίβα με τη σειρά.\n1. Κάντε κλικ στο πλήκτρο 'πάνω και κάτω βέλος' στο κάτω μέρος για να αντιστρέψετε τη λίστα\n2. 'Σύρετε αντικείμενα' για να αλλάξετε τη σειρά\n3. 'Πατήστε #' για να μεταβείτε στο καθορισμένο στοιχείο\n4. Η επιλογή 'Ενέργεια Μετά την Επικόλληση' θα πατήσει αυτόματα το αντίστοιχο πλήκτρο μετά την επικόλληση";
+"paste_stack_intro_desc" = "Όταν ανοίγετε την ουρά επικόλλησης, το αντιγραφόμενο περιεχόμενο θα εισέλθει αυτόματα στην ουρά, και το ⌘V θα επικολλήσει το επόμενο στοιχείο στη σειρά.\n1. Κάντε κλικ στα 'κουμπιά πάνω και κάτω βέλους' στο κάτω μέρος για αντιστροφή της λίστας\n2. 'Σύρετε στοιχεία' για να αλλάξετε τη σειρά\n3. Κάντε κλικ στο '#' για να μεταβείτε στο συγκεκριμένο στοιχείο\n4. Η επιλογή 'Ενέργεια μετά την επικόλληση' θα πατήσει αυτόματα το αντίστοιχο πλήκτρο μετά την επικόλληση";
 "paste_stack_fill_form" = "Βοήθεια στη συμπλήρωση φόρμας";
-"paste_stack_fill_form_desc" = "Η χρήση της στοίβας επικόλλησης μπορεί να βοηθήσει στη συμπλήρωση φορμών αντιγράφοντας και επικολλώντας τα δεδομένα με σειρά.";
+"paste_stack_fill_form_desc" = "Η χρήση της ουράς επικόλλησης μπορεί να βοηθήσει στη συμπλήρωση φορμών με τον αντιγραφή-επικόλληση σε σειρά.";
 "paste_stack_quick_fill_form" = "Γρήγορη Συμπλήρωση Φόρμας - Διαίρεση Αντιγράφου";
-"paste_stack_quick_fill_form_desc" = "Χρησιμοποιήστε το ⌘⇧C \"Διαίρεση Αντιγραφής\" για να χωρίσετε απευθείας πολλαπλές γραμμές σε πολλά στοιχεία και να τα αντιγράψετε στη στοίβα επικόλλησης. Η επιλογή \"Μετά την επικόλληση\" βοηθά αυτόματα στη μετάβαση στο επόμενο κελί, κάνοντας τη συμπλήρωση φορμών ακόμα πιο ισχυρή!";
+"paste_stack_quick_fill_form_desc" = "Χρησιμοποιήστε το ⌘⇧C 'Διαίρεση Αντιγράφου' για να διαιρέσετε απευθείας πολλές γραμμές σε πολλά στοιχεία και να τα αντιγράψετε στην ουρά επικόλλησης. Η επιλογή 'Ενέργεια μετά την επικόλληση' βοηθά αυτόματα στη μετάβαση στο επόμενο κελί, κάνοντας τη γρήγορη συμπλήρωση φορμών ακόμα πιο ισχυρή!";
 "paste_stack_collect" = "Συλλογή Πληροφοριών";
 "paste_stack_collect_desc" = "Συλλέξτε το περιεχόμενο σε πολλαπλές σελίδες και επικολλήστε τα όλα ταυτόχρονα στη σελίδα προορισμού, βελτιστοποιώντας τη διαδικασία και εξοικονομώντας χρόνο.";
 
@@ -204,11 +206,14 @@
 "pin_context_add_to_lists" = "Προσθήκη σε λίστα";
 "pin_context_alias" = "Ορισμός ψευδωνύμου";
 "pin_context_copy_to_clipboard" = "Αντιγραφή στο Πρόχειρο";
+"pin_context_split_to_multilines" = "Διαίρεση σε Πολλαπλά Στοιχεία";
 "pin_context_delete" = "Διαγραφή";
 "pin_context_merge_paste" = "Συγχώνευση και Επικόλληση";
 "pin_context_paste" = "Επικόλληση";
 "pin_context_paste_as_plain" = "Επικόλληση ως απλό κείμενο";
+"pin_context_paste_as" = "Επικόλληση ως...";
 "pin_context_preview" = "Προεπισκόπηση";
+"pin_context_edit" = "Επεξεργασία";
 "pin_context_preview_when_hover" = "Ενεργοποίηση προεπισκόπησης στο Hover";
 
 // MARK: Content List
@@ -222,6 +227,9 @@
 "pin_lists_name" = "Όνομα:";
 "pin_lists_color" = "Χρώμα:";
 "pin_lists_color_preview" = "Προεπισκόπηση Xρώματος:";
+
+"pin_lists_shortcut" = "Άνοιγμα στο γρήγορο μενού:";
+"pin_lists_shortcut_for_pin" = "Άνοιγμα στο κύριο παράθυρο:";
 
 "pin_lists_delete" = "Διαγραφή";
 "pin_lists_done" = "Ολοκληρώθηκε";
@@ -317,14 +325,17 @@
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "Να Εμφανίζονται Πάντα οι Συμβουλές Συντόμευσης";
 "quickmenu_option_show_when_hover" = "Αυτόματη Εμφάνιση κατά το Hover";
+"quickmenu_option_show_when_cmd_down" = "Αυτόματη εμφάνιση στο ⌘ Down";
 "quickmenu_option" = "Επιλογές Γραμμής Εργαλείων";
 "quickmenu_appr_always_expand" = "Προεπιλεγμένος Αριθμός Στοιχείων";
 "quickmenu_appr_always_expand_5" = "5 Στοιχεία";
 "quickmenu_appr_always_expand_10" = "10 Στοιχεία";
 "quickmenu_general_preview_on_hover" = "Αυτόματη Προεπισκόπηση κατά το Hover";
+"quickmenu_general_preview_on_hover_delay" = "Καθυστέρηση Προεπισκόπησης κατά το Κατάδειγμα";
 "quickmenu_general_default_action" = "Προεπιλεγμένη ενέργεια";
 "quickmenu_general_default_action_auto_paste" = "Αυτόματη Επικόλληση";
 "quickmenu_general_default_action_copy" = "Αντιγραφή Μόνο";
+"quickmenu_general_move_to_top" = "Μετακίνηση στην κορυφή μετά τη χρήση";
 "quickmenu_tip_prefences" = "Προτιμήσεις";
 // Tool List
 "quickmenu_option_switch" = "Εναλλαγή Αντικειμένου \"[0-9]";
@@ -340,15 +351,36 @@
 "preferences_ocr_primary_language" = "Κύρια Γλώσσα";
 "preferences_ocr_revision" = "Αναθεώρηση";
 "preferences_ocr_reindex" = "Ενημέρωση Ευρετηρίου Αναζήτησης";
-"quickmenu_preview_ocr_header" = "Κείμενο σε Eικόνα:";
+"quickmenu_preview_ocr_header" = "Κείμενο στην Εικόνα";
 
 // MARK: - settings
-// General
-"check_update" = "Έλεγχος τώρα";
+// MARK: settings name
+"settings_general" = "Γενικές ρυθμίσεις";
+"settings_shortcuts" = "Συντομεύσεις";
+"settings_paste_format" = "Μορφή Επικόλλησης";
+"settings_lists" = "Λίστες";
+"settings_quick_menu" = "Γρήγορο Μενού";
+"settings_main_window" = "Κύριο Παράθυρο";
+"settings_paste_stack" = "Ουρά Επικόλλησης";
+"settings_ignore" = "Αγνόηση";
+"settings_ocr" = "OCR";
+"settings_about" = "Σχετικά";
+"settings_appupdates" = "Διαθέσιμη Ενημέρωση Λογισμικού";
+"settings_license" = "Άδεια χρήσης";
+"upgrade_to_recommand_os_version" = "Συνιστάται η χρήση macOS 13.0+ για βέλτιστη εμπειρία!";
+
+// MARK: General
+"check_update" = "Έλεγχος Ενημερώσεων";
 "check_update_desc" = "Αυτόματος έλεγχος για ενημερώσεις";
 "sounds" = "Ήχοι";
+"sounds_selection" = "Επιλογή Ήχου";
 "sounds_desc" = "Αναπαραγωγή εφέ ήχου όταν ένα νέο στοιχείο προστίθεται στο ιστορικό και το προηγούμενο στοιχείο είναι επιλεγμένο.";
 "launch_at_login" = "Άνοιγμα κατά την εκκίνηση";
+"shortcuts" = "Συντομεύσεις";
+"appearance" = "Εμφάνιση";
+"appearance_light" = "Φωτεινό";
+"appearance_dark" = "Σκούρο";
+"appearance_auto" = "Σύστημα";
 
 // Menu Icon
 "show_menu_icon" = "Εμφάνιση εικονιδίου μενού";
@@ -356,34 +388,132 @@
 
 "show_recently_desc" = "Εμφάνιση πρόσφατων αντιγράφων δίπλα στο εικονίδιο μενού";
 
-// Quick Menu
+// MARK: Quick Menu
 "quick_menu_title" = "Γρήγορο Μενού:";
-"quick_menu_shortcut_desc" = "Καθολικό κλειδί συντόμευσης για το άνοιγμα της εφαρμογής.
-Προεπιλογή: 「⌘ + ;」";
+"quick_menu_shortcut_desc" = "Καθολικό κλειδί συντόμευσης για το άνοιγμα της εφαρμογής.";
 
-"popup_at" = "Αναδυόμενο Παράθυρο:";
+"popup_at" = "Εμφάνιση Παραθύρου στο";
 "window_center" = "Κεντράρισμα παραθύρου";
 "mouse_cursor" = "Δείκτης Ποντικιού";
 "text_cursor" = "Κέρσορας Κειμένου";
 "screen_center" = "Κέντρο της οθόνης";
+"popup_at_fallback" = "Λόγω περιορισμών του συστήματος, δεν είναι δυνατή η σωστή εντοπισμός της θέσης εισαγωγής σε ορισμένες εφαρμογές. Επιλέξτε μια εναλλακτική θέση.";
 
-// Main Window
+// MARK: Main Window
 "main_window_title" = "Κεντρικό παράθυρο:";
 "main_window_shortcut_desc" = "Καθολικό πλήκτρο συντόμευσης για άνοιγμα του κύριου παραθύρου.";
+"main_window_auto_collapse" = "Αυτόματη Σύμπτυξη";
+"main_window_full_mode" = "Πλήρους Ύψους";
 
-// Paste Stack
-"paste_stack_title" = "Επικόλληση Στοίβας:";
-"paste_stack_desc" = "Καθολικό κλειδί συντόμευσης για το άνοιγμα της εφαρμογής. Προεπιλογή: 「⌘ + '」";
+// MARK: Paste Stack
+"paste_stack_title" = "Ουρά Επικόλλησης:";
+"paste_stack_desc" = "Παγκόσμιο πλήκτρο συντόμευσης για το άνοιγμα της ουράς επικόλλησης. Προεπιλογή: 「⌘ + '」";
 
 "split_copy" = "Διαχωρισμός Αντιγράφου:";
 "split_copy_desc" = "Ο διαχωρισμός αντιγράφου θα χωρίσει πολλαπλές γραμμές κειμένου σε ξεχωριστά στοιχεία για αντιγραφή.";
 
-// MARK: - Storage
-"number_of_copies" = "Αριθμός στοιχείων ιστορικού προς διατήρηση";
+"paste_stack_order" = "Προεπιλεγμένη Σειρά:";
+"paste_stack_order_stack" = "Σειρά Πυργών";
+"paste_stack_order_queue" = "Σειρά Ουράς";
+"paste_stack_order_shuffle" = "Ανακάτεμα Σειράς";
 
-// MARK: - Ignore
-"app" = "Application";
-"ignore_or_not" = "Ignore";
-"bundle_id" = "Bundle Id";
-"select_all" = "Select All";
-"unselect_all" = "Unselect All";
+// MARK: Storage
+"number_of_copies" = "Αριθμός στοιχείων ιστορικού προς διατήρηση";
+"unlimited" = "Απεριόριστο";
+
+// MARK: Ignore
+"ignore_apps" = "Αγνόηση Εφαρμογών";
+"app" = "Εφαρμογή";
+"ignore_or_not" = "Αγνόηση";
+"bundle_id" = "Αναγνωριστικό Bundle";
+"select_all" = "Επιλογή Όλων";
+"unselect_all" = "Αποεπιλογή Όλων";
+
+// MARK: About
+"acknowledgements" = "Αναγνωρίσεις";
+"visit_website" = "Επίσκεψη Ιστοσελίδας";
+"contact_us" = "Επικοινωνήστε μαζί μας";
+"copyright" = "©️Πνευματική Ιδιοκτησία";
+
+// MARK: settings lists
+"lists_desc" = "Οργανώστε καλύτερα το περιεχόμενό σας μέσω συλλογών λιστών, έξυπνων λιστών";
+"lists_name" = "Όνομα";
+"is_smartlist" = "Έξυπνη Λίστα";
+"count" = "Ποσότητα";
+"desc" = "Περιγραφή Έξυπνης Λίστας";
+
+// MARK: settings shortcuts
+"name" = "Όνομα";
+"shortcuts" = "Συντομεύσεις";
+"shortcuts_quick_menu" = "Εναλλαγή Γρήγορου Μενού";
+"shortcuts_main_window" = "Εναλλαγή Κύριου Παραθύρου";
+"shortcuts_paste_stack" = "Εναλλαγή Ουράς Επικόλλησης";
+"shortcuts_split_copy" = "Διαίρεση αντιγράφου";
+"shortcuts_split_copy_desc" = "Αντιγράψτε αυτόματα το επιλεγμένο κείμενο σε πολλαπλές γραμμές";
+"shortcuts_lists" = "Ρυθμίσεις συντομεύσεων για γρήγορη πρόσβαση σε λίστες";
+"shortcuts_lists_name" = "Όνομα λίστας";
+"shortcuts_for_quick" = "Άνοιγμα στο γρήγορο μενού";
+"shortcuts_for_pin" = "Άνοιγμα στο κύριο παράθυρο";
+
+// shortcuts display
+"shortcuts_for_quick_menu" = "Συντομεύσεις για το γρήγορο μενού";
+
+"shortcuts_display_select_item" = "Χρήση στοιχείου";
+"shortcuts_display_select_item_shortcut" = "[0-9]/⮐";
+
+"shortcuts_display_move_to_item" = "Μετακίνηση στο στοιχείο";
+"shortcuts_display_move_to_item_shortcut" = "⌘[0-9]/↑↓";
+
+"shortcuts_display_format_options_menu" = "Μενού επιλογών μορφοποίησης";
+"shortcuts_display_format_options_menu_shortcut" = "Πατήστε παρατεταμένα [0-9]/⮐";
+
+"shortcuts_display_preview" = "Προεπισκόπηση";
+"shortcuts_display_preview_shortcut" = "Κενό";
+
+"shortcuts_display_favorate" = "Αποθήκευση στα αγαπημένα";
+"shortcuts_display_favorate_shortcut" = "⌘S";
+
+"shortcuts_display_alias" = "Προσθήκη ψευδωνύμου";
+"shortcuts_display_alias_shortcut" = "⌘A";
+
+"shortcuts_display_edit" = "Επεξεργασία στοιχείου";
+"shortcuts_display_edit_shortcut" = "⌘E";
+
+"shortcuts_display_copy_to_clipboard" = "Αντιγραφή στο πρόχειρο";
+"shortcuts_display_copy_to_clipboard_shortcut" = "⌘C";
+
+"shortcuts_display_switch_next_tab" = "Επόμενη λίστα";
+"shortcuts_display_switch_next_tab_shortcut" = "Ίδιο με το πλήκτρο ανοίγματος γρήγορου μενού";
+
+"shortcuts_display_switch_next_tab2" = "Επόμενη λίστα 2";
+"shortcuts_display_switch_next_tab2_shortcut" = "⌘→";
+
+"shortcuts_display_switch_prev_tab" = "Προηγούμενη λίστα";
+"shortcuts_display_switch_prev_tab_shortcut" = "⌘←";
+
+"shortcuts_display_search" = "Έναρξη αναζήτησης";
+"shortcuts_display_search_shortcut" = "⌘F";
+
+"shortcuts_display_search2" = "Άμεση έναρξη αναζήτησης";
+"shortcuts_display_search2_shortcut" = "Άμεση εισαγωγή χαρακτήρων";
+
+// MARK: settings output formats
+"output_format_desc" = "Προεπιλεγμένη μορφή εξόδου, το κείμενο θα μορφοποιηθεί στην επιλεγμένη μορφή επικόλλησης";
+
+// MARK: settings ocr
+"ocr_desc" = "Αυτόματη αναγνώριση χαρακτήρων σε αντιγραφές εικόνων, για μετέπειτα αναζήτηση κειμένου σε εικόνες";
+
+// MARK: settings appUpdates
+"avaiable_updates" = "Διαθέσιμες ενημερώσεις";
+"beta_updates" = "Βελτιώσεις Beta";
+"install_now" = "Επανεκκίνηση και Ενημέρωση";
+"updates_more_info" = "Περισσότερες πληροφορίες...";
+"new_version" = "Νέα Έκδοση";
+
+// MARK: settings license
+"upgrade_to_pro" = "Αναβάθμιση σε Pro";
+"free_amount_today" = "Χρήση δωρεάν ποσού σήμερα";
+"upgrade_to_pro_for_unlimited_access" = "Αναβαθμίστε σε Pro για απεριόριστη πρόσβαση σε όλες τις λειτουργίες!";
+
+// MARK: - Preset resources
+"preset_resources" = "⚡️ Πατήστε Enter ή αριθμητικό πλήκτρο, για επικόλληση περιεχομένου\n✏️ Πατήστε παρατεταμένα Enter ή αριθμητικό πλήκτρο, για να ανοίξετε το μενού μορφοποίησης\n👀 Πατήστε το πλήκτρο διαστήματος ή κάντε αιωρούμενο το ποντίκι για προεπισκόπηση\n🖱️ Πατήστε παρατεταμένα σε στοιχείο και σύρετε, αφήστε για επικόλληση\n👇 Πατήστε Tab για ανάπτυξη ή για να μετακινηθείτε σε επόμενη σελίδα\n🔍 ⌘F ή πατήστε απευθείας γράμματα για έναρξη αναζήτησης\n📋 ⌘C Αντιγραφή τρέχοντος στοιχείου στο πρόχειρο\n❌ ⌘D Διαγραφή\n📝 ⌘A Ορισμός ψευδωνύμου\n⭐ ⌘S Προσθήκη στα προεπιλεγμένα αγαπημένα\n☰ Κάντε δεξί κλικ για να δείτε τις επιλογές μενού\n✂️ Επιλέξτε πολλαπλές γραμμές και πατήστε ⌘⇧C για διαίρεση σε πολλαπλές γραμμές αντιγράφου\n📚 ⌘' Ανοίξτε την ουρά επικόλλησης για να επικολλήσετε πολλά στοιχεία με τη σειρά\n🖱️ ⌘⇧C Ανοίξτε το κύριο παράθυρο για διαχείριση και χρήση πολλαπλών στοιχείων, φιλικό προς το ποντίκι\n";

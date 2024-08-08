@@ -419,6 +419,7 @@
 
 // MARK: Storage
 "number_of_copies" = "Number of history items to keep";
+"unlimited" = "Unlimited";
 
 // MARK: Ignore
 "ignore_apps" = "忽略的应用程序";

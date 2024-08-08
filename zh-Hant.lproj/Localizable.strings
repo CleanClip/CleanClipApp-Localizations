@@ -1,22 +1,13 @@
-"search_placeholder" = "搜尋...";
-"clear_tooltip" = "清除未固定的項目。\n按住 ⇧ 以全部清除。";
 "clear_all_tooltip" = "清除全部項目。";
 "about_tooltip" = "查看更多應用信息。";
 "quit_tooltip" = "結束應用。";
-"clear" = "清除";
 "clear_all" = "全部清除";
 "about" = "關於";
 "quit" = "結束";
 "preferences" = "偏好設定";
-"preferences_advanced" = "進階";
-"preferences_appearance" = "外觀";
 "preferences_ignore" = "忽略";
 "preferences_general" = "一般";
-"preferences_pins" = "固定";
 "preferences_storage" = "儲存";
-"copy_modifiers_config" = "• 按住 %@ 拷貝所選項目";
-"paste_modifiers_config" = "• 按住 %@ 貼上所選項目";
-"format_modifiers_config" = "• 按住 %@ 拷貝所選項目的格式設定";
 "accessibility_alert_message" = "「CleanClip「想要使用「輔助功能」控制此 Mac。";
 "accessibility_alert_comment" = "在「系統偏好設定」中的「安全性和隱私權」設定中允許此應用程式權限。\n\n單擊 「+ 「按鈕，選擇 「CleanClip 「並打開旁邊的複選框。";
 "accessibility_alert_deny" = "拒絕";
@@ -25,9 +16,6 @@
 "clear_alert_comment" = "無法還原此操作。";
 "clear_alert_cancel" = "取消";
 "clear_alert_confirm" = "清除";
-"key_used_error" = "快速鍵已被使用。";
-"active_screen" = "活動螢幕";
-"screen" = "螢幕";
 
 // MARK: - CleanClip
 "license_intro" = "重新重視剪貼板內容的價值!";
@@ -38,7 +26,7 @@
 "feature_1_intro" = "無需切換視野焦點，彈窗總在輸入游標處出現";
 "feature_2" = "固定面板";
 "feature_2_intro" = "雙擊 ⌘ + ; 快速訪問固定面板";
-"feature_3" = "貼上佇列";
+"feature_3" = "貼上隊列";
 "feature_3_intro" = "⌘ + ' 幫助你快速收集內容，然後集中整理使用";
 "feature_4" = "快速搜尋";
 "feature_4_intro" = "鍵入字母快速搜尋，再久遠的記錄也瞬間找到";
@@ -69,10 +57,6 @@
 "next_page" = "下一頁";
 "prev_page" = "上一頁";
 "preview" = "預覽";
-"next_page_or_expand" = "展開/下一頁";
-"help" = "操作提示";
-"expand" = "展開更多";
-"search" = "搜尋";
 "search_number" = "數字搜尋";
 "switch_item" = "切換選項";
 
@@ -85,10 +69,11 @@
 "cancel_ignore" = "允許來自 %@ 的複製項目";
 
 // MARK: CopyStack
-"copystack" = "貼上佇列";
-"open_copystack" = "開啟貼上佇列";
-"open_copystack_tooltip" = "開啟貼上佇列";
-"stack_empty" = "佇列為空";
+"copystack" = "貼上隊列";
+"open_copystack" = "打開貼上隊列";
+"open_copystack_tooltip" = "打開貼上隊列";
+"stack_empty" = "隊列是空的";
+
 "clear_stack" = "清空";
 
 "plain_mode" = "純文字模式";
@@ -113,7 +98,7 @@
 "tip_history_item" = "按右鍵顯示選單";
 "tip_tab_to_next" = "⇥ 展開/下一頁";
 "tip_tab_to_prev" = "⇧⇥ 上一頁";
-"tip_paste_stack" = "貼上佇列";
+"tip_paste_stack" = "貼上隊列";
 "tip_show_help" = "幫助";
 "tip_search" = "⌘F 開啟搜尋\na-z 直接搜尋";
 "tip_tab" = "⌘; 切換分頁";
@@ -123,7 +108,7 @@
 "tip_format_brush" = "格式刷";
 "tip_show_tutorial" = "顯示快捷菜單操作幫助";
 
-// 输出格式
+// Output Format
 "preview" = "預覽";
 "remove_extra_spaces" = "**去除多餘**空格";
 "strip_all_whitespaces" = "**去除所有**空格";
@@ -133,8 +118,11 @@
 "make_upper_case" = "全部**大寫**";
 "make_lower_case" = "全部**小寫**";
 
+// Paste stack options
 "post_action_title" = "貼上後按下";
 "none" = "無";
+"post_action_text" = "文字";
+"post_action_text_content" = "添加至末尾的文字";
 
 // Migration
 "migration_data_upgrading" = "數據升級中...";
@@ -143,7 +131,7 @@
 "migrate_start" = "開始使用";
 "migrate_upgraded" = "升級完成";
 
-// 编辑
+// edit
 "edit" = "編輯";
 "edit_text" = "編輯文字";
 
@@ -159,18 +147,18 @@
 "quick_paste_format" = "快速格式化貼上";
 "quick_paste_format_desc" = "1. 長按內容下標數字彈出格式選單\n2. 長按空格鍵預覽格式化後的文字\n3. 短按格式下標數字確認選擇";
 "drag_image_to_file" = "圖片貼上為文件";
-"drag_image_to_file_desc" = "無論是使用快捷窗口還是貼上佇列，都可以將圖片直接貼上或拖拽為文件。";
+"drag_image_to_file_desc" = "圖片可以直接貼上或拖曳為檔案，無論是使用快捷選單還是貼上佇列。";
 "call_pinboards" = "固定、使用常用內容";
 "call_pinboards_desc" = "連按兩次快捷選單快捷鍵 ⌘；查看已固定的常用內容，無需記憶新的組合鍵。\n固定常用項目使它們永遠留在列表頂部，防止被新項目淹沒，隨時使用。";
 
 // 粘贴队列
 "paste_stack" = "貼上佇列";
 "paste_stack_intro" = "貼上佇列用法簡介";
-"paste_stack_intro_desc" = "⌘' 打開貼上佇列後，複製的內容會自動進入佇列，⌘V 會按序列依次貼上佇列裡的下一項。\n1. 點擊底部的「上下箭頭按鈕」可反轉列表\n2.「拖拽項目」可調換順序\n3.「點擊 #」 切換到指定項目\n4.「貼上後按下」選項會在貼上後自動按下對應按鍵";
+"paste_stack_intro_desc" = "當打開貼上佇列時，複製的內容將自動進入佇列，⌘V將按順序貼上佇列中的下一個項目。\n1. 點擊底部的'上下箭頭按鈕'以反轉列表\n2. '拖曳項目'以更改順序\n3. 點擊 '#' 以切換到指定項目\n4. '貼上後動作' 選項將在貼上後自動按下相應的鍵";
 "paste_stack_fill_form" = "輔助填表";
-"paste_stack_fill_form_desc" = "使用貼上佇列可以輔助填寫表單，依次複製，然後依次貼上。";
+"paste_stack_fill_form_desc" = "使用貼上佇列可以協助按順序填寫表單。";
 "paste_stack_quick_fill_form" = "快速填表-拆分複製";
-"paste_stack_quick_fill_form_desc" = "使用 ⌘⇧C 「拆分複製」，可以將多行直接拆分成多項複製到貼上佇列裡。「貼上後按下」選項自動幫助切換到下一個格子，快速填表不要太強！";
+"paste_stack_quick_fill_form_desc" = "使用 ⌘⇧C '分割複製' 可將多行直接分割為多個項目並複製到貼上佇列。'貼上後動作' 選項有助於自動切換到下一個儲存格，使快速填寫表單更加強大！";
 "paste_stack_collect" = "收集資訊";
 "paste_stack_collect_desc" = "在多個頁面收集內容後，到目標頁面統一貼上，優化流程，節省時間。";
 
@@ -192,7 +180,8 @@
 // MARK: - PinnedWindow
 "pinned_window" = "打開主視窗";
 "pinned_window_tooltip" = "主視窗是方便管理、組織剪貼板內容的常駐視窗";
-// MARK: 標題
+
+// MARK: Title
 "pin_apps_all" = "全部應用";
 "pin_apps_all_tooltip" = "顯示全部應用內容";
 "pin_apps_frontmost" = "跟隨前台應用";
@@ -211,30 +200,36 @@
 "pin_bottom_all_as_default_filter" = "預設展示：";
 
 "pin_context_delete_lists" = "刪除";
+"pin_context_remove_from_lists" = "從列表中移除";
 "pin_context_manage_lists" = "查看資訊";
 "pin_context_add_new_lists" = "新建列表";
 "pin_context_add_to_lists" = "添加到列表";
 "pin_context_alias" = "設置別名";
 "pin_context_copy_to_clipboard" = "複製到剪貼板";
+"pin_context_split_to_multilines" = "分割成多个項目";
 "pin_context_delete" = "刪除";
-"pin_context_remove_from_lists" = "從列表中移除";
 "pin_context_merge_paste" = "合併粘貼";
 "pin_context_paste" = "粘貼";
 "pin_context_paste_as_plain" = "粘貼為純文本";
+"pin_context_paste_as" = "貼上為...";
 "pin_context_preview" = "預覽";
+"pin_context_edit" = "編輯";
 "pin_context_preview_when_hover" = "開啟滑鼠懸停預覽";
 
-// MARK: 內容列表
+// MARK: Content List
 "pin_contents_appname_tooltip" = "應用程式名稱";
-// 空頁面
+// Empty Page
 "pin_contents_list_empty" = "列表為空";
 "pin_contents_list_empty_desc" = "複製一些內容試試";
 
-// MARK: 添加列表視窗
+// MARK: Add List Window
 "pin_lists_title" = "編輯列表";
 "pin_lists_name" = "名稱:";
 "pin_lists_color" = "顏色:";
 "pin_lists_color_preview" = "顏色預覽:";
+
+"pin_lists_shortcut" = "在快捷視窗中打開：";
+"pin_lists_shortcut_for_pin" = "在主視窗中打開：";
 
 "pin_lists_delete" = "刪除";
 "pin_lists_done" = "完成";
@@ -247,7 +242,7 @@
 
 "pin_lists_unknown" = "未知";
 
-// 過濾器
+// Filters
 "pin_lists_filter_belongs" = "屬於";
 "pin_lists_filter_not_belongs" = "不屬於";
 "pin_lists_filter_lists_empty" = "列表為空";
@@ -327,19 +322,22 @@
 // Pro
 "pro_unpaid_version" = "今日剩餘 %@ 次";
 
-// quickmenu 設置項目
+// quickmenu settings
 "quickmenu_option_show_shortcut" = "總是展示快捷鍵提示";
 "quickmenu_option_show_when_hover" = "滑鼠懸停自動顯示";
+"quickmenu_option_show_when_cmd_down" = "按下⌘自動顯示";
 "quickmenu_option" = "工具列選項";
 "quickmenu_appr_always_expand" = "預設條數";
 "quickmenu_appr_always_expand_5" = "5 條";
 "quickmenu_appr_always_expand_10" = "10 條";
 "quickmenu_general_preview_on_hover" = "滑鼠懸停時自動預覽";
+"quickmenu_general_preview_on_hover_delay" = "預覽延遲";
 "quickmenu_general_default_action" = "預設行為";
 "quickmenu_general_default_action_auto_paste" = "自動貼上";
 "quickmenu_general_default_action_copy" = "僅複製";
+"quickmenu_general_move_to_top" = "使用後移至頂部";
 "quickmenu_tip_prefences" = "偏好設置";
-// 工具列表
+// Tool List
 "quickmenu_option_switch" = "切換項目 ⌘[0-9]";
 "quickmenu_option_search" = "搜尋 ⌘F";
 "quickmenu_option_switchTab" = "切換列表 ⌘;";
@@ -353,15 +351,36 @@
 "preferences_ocr_primary_language" = "主要語言";
 "preferences_ocr_revision" = "修訂版本";
 "preferences_ocr_reindex" = "更新搜尋索引";
-"quickmenu_preview_ocr_header" = "圖片中的文字：";
+"quickmenu_preview_ocr_header" = "圖片中的文字";
 
 // MARK: - settings
-// General
-"check_update" = "立即檢查更新";
+// MARK: settings name
+"settings_general" = "一般";
+"settings_shortcuts" = "快捷鍵";
+"settings_paste_format" = "貼上格式";
+"settings_lists" = "列表";
+"settings_quick_menu" = "快捷菜單";
+"settings_main_window" = "主視窗";
+"settings_paste_stack" = "貼上佇列";
+"settings_ignore" = "忽略";
+"settings_ocr" = "OCR";
+"settings_about" = "關於";
+"settings_appupdates" = "軟體更新可用";
+"settings_license" = "許可證";
+"upgrade_to_recommand_os_version" = "建議使用 macOS 13.0+ 以獲得最佳體驗！";
+
+// MARK: General
+"check_update" = "檢查更新";
 "check_update_desc" = "自動檢查更新";
 "sounds" = "音效";
+"sounds_selection" = "選擇音效";
 "sounds_desc" = "記錄新項目和選擇上一項目時播放音效。";
 "launch_at_login" = "登入時啟動";
+"shortcuts" = "快捷方式";
+"appearance" = "外觀";
+"appearance_light" = "亮色";
+"appearance_dark" = "暗色";
+"appearance_auto" = "系統";
 
 // Menu Icon
 "show_menu_icon" = "選單列圖示";
@@ -369,35 +388,132 @@
 
 "show_recently_desc" = "在選單列圖示前顯示最近的複製內容";
 
-// Quick Menu
+// MARK: Quick Menu
 "quick_menu_title" = "快捷視窗:";
-"quick_menu_shortcut_desc" = "打開快捷視窗的全域快捷鍵。
-預設: 「⌘ + ;」";
+"quick_menu_shortcut_desc" = "打開快捷視窗的全域快捷鍵。";
 
-"popup_at" = "彈窗位置:";
+"popup_at" = "彈出位置";
 "window_center" = "視窗中心";
 "mouse_cursor" = "滑鼠游標";
 "text_cursor" = "文字游標";
 "screen_center" = "螢幕中心";
+"popup_at_fallback" = "由於系統限制，在某些應用程式中無法正確定位輸入位置，請為其選擇一個備用位置";
 
-// Main Window
+// MARK: Main Window
 "main_window_title" = "主視窗:";
 "main_window_shortcut_desc" = "打開主視窗的全域快捷鍵。";
+"main_window_auto_collapse" = "自動折疊";
+"main_window_full_mode" = "全高度";
 
-// Paste Stack
+// MARK: Paste Stack
 "paste_stack_title" = "貼上佇列:";
-"paste_stack_desc" = "開啟貼上佇列的全域快捷鍵。
-預設：「⌘ + '」";
+"paste_stack_desc" = "全域快捷鍵以開啟貼上佇列。預設為: 「⌘ + '」";
 
 "split_copy" = "拆分複製:";
 "split_copy_desc" = "拆分複製會將多行文字拆分成多個項目進行複製";
 
-// MARK: - Storage
-"number_of_copies" = "保留歷史記錄條數";
+"paste_stack_order" = "默認順序：";
+"paste_stack_order_stack" = "堆疊順序";
+"paste_stack_order_queue" = "佇列順序";
+"paste_stack_order_shuffle" = "隨機順序";
 
-// MARK: - Ignore
-"app" = "Application";
-"ignore_or_not" = "Ignore";
-"bundle_id" = "Bundle Id";
-"select_all" = "Select All";
-"unselect_all" = "Unselect All";
+// MARK: Storage
+"number_of_copies" = "保留歷史記錄條數";
+"unlimited" = "無限制";
+
+// MARK: Ignore
+"ignore_apps" = "忽略的應用程式";
+"app" = "應用程式";
+"ignore_or_not" = "忽略";
+"bundle_id" = "Bundle ID";
+"select_all" = "全選";
+"unselect_all" = "取消全選";
+
+// MARK: About
+"acknowledgements" = "致謝";
+"visit_website" = "訪問網站";
+"contact_us" = "聯絡我們";
+"copyright" = "©️版權";
+
+// MARK: settings lists
+"lists_desc" = "通過收集列表、智能列表更好地組織你的內容";
+"lists_name" = "名稱";
+"is_smartlist" = "智能列表";
+"count" = "數量";
+"desc" = "智能列表描述";
+
+// MARK: settings shortcuts
+"name" = "名稱";
+"shortcuts" = "快捷方式";
+"shortcuts_quick_menu" = "開關快捷菜單";
+"shortcuts_main_window" = "開關主視窗";
+"shortcuts_paste_stack" = "開關貼上佇列";
+"shortcuts_split_copy" = "拆分複製";
+"shortcuts_split_copy_desc" = "將選取的文本自動按行拆分複製成多項";
+"shortcuts_lists" = "設置快捷鍵快速打開列表";
+"shortcuts_lists_name" = "列表名稱";
+"shortcuts_for_quick" = "在快捷菜單中打開";
+"shortcuts_for_pin" = "在主視窗中打開";
+
+// shortcuts display
+"shortcuts_for_quick_menu" = "快捷菜單常用快捷鍵";
+
+"shortcuts_display_select_item" = "使用項目";
+"shortcuts_display_select_item_shortcut" = "[0-9]/⮐";
+
+"shortcuts_display_move_to_item" = "移動到項目";
+"shortcuts_display_move_to_item_shortcut" = "⌘[0-9]/↑↓";
+
+"shortcuts_display_format_options_menu" = "格式化選單";
+"shortcuts_display_format_options_menu_shortcut" = "長按[0-9]/⮐";
+
+"shortcuts_display_preview" = "預覽";
+"shortcuts_display_preview_shortcut" = "空格";
+
+"shortcuts_display_favorate" = "儲存到收藏";
+"shortcuts_display_favorate_shortcut" = "⌘S";
+
+"shortcuts_display_alias" = "新增別名";
+"shortcuts_display_alias_shortcut" = "⌘A";
+
+"shortcuts_display_edit" = "編輯項目";
+"shortcuts_display_edit_shortcut" = "⌘E";
+
+"shortcuts_display_copy_to_clipboard" = "複製到剪貼簿";
+"shortcuts_display_copy_to_clipboard_shortcut" = "⌘C";
+
+"shortcuts_display_switch_next_tab" = "下一個列表";
+"shortcuts_display_switch_next_tab_shortcut" = "和打開快捷菜單按鍵一致";
+
+"shortcuts_display_switch_next_tab2" = "下一個列表2";
+"shortcuts_display_switch_next_tab2_shortcut" = "⌘→";
+
+"shortcuts_display_switch_prev_tab" = "上一個列表";
+"shortcuts_display_switch_prev_tab_shortcut" = "⌘←";
+
+"shortcuts_display_search" = "開始搜尋";
+"shortcuts_display_search_shortcut" = "⌘F";
+
+"shortcuts_display_search2" = "直接開始搜尋";
+"shortcuts_display_search2_shortcut" = "直接輸入字元";
+
+// MARK: settings output formats
+"output_format_desc" = "預設輸出格式，文字將格式化成指定的格式貼上";
+
+// MARK: settings ocr
+"ocr_desc" = "自動對複製的圖片進行 OCR，以後可以使用文字搜尋圖片";
+
+// MARK: settings appUpdates
+"avaiable_updates" = "可用更新";
+"beta_updates" = "測試版更新";
+"install_now" = "重新啟動並更新";
+"updates_more_info" = "更多資訊...";
+"new_version" = "新版本";
+
+// MARK: settings license
+"upgrade_to_pro" = "升級到 Pro";
+"free_amount_today" = "今日免費額度使用";
+"upgrade_to_pro_for_unlimited_access" = "升級到 Pro 獲取全部功能的不限次使用!";
+
+// MARK: - Preset resources
+"preset_resources" = "⚡️ 按下回車或數字鍵，貼上內容\n✏️ 長按回車或數字鍵，打開格式化選單\n👀 按下空格鍵或滑鼠懸浮進行預覽\n🖱️ 長按項目進行拖曳，放開貼上\n👇 按下 Tab 展開或翻頁\n🔍 ⌘F 或直接按下字母鍵開始搜尋\n📋 ⌘C 複製當前項目到剪貼簿\n❌ ⌘D 刪除\n📝 ⌘A 設置別名\n⭐ ⌘S 新增到預設收藏夾\n☰ 點擊右鍵查看選單項\n✂️ 選中多行內容後按下⌘⇧C拆分成多行複製\n📚 ⌘' 打開貼上隊列幫助你按順序貼上多個項目\n🖱️ ⌘⇧C 打開主視窗，進行批量管理和使用，對滑鼠更友好\n";

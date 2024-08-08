@@ -26,7 +26,7 @@
 "feature_1_intro" = "Nie je potrebné prepínať inde, kontextové okno sa vždy zobrazí na pozícii kurzora";
 "feature_2" = "Nástenky";
 "feature_2_intro" = "Rýchle otvorenie nástenky dvojitým kliknutím na ⌘ + ;";
-"feature_3" = "Zásobník prilepenia";
+"feature_3" = "Paste Queue";
 "feature_3_intro" = "⌘ + ' na rýchle zhromažďovanie obsahu a jeho usporiadanie pre efektívne využitie";
 "feature_4" = "Rýchle vyhľadávanie";
 "feature_4_intro" = "Zadaj písmeno pre okamžité vyhľadanie a nájdenie aj tých najstarších záznamov";
@@ -69,10 +69,10 @@
 "cancel_ignore" = "Povoliť kopírovanie z %@";
 
 // MARK: CopyStack
-"copystack" = "Zásobník prilepenia";
-"open_copystack" = "Otvoriť Zásobník prilepenia";
-"open_copystack_tooltip" = "Otvoriť Zásobník prilepenia";
-"stack_empty" = "Zásobník je prázdny";
+"copystack" = "Paste Queue";
+"open_copystack" = "Open Paste Queue";
+"open_copystack_tooltip" = "Open Paste Queue";
+"stack_empty" = "Queue is Empty";
 
 "clear_stack" = "Odstrániť";
 
@@ -98,7 +98,7 @@
 "tip_history_item" = "Pravým klikom zobrazíš menu";
 "tip_tab_to_next" = "⇥ Rozbaliť/Nasledujúca stránka";
 "tip_tab_to_prev" = "⇧⇥ Predchádzajúca stránka";
-"tip_paste_stack" = "Zásobník prilepenia";
+"tip_paste_stack" = "Paste Queue";
 "tip_show_help" = "Pomoc";
 "tip_search" = "⌘F Otvoriť vyhľadávanie \na-z Priame vyhľadávanie";
 "tip_tab" = "%@ Prepnúť karty";
@@ -121,6 +121,8 @@
 // Paste stack options
 "post_action_title" = "Akcia po prilepení";
 "none" = "Žiadna";
+"post_action_text" = "Tekst";
+"post_action_text_content" = "Tekst dodan na kraju";
 
 // Migration
 "migration_data_upgrading" = "Aktualizácia údajov...";
@@ -145,18 +147,18 @@
 "quick_paste_format" = "Formát rýchleho prilepenia";
 "quick_paste_format_desc" = "1. Dlhé stlačenie indexového čísla obsahu zobrazí ponuku formátovania\n2. Dlhé stlačenie medzerníka zobrazí náhľad formátovaného textu\n3. Krátke stlačenie indexového čísla formátu potvrdí výber";
 "drag_image_to_file" = "Prilepiť obrázok ako súbor";
-"drag_image_to_file_desc" = "Obrázky je možné priamo prilepiť alebo pretiahnuť ako súbory, či už pomocou rýchleho menu alebo zásobníka prilepenia.";
+"drag_image_to_file_desc" = "Slike se lahko neposredno prilepijo ali povlečejo kot datoteke, bodisi z uporabo hitrega menija ali čakalne vrste lepljenja.";
 "call_pinboards" = "Pripnúť a používať bežne používaný obsah";
 "call_pinboards_desc" = "Stlač skratku rýchleho menu ⌘; dvakrát pre zobrazenie bežne používaného pripnutého obsahu, nemusíš si pamätať nové klávesové skratky.\nPripni bežne používané položky na umiestnenie na začiatok zoznamu, aby si zabránil ich zahlteniu novými položkami a ich použitiu kedykoľvek.";
 
 // 粘贴队列
-"paste_stack" = "Zásobník prilepenia";
+"paste_stack" = "Čakalna vrsta lepljenja";
 "paste_stack_intro" = "Predstavenie";
-"paste_stack_intro_desc" = "Po otvorení zásobníka prilepenia skopírovaný obsah automaticky vstúpi do zásobníka a ⌘V prilepí ďalšiu položku do zásobníka v poradí.\n1. Klikni na \"tlačidlo so šípkami nahor a nadol\" v dolnej časti pre opačné usporiadanie zoznamu.\n2. Potiahnutím položiek zmeníš poradie\n3. \"Kliknutím na #\" prepneš na zadanú položku\n4. Možnosť \"Po prilepení\" automaticky stlačí príslušné tlačidlo po prilepení";
+"paste_stack_intro_desc" = "Ko je odprta čakalna vrsta lepljenja, se kopirana vsebina samodejno vnese v vrsto, in ⌘V bo lepil naslednji element v vrsti po vrsti.\n1. Kliknite 'puščici navzgor in navzdol' na dnu, da obrnete seznam\n2. 'Povlecite elemente', da spremenite vrstni red\n3. Kliknite '#', da preklopite na določen element\n4. Možnost 'Po lepljenju' bo samodejno pritisnila ustrezno tipko po lepljenju";
 "paste_stack_fill_form" = "Pomoc pri vypĺňaní formulárov";
-"paste_stack_fill_form_desc" = "Použitie zásobníka prilepenia pomôže pri vypĺňaní formulárov kopírovaním a vkladaním v poradí.";
+"paste_stack_fill_form_desc" = "Uporaba čakalne vrste lepljenja lahko pomaga pri izpolnjevanju obrazcev s kopiranjem in lepljenjem po vrsti.";
 "paste_stack_quick_fill_form" = "Rýchle vypĺňanie formulárov - Oddelené kopírovanie";
-"paste_stack_quick_fill_form_desc" = "Pomocou ⌘⇧C \"Oddeleného kopírovania\" môžeš priamo rozdeliť viac riadkov na viac položiek a skopírovať ich do zásobníka na prilepenie. Možnosť \"Po prilepení\" pomáha automaticky prejsť na ďalšiu bunku, vďaka čomu je rýchle vypĺňanie formulára ešte jednoduchšie!";
+"paste_stack_quick_fill_form_desc" = "Uporabite ⌘⇧C 'Razdeli kopiranje', da neposredno razdelite več vrstic v več elementov in jih kopirate v čakalno vrsto. Možnost 'Po lepljenju' pomaga samodejno preklopiti na naslednjo celico, kar naredi hitro izpolnjevanje obrazcev še močnejše!";
 "paste_stack_collect" = "Zbierať informácie";
 "paste_stack_collect_desc" = "Zhromažďuj obsah z viacerých stránok a prilep všetko naraz na cieľovej stránke pre optimalizáciu procesu a šetrenie času.";
 
@@ -204,11 +206,14 @@
 "pin_context_add_to_lists" = "Pridať do zoznamu";
 "pin_context_alias" = "Nastaviť alias";
 "pin_context_copy_to_clipboard" = "Kopírovať do schránky";
+"pin_context_split_to_multilines" = "Razdeli v več elementov";
 "pin_context_delete" = "Odstrániť";
 "pin_context_merge_paste" = "Zlúčiť a prilepiť";
 "pin_context_paste" = "Prilepiť";
 "pin_context_paste_as_plain" = "Prilepiť ako obyčajný text";
+"pin_context_paste_as" = "Prilepi kot...";
 "pin_context_preview" = "Náhľad";
+"pin_context_edit" = "Uredi";
 "pin_context_preview_when_hover" = "Povoliť náhľad pri prejdení myšou";
 
 // MARK: Content List
@@ -222,6 +227,9 @@
 "pin_lists_name" = "Názov:";
 "pin_lists_color" = "Farba:";
 "pin_lists_color_preview" = "Ukážka farby:";
+
+"pin_lists_shortcut" = "Odpri v bližnjici:";
+"pin_lists_shortcut_for_pin" = "Odpri v glavnem oknu:";
 
 "pin_lists_delete" = "Odstrániť";
 "pin_lists_done" = "Hotovo";
@@ -317,14 +325,17 @@
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "Vždy zobrazovať tipy na skratky";
 "quickmenu_option_show_when_hover" = "Automatické zobrazenie pri prejdení myšou";
+"quickmenu_option_show_when_cmd_down" = "Samodejno prikaži ob pritisku na ⌘";
 "quickmenu_option" = "Možnosti panela nástrojov";
 "quickmenu_appr_always_expand" = "Predvolený počet položiek";
 "quickmenu_appr_always_expand_5" = "5 položiek";
 "quickmenu_appr_always_expand_10" = "10 položiek";
 "quickmenu_general_preview_on_hover" = "Automatický náhľad pri prejdení myšou";
+"quickmenu_general_preview_on_hover_delay" = "Zamik predogleda";
 "quickmenu_general_default_action" = "Predvolená akcia";
 "quickmenu_general_default_action_auto_paste" = "Automatické prilepenie";
 "quickmenu_general_default_action_copy" = "Iba kopírovať";
+"quickmenu_general_move_to_top" = "Premakni na vrh po uporabi";
 "quickmenu_tip_prefences" = "Predvoľby";
 // Tool List
 "quickmenu_option_switch" = "Prepnúť položku ⌘[0-9]";
@@ -340,15 +351,36 @@
 "preferences_ocr_primary_language" = "Primárny jazyk";
 "preferences_ocr_revision" = "Revízia";
 "preferences_ocr_reindex" = "Aktualizovať index vyhľadávania";
-"quickmenu_preview_ocr_header" = "Text v obrázku:";
+"quickmenu_preview_ocr_header" = "Besedilo v sliki";
 
 // MARK: - settings
-// General
-"check_update" = "Skontrolovať teraz";
+// MARK: settings name
+"settings_general" = "Splošno";
+"settings_shortcuts" = "Bližnjice";
+"settings_paste_format" = "Oblika lepljenja";
+"settings_lists" = "Seznami";
+"settings_quick_menu" = "Hitri meni";
+"settings_main_window" = "Glavno okno";
+"settings_paste_stack" = "Vrsta lepljenja";
+"settings_ignore" = "Prezri";
+"settings_ocr" = "OCR";
+"settings_about" = "O nas";
+"settings_appupdates" = "Na voljo je posodobitev programske opreme";
+"settings_license" = "Licenca";
+"upgrade_to_recommand_os_version" = "Priporočamo uporabo macOS 13.0+ za najboljšo izkušnjo!";
+
+// MARK: General
+"check_update" = "Preveri posodobitve";
 "check_update_desc" = "Automaticky kontrolovať aktualizácie";
 "sounds" = "Zvuky";
+"sounds_selection" = "Izbor zvoka";
 "sounds_desc" = "Prehrať zvuk pri pridaní novej položky do histórie a pri výbere predchádzajúcej položky.";
 "launch_at_login" = "Spustiť pri štarte";
+"shortcuts" = "Bližnjice";
+"appearance" = "Tema";
+"appearance_light" = "Svetla";
+"appearance_dark" = "Temna";
+"appearance_auto" = "Sistem";
 
 // Menu Icon
 "show_menu_icon" = "Zobraziť ikonu v lište";
@@ -356,34 +388,132 @@
 
 "show_recently_desc" = "Zobraziť posledné kopírovanie vedľa ikony v lište";
 
-// Quick Menu
+// MARK: Quick Menu
 "quick_menu_title" = "Rýchle menu:";
-"quick_menu_shortcut_desc" = "Globálna klávesová skratka na otvorenie aplikácie.
-Predvolene: 「⌘ + ;」";
+"quick_menu_shortcut_desc" = "Globálna klávesová skratka na otvorenie aplikácie.";
 
-"popup_at" = "Vyskakovacie okno na:";
+"popup_at" = "Pojavno okno pri";
 "window_center" = "Stred okna";
 "mouse_cursor" = "Kurzor myši";
 "text_cursor" = "Textový kurzor";
 "screen_center" = "Stred obrazovky";
+"popup_at_fallback" = "Zaradi omejitev sistema morda ni mogoče natančno določiti mesta vnosa. Izberite rezervno mesto.";
 
-// Main Window
+// MARK: Main Window
 "main_window_title" = "Hlavné okno:";
 "main_window_shortcut_desc" = "Globálna klávesová skratka na otvorenie hlavného okna.";
+"main_window_auto_collapse" = "Samodejno skrij";
+"main_window_full_mode" = "Polna višina";
 
-// Paste Stack
-"paste_stack_title" = "Zásobník prilepenia:";
-"paste_stack_desc" = "Globálna klávesová skratka na otvorenie zásobníka prilepenia. Predvolene: 「⌘ + '」";
+// MARK: Paste Stack
+"paste_stack_title" = "Čakalna vrsta lepljenja:";
+"paste_stack_desc" = "Globalna bližnjica za odpiranje čakalne vrste lepljenja. Privzeto: 「⌘ + '」";
 
 "split_copy" = "Rozdeliť kopírovanie:";
 "split_copy_desc" = "Rozdeliť kopírovanie rozdelí viac riadkov textu na samostatné položky na kopírovanie.";
 
-// MARK: - Storage
-"number_of_copies" = "Počet položiek histórie, ktoré sa majú uchovávať";
+"paste_stack_order" = "Privzeto vrstni red:";
+"paste_stack_order_stack" = "Vrstni red skladanja";
+"paste_stack_order_queue" = "Vrstni red čakanja";
+"paste_stack_order_shuffle" = "Naključni vrstni red";
 
-// MARK: - Ignore
-"app" = "Application";
-"ignore_or_not" = "Ignore";
-"bundle_id" = "Bundle Id";
-"select_all" = "Select All";
-"unselect_all" = "Unselect All";
+// MARK: Storage
+"number_of_copies" = "Počet položiek histórie, ktoré sa majú uchovávať";
+"unlimited" = "Nekonečný";
+
+// MARK: Ignore
+"ignore_apps" = "Prezri aplikacije";
+"app" = "Aplikácia";
+"ignore_or_not" = "Ignorovať";
+"bundle_id" = "Identifikátor balíka";
+"select_all" = "Vybrať všetko";
+"unselect_all" = "Zrušiť výber všetkého";
+
+// MARK: About
+"acknowledgements" = "Podakovanie";
+"visit_website" = "Obišči spletno mesto";
+"contact_us" = "Kontaktiraj nas";
+"copyright" = "©️Avtorske pravice";
+
+// MARK: settings lists
+"lists_desc" = "Organizirajte svoje vsebine bolje z zbiranjem seznamov in pametnimi seznami";
+"lists_name" = "Ime";
+"is_smartlist" = "Pameten seznam";
+"count" = "Število";
+"desc" = "Opis pametnega seznama";
+
+// MARK: settings shortcuts
+"name" = "Ime";
+"shortcuts" = "Bližnjice";
+"shortcuts_quick_menu" = "Vklopi/izklopi hitri meni";
+"shortcuts_main_window" = "Vklopi/izklopi glavno okno";
+"shortcuts_paste_stack" = "Vklopi/izklopi vrsto lepljenja";
+"shortcuts_split_copy" = "拆分复制";
+"shortcuts_split_copy_desc" = "把选中的文本自动按行拆分复制成多项";
+"shortcuts_lists" = "设置快捷键快速打开列表";
+"shortcuts_lists_name" = "列表名字";
+"shortcuts_for_quick" = "在快捷菜单中打开";
+"shortcuts_for_pin" = "在主窗口中打开";
+
+// shortcuts display
+"shortcuts_for_quick_menu" = "快捷菜单常用快捷键";
+
+"shortcuts_display_select_item" = "使用项目";
+"shortcuts_display_select_item_shortcut" = "[0-9]/⮐";
+
+"shortcuts_display_move_to_item" = "移动到项目";
+"shortcuts_display_move_to_item_shortcut" = "⌘[0-9]/↑↓";
+
+"shortcuts_display_format_options_menu" = "格式化选单";
+"shortcuts_display_format_options_menu_shortcut" = "长按[0-9]/⮐";
+
+"shortcuts_display_preview" = "预览";
+"shortcuts_display_preview_shortcut" = "空格";
+
+"shortcuts_display_favorate" = "保存到收藏";
+"shortcuts_display_favorate_shortcut" = "⌘S";
+
+"shortcuts_display_alias" = "添加别名";
+"shortcuts_display_alias_shortcut" = "⌘A";
+
+"shortcuts_display_edit" = "编辑项目";
+"shortcuts_display_edit_shortcut" = "⌘E";
+
+"shortcuts_display_copy_to_clipboard" = "复制到剪贴板";
+"shortcuts_display_copy_to_clipboard_shortcut" = "⌘C";
+
+"shortcuts_display_switch_next_tab" = "下一个列表";
+"shortcuts_display_switch_next_tab_shortcut" = "和打开快捷菜单按键一致";
+
+"shortcuts_display_switch_next_tab2" = "下一个列表2";
+"shortcuts_display_switch_next_tab2_shortcut" = "⌘→";
+
+"shortcuts_display_switch_prev_tab" = "上一个列表";
+"shortcuts_display_switch_prev_tab_shortcut" = "⌘←";
+
+"shortcuts_display_search" = "开始搜索";
+"shortcuts_display_search_shortcut" = "⌘F";
+
+"shortcuts_display_search2" = "直接开始搜索";
+"shortcuts_display_search2_shortcut" = "直接输入字符";
+
+// MARK: settings output formats
+"output_format_desc" = "预设输出格式，文字将格式化成指定的格式粘贴";
+
+// MARK: settings ocr
+"ocr_desc" = "自动对复制的图片进行 OCR，以后可以使用文字搜索图片";
+
+// MARK: settings appUpdates
+"avaiable_updates" = "Available Updates";
+"beta_updates" = "Beta Updates";
+"install_now" = "Restart and Update";
+"updates_more_info" = "More Info...";
+"new_version" = "New Version";
+
+// MARK: settings license
+"upgrade_to_pro" = "升级到 Pro";
+"free_amount_today" = "今日免费额度使用";
+"upgrade_to_pro_for_unlimited_access" = "升级到 Pro 获取全部功能的不限次使用!";
+
+// MARK: - Preset resources
+"preset_resources" = "⚡️ 按下回车或数字键，粘贴内容\n✏️ 长按回车或数字键，打开格式化选单\n👀 按下空格键或鼠标悬浮进行预览\n🖱️ 长按项目进行拖拽，松开粘贴\n👇 按下 Tab 展开或翻页\n🔍 ⌘F 或直接按下字母键开始搜索\n📋 ⌘C 复制当前项到剪贴板\n❌ ⌘D 删除\n📝 ⌘A 设置别名\n⭐ ⌘S 添加到默认收藏夹\n☰ 点击右键查看菜单项\n✂️ 选中多行内容后按下⌘⇧C拆分成多行复制\n📚 ⌘' 打开粘贴队列帮助你按顺序粘贴多个项目\n🖱️ ⌘⇧C 打开主窗口，进行批量管理和使用，对鼠标更友好\n";

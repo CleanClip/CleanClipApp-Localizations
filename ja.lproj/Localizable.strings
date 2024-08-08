@@ -26,7 +26,7 @@
 "feature_1_intro" = "フォーカスを切り替える必要がなく、ポップアップは常にカーソルの位置に表示されます。";
 "feature_2" = "ピンボード";
 "feature_2_intro" = "⌘ + ; をダブルクリックして、ピンボードにすばやくアクセス";
-"feature_3" = "ペーストをスタック";
+"feature_3" = "ペーストキュー";
 "feature_3_intro" = "⌘+ 'を使用すると、コンテンツをすばやく収集し、効率的に整理できます";
 "feature_4" = "クイック検索";
 "feature_4_intro" = "一文字入力するだけで、最も古い記録でも即座に検索して見つけられます";
@@ -69,10 +69,10 @@
 "cancel_ignore" = "%@ からのコピーを許可";
 
 // MARK: CopyStack
-"copystack" = "ペーストをスタック";
-"open_copystack" = "ペーストスタックを開く";
-"open_copystack_tooltip" = "ペーストスタックを開く";
-"stack_empty" = "スタックが空です";
+"copystack" = "ペーストキュー";
+"open_copystack" = "ペーストキューを開く";
+"open_copystack_tooltip" = "ペーストキューを開く";
+"stack_empty" = "キューは空です";
 
 "clear_stack" = "クリア";
 
@@ -98,7 +98,7 @@
 "tip_history_item" = "右クリックでメニューを表示";
 "tip_tab_to_next" = "⇥ 展開/次のページ";
 "tip_tab_to_prev" = "⇧⇥ 前のページ";
-"tip_paste_stack" = "ペーストをスタック";
+"tip_paste_stack" = "ペーストキュー";
 "tip_show_help" = "ヘルプ";
 "tip_search" = "⌘F 検索を開く\na-z 直接検索";
 "tip_tab" = "%@ タブの切り替え";
@@ -121,6 +121,8 @@
 // Paste stack options
 "post_action_title" = "貼り付け後のアクション";
 "none" = "無し";
+"post_action_text" = "テキスト";
+"post_action_text_content" = "末尾に追加されたテキスト";
 
 // Migration
 "migration_data_upgrading" = "データをアップグレード中...";
@@ -145,18 +147,18 @@
 "quick_paste_format" = "クイック形式貼り付け";
 "quick_paste_format_desc" = "1. コンテンツのインデックス番号を長押しして、形式メニューを表示します\n2. スペースバーを長押しして、フォーマットされたテキストをプレビューします\n3. 形式のインデックス番号を短押しして、選択を確定します";
 "drag_image_to_file" = "画像をファイルとして貼り付け";
-"drag_image_to_file_desc" = "画像は、クイックメニューやペーストスタックを使用する場合でも、直接貼り付けたりファイルとしてドラッグしたりすることができます。";
+"drag_image_to_file_desc" = "画像は、クイックメニューやペーストキューを使用して、直接貼り付けたりファイルとしてドラッグしたりできます。";
 "call_pinboards" = "よく使うコンテンツをピン留めして使用する";
 "call_pinboards_desc" = "クイックメニューショートカット⌘; を2回押して、ピン留めされたよく使うコンテンツを表示できます。新しいキーコンビネーションを覚える必要はありません。\nよく使うアイテムをピン留めしてリストの上部に保持し、新しいアイテムに埋もれることなく、いつでも使用できるようにします。";
 
 // 粘贴队列
-"paste_stack" = "ペーストをスタック";
+"paste_stack" = "ペーストキュー";
 "paste_stack_intro" = "イントロダクション";
-"paste_stack_intro_desc" = "ペーストスタックが開かれると、コピーされたコンテンツは自動的にスタックに入り、⌘Vを押すとスタック内の次のアイテムが順番に貼り付けられます。\n1. 下部の「上下矢印ボタン」をクリックしてリストの順序を逆にします\n2. 「アイテムをドラッグ」して順序を変更します\n3. 「#をクリック」して指定されたアイテムに切り替えます\n4. 「貼り付け後のアクション」オプションは、貼り付け後に自動的に対応するキーを押します";
+"paste_stack_intro_desc" = "ペーストキューを開くと、コピーしたコンテンツが自動的にキューに入り、⌘Vを押すとキュー内の次のアイテムが順番に貼り付けられます。\n1. リストを逆順にするには、下部の「上下矢印ボタン」をクリックします\n2. 順序を変更するには、アイテムを「ドラッグ」します\n3. 指定されたアイテムに切り替えるには、「#をクリック」します\n4. 「貼り付け後のアクション」オプションは、貼り付け後に対応するキーを自動的に押します";
 "paste_stack_fill_form" = "フォーム入力のサポート";
-"paste_stack_fill_form_desc" = "ペーストスタックを使用することで、順番にコピー＆ペーストを行いながらフォームの入力をサポートします。";
+"paste_stack_fill_form_desc" = "ペーストキューを使用すると、コピーしたコンテンツを順番に貼り付けてフォームの入力を補助できます。";
 "paste_stack_quick_fill_form" = "クイックフォーム入力 - 分割コピー";
-"paste_stack_quick_fill_form_desc" = "⌘⇧C「分割コピー」を使用して、複数行を複数のアイテムに直接分割し、それらを貼り付けスタックにコピーします。「貼り付け後のアクション」オプションは、自動的に次のセルに切り替えるのに役立ち、クイックフォーム入力をさらに強力にします！";
+"paste_stack_quick_fill_form_desc" = "⌘⇧Cを使用して「分割コピー」し、複数行を複数のアイテムに直接分割してペーストキューにコピーします。「貼り付け後のアクション」オプションは、次のセルに自動的に切り替えるので、迅速なフォーム入力がさらに強力になります！";
 "paste_stack_collect" = "収集される情報";
 "paste_stack_collect_desc" = "複数のページの内容を収集し、ターゲットページに一度にすべて貼り付けることで、プロセスを最適化し時間を節約します。";
 
@@ -204,11 +206,14 @@
 "pin_context_add_to_lists" = "リストに追加";
 "pin_context_alias" = "別名設定";
 "pin_context_copy_to_clipboard" = "クリップボードにコピー";
+"pin_context_split_to_multilines" = "複数のアイテムに分割";
 "pin_context_delete" = "削除";
 "pin_context_merge_paste" = "結合してペースト";
 "pin_context_paste" = "ペースト";
 "pin_context_paste_as_plain" = "プレーンテキストとしてペースト";
+"pin_context_paste_as" = "貼り付ける形式...";
 "pin_context_preview" = "プレビュー";
+"pin_context_edit" = "編集";
 "pin_context_preview_when_hover" = "ホバーでプレビューを有効にする";
 
 // MARK: Content List
@@ -222,6 +227,9 @@
 "pin_lists_name" = "名前:";
 "pin_lists_color" = "カラー:";
 "pin_lists_color_preview" = "カラープレビュー:";
+
+"pin_lists_shortcut" = "クイックメニューで開く：";
+"pin_lists_shortcut_for_pin" = "メインウィンドウで開く：";
 
 "pin_lists_delete" = "削除";
 "pin_lists_done" = "完了";
@@ -317,14 +325,17 @@
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "ショートカットのヒントを常に表示";
 "quickmenu_option_show_when_hover" = "ホバーで自動表示";
+"quickmenu_option_show_when_cmd_down" = "⌘を押した時に自動表示";
 "quickmenu_option" = "ツールバーオプション";
 "quickmenu_appr_always_expand" = "デフォルトのアイテム数";
 "quickmenu_appr_always_expand_5" = "5つのアイテム";
 "quickmenu_appr_always_expand_10" = "10つのアイテム";
 "quickmenu_general_preview_on_hover" = "ホバーで自動プレビュー";
+"quickmenu_general_preview_on_hover_delay" = "プレビュー遅延";
 "quickmenu_general_default_action" = "デフォルトのアクション";
 "quickmenu_general_default_action_auto_paste" = "自動ペースト";
 "quickmenu_general_default_action_copy" = "コピーのみ";
+"quickmenu_general_move_to_top" = "使用後にトップに移動";
 "quickmenu_tip_prefences" = "詳細設定";
 // Tool List
 "quickmenu_option_switch" = "アイテム切り替え ⌘[0-9]";
@@ -340,15 +351,36 @@
 "preferences_ocr_primary_language" = "第一言語";
 "preferences_ocr_revision" = "リビジョン";
 "preferences_ocr_reindex" = "検索インデックスを更新";
-"quickmenu_preview_ocr_header" = "画像内のテキスト:";
+"quickmenu_preview_ocr_header" = "画像内のテキスト";
 
 // MARK: - settings
-// General
-"check_update" = "今すぐ確認";
+// MARK: settings name
+"settings_general" = "一般";
+"settings_shortcuts" = "ショートカット";
+"settings_paste_format" = "貼り付け形式";
+"settings_lists" = "リスト";
+"settings_quick_menu" = "クイックメニュー";
+"settings_main_window" = "メインウィンドウ";
+"settings_paste_stack" = "貼り付けキュー";
+"settings_ignore" = "無視";
+"settings_ocr" = "OCR";
+"settings_about" = "情報";
+"settings_appupdates" = "ソフトウェア更新が利用可能です";
+"settings_license" = "ライセンス";
+"upgrade_to_recommand_os_version" = "最適な体験を得るために macOS 13.0+ をお勧めします！";
+
+// MARK: General
+"check_update" = "アップデートを確認";
 "check_update_desc" = "アップデートを自動で確認する";
 "sounds" = "効果音";
+"sounds_selection" = "選択音";
 "sounds_desc" = "履歴に新しいアイテムが追加され、前のアイテムが選択されたときに、効果音を再生する。";
 "launch_at_login" = "ログイン時に起動";
+"shortcuts" = "ショートカット";
+"appearance" = "外観";
+"appearance_light" = "ライト";
+"appearance_dark" = "ダーク";
+"appearance_auto" = "システム";
 
 // Menu Icon
 "show_menu_icon" = "メニューアイコンを表示";
@@ -356,34 +388,132 @@
 
 "show_recently_desc" = "メニューアイコンの隣に最近のコピーを表示";
 
-// Quick Menu
+// MARK: Quick Menu
 "quick_menu_title" = "クイックメニュー:";
-"quick_menu_shortcut_desc" = "アプリケーションを開くためのグローバル ショートカット キー。
-デフォルト: 「⌘ + ;」";
+"quick_menu_shortcut_desc" = "アプリケーションを開くためのグローバル ショートカット キー。";
 
-"popup_at" = "ポップアップ表示:";
+"popup_at" = "ポップアップ位置";
 "window_center" = "ウィンドウの中央";
 "mouse_cursor" = "マウスカーソル";
 "text_cursor" = "テキストカーソル";
 "screen_center" = "画面の中央";
+"popup_at_fallback" = "システムの制限により、一部のアプリケーションで入力位置を正確に特定できません。代替位置を選択してください";
 
-// Main Window
+// MARK: Main Window
 "main_window_title" = "メインウインドウ";
 "main_window_shortcut_desc" = "メインウィンドウを開くためのグローバルショートカットキー。";
+"main_window_auto_collapse" = "自動折りたたみ";
+"main_window_full_mode" = "フルハイト";
 
-// Paste Stack
-"paste_stack_title" = "ペーストスタック:";
-"paste_stack_desc" = "ペーストスタックを開くためのグローバルショートカットキー。デフォルト：「⌘+'」";
+// MARK: Paste Stack
+"paste_stack_title" = "ペーストキュー:";
+"paste_stack_desc" = "ペーストキューを開くためのグローバルショートカットキー。デフォルト: 「⌘ + '」";
 
 "split_copy" = "分割コピー：";
 "split_copy_desc" = "分割コピーでは、複数行のテキストを別々のアイテムに分割してコピーします。";
 
-// MARK: - Storage
-"number_of_copies" = "保持する履歴項目数";
+"paste_stack_order" = "デフォルトの順序：";
+"paste_stack_order_stack" = "スタック順";
+"paste_stack_order_queue" = "キュー順";
+"paste_stack_order_shuffle" = "シャッフル順";
 
-// MARK: - Ignore
-"app" = "Application";
-"ignore_or_not" = "Ignore";
-"bundle_id" = "Bundle Id";
-"select_all" = "Select All";
-"unselect_all" = "Unselect All";
+// MARK: Storage
+"number_of_copies" = "保持する履歴項目数";
+"unlimited" = "無制限";
+
+// MARK: Ignore
+"ignore_apps" = "無視するアプリ";
+"app" = "アプリケーション";
+"ignore_or_not" = "無視";
+"bundle_id" = "バンドルID";
+"select_all" = "すべて選択";
+"unselect_all" = "すべて選択解除";
+
+// MARK: About
+"acknowledgements" = "謝辞";
+"visit_website" = "ウェブサイトを訪問";
+"contact_us" = "お問い合わせ";
+"copyright" = "©️著作権";
+
+// MARK: settings lists
+"lists_desc" = "リストの収集、スマートリストを使用してコンテンツをよりよく整理する";
+"lists_name" = "名前";
+"is_smartlist" = "スマートリスト";
+"count" = "数";
+"desc" = "スマートリストの説明";
+
+// MARK: settings shortcuts
+"name" = "名前";
+"shortcuts" = "ショートカット";
+"shortcuts_quick_menu" = "クイックメニューの切り替え";
+"shortcuts_main_window" = "メインウィンドウの切り替え";
+"shortcuts_paste_stack" = "貼り付けキューの切り替え";
+"shortcuts_split_copy" = "分割コピー";
+"shortcuts_split_copy_desc" = "選択したテキストを自動的に行ごとに分割してコピーします";
+"shortcuts_lists" = "リストを素早く開くためのショートカットを設定";
+"shortcuts_lists_name" = "リスト名";
+"shortcuts_for_quick" = "クイックメニューで開く";
+"shortcuts_for_pin" = "メインウィンドウで開く";
+
+// shortcuts display
+"shortcuts_for_quick_menu" = "クイックメニューの一般的なショートカット";
+
+"shortcuts_display_select_item" = "アイテムを選択";
+"shortcuts_display_select_item_shortcut" = "[0-9]/⮐";
+
+"shortcuts_display_move_to_item" = "アイテムに移動";
+"shortcuts_display_move_to_item_shortcut" = "⌘[0-9]/↑↓";
+
+"shortcuts_display_format_options_menu" = "フォーマットオプションメニュー";
+"shortcuts_display_format_options_menu_shortcut" = "長押し[0-9]/⮐";
+
+"shortcuts_display_preview" = "プレビュー";
+"shortcuts_display_preview_shortcut" = "スペース";
+
+"shortcuts_display_favorate" = "お気に入りに保存";
+"shortcuts_display_favorate_shortcut" = "⌘S";
+
+"shortcuts_display_alias" = "エイリアスを追加";
+"shortcuts_display_alias_shortcut" = "⌘A";
+
+"shortcuts_display_edit" = "アイテムを編集";
+"shortcuts_display_edit_shortcut" = "⌘E";
+
+"shortcuts_display_copy_to_clipboard" = "クリップボードにコピー";
+"shortcuts_display_copy_to_clipboard_shortcut" = "⌘C";
+
+"shortcuts_display_switch_next_tab" = "次のタブに切り替え";
+"shortcuts_display_switch_next_tab_shortcut" = "クイックメニューを開くキーと同じ";
+
+"shortcuts_display_switch_next_tab2" = "次のタブ2に切り替え";
+"shortcuts_display_switch_next_tab2_shortcut" = "⌘→";
+
+"shortcuts_display_switch_prev_tab" = "前のタブに切り替え";
+"shortcuts_display_switch_prev_tab_shortcut" = "⌘←";
+
+"shortcuts_display_search" = "検索を開始";
+"shortcuts_display_search_shortcut" = "⌘F";
+
+"shortcuts_display_search2" = "直接検索を開始";
+"shortcuts_display_search2_shortcut" = "文字を直接入力";
+
+// MARK: settings output formats
+"output_format_desc" = "指定された形式にテキストをフォーマットして貼り付けるための出力形式を設定します";
+
+// MARK: settings ocr
+"ocr_desc" = "コピーした画像に自動的にOCRを実行し、後で画像を検索できるようにします";
+
+// MARK: settings appUpdates
+"avaiable_updates" = "利用可能なアップデート";
+"beta_updates" = "ベータ版アップデート";
+"install_now" = "再起動してアップデート";
+"updates_more_info" = "詳細情報...";
+"new_version" = "新しいバージョン";
+
+// MARK: settings license
+"upgrade_to_pro" = "Proにアップグレード";
+"free_amount_today" = "今日の無料利用量";
+"upgrade_to_pro_for_unlimited_access" = "Proにアップグレードして、すべての機能を無制限にご利用ください！";
+
+// MARK: - Preset resources
+"preset_resources" = "⚡️ Enterキーまたは数字キーを押してコンテンツを貼り付ける\n✏️ Enterキーまたは数字キーを長押ししてフォーマットオプションメニューを開く\n👀 スペースキーを押すか、マウスをホバーしてプレビューする\n🖱️ アイテムを長押ししてドラッグ＆ドロップし、離して貼り付ける\n👇 Tabキーを押して展開またはページ送り\n🔍 ⌘Fを押すか、文字を直接入力して検索を開始\n📋 ⌘Cで現在のアイテムをクリップボードにコピー\n❌ ⌘Dで削除\n📝 ⌘Aでエイリアスを設定\n⭐ ⌘Sでデフォルトのお気に入りに追加\n☰ 右クリックしてメニューアイテムを表示\n✂️ 複数行を選択して⌘⇧Cを押して複数行に分割してコピー\n📚 ⌘'でペーストキューを開き、順番に複数のアイテムを貼り付ける\n🖱️ ⌘⇧Cでメインウィンドウを開き、マウスを使いやすくします\n";

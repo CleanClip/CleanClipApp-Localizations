@@ -26,7 +26,7 @@
 "feature_1_intro" = "Pas besoin de changer de focus, la fenêtre apparaît toujours à la position du curseur";
 "feature_2" = "Préférés";
 "feature_2_intro" = "Double-cliquez sur ⌘ + ; pour accéder rapidement aux Épingles";
-"feature_3" = "Coller la pile";
+"feature_3" = "File de collage";
 "feature_3_intro" = "⌘ + ' pour collecter rapidement le contenu et l'organiser pour une utilisation efficace";
 "feature_4" = "Recherche rapide";
 "feature_4_intro" = "Tapez une lettre pour rechercher instantanément et trouver même les éléments les plus anciens";
@@ -69,10 +69,10 @@
 "cancel_ignore" = "Autoriser les copies de %@";
 
 // MARK: CopyStack
-"copystack" = "Coller la pile";
-"open_copystack" = "Ouvrir la pile de collage";
-"open_copystack_tooltip" = "Ouvrir la pile de collage";
-"stack_empty" = "La pile est vide";
+"copystack" = "File de collage";
+"open_copystack" = "Ouvrir la file de collage";
+"open_copystack_tooltip" = "Ouvrir la file de collage";
+"stack_empty" = "La file est vide";
 
 "clear_stack" = "Effacer";
 
@@ -98,7 +98,7 @@
 "tip_history_item" = "Clic droit pour afficher le menu";
 "tip_tab_to_next" = "⇥ Développer/Page suivante";
 "tip_tab_to_prev" = "⇧⇥ Page précédente";
-"tip_paste_stack" = "Coller la pile";
+"tip_paste_stack" = "File de collage";
 "tip_show_help" = "Aide";
 "tip_search" = "⌘F Rechercher\na-z Recherche directe";
 "tip_tab" = "%@ Changer d'onglet";
@@ -121,9 +121,12 @@
 // Paste stack options
 "post_action_title" = "Action de post-collage";
 "none" = "Aucun";
+"post_action_text" = "Texte";
+"post_action_text_content" = "Texte ajouté à la fin";
 
 // Migration
 "migration_data_upgrading" = "Mise à jour des données...";
+"migration_data_upgrading_claim" = "En fonction du volume de vos données, la mise à niveau peut prendre quelques secondes à quelques minutes";
 "migrate_upgrading" = "Mise à jour des données";
 "migrate_start" = "OK";
 "migrate_upgraded" = "Mise à jour des données réussie!";
@@ -144,18 +147,18 @@
 "quick_paste_format" = "Coller le format rapide";
 "quick_paste_format_desc" = "1. Appuyez longuement sur le numéro d'index de contenu pour afficher le menu de format\n2. Appuyez longuement sur la barre d'espace pour prévisualiser le texte formaté\n3. Appuyez brièvement sur le numéro d'index de format pour confirmer la sélection";
 "drag_image_to_file" = "Coller l'image en tant que fichier";
-"drag_image_to_file_desc" = "Les images peuvent être directement collées ou glissées en tant que fichiers, que ce soit en utilisant le menu rapide ou la pile de collage.";
+"drag_image_to_file_desc" = "Les images peuvent être directement collées ou glissées comme des fichiers, que ce soit en utilisant le menu rapide ou la file de collage.";
 "call_pinboards" = "Épingler et utiliser du contenu fréquemment utilisé";
 "call_pinboards_desc" = "Appuyez sur le raccourci du menu rapide ⌘; pour afficher le contenu le plus souvent épinglé, pas besoin de mémoriser les nouvelles combinaisons de touches.\nÉpingler les éléments couramment utilisés pour les garder en haut de la liste, les empêchant d'être submergés par de nouveaux items et de les utiliser à tout moment.";
 
 // 粘贴队列
-"paste_stack" = "Coller la pile";
+"paste_stack" = "File de collage";
 "paste_stack_intro" = "Introduction";
-"paste_stack_intro_desc" = "Lorsque la pile de pâte est ouverte, le contenu copié entrera automatiquement dans la pile, et ⌘V collera le prochain élément dans la pile dans l'ordre.\n1. Cliquez sur les boutons de flèche vers le haut et vers le bas pour inverser la liste\n2. 'Faites glisser les éléments' pour changer l'ordre\n3. 'Cliquez sur #' pour passer à l'item\n4. L'option 'Action de post-collage' appuiera automatiquement la touche correspondante après avoir collé";
+"paste_stack_intro_desc" = "Lorsque la file de collage est ouverte, le contenu copié entrera automatiquement dans la file, et ⌘V collera le prochain élément de la file dans l'ordre.\n1. Cliquez sur les boutons 'flèche vers le haut et vers le bas' en bas pour inverser la liste\n2. 'Faites glisser les éléments' pour changer l'ordre\n3. Cliquez sur '#' pour passer à l'élément spécifié\n4. L'option 'Action après collage' appuiera automatiquement sur la touche correspondante après le collage";
 "paste_stack_fill_form" = "Aider au remplissage de formulaire";
-"paste_stack_fill_form_desc" = "L'utilisation de la pile de pâte peut aider à remplir les formulaires en copiant et en collant dans l'ordre.";
+"paste_stack_fill_form_desc" = "L'utilisation de la file de collage peut aider à remplir des formulaires en copiant et collant dans l'ordre.";
 "paste_stack_quick_fill_form" = "Remplissage rapide du formulaire - Séparer la copie";
-"paste_stack_quick_fill_form_desc" = "Utilisez ⌘⇧C 'Séparer la copie' pour séparer directement plusieurs lignes en plusieurs éléments et copiez-les dans la pile de collage. L'option « Post-Collage » permet de passer automatiquement à la cellule suivante, rendant le remplissage rapide de formulaires encore plus puissant!";
+"paste_stack_quick_fill_form_desc" = "Utilisez ⌘⇧C 'Diviser la copie' pour diviser directement plusieurs lignes en plusieurs éléments et les copier dans la file de collage. L'option 'Action après collage' aide à passer automatiquement à la cellule suivante, rendant le remplissage rapide de formulaires encore plus puissant!";
 "paste_stack_collect" = "Recueillir l'information";
 "paste_stack_collect_desc" = "Recueillir du contenu sur plusieurs pages et les coller tous à la fois sur la page cible, optimisant le processus et sauvant du temps.";
 
@@ -203,11 +206,14 @@
 "pin_context_add_to_lists" = "Ajouter à la Liste";
 "pin_context_alias" = "Définir un alias";
 "pin_context_copy_to_clipboard" = "Copier dans le presse-papiers";
+"pin_context_split_to_multilines" = "Diviser en plusieurs éléments";
 "pin_context_delete" = "Supprimer";
 "pin_context_merge_paste" = "Fusionner et coller";
 "pin_context_paste" = "Coller";
 "pin_context_paste_as_plain" = "Coller comme texte brut";
+"pin_context_paste_as" = "Coller en tant que...";
 "pin_context_preview" = "Aperçu";
+"pin_context_edit" = "Éditer";
 "pin_context_preview_when_hover" = "Activer l'aperçu au survol";
 
 // MARK: Content List
@@ -221,6 +227,9 @@
 "pin_lists_name" = "Nom:";
 "pin_lists_color" = "Couleur:";
 "pin_lists_color_preview" = "Aperçu de la couleur:";
+
+"pin_lists_shortcut" = "Ouvrir dans le menu rapide :";
+"pin_lists_shortcut_for_pin" = "Ouvrir dans la fenêtre principale :";
 
 "pin_lists_delete" = "Supprimer";
 "pin_lists_done" = "Terminé";
@@ -284,6 +293,13 @@
 "pin_title_application_tooltip" = "Portée de l'application courante";
 "pin_title_pin_tooltip" = "Cliquez pour épingler ou suivre l'application au premier plan";
 "pin_title_scope_all" = "Tous";
+"pin_title_lists_favorite" = "Favori";
+"pin_title_lists_image" = "Image";
+"pin_title_lists_file" = "Fichier";
+"pin_title_lists_link" = "Lien";
+"pin_title_lists_email" = "E-mail";
+"pin_title_lists_remote" = "À distance";
+"pin_title_lists_notes" = "Depuis les notes";
 "pin_title_scope_tooltip" = "Spécifiez la portée du contenu de la recherche";
 "pin_title_search_tooltip" = "⌘F Afficher/Masquer rapidement la zone de recherche";
 
@@ -306,19 +322,22 @@
 // Pro
 "pro_unpaid_version" = "Reste %@ utilisations aujourd'hui";
 
-// quickmenu 设置项
+// quickmenu settings
 "quickmenu_option_show_shortcut" = "Toujours afficher les raccourcis";
 "quickmenu_option_show_when_hover" = "Afficher automatiquement au survol de la souris";
+"quickmenu_option_show_when_cmd_down" = "Affichage automatique sur ⌘ enfoncé";
 "quickmenu_option" = "Options de la barre d'outils";
 "quickmenu_appr_always_expand" = "Nombre par défaut";
 "quickmenu_appr_always_expand_5" = "5 éléments";
 "quickmenu_appr_always_expand_10" = "10 éléments";
 "quickmenu_general_preview_on_hover" = "Aperçu automatique au survol de la souris";
+"quickmenu_general_preview_on_hover_delay" = "Délai d'aperçu au survol";
 "quickmenu_general_default_action" = "Action par défaut";
 "quickmenu_general_default_action_auto_paste" = "Coller automatiquement";
 "quickmenu_general_default_action_copy" = "Copier uniquement";
+"quickmenu_general_move_to_top" = "Déplacer en haut après utilisation";
 "quickmenu_tip_prefences" = "Préférences";
-// 工具列表
+// Tool List
 "quickmenu_option_switch" = "Changer d'élément ⌘[0-9]";
 "quickmenu_option_search" = "Rechercher ⌘F";
 "quickmenu_option_switchTab" = "Changer de liste ⌘;";
@@ -332,14 +351,36 @@
 "preferences_ocr_primary_language" = "Langue principale";
 "preferences_ocr_revision" = "Révision";
 "preferences_ocr_reindex" = "Mettre à jour l'index";
+"quickmenu_preview_ocr_header" = "Texte dans l'image";
 
 // MARK: - settings
-// General
-"check_update" = "Vérifier maintenant";
+// MARK: settings name
+"settings_general" = "Général";
+"settings_shortcuts" = "Raccourcis";
+"settings_paste_format" = "Format de collage";
+"settings_lists" = "Listes";
+"settings_quick_menu" = "Menu rapide";
+"settings_main_window" = "Fenêtre principale";
+"settings_paste_stack" = "File de collage";
+"settings_ignore" = "Ignorer";
+"settings_ocr" = "OCR";
+"settings_about" = "À propos";
+"settings_appupdates" = "Mise à jour logicielle disponible";
+"settings_license" = "Licence";
+"upgrade_to_recommand_os_version" = "Mise à niveau recommandée vers macOS 13.0+ pour une expérience optimale !";
+
+// MARK: General
+"check_update" = "Vérifier la mise à jour";
 "check_update_desc" = "Vérifier les mises à jour automatiquement";
 "sounds" = "Sons";
+"sounds_selection" = "Sélection des sons";
 "sounds_desc" = "Activer les effets sonores lorsqu'un nouvel élément est ajouté à l'historique et que l'élément précédent est sélectionné.";
 "launch_at_login" = "Lancer au démarrage";
+"shortcuts" = "Raccourcis";
+"appearance" = "Apparence";
+"appearance_light" = "Clair";
+"appearance_dark" = "Sombre";
+"appearance_auto" = "Système";
 
 // Menu Icon
 "show_menu_icon" = "Afficher les icônes du menu";
@@ -347,34 +388,132 @@
 
 "show_recently_desc" = "Afficher la copie récente à côté de l'icône du menu";
 
-// Quick Menu
+// MARK: Quick Menu
 "quick_menu_title" = "Menu Rapide :";
-"quick_menu_shortcut_desc" = "Raccourci pour ouvrir l'application.
-Par défaut: 「⌘ + ;」";
+"quick_menu_shortcut_desc" = "Raccourci pour ouvrir l'application.";
 
-"popup_at" = "Popup à :";
+"popup_at" = "Apparition à";
 "window_center" = "Centre de la fenêtre";
 "mouse_cursor" = "Curseur de la souris";
 "text_cursor" = "Curseur de texte";
 "screen_center" = "Centre de l'écran";
+"popup_at_fallback" = "En raison de restrictions système, il peut être difficile de localiser correctement la position d'entrée dans certaines applications. Veuillez en choisir une de secours.";
 
-// Main Window
+// MARK: Main Window
 "main_window_title" = "Fenêtre principale:";
 "main_window_shortcut_desc" = "Touche de raccourci pour ouvrir la fenêtre principale.";
+"main_window_auto_collapse" = "Réduction automatique";
+"main_window_full_mode" = "Hauteur complète";
 
-// Paste Stack
-"paste_stack_title" = "Coller la pile :";
-"paste_stack_desc" = "Touche de raccourci pour ouvrir la pile de colle. Par défaut: 「⌘ + '」";
+// MARK: Paste Stack
+"paste_stack_title" = "File de collage :";
+"paste_stack_desc" = "Raccourci clavier global pour ouvrir la file de collage. Par défaut : 「⌘ + '」";
 
 "split_copy" = "Fractionner la copie:";
 "split_copy_desc" = "Fractionner la copie divise plusieurs lignes de texte en éléments séparés à copier.";
 
-// MARK: - Storage
-"number_of_copies" = "Nombre d'éléments à garder dans l'historique";
+"paste_stack_order" = "Ordre par défaut :";
+"paste_stack_order_stack" = "Ordre de la pile";
+"paste_stack_order_queue" = "Ordre de la file d'attente";
+"paste_stack_order_shuffle" = "Ordre aléatoire";
 
-// MARK: - Ignore
+// MARK: Storage
+"number_of_copies" = "Nombre d'éléments à garder dans l'historique";
+"unlimited" = "Illimité";
+
+// MARK: Ignore
+"ignore_apps" = "Applications ignorées";
 "app" = "Application";
-"ignore_or_not" = "Ignore";
-"bundle_id" = "Bundle Id";
-"select_all" = "Select All";
-"unselect_all" = "Unselect All";
+"ignore_or_not" = "Ignorer";
+"bundle_id" = "Identifiant du bundle";
+"select_all" = "Tout Sélectionner";
+"unselect_all" = "Tout Désélectionner";
+
+// MARK: About
+"acknowledgements" = "Mentions légales";
+"visit_website" = "Visiter le site web";
+"contact_us" = "Contactez-nous";
+"copyright" = "©️Droits d'auteur";
+
+// MARK: settings lists
+"lists_desc" = "Organisez mieux votre contenu en collectant des listes et des listes intelligentes";
+"lists_name" = "Nom";
+"is_smartlist" = "Liste intelligente";
+"count" = "Nombre";
+"desc" = "Description de la liste intelligente";
+
+// MARK: settings shortcuts
+"name" = "Nom";
+"shortcuts" = "Raccourcis";
+"shortcuts_quick_menu" = "Activer le menu rapide";
+"shortcuts_main_window" = "Activer la fenêtre principale";
+"shortcuts_paste_stack" = "Activer la file de collage";
+"shortcuts_split_copy" = "Diviser la copie";
+"shortcuts_split_copy_desc" = "Divisez automatiquement le texte sélectionné en plusieurs éléments";
+"shortcuts_lists" = "Définir des raccourcis pour ouvrir rapidement les listes";
+"shortcuts_lists_name" = "Nom de la liste";
+"shortcuts_for_quick" = "Ouvrir dans le menu rapide";
+"shortcuts_for_pin" = "Ouvrir dans la fenêtre principale";
+
+// shortcuts display
+"shortcuts_for_quick_menu" = "Raccourcis courants du menu rapide";
+
+"shortcuts_display_select_item" = "Sélectionner un élément";
+"shortcuts_display_select_item_shortcut" = "[0-9]/⮐";
+
+"shortcuts_display_move_to_item" = "Déplacer vers l'élément";
+"shortcuts_display_move_to_item_shortcut" = "⌘[0-9]/↑↓";
+
+"shortcuts_display_format_options_menu" = "Menu des options de formatage";
+"shortcuts_display_format_options_menu_shortcut" = "Maintenir [0-9]/⮐";
+
+"shortcuts_display_preview" = "Aperçu";
+"shortcuts_display_preview_shortcut" = "Espace";
+
+"shortcuts_display_favorate" = "Enregistrer dans les favoris";
+"shortcuts_display_favorate_shortcut" = "⌘S";
+
+"shortcuts_display_alias" = "Ajouter un alias";
+"shortcuts_display_alias_shortcut" = "⌘A";
+
+"shortcuts_display_edit" = "Modifier l'élément";
+"shortcuts_display_edit_shortcut" = "⌘E";
+
+"shortcuts_display_copy_to_clipboard" = "Copier dans le presse-papiers";
+"shortcuts_display_copy_to_clipboard_shortcut" = "⌘C";
+
+"shortcuts_display_switch_next_tab" = "Passer à la liste suivante";
+"shortcuts_display_switch_next_tab_shortcut" = "Identique à la touche d'ouverture du menu rapide";
+
+"shortcuts_display_switch_next_tab2" = "Passer à la liste suivante 2";
+"shortcuts_display_switch_next_tab2_shortcut" = "⌘→";
+
+"shortcuts_display_switch_prev_tab" = "Passer à la liste précédente";
+"shortcuts_display_switch_prev_tab_shortcut" = "⌘←";
+
+"shortcuts_display_search" = "Démarrer la recherche";
+"shortcuts_display_search_shortcut" = "⌘F";
+
+"shortcuts_display_search2" = "Démarrer la recherche directement";
+"shortcuts_display_search2_shortcut" = "Saisir directement le caractère";
+
+// MARK: settings output formats
+"output_format_desc" = "Format de sortie prédéfini, le texte sera formaté selon le format spécifié pour le collage";
+
+// MARK: settings ocr
+"ocr_desc" = "Effectue automatiquement une OCR sur les images copiées, permettant de rechercher du texte dans les images ultérieurement";
+
+// MARK: settings appUpdates
+"avaiable_updates" = "Mises à jour disponibles";
+"beta_updates" = "Mises à jour bêta";
+"install_now" = "Redémarrer et mettre à jour";
+"updates_more_info" = "Plus d'informations...";
+"new_version" = "Nouvelle version";
+
+// MARK: settings license
+"upgrade_to_pro" = "Passer à la version Pro";
+"free_amount_today" = "Utilisation de l'allocution gratuite aujourd'hui";
+"upgrade_to_pro_for_unlimited_access" = "Passez à Pro pour un accès illimité à toutes les fonctionnalités!";
+
+// MARK: - Preset resources
+"preset_resources" = "⚡️ Appuyez sur Entrée ou une touche numérique pour coller le contenu\n✏️ Maintenez enfoncée la touche Entrée ou une touche numérique pour ouvrir le menu de formatage\n👀 Appuyez sur la touche Espace ou survolez avec la souris pour prévisualiser\n🖱️ Maintenez enfoncée un élément pour le faire glisser, puis relâchez pour coller\n👇 Appuyez sur Tab pour développer ou passer à la page suivante\n🔍 ⌘F ou appuyez directement sur une touche pour commencer la recherche\n📋 ⌘C pour copier l'élément actuel dans le presse-papiers\n❌ ⌘D pour supprimer\n📝 ⌘A pour définir un alias\n⭐ ⌘S pour ajouter aux favoris par défaut\n☰ Cliquez avec le bouton droit pour afficher le menu\n✂️ Sélectionnez plusieurs lignes, puis appuyez sur ⌘⇧C pour les diviser en plusieurs copies\n📚 ⌘' pour ouvrir la file de collage et coller plusieurs éléments dans l'ordre\n🖱️ ⌘⇧C pour ouvrir la fenêtre principale, gérer et utiliser en masse, plus convivial pour la souris\n";

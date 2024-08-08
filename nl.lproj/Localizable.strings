@@ -26,7 +26,7 @@
 "feature_1_intro" = "Het is niet nodig om van focus te wisselen, de pop-up verschijnt altijd op de cursorpositie";
 "feature_2" = "Prikborden";
 "feature_2_intro" = "Dubbelklik op ⌘ + ; om snel toegang te krijgen tot de prikborden";
-"feature_3" = "Stapel plakken";
+"feature_3" = "Plakwachtrij";
 "feature_3_intro" = "⌘ + ' om snel content te verzamelen en te ordenen voor efficiënt gebruik";
 "feature_4" = "Snel zoeken";
 "feature_4_intro" = "Typ een letter om direct te zoeken en zelfs de oudste records te vinden";
@@ -69,10 +69,10 @@
 "cancel_ignore" = "Kopieën uit %@ toestaan";
 
 // MARK: CopyStack
-"copystack" = "Stapel plakken";
-"open_copystack" = "Plakstapel openen";
-"open_copystack_tooltip" = "Plakstapel openen";
-"stack_empty" = "De stapel is leeg";
+"copystack" = "Plakwachtrij";
+"open_copystack" = "Open Plakwachtrij";
+"open_copystack_tooltip" = "Open Plakwachtrij";
+"stack_empty" = "Wachtrij is leeg";
 
 "clear_stack" = "Wissen";
 
@@ -98,7 +98,7 @@
 "tip_history_item" = "Klik met de rechtermuisknop om het menu weer te geven";
 "tip_tab_to_next" = "⇥ Uitbreiden/Volgende pagina";
 "tip_tab_to_prev" = "⇧⇥ Vorige pagina";
-"tip_paste_stack" = "Stapel plakken";
+"tip_paste_stack" = "Plakwachtrij";
 "tip_show_help" = "Hulp";
 "tip_search" = "⌘F Open Zoeken\na-z Direct Zoeken";
 "tip_tab" = "%@ Wissel Tabbladen";
@@ -121,9 +121,12 @@
 // Paste stack options
 "post_action_title" = "Actie na plakken";
 "none" = "Geen";
+"post_action_text" = "Tekst";
+"post_action_text_content" = "Tekst toegevoegd aan het einde";
 
 // Migration
 "migration_data_upgrading" = "Gegevens bijwerken...";
+"migration_data_upgrading_claim" = "Op basis van uw gegevensvolume kan de upgrade enkele seconden tot minuten duren";
 "migrate_upgrading" = "Data Verbeteringen";
 "migrate_start" = "OK";
 "migrate_upgraded" = "Gegevens bijwerken succesvol!";
@@ -144,18 +147,18 @@
 "quick_paste_format" = "Snel Formatteren plakken";
 "quick_paste_format_desc" = "1. Druk lang op het indexnummer van de content om het opmaakmenu te openen\n2. Druk lang op de spatiebalk om een voorbeeld van de opgemaakte tekst te bekijken\n3. Druk kort op het formaat indexnummer om de selectie te bevestigen";
 "drag_image_to_file" = "Plak afbeelding als bestand";
-"drag_image_to_file_desc" = "Afbeeldingen kunnen direct worden geplakt of als bestanden worden gesleept, of dit nu het snelmenu of de plakstapel gebruikt.";
+"drag_image_to_file_desc" = "Afbeeldingen kunnen direct worden geplakt of gesleept als bestanden, zowel met het snelmenu als de plakwachtrij.";
 "call_pinboards" = "Veelgebruikte inhoud vastzetten en gebruiken";
 "call_pinboards_desc" = "Druk twee keer op de snelmenu-sneltoets ⌘; om de vastgezette veelgebruikte inhoud te bekijken, het is niet nodig om nieuwe toetscombinaties te onthouden.\nMaak veelgebruikte items vast om ze bovenaan de lijst te houden, zodat ze niet verdrongen worden door nieuwe items en ze op elk moment kunnen gebruiken.";
 
 // 粘贴队列
-"paste_stack" = "Stapel plakken";
+"paste_stack" = "Plakwachtrij";
 "paste_stack_intro" = "Inleiding";
-"paste_stack_intro_desc" = "Wanneer de plakstapel wordt geopend, komt de gekopieerde inhoud automatisch in de stapel terecht en plakt ⌘V het volgende item in de stapel op volgorde.\n1. Klik onderaan op de knoppen 'pijl omhoog en omlaag' om de lijst om te keren\n2. 'Sleep items' om de volgorde te wijzigen\n3. 'Klik op #' om over te schakelen naar het opgegeven item\n4. De optie 'Actie na plakken' drukt automatisch op de bijbehorende toets na het plakken";
+"paste_stack_intro_desc" = "Wanneer de plakwachtrij is geopend, zal de gekopieerde inhoud automatisch in de wachtrij terechtkomen en zal ⌘V het volgende item in de wachtrij in volgorde plakken.\n1. Klik op de 'pijltjes omhoog en omlaag' onderaan om de lijst om te keren\n2. 'Sleep items' om de volgorde te wijzigen\n3. Klik op '#' om naar het gespecificeerde item te schakelen\n4. De optie 'Na het plakken actie' zal automatisch de overeenkomstige toets indrukken na het plakken";
 "paste_stack_fill_form" = "Assisteren bij het invullen van formulieren";
-"paste_stack_fill_form_desc" = "Het gebruik van de plakstapel kan helpen bij het invullen van formulieren door op volgorde te kopiëren en te plakken.";
+"paste_stack_fill_form_desc" = "Het gebruik van de plakwachtrij kan helpen bij het invullen van formulieren door in volgorde te kopiëren en plakken.";
 "paste_stack_quick_fill_form" = "Snel formulier invullen - Kopie splitsen";
-"paste_stack_quick_fill_form_desc" = "Gebruik ⌘⇧C 'Splits kopie' om meerdere regels direct in meerdere items te splitsen en deze naar de plakstapel te kopiëren. De optie 'Actie na plakken' helpt automatisch over te schakelen naar de volgende cel, waardoor het snel invullen van formulieren nog krachtiger wordt!";
+"paste_stack_quick_fill_form_desc" = "Gebruik ⌘⇧C 'Splits kopiëren' om meerdere regels direct in meerdere items te splitsen en te kopiëren naar de plakwachtrij. De optie 'Na het plakken actie' helpt automatisch over te schakelen naar de volgende cel, waardoor het snel invullen van formulieren nog krachtiger wordt!";
 "paste_stack_collect" = "Informatie verzamelen";
 "paste_stack_collect_desc" = "Verzamel inhoud van meerdere pagina's en plak ze allemaal tegelijk op de doelpagina, optimaliseer het proces en bespaar tijd.";
 
@@ -203,11 +206,14 @@
 "pin_context_add_to_lists" = "Aan lijst toevoegen";
 "pin_context_alias" = "Alias instellen";
 "pin_context_copy_to_clipboard" = "Naar klembord kopiëren";
+"pin_context_split_to_multilines" = "Opsplitsen in meerdere items";
 "pin_context_delete" = "Verwijderen";
 "pin_context_merge_paste" = "Samenvoegen en plakken";
 "pin_context_paste" = "Plakken";
 "pin_context_paste_as_plain" = "Plakken als onbewerkte tekst";
+"pin_context_paste_as" = "Plakken als...";
 "pin_context_preview" = "Voorbeeld";
+"pin_context_edit" = "Bewerken";
 "pin_context_preview_when_hover" = "Voorbeeld bij hoveren inschakelen";
 
 // MARK: Content List
@@ -221,6 +227,9 @@
 "pin_lists_name" = "Naam:";
 "pin_lists_color" = "Kleur:";
 "pin_lists_color_preview" = "Kleur voorbeeldweergave:";
+
+"pin_lists_shortcut" = "Openen in snelmenu:";
+"pin_lists_shortcut_for_pin" = "Openen in hoofdvenster:";
 
 "pin_lists_delete" = "Verwijderen";
 "pin_lists_done" = "Voltooid";
@@ -284,6 +293,13 @@
 "pin_title_application_tooltip" = "Huidige toepassingsbereik";
 "pin_title_pin_tooltip" = "Klik om de meest gebruikte voorste Applicatie te vast te zetten of te volgen";
 "pin_title_scope_all" = "Alle";
+"pin_title_lists_favorite" = "Favoriet";
+"pin_title_lists_image" = "Afbeelding";
+"pin_title_lists_file" = "Bestand";
+"pin_title_lists_link" = "Link";
+"pin_title_lists_email" = "E-mail";
+"pin_title_lists_remote" = "Extern";
+"pin_title_lists_notes" = "Uit notities";
 "pin_title_scope_tooltip" = "Specificeer de scope van de zoekcontent";
 "pin_title_search_tooltip" = "⌘F snel tonen of verbergen van het zoekvak";
 
@@ -306,19 +322,22 @@
 // Pro
 "pro_unpaid_version" = "Nog %@ keer over vandaag";
 
-// quickmenu instellingen
+// quickmenu settings
 "quickmenu_option_show_shortcut" = "Sneltoetsen altijd tonen";
 "quickmenu_option_show_when_hover" = "Automatisch tonen bij zweven";
+"quickmenu_option_show_when_cmd_down" = "Automatisch weergeven bij ⌘ omlaag";
 "quickmenu_option" = "Werkbalkopties";
 "quickmenu_appr_always_expand" = "Standaard aantal";
 "quickmenu_appr_always_expand_5" = "5 items";
 "quickmenu_appr_always_expand_10" = "10 items";
 "quickmenu_general_preview_on_hover" = "Automatisch voorbeeld bij zweven";
+"quickmenu_general_preview_on_hover_delay" = "Voorbeeldvertraging";
 "quickmenu_general_default_action" = "Standaardactie";
 "quickmenu_general_default_action_auto_paste" = "Automatisch plakken";
 "quickmenu_general_default_action_copy" = "Alleen kopiëren";
+"quickmenu_general_move_to_top" = "Na gebruik naar boven verplaatsen";
 "quickmenu_tip_prefences" = "Voorkeuren";
-// Tool lijst
+// Tool List
 "quickmenu_option_switch" = "Schakel item ⌘[0-9]";
 "quickmenu_option_search" = "Zoeken ⌘F";
 "quickmenu_option_switchTab" = "Lijst wisselen ⌘;";
@@ -332,14 +351,36 @@
 "preferences_ocr_primary_language" = "Primaire taal";
 "preferences_ocr_revision" = "Revisie";
 "preferences_ocr_reindex" = "Zoekindex bijwerken";
+"quickmenu_preview_ocr_header" = "Tekst in afbeelding";
 
 // MARK: - settings
-// General
-"check_update" = "Controleer nu";
+// MARK: settings name
+"settings_general" = "Algemeen";
+"settings_shortcuts" = "Sneltoetsen";
+"settings_paste_format" = "Plakken opmaak";
+"settings_lists" = "Lijsten";
+"settings_quick_menu" = "Snelmenu";
+"settings_main_window" = "Hoofdvenster";
+"settings_paste_stack" = "Plakwachtrij";
+"settings_ignore" = "Negeren";
+"settings_ocr" = "OCR";
+"settings_about" = "Over";
+"settings_appupdates" = "Software-update beschikbaar";
+"settings_license" = "Licentie";
+"upgrade_to_recommand_os_version" = "Aanbevolen macOS 13.0+ voor de beste ervaring!";
+
+// MARK: General
+"check_update" = "Controleren op update";
 "check_update_desc" = "Controleer automatisch voor updates";
 "sounds" = "Geluiden";
+"sounds_selection" = "Geluid selectie";
 "sounds_desc" = "Geluidseffecten afspelen wanneer een nieuw item wordt toegevoegd aan de geschiedenis en het vorige item is geselecteerd.";
 "launch_at_login" = "Opstarten bij inloggen";
+"shortcuts" = "Snelkoppelingen";
+"appearance" = "Uiterlijk";
+"appearance_light" = "Licht";
+"appearance_dark" = "Donker";
+"appearance_auto" = "Systeem";
 
 // Menu Icon
 "show_menu_icon" = "Menu-pictogram tonen";
@@ -347,34 +388,132 @@
 
 "show_recently_desc" = "Toon recente kopie naast het menu-pictogram";
 
-// Quick Menu
+// MARK: Quick Menu
 "quick_menu_title" = "Snel Menu:";
-"quick_menu_shortcut_desc" = "Algemene sneltoets om de applicatie te openen.
-Standaard: 「⌘ + ;」";
+"quick_menu_shortcut_desc" = "Algemene sneltoets om de applicatie te openen.";
 
-"popup_at" = "Pop-up bij:";
+"popup_at" = "Popup bij";
 "window_center" = "Venster Centrum";
 "mouse_cursor" = "Muis cursor";
 "text_cursor" = "Tekst cursor";
 "screen_center" = "Scherm centrum";
+"popup_at_fallback" = "Vanwege systeembeperkingen kan de invoerpositie niet correct worden bepaald in sommige toepassingen. Kies een alternatieve positie.";
 
-// Main Window
+// MARK: Main Window
 "main_window_title" = "Hoofdvenster:";
 "main_window_shortcut_desc" = "Globale sneltoets om het hoofdvenster te openen.";
+"main_window_auto_collapse" = "Automatisch inklappen";
+"main_window_full_mode" = "Volledige hoogte";
 
-// Paste Stack
-"paste_stack_title" = "Plak Stack:";
-"paste_stack_desc" = "Algemene sneltoets om de plakstapel te openen. Standaardinstelling: 「⌘ + '」";
+// MARK: Paste Stack
+"paste_stack_title" = "Plakwachtrij:";
+"paste_stack_desc" = "Sneltoets om de plakwachtrij te openen. Standaard: 「⌘ + '」";
 
 "split_copy" = "Splits kopie:";
 "split_copy_desc" = "Split kopie splitst meerdere regels tekst op in afzonderlijke items om te kopiëren.";
 
-// MARK: - Storage
-"number_of_copies" = "Aantal in de geschiedenis te bewaren items";
+"paste_stack_order" = "Standaardvolgorde:";
+"paste_stack_order_stack" = "Stapelvolgorde";
+"paste_stack_order_queue" = "Wachtrijvolgorde";
+"paste_stack_order_shuffle" = "Willekeurige volgorde";
 
-// MARK: - Ignore
-"app" = "Application";
-"ignore_or_not" = "Ignore";
-"bundle_id" = "Bundle Id";
-"select_all" = "Select All";
-"unselect_all" = "Unselect All";
+// MARK: Storage
+"number_of_copies" = "Aantal in de geschiedenis te bewaren items";
+"unlimited" = "Onbeperkt";
+
+// MARK: Ignore
+"ignore_apps" = "Genegeerde apps";
+"app" = "Applicatie";
+"ignore_or_not" = "Negeren";
+"bundle_id" = "Bundel-ID";
+"select_all" = "Alles selecteren";
+"unselect_all" = "Alles deselecteren";
+
+// MARK: About
+"acknowledgements" = "Dankbetuigingen";
+"visit_website" = "Bezoek website";
+"contact_us" = "Neem contact met ons op";
+"copyright" = "©️Auteursrecht";
+
+// MARK: settings lists
+"lists_desc" = "Organiseer je inhoud beter door lijsten en slimme lijsten te verzamelen";
+"lists_name" = "Naam";
+"is_smartlist" = "Slimme lijst";
+"count" = "Aantal";
+"desc" = "Beschrijving slimme lijst";
+
+// MARK: settings shortcuts
+"name" = "Functie";
+"shortcuts" = "Snelkoppelingen";
+"shortcuts_quick_menu" = "Snelmenu in-/uitschakelen";
+"shortcuts_main_window" = "Hoofdvenster in-/uitschakelen";
+"shortcuts_paste_stack" = "Plakstapel in-/uitschakelen";
+"shortcuts_split_copy" = "Opsplitsen kopiëren";
+"shortcuts_split_copy_desc" = "Geselecteerde tekst automatisch opsplitsen en kopiëren naar meerdere items";
+"shortcuts_lists" = "Sneltoetsen instellen om lijsten snel te openen";
+"shortcuts_lists_name" = "Lijstnaam";
+"shortcuts_for_quick" = "Openen in snelmenu";
+"shortcuts_for_pin" = "Openen in hoofdvenster";
+
+// shortcuts display
+"shortcuts_for_quick_menu" = "Veelgebruikte sneltoetsen snelmenu";
+
+"shortcuts_display_select_item" = "Item selecteren";
+"shortcuts_display_select_item_shortcut" = "[0-9]/⮐";
+
+"shortcuts_display_move_to_item" = "Naar item verplaatsen";
+"shortcuts_display_move_to_item_shortcut" = "⌘[0-9]/↑↓";
+
+"shortcuts_display_format_options_menu" = "Opmaakopties menu";
+"shortcuts_display_format_options_menu_shortcut" = "Lang indrukken [0-9]/⮐";
+
+"shortcuts_display_preview" = "Voorbeeld";
+"shortcuts_display_preview_shortcut" = "Spatie";
+
+"shortcuts_display_favorate" = "Opslaan in favorieten";
+"shortcuts_display_favorate_shortcut" = "⌘S";
+
+"shortcuts_display_alias" = "Alias toevoegen";
+"shortcuts_display_alias_shortcut" = "⌘A";
+
+"shortcuts_display_edit" = "Item bewerken";
+"shortcuts_display_edit_shortcut" = "⌘E";
+
+"shortcuts_display_copy_to_clipboard" = "Kopiëren naar klembord";
+"shortcuts_display_copy_to_clipboard_shortcut" = "⌘C";
+
+"shortcuts_display_switch_next_tab" = "Volgende lijst";
+"shortcuts_display_switch_next_tab_shortcut" = "Overeenkomend met snelmenu openen toets";
+
+"shortcuts_display_switch_next_tab2" = "Volgende lijst 2";
+"shortcuts_display_switch_next_tab2_shortcut" = "⌘→";
+
+"shortcuts_display_switch_prev_tab" = "Vorige lijst";
+"shortcuts_display_switch_prev_tab_shortcut" = "⌘←";
+
+"shortcuts_display_search" = "Zoeken starten";
+"shortcuts_display_search_shortcut" = "⌘F";
+
+"shortcuts_display_search2" = "Direct zoeken starten";
+"shortcuts_display_search2_shortcut" = "Direct invoeren van tekens";
+
+// MARK: settings output formats
+"output_format_desc" = "Stel de uitvoerindeling voor, tekst wordt geformatteerd zoals aangegeven en geplakt";
+
+// MARK: settings ocr
+"ocr_desc" = "Automatisch OCR uitvoeren op gekopieerde afbeeldingen, zodat tekst in afbeeldingen doorzoekbaar wordt";
+
+// MARK: settings appUpdates
+"avaiable_updates" = "Beschikbare updates";
+"beta_updates" = "Bèta-updates";
+"install_now" = "Herstarten en bijwerken";
+"updates_more_info" = "Meer informatie...";
+"new_version" = "Nieuwe versie";
+
+// MARK: settings license
+"upgrade_to_pro" = "Upgrade naar Pro";
+"free_amount_today" = "Gratis tegoed vandaag";
+"upgrade_to_pro_for_unlimited_access" = "Upgrade naar Pro voor onbeperkte toegang tot alle functies!";
+
+// MARK: - Preset resources
+"preset_resources" = "⚡️ Druk op Enter of een cijfertoets om inhoud te plakken\n✏️ Houd Enter of een cijfertoets ingedrukt om het opmaakmenu te openen\n👀 Druk op de spatiebalk of houd de muisaanwijzer boven om een voorbeeld te bekijken\n🖱️ Houd een item ingedrukt en sleep het om te plakken na loslaten\n👇 Druk op Tab om uit te vouwen of te bladeren\n🔍 ⌘F of begin direct met typen om te zoeken\n📋 ⌘C om het huidige item naar het klembord te kopiëren\n❌ ⌘D om te verwijderen\n📝 ⌘A om een alias in te stellen\n⭐ ⌘S om toe te voegen aan standaard favorieten\n☰ Klik met de rechtermuisknop voor menuopties\n✂️ Selecteer meerdere regels en druk op ⌘⇧C om ze te splitsen en meerdere items te kopiëren\n📚 ⌘' om de plakwachtrij te openen en items in volgorde te plakken\n🖱️ ⌘⇧C om het hoofdvenster te openen voor batchbeheer en gebruik, vriendelijker voor de muis\n";
