@@ -1,2 +1,3 @@
-googletrans==3.1.0a0
+#googletrans==4.0.0rc1
 GitPython
+openai==1.40.1
