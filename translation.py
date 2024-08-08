@@ -258,12 +258,7 @@ def translation_from_to(base_lang, target_lang):
     
     base_strings_new = parse_strings_file(localizable_files[base_key])
     target_lang = lang_codes.get(target_lang, target_lang)
-    translate_and_write(localizable_files[base_key], base_strings_new, base_lang, target_lang, localizable_files[target_key], {"app": "Application",
-"ignore_or_not": "Ignore",
-"bundle_id": "Bundle Id",
-"select_all": "Select All",
-"unselect_all": "Unselect All",
-"acknowledgements": "Acknowledgements"}, "openai")
+    translate_and_write(localizable_files[base_key], base_strings_new, base_lang, target_lang, localizable_files[target_key], {}, "openai")
 
 if __name__ == "__main__":
     main()
