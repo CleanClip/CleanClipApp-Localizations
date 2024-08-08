@@ -26,7 +26,7 @@
 "feature_1_intro" = "No need to switch focus, the popup always appears at the cursor position";
 "feature_2" = "Pinboards";
 "feature_2_intro" = "Double-click ⌘ + ; to quickly access the Pinboards";
-"feature_3" = "Paste Stack";
+"feature_3" = "Paste Queue";
 "feature_3_intro" = "⌘ + ' to quickly collect content and organize it for efficient use";
 "feature_4" = "Quick Search";
 "feature_4_intro" = "Type a letter to instantly search and find even the oldest records";
@@ -69,10 +69,10 @@
 "cancel_ignore" = "Allow Copies from %@";
 
 // MARK: CopyStack
-"copystack" = "Paste Stack";
-"open_copystack" = "Open Paste Stack";
-"open_copystack_tooltip" = "Open Paste Stack";
-"stack_empty" = "Stack is Empty";
+"copystack" = "Paste Queue";
+"open_copystack" = "Open Paste Queue";
+"open_copystack_tooltip" = "Open Paste Queue";
+"stack_empty" = "Queue is Empty";
 
 "clear_stack" = "Clear";
 
@@ -98,7 +98,7 @@
 "tip_history_item" = "Right-click to show menu";
 "tip_tab_to_next" = "⇥ Expand/Next Page";
 "tip_tab_to_prev" = "⇧⇥ Prev Page";
-"tip_paste_stack" = "Paste Stack";
+"tip_paste_stack" = "Paste Queue";
 "tip_show_help" = "Help";
 "tip_search" = "⌘F Open Search\na-z Direct Search";
 "tip_tab" = "%@ Switch Tabs";
@@ -145,18 +145,18 @@
 "quick_paste_format" = "Quick Format Paste";
 "quick_paste_format_desc" = "1. Long press the content index number to bring up the format menu\n2. Long press the spacebar to preview the formatted text\n3. Short press the format index number to confirm the selection";
 "drag_image_to_file" = "Paste Image as File";
-"drag_image_to_file_desc" = "Images can be directly pasted or dragged as files, whether using the quick menu or the paste stack.";
+"drag_image_to_file_desc" = "Images can be directly pasted or dragged as files, whether using the quick menu or the paste queue.";
 "call_pinboards" = "Pin and Use Commonly Used Content";
 "call_pinboards_desc" = "Press the quick menu shortcut ⌘; twice to view the pinned commonly used content, no need to remember new key combinations.\nPin commonly used items to keep them at the top of the list, preventing them from being overwhelmed by new items and using them anytime.";
 
 // 粘贴队列
-"paste_stack" = "Paste Stack";
+"paste_stack" = "Paste Queue";
 "paste_stack_intro" = "Introduction";
-"paste_stack_intro_desc" = "When the paste stack is opened, the copied content will automatically enter the stack, and ⌘V will paste the next item in the stack in order.\n1. Click the 'up and down arrow buttons' at the bottom to reverse the list\n2. 'Drag items' to change the order\n3. 'Click #' to switch to the specified item\n4. 'Post-Pasting action' option will automatically press the corresponding key after pasting";
+"paste_stack_intro_desc" = "When the paste queue is opened, the copied content will automatically enter the queue, and ⌘V will paste the next item in the queue in order.\n1. Click the 'up and down arrow buttons' at the bottom to reverse the list\n2. 'Drag items' to change the order\n3. 'Click #' to switch to the specified item\n4. 'Post-Pasting action' option will automatically press the corresponding key after pasting";
 "paste_stack_fill_form" = "Assist in Form Filling";
-"paste_stack_fill_form_desc" = "Using the paste stack can assist in filling out forms by copying and pasting in order.";
+"paste_stack_fill_form_desc" = "Using the paste queue can assist in filling out forms by copying and pasting in order.";
 "paste_stack_quick_fill_form" = "Quick Form Filling - Split Copy";
-"paste_stack_quick_fill_form_desc" = "Use ⌘⇧C 'Split Copy' to directly split multiple lines into multiple items and copy them to the paste stack. The 'Post-Pasting action' option helps automatically switch to the next cell, making quick form filling even more powerful!";
+"paste_stack_quick_fill_form_desc" = "Use ⌘⇧C 'Split Copy' to directly split multiple lines into multiple items and copy them to the paste queue. The 'Post-Pasting action' option helps automatically switch to the next cell, making quick form filling even more powerful!";
 "paste_stack_collect" = "Collect Information";
 "paste_stack_collect_desc" = "Collect content on multiple pages and paste them all at once on the target page, optimizing the process and saving time.";
 
@@ -322,6 +322,7 @@
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "Always Show Shortcut Tips";
 "quickmenu_option_show_when_hover" = "Auto Display on Hover";
+"quickmenu_option_show_when_cmd_down" = "Auto Display on COMMAND Down";
 "quickmenu_option" = "Toolbar Options";
 "quickmenu_appr_always_expand" = "Default Number of Items";
 "quickmenu_appr_always_expand_5" = "5 Items";
@@ -356,7 +357,7 @@
 "settings_lists" = "Lists";
 "settings_quick_menu" = "Quick Menu";
 "settings_main_window" = "Main Window";
-"settings_paste_stack" = "Paste Stack";
+"settings_paste_stack" = "Paste Queue";
 "settings_ignore" = "Ignore";
 "settings_ocr" = "OCR";
 "settings_about" = "About";
@@ -372,6 +373,10 @@
 "sounds_desc" = "Play sound effects when a new item is added to the history and the previous item is selected.";
 "launch_at_login" = "Launch at login";
 "shortcuts" = "Shortcuts";
+"appearance" = "主题";
+"appearance_light" = "Light";
+"appearance_dark" = "Dark";
+"appearance_auto" = "System";
 
 // Menu Icon
 "show_menu_icon" = "Show menu icon";
@@ -397,8 +402,8 @@
 "main_window_full_mode" = "Full Height";
 
 // MARK: Paste Stack
-"paste_stack_title" = "Paste Stack:";
-"paste_stack_desc" = "Global shortcut key to open paste stack. Default: 「⌘ + '」";
+"paste_stack_title" = "Paste Queue:";
+"paste_stack_desc" = "Global shortcut key to open paste queue. Default: 「⌘ + '」";
 
 "split_copy" = "Split Copy: ";
 "split_copy_desc" = "Split Copy will split multiple lines of text into separate items for copying.";
