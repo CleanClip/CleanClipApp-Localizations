@@ -294,6 +294,7 @@
 "pin_title_pin_tooltip" = "点击以固定或跟随前台应用";
 "pin_title_scope_all" = "全部";
 "pin_title_lists_favorite" = "收藏";
+"pin_title_lists_tutorial" = "教程";
 "pin_title_lists_image" = "图片";
 "pin_title_lists_file" = "文件";
 "pin_title_lists_link" = "链接";

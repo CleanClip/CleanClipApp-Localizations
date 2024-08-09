@@ -294,6 +294,7 @@
 "pin_title_pin_tooltip" = "Kliknutím pripni alebo Podľa apky v popredí";
 "pin_title_scope_all" = "Všetko";
 "pin_title_lists_favorite" = "Obľúbené";
+"pin_title_lists_tutorial" = "Vodič";
 "pin_title_lists_image" = "Obrázok";
 "pin_title_lists_file" = "Súbor";
 "pin_title_lists_link" = "Odkaz";

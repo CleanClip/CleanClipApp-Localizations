@@ -294,6 +294,7 @@
 "pin_title_pin_tooltip" = "Κάντε κλικ για Καρφίτσωμα ή Ακολουθήστε την Εφαρμογή που είναι σε Πρώτο Πλάνο";
 "pin_title_scope_all" = "Όλα";
 "pin_title_lists_favorite" = "Αγαπημένα";
+"pin_title_lists_tutorial" = "Οδηγός";
 "pin_title_lists_image" = "Εικόνα";
 "pin_title_lists_file" = "Αρχείο";
 "pin_title_lists_link" = "Σύνδεσμος";

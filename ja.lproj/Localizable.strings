@@ -294,6 +294,7 @@
 "pin_title_pin_tooltip" = "クリックして最前面のアプリケーションをピン留めまたは追跡";
 "pin_title_scope_all" = "All";
 "pin_title_lists_favorite" = "お気に入り";
+"pin_title_lists_tutorial" = "チュートリアル";
 "pin_title_lists_image" = "画像";
 "pin_title_lists_file" = "ファイル";
 "pin_title_lists_link" = "リンク";

@@ -294,6 +294,7 @@
 "pin_title_pin_tooltip" = "Cliquez pour épingler ou suivre l'application au premier plan";
 "pin_title_scope_all" = "Tous";
 "pin_title_lists_favorite" = "Favori";
+"pin_title_lists_tutorial" = "Tutoriel";
 "pin_title_lists_image" = "Image";
 "pin_title_lists_file" = "Fichier";
 "pin_title_lists_link" = "Lien";
