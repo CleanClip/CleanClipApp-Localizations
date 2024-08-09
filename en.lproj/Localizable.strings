@@ -228,8 +228,8 @@
 "pin_lists_color" = "Color:";
 "pin_lists_color_preview" = "Color Preview:";
 
-"pin_lists_shortcut" = "在快捷窗口中打开：";
-"pin_lists_shortcut_for_pin" = "在主窗口中打开：";
+"pin_lists_shortcut" = "Open in Quick Menu:";
+"pin_lists_shortcut_for_pin" = "Open in Main Window:";
 
 "pin_lists_delete" = "Delete";
 "pin_lists_done" = "Done";
@@ -367,17 +367,17 @@
 "settings_about" = "About";
 "settings_appupdates" = "Software Update Available";
 "settings_license" = "License";
-"upgrade_to_recommand_os_version" = "推荐使用 macOS 13.0+ 以获得最佳体验!";
+"upgrade_to_recommand_os_version" = "Recommended to use macOS 13.0+ for the best experience!";
 
 // MARK: General
 "check_update" = "Check Update";
 "check_update_desc" = "Check for updates automatically";
 "sounds" = "Sounds";
-"sounds_selection" = "选择声音";
+"sounds_selection" = "Sound Selection";
 "sounds_desc" = "Play sound effects when a new item is added to the history and the previous item is selected.";
 "launch_at_login" = "Launch at login";
 "shortcuts" = "Shortcuts";
-"appearance" = "主题";
+"appearance" = "Theme";
 "appearance_light" = "Light";
 "appearance_dark" = "Dark";
 "appearance_auto" = "System";
@@ -397,7 +397,7 @@
 "mouse_cursor" = "Mouse Cursor";
 "text_cursor" = "Text Cursor";
 "screen_center" = "Screen Center";
-"popup_at_fallback" = "由于系统限制，在一些应用中无法正确定位输入位置，请为之选择一项备选位置";
+"popup_at_fallback" = "Due to system restrictions, the input position cannot be accurately located in some applications. Please select an alternative position for it";
 
 // MARK: Main Window
 "main_window_title" = "Main Window:";
@@ -422,7 +422,7 @@
 "unlimited" = "Unlimited";
 
 // MARK: Ignore
-"ignore_apps" = "忽略的应用程序";
+"ignore_apps" = "Ignored Applications";
 "app" = "Application";
 "ignore_or_not" = "Ignore";
 "bundle_id" = "Bundle Id";
@@ -436,72 +436,72 @@
 "copyright" = "©️Copyright";
 
 // MARK: settings lists
-"lists_desc" = "通过收集列表、智能列表更好地组织你的内容";
-"lists_name" = "名字";
-"is_smartlist" = "智能列表";
-"count" = "数量";
-"desc" = "智能列表描述";
+"lists_desc" = "Better organize your content through collecting lists and smart lists";
+"lists_name" = "Name";
+"is_smartlist" = "Smart List";
+"count" = "Count";
+"desc" = "Smart List Description";
 
 // MARK: settings shortcuts
-"name" = "功能";
-"shortcuts" = "快捷键";
-"shortcuts_quick_menu" = "开关快捷菜单";
-"shortcuts_main_window" = "开关主窗口";
-"shortcuts_paste_stack" = "开关粘贴队列";
-"shortcuts_split_copy" = "拆分复制";
-"shortcuts_split_copy_desc" = "把选中的文本自动按行拆分复制成多项";
-"shortcuts_lists" = "设置快捷键快速打开列表";
-"shortcuts_lists_name" = "列表名字";
-"shortcuts_for_quick" = "在快捷菜单中打开";
-"shortcuts_for_pin" = "在主窗口中打开";
+"name" = "Function";
+"shortcuts" = "Shortcuts";
+"shortcuts_quick_menu" = "Toggle Quick Menu";
+"shortcuts_main_window" = "Toggle Main Window";
+"shortcuts_paste_stack" = "Toggle Paste Queue";
+"shortcuts_split_copy" = "Split Copy";
+"shortcuts_split_copy_desc" = "Automatically split and copy selected text into multiple items";
+"shortcuts_lists" = "Set shortcuts to quickly open lists";
+"shortcuts_lists_name" = "List Name";
+"shortcuts_for_quick" = "Open in Quick Menu";
+"shortcuts_for_pin" = "Open in Main Window";
 
 // shortcuts display
-"shortcuts_for_quick_menu" = "快捷菜单常用快捷键";
+"shortcuts_for_quick_menu" = "Common shortcuts in Quick Menu";
 
-"shortcuts_display_select_item" = "使用项目";
+"shortcuts_display_select_item" = "Select Item";
 "shortcuts_display_select_item_shortcut" = "[0-9]/⮐";
 
-"shortcuts_display_move_to_item" = "移动到项目";
+"shortcuts_display_move_to_item" = "Move to Item";
 "shortcuts_display_move_to_item_shortcut" = "⌘[0-9]/↑↓";
 
-"shortcuts_display_format_options_menu" = "格式化选单";
-"shortcuts_display_format_options_menu_shortcut" = "长按[0-9]/⮐";
+"shortcuts_display_format_options_menu" = "Format Options Menu";
+"shortcuts_display_format_options_menu_shortcut" = "Long press [0-9]/⮐";
 
-"shortcuts_display_preview" = "预览";
-"shortcuts_display_preview_shortcut" = "空格";
+"shortcuts_display_preview" = "Preview";
+"shortcuts_display_preview_shortcut" = "Space";
 
-"shortcuts_display_favorate" = "保存到收藏";
+"shortcuts_display_favorate" = "Save to Favorites";
 "shortcuts_display_favorate_shortcut" = "⌘S";
 
-"shortcuts_display_alias" = "添加别名";
+"shortcuts_display_alias" = "Add Alias";
 "shortcuts_display_alias_shortcut" = "⌘A";
 
-"shortcuts_display_edit" = "编辑项目";
+"shortcuts_display_edit" = "Edit Item";
 "shortcuts_display_edit_shortcut" = "⌘E";
 
-"shortcuts_display_copy_to_clipboard" = "复制到剪贴板";
+"shortcuts_display_copy_to_clipboard" = "Copy to Clipboard";
 "shortcuts_display_copy_to_clipboard_shortcut" = "⌘C";
 
-"shortcuts_display_switch_next_tab" = "下一个列表";
-"shortcuts_display_switch_next_tab_shortcut" = "和打开快捷菜单按键一致";
+"shortcuts_display_switch_next_tab" = "Next List";
+"shortcuts_display_switch_next_tab_shortcut" = "Same as Quick Menu Shortcut";
 
-"shortcuts_display_switch_next_tab2" = "下一个列表2";
+"shortcuts_display_switch_next_tab2" = "Next List 2";
 "shortcuts_display_switch_next_tab2_shortcut" = "⌘→";
 
-"shortcuts_display_switch_prev_tab" = "上一个列表";
+"shortcuts_display_switch_prev_tab" = "Previous List";
 "shortcuts_display_switch_prev_tab_shortcut" = "⌘←";
 
-"shortcuts_display_search" = "开始搜索";
+"shortcuts_display_search" = "Start Search";
 "shortcuts_display_search_shortcut" = "⌘F";
 
-"shortcuts_display_search2" = "直接开始搜索";
-"shortcuts_display_search2_shortcut" = "直接输入字符";
+"shortcuts_display_search2" = "Directly Start Search";
+"shortcuts_display_search2_shortcut" = "Directly input characters";
 
 // MARK: settings output formats
-"output_format_desc" = "预设输出格式，文字将格式化成指定的格式粘贴";
+"output_format_desc" = "Predefined output format, text will be formatted into the specified format when pasted";
 
 // MARK: settings ocr
-"ocr_desc" = "自动对复制的图片进行 OCR，以后可以使用文字搜索图片";
+"ocr_desc" = "Automatically perform OCR on copied images, enabling text search on images in the future";
 
 // MARK: settings appUpdates
 "avaiable_updates" = "Available Updates";
@@ -511,9 +511,9 @@
 "new_version" = "New Version";
 
 // MARK: settings license
-"upgrade_to_pro" = "升级到 Pro";
-"free_amount_today" = "今日免费额度使用";
-"upgrade_to_pro_for_unlimited_access" = "升级到 Pro 获取全部功能的不限次使用!";
+"upgrade_to_pro" = "Upgrade to Pro";
+"free_amount_today" = "Free Amount Used Today";
+"upgrade_to_pro_for_unlimited_access" = "Upgrade to Pro for unlimited access to all features!";
 
 // MARK: - Preset resources
-"preset_resources" = "⚡️ 按下回车或数字键，粘贴内容\n✏️ 长按回车或数字键，打开格式化选单\n👀 按下空格键或鼠标悬浮进行预览\n🖱️ 长按项目进行拖拽，松开粘贴\n👇 按下 Tab 展开或翻页\n🔍 ⌘F 或直接按下字母键开始搜索\n📋 ⌘C 复制当前项到剪贴板\n❌ ⌘D 删除\n📝 ⌘A 设置别名\n⭐ ⌘S 添加到默认收藏夹\n☰ 点击右键查看菜单项\n✂️ 选中多行内容后按下⌘⇧C拆分成多行复制\n📚 ⌘' 打开粘贴队列帮助你按顺序粘贴多个项目\n🖱️ ⌘⇧C 打开主窗口，进行批量管理和使用，对鼠标更友好\n";
+"preset_resources" = "⚡️ Press Enter or number key to paste content\n✏️ Long press Enter or number key to open formatting menu\n👀 Press Space or hover mouse for preview\n🖱️ Long press item to drag and drop, release to paste\n👇 Press Tab to expand or flip pages\n🔍 ⌘F or start typing to search\n📋 ⌘C to copy current item to clipboard\n❌ ⌘D to delete\n📝 ⌘A to set alias\n⭐ ⌘S to add to default favorites\n☰ Right-click to view menu options\n✂️ Select multiple lines and press ⌘⇧C to split and copy as multiple lines\n📚 ⌘' to open paste queue for pasting multiple items in order\n🖱️ ⌘⇧C to open main window for batch management and usage, more mouse-friendly\n";
