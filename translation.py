@@ -123,74 +123,63 @@ def translate_and_write(base_file_path, base_strings_new, base_lang, mapped_lang
     else:
         print(f"No strings to translate for {mapped_lang}")
 
-def autotranslate(old_commit_id, new_commit_id, provider):
+def autotranslate(old_commit_id, provider, type):
     root_dir = os.path.join(os.getcwd(), "")
     repo = git.Repo(root_dir)
-    
-    if not new_commit_id:
-        new_commit_id = repo.head.commit
 
     print(f'Previous value: {old_commit_id}')
-    print(f'Target value: {new_commit_id}')
-
-    # Checkout the old commit
-    if old_commit_id:
-        repo.git.checkout(old_commit_id)
-    #    root_dir = os.path.join(temp_dir, "")
-        localizable_files = find_localizable_files(root_dir)
-
-        if not localizable_files:
-            print("No localization files found. Please check the directory structure.")
-            return
-
-        print("\nAvailable language files:")
-        for lang, path in localizable_files.items():
-            print(f"{lang}: {path}")
-
-        # Find the English file (it could be 'en', 'en-US', 'en-GB', etc.)
-        en_key = next((lang for lang in localizable_files.keys() if lang.startswith('en')), None)
-
-        if not en_key:
-            print("Error: English localization file not found.")
-            print("Available languages:", ", ".join(localizable_files.keys()))
-            return
-
-        print(f"\nUsing {en_key} as the base language")
-        base_strings_old = parse_strings_file(localizable_files[en_key])
-
-    # Checkout the new commit
-    repo.git.checkout(new_commit_id, b='temp-localization-updates')
 
     localizable_files = find_localizable_files(root_dir)
     # Find the English file (it could be 'en', 'en-US', 'en-GB', etc.)
     en_key = next((lang for lang in localizable_files.keys() if lang.startswith('en')), None)
 
+    print("Available languages:", ", ".join(localizable_files.keys()))
+    
     if not en_key:
         print("Error: English localization file not found.")
-        print("Available languages:", ", ".join(localizable_files.keys()))
         return
+
+    # Checkout the old commit
+    if old_commit_id:
+        print(f"Checking commit {old_commit_id}, file {localizable_files[en_key]}")
+        relative_path = os.path.relpath(localizable_files[en_key], os.getcwd())
+        base_contents = getFileContentsInCommit(relative_path, old_commit_id)
+        base_strings_old = parse_strings_lines_to_strings(base_contents.splitlines())
 
     base_strings_new = parse_strings_file(localizable_files[en_key])
 
-    # Find the diff between the old and new base strings
-    if old_commit_id:
-        diff_strings = {k: v for k, v in base_strings_new.items() if k in base_strings_old and base_strings_new[k] != base_strings_old[k]}
-        print(f"Found {len(diff_strings)} modified strings in the base language")
-    else:
-        diff_strings = {}
 
-    for lang, file_path in localizable_files.items():
-        mapped_lang = lang_codes.get(lang, lang)
-        if mapped_lang.startswith('en'):
-            continue
-        translate_and_write(localizable_files[en_key], base_strings_new, "english", mapped_lang, file_path, diff_strings, provider)
+    if type == "checken":
+        print("check en")
+            # Find the diff between the old and new base strings
+        if base_strings_old:
+            diff_strings = {k: v for k, v in base_strings_new.items() if k in base_strings_old and base_strings_new[k] != base_strings_old[k] or k not in base_strings_old}
+            print(f"Found {len(diff_strings)} modified strings in the base language")
+        else:
+            diff_strings = {}
+
+        translate_and_write(localizable_files[en_key], base_strings_new, "english", 'en', localizable_files[en_key], diff_strings, provider)
+    else:
+        print("translation")
+            # Find the diff between the old and new base strings
+        if base_strings_old:
+            diff_strings = {k: v for k, v in base_strings_new.items() if k in base_strings_old and base_strings_new[k] != base_strings_old[k]}
+            print(f"Found {len(diff_strings)} modified strings in the base language")
+        else:
+            diff_strings = {}
+
+        for lang, file_path in localizable_files.items():
+            mapped_lang = lang_codes.get(lang, lang)
+            if mapped_lang.startswith('en'):
+                continue
+            translate_and_write(localizable_files[en_key], base_strings_new, "english", mapped_lang, file_path, diff_strings, provider)
     
 def checkCN():
     # 找到 cn
     root_dir = os.path.join(os.getcwd(), "")
     
     # 找到 en
-    translate_and_write(localizable_files[en_key], base_strings_new, mapped_lang, file_path, diff_strings)
+#    translate_and_write(localizable_files[en_key], base_strings_new, mapped_lang, file_path, diff_strings)
 
 def main():
     # 创建一个ArgumentParser对象
@@ -202,7 +191,7 @@ def main():
     parser.add_argument('--prev', nargs='?', const='', help='The previous value')
     parser.add_argument('--target', nargs='?', const='', help='The target value')
 
-    parser.add_argument('pre', nargs='?', const='', help='Pre check CN')
+    parser.add_argument('action', nargs='?', const='', help='Pre check CN')
     
     parser.add_argument('--provider', nargs='?', const='', help='Translation provider')
     parser.add_argument('--api_key', nargs='?', const='', help='Translation provider key')
@@ -210,10 +199,11 @@ def main():
     parser.add_argument('--base_lang', nargs='?', const='', help='The base lang')
     parser.add_argument('--target_lang', nargs='?', const='', help='The target lang')
 
+#    parser.add_argument('checken', nargs='?', const='', help='Check en translation')
+
     # 解析命令行参数
     args = parser.parse_args()
     
-    pre = args.pre
     base = args.base_lang
     target = args.target_lang
     
@@ -222,20 +212,25 @@ def main():
         openaiapi.client.api_key = apikey
         openaiapi.client.base_url = "https://api.openai-sb.com/v1"
     
-    if pre:
+    action = args.action
+    if not action:
+        action = "translation"
+        
+    print(action)
+
+    if action == "checkcn":
         checkCN()
     elif base and target:
         translation_from_to(base, target)
     else:
         # 访问参数值
         old_commit_id = args.prev
-        new_commit_id = args.target
         
         provider = args.provider
         if not provider:
             provider = "openai"
         
-        autotranslate(old_commit_id, new_commit_id, provider)
+        autotranslate(old_commit_id, provider, action)
     
 
 def translation_from_to(base_lang, target_lang):
@@ -259,6 +254,12 @@ def translation_from_to(base_lang, target_lang):
     base_strings_new = parse_strings_file(localizable_files[base_key])
     target_lang = lang_codes.get(target_lang, target_lang)
     translate_and_write(localizable_files[base_key], base_strings_new, base_lang, target_lang, localizable_files[target_key], {}, "openai")
+    
+def getFileContentsInCommit(file_path, commit_id):
+    repo = git.Repo(os.getcwd())
+    commit = repo.commit(commit_id)
+    file_content = commit.tree[file_path].data_stream.read().decode('utf-8')
+    return file_content
 
 if __name__ == "__main__":
     main()
