@@ -373,6 +373,8 @@
 // MARK: General
 "check_update" = "アップデートを確認";
 "check_update_desc" = "アップデートを自動で確認する";
+"check_update_failed" = "アップデートのチェックに失敗しました";
+"check_update_no_update" = "新しいバージョンはありません";
 "sounds" = "効果音";
 "sounds_selection" = "選択音";
 "sounds_desc" = "履歴に新しいアイテムが追加され、前のアイテムが選択されたときに、効果音を再生する。";

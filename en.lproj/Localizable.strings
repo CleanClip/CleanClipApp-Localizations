@@ -373,6 +373,8 @@
 // MARK: General
 "check_update" = "Check Update";
 "check_update_desc" = "Check for updates automatically";
+"check_update_failed" = "Update check failed";
+"check_update_no_update" = "No new version";
 "sounds" = "Sounds";
 "sounds_selection" = "Sound Selection";
 "sounds_desc" = "Play sound effects when a new item is added to the history and the previous item is selected.";

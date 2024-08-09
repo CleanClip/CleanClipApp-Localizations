@@ -373,6 +373,8 @@
 // MARK: General
 "check_update" = "Preveri posodobitve";
 "check_update_desc" = "Automaticky kontrolovať aktualizácie";
+"check_update_failed" = "Aktualizasyon kontrolü başarısız oldu";
+"check_update_no_update" = "Yeni bir sürüm yok";
 "sounds" = "Zvuky";
 "sounds_selection" = "Izbor zvoka";
 "sounds_desc" = "Prehrať zvuk pri pridaní novej položky do histórie a pri výbere predchádzajúcej položky.";

@@ -373,6 +373,8 @@
 // MARK: General
 "check_update" = "Controleren op update";
 "check_update_desc" = "Controleer automatisch voor updates";
+"check_update_failed" = "Update controle mislukt";
+"check_update_no_update" = "Geen nieuwe versie";
 "sounds" = "Geluiden";
 "sounds_selection" = "Geluid selectie";
 "sounds_desc" = "Geluidseffecten afspelen wanneer een nieuw item wordt toegevoegd aan de geschiedenis en het vorige item is geselecteerd.";

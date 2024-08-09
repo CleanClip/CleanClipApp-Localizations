@@ -373,6 +373,8 @@
 // MARK: General
 "check_update" = "檢查更新";
 "check_update_desc" = "自動檢查更新";
+"check_update_failed" = "更新檢查失敗";
+"check_update_no_update" = "沒有新版本";
 "sounds" = "音效";
 "sounds_selection" = "選擇音效";
 "sounds_desc" = "記錄新項目和選擇上一項目時播放音效。";

@@ -373,6 +373,8 @@
 // MARK: General
 "check_update" = "Vérifier la mise à jour";
 "check_update_desc" = "Vérifier les mises à jour automatiquement";
+"check_update_failed" = "Échec de la vérification de la mise à jour";
+"check_update_no_update" = "Aucune nouvelle version";
 "sounds" = "Sons";
 "sounds_selection" = "Sélection des sons";
 "sounds_desc" = "Activer les effets sonores lorsqu'un nouvel élément est ajouté à l'historique et que l'élément précédent est sélectionné.";

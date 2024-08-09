@@ -373,6 +373,8 @@
 // MARK: General
 "check_update" = "检查更新";
 "check_update_desc" = "自动检查更新";
+"check_update_failed" = "更新检查失败";
+"check_update_no_update" = "没有新版本";
 "sounds" = "声效";
 "sounds_selection" = "选择声音";
 "sounds_desc" = "记录新项目和选择上一个项目时播放声效。";
