@@ -3,7 +3,7 @@
 
 # CleanClip Localization Project
 
-[中文](README_zh.md) | **English**
+[中文](README.zh-CN.md) | **English**
 
 </div>
 
