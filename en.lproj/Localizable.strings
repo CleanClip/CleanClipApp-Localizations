@@ -123,6 +123,7 @@
 "none" = "None";
 "post_action_text" = "Text";
 "post_action_text_content" = "Text Added at the End";
+"paste_queue_remove_after_paste" = "粘贴后从队列中移除";
 
 // Migration
 "migration_data_upgrading" = "Upgrading data...";
