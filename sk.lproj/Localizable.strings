@@ -123,6 +123,7 @@
 "none" = "Žiadna";
 "post_action_text" = "Tekst";
 "post_action_text_content" = "Tekst dodan na kraju";
+"paste_queue_remove_after_paste" = "Odstrániť z fronty po vložení";
 
 // Migration
 "migration_data_upgrading" = "Aktualizácia údajov...";

@@ -150,7 +150,7 @@ def autotranslate(old_commit_id, provider, type):
 
 
     if type == "checken":
-        print("check en")
+        print("=========== check en ===========")
             # Find the diff between the old and new base strings
         if base_strings_old:
             diff_strings = {k: v for k, v in base_strings_new.items() if k in base_strings_old and base_strings_new[k] != base_strings_old[k] or k not in base_strings_old}
@@ -160,7 +160,7 @@ def autotranslate(old_commit_id, provider, type):
 
         translate_and_write(localizable_files[en_key], base_strings_new, "english", 'en', localizable_files[en_key], diff_strings, provider)
     else:
-        print("translation")
+        print("=========== translation ============")
             # Find the diff between the old and new base strings
         if base_strings_old:
             diff_strings = {k: v for k, v in base_strings_new.items() if k in base_strings_old and base_strings_new[k] != base_strings_old[k]}
@@ -195,6 +195,7 @@ def main():
     
     parser.add_argument('--provider', nargs='?', const='', help='Translation provider')
     parser.add_argument('--api_key', nargs='?', const='', help='Translation provider key')
+    parser.add_argument('--base_url', nargs='?', const='', help='Translation provider base url')
     
     parser.add_argument('--base_lang', nargs='?', const='', help='The base lang')
     parser.add_argument('--target_lang', nargs='?', const='', help='The target lang')
@@ -208,15 +209,16 @@ def main():
     target = args.target_lang
     
     apikey = args.api_key
+    base_url = args.base_url
     if apikey:
         openaiapi.client.api_key = apikey
-        openaiapi.client.base_url = "https://api.openai-sb.com/v1"
+        openaiapi.client.base_url = base_url
     
     action = args.action
     if not action:
         action = "translation"
         
-    print(action)
+    print("------ action is ", action)
 
     if action == "checkcn":
         checkCN()

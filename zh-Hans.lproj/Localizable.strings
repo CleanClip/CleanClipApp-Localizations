@@ -123,6 +123,7 @@
 "none" = "无";
 "post_action_text" = "文本";
 "post_action_text_content" = "文本添加到末尾";
+"paste_queue_remove_after_paste" = "粘贴后从队列中移除";
 
 // Migration
 "migration_data_upgrading" = "数据升级中...";

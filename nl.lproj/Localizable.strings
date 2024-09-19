@@ -123,6 +123,7 @@
 "none" = "Geen";
 "post_action_text" = "Tekst";
 "post_action_text_content" = "Tekst toegevoegd aan het einde";
+"paste_queue_remove_after_paste" = "Verwijder na plakken uit de wachtrij";
 
 // Migration
 "migration_data_upgrading" = "Gegevens bijwerken...";

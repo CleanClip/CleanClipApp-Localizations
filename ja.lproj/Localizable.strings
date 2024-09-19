@@ -123,6 +123,7 @@
 "none" = "無し";
 "post_action_text" = "テキスト";
 "post_action_text_content" = "末尾に追加されたテキスト";
+"paste_queue_remove_after_paste" = "ペースト後にキューから削除";
 
 // Migration
 "migration_data_upgrading" = "データをアップグレード中...";

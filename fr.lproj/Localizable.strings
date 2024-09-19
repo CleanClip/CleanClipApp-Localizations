@@ -123,6 +123,7 @@
 "none" = "Aucun";
 "post_action_text" = "Texte";
 "post_action_text_content" = "Texte ajouté à la fin";
+"paste_queue_remove_after_paste" = "Retirer de la file d'attente après le collage";
 
 // Migration
 "migration_data_upgrading" = "Mise à jour des données...";

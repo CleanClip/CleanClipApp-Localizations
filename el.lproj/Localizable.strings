@@ -123,6 +123,7 @@
 "none" = "Κανένα";
 "post_action_text" = "Κείμενο";
 "post_action_text_content" = "Κείμενο προστέθηκε στο τέλος";
+"paste_queue_remove_after_paste" = "Αφαίρεση από την ουρά μετά την επικόλληση";
 
 // Migration
 "migration_data_upgrading" = "Ενημέρωση δεδομένων...";
