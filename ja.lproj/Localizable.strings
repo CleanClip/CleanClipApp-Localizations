@@ -216,6 +216,7 @@
 "pin_context_preview" = "プレビュー";
 "pin_context_edit" = "編集";
 "pin_context_preview_when_hover" = "ホバーでプレビューを有効にする";
+"pin_context_share" = "共有...";
 
 // MARK: Content List
 "pin_contents_appname_tooltip" = "アプリケーション名";

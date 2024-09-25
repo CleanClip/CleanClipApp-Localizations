@@ -216,6 +216,7 @@
 "pin_context_preview" = "预览";
 "pin_context_edit" = "编辑";
 "pin_context_preview_when_hover" = "开启鼠标悬停预览";
+"pin_context_share" = "分享...";
 
 // MARK: Content List
 "pin_contents_appname_tooltip" = "应用名称";

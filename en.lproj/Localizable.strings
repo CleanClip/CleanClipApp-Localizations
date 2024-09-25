@@ -216,6 +216,7 @@
 "pin_context_preview" = "Preview";
 "pin_context_edit" = "Edit";
 "pin_context_preview_when_hover" = "Enable Preview on Hover";
+"pin_context_share" = "Share...";
 
 // MARK: Content List
 "pin_contents_appname_tooltip" = "Application Name";

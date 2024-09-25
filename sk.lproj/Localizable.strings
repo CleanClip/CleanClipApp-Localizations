@@ -216,6 +216,7 @@
 "pin_context_preview" = "Náhľad";
 "pin_context_edit" = "Uredi";
 "pin_context_preview_when_hover" = "Povoliť náhľad pri prejdení myšou";
+"pin_context_share" = "Zdieľať...";
 
 // MARK: Content List
 "pin_contents_appname_tooltip" = "Názov aplikácie";

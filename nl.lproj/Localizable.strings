@@ -216,6 +216,7 @@
 "pin_context_preview" = "Voorbeeld";
 "pin_context_edit" = "Bewerken";
 "pin_context_preview_when_hover" = "Voorbeeld bij hoveren inschakelen";
+"pin_context_share" = "Delen...";
 
 // MARK: Content List
 "pin_contents_appname_tooltip" = "Applicatienaam";

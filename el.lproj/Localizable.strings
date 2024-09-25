@@ -216,6 +216,7 @@
 "pin_context_preview" = "Προεπισκόπηση";
 "pin_context_edit" = "Επεξεργασία";
 "pin_context_preview_when_hover" = "Ενεργοποίηση προεπισκόπησης στο Hover";
+"pin_context_share" = "Μοιραστείτε...";
 
 // MARK: Content List
 "pin_contents_appname_tooltip" = "Όνομα εφαρμογής";

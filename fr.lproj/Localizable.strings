@@ -216,6 +216,7 @@
 "pin_context_preview" = "Aperçu";
 "pin_context_edit" = "Éditer";
 "pin_context_preview_when_hover" = "Activer l'aperçu au survol";
+"pin_context_share" = "Partager...";
 
 // MARK: Content List
 "pin_contents_appname_tooltip" = "Nom de l'application";
