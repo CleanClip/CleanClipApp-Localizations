@@ -404,6 +404,8 @@
 "screen_center" = "画面の中央";
 "popup_at_fallback" = "システムの制限により、一部のアプリケーションで入力位置を正確に特定できません。代替位置を選択してください";
 
+"quick_menu_disable_all_animations" = "すべてのアニメーションを無効にする";
+
 // MARK: Main Window
 "main_window_title" = "メインウインドウ";
 "main_window_shortcut_desc" = "メインウィンドウを開くためのグローバルショートカットキー。";

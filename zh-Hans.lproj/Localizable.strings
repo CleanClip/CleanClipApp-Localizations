@@ -404,6 +404,8 @@
 "screen_center" = "屏幕中心";
 "popup_at_fallback" = "由于系统限制，在一些应用中无法正确定位输入位置，请为之选择一项备选位置";
 
+"quick_menu_disable_all_animations" = "禁用所有动画";
+
 // MARK: Main Window
 "main_window_title" = "主窗口:";
 "main_window_shortcut_desc" = "打开主窗口的全局快捷键。";

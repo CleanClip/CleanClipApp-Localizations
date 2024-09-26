@@ -404,6 +404,8 @@
 "screen_center" = "Centre de l'écran";
 "popup_at_fallback" = "En raison de restrictions système, il peut être difficile de localiser correctement la position d'entrée dans certaines applications. Veuillez en choisir une de secours.";
 
+"quick_menu_disable_all_animations" = "Désactiver toutes les animations";
+
 // MARK: Main Window
 "main_window_title" = "Fenêtre principale:";
 "main_window_shortcut_desc" = "Touche de raccourci pour ouvrir la fenêtre principale.";

@@ -404,6 +404,8 @@
 "screen_center" = "Screen Center";
 "popup_at_fallback" = "Due to system restrictions, the input position cannot be accurately located in some applications. Please select an alternative position for it";
 
+"quick_menu_disable_all_animations" = "Disable All Animations";
+
 // MARK: Main Window
 "main_window_title" = "Main Window:";
 "main_window_shortcut_desc" = "Global shortcut key to open main window.";

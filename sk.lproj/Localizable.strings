@@ -404,6 +404,8 @@
 "screen_center" = "Stred obrazovky";
 "popup_at_fallback" = "Zaradi omejitev sistema morda ni mogoče natančno določiti mesta vnosa. Izberite rezervno mesto.";
 
+"quick_menu_disable_all_animations" = "Deaktivovať všetky animácie";
+
 // MARK: Main Window
 "main_window_title" = "Hlavné okno:";
 "main_window_shortcut_desc" = "Globálna klávesová skratka na otvorenie hlavného okna.";

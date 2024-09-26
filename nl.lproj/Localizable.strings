@@ -404,6 +404,8 @@
 "screen_center" = "Scherm centrum";
 "popup_at_fallback" = "Vanwege systeembeperkingen kan de invoerpositie niet correct worden bepaald in sommige toepassingen. Kies een alternatieve positie.";
 
+"quick_menu_disable_all_animations" = "Schakel alle animaties uit";
+
 // MARK: Main Window
 "main_window_title" = "Hoofdvenster:";
 "main_window_shortcut_desc" = "Globale sneltoets om het hoofdvenster te openen.";

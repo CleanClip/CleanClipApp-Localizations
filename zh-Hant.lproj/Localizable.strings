@@ -404,6 +404,8 @@
 "screen_center" = "螢幕中心";
 "popup_at_fallback" = "由於系統限制，在某些應用程式中無法正確定位輸入位置，請為其選擇一個備用位置";
 
+"quick_menu_disable_all_animations" = "禁用所有動畫";
+
 // MARK: Main Window
 "main_window_title" = "主視窗:";
 "main_window_shortcut_desc" = "打開主視窗的全域快捷鍵。";
