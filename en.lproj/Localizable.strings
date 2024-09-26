@@ -68,6 +68,9 @@
 "ignore" = "Ignore Copies from %@";
 "cancel_ignore" = "Allow Copies from %@";
 
+"open_quickmenu" = "Open Quick Menu";
+"open_quickmenu_tooltip" = "Open Quick Menu";
+
 // MARK: CopyStack
 "copystack" = "Paste Queue";
 "open_copystack" = "Open Paste Queue";

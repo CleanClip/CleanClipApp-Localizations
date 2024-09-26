@@ -68,6 +68,9 @@
 "ignore" = "Ignorer les copies de %@";
 "cancel_ignore" = "Autoriser les copies de %@";
 
+"open_quickmenu" = "Ouvrir le menu rapide";
+"open_quickmenu_tooltip" = "Ouvrir le menu rapide";
+
 // MARK: CopyStack
 "copystack" = "File de collage";
 "open_copystack" = "Ouvrir la file de collage";

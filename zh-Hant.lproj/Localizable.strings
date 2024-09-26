@@ -68,6 +68,9 @@
 "ignore" = "忽略來自 %@ 的複製項目";
 "cancel_ignore" = "允許來自 %@ 的複製項目";
 
+"open_quickmenu" = "打開快速選單";
+"open_quickmenu_tooltip" = "打開快速選單";
+
 // MARK: CopyStack
 "copystack" = "貼上隊列";
 "open_copystack" = "打開貼上隊列";

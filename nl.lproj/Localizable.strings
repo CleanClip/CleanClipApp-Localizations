@@ -68,6 +68,9 @@
 "ignore" = "Negeer kopieën van %@";
 "cancel_ignore" = "Kopieën uit %@ toestaan";
 
+"open_quickmenu" = "Open Snelle Menu";
+"open_quickmenu_tooltip" = "Open Snelle Menu";
+
 // MARK: CopyStack
 "copystack" = "Plakwachtrij";
 "open_copystack" = "Open Plakwachtrij";

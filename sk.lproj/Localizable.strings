@@ -68,6 +68,9 @@
 "ignore" = "Ignorovať kopírovanie z %@";
 "cancel_ignore" = "Povoliť kopírovanie z %@";
 
+"open_quickmenu" = "Otvoriť rýchle menu";
+"open_quickmenu_tooltip" = "Otvoriť rýchle menu";
+
 // MARK: CopyStack
 "copystack" = "Paste Queue";
 "open_copystack" = "Open Paste Queue";

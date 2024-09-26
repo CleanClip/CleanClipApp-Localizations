@@ -68,6 +68,9 @@
 "ignore" = "忽略来自 %@ 的复制项";
 "cancel_ignore" = "允许来自 %@ 的复制项";
 
+"open_quickmenu" = "打开快速菜单";
+"open_quickmenu_tooltip" = "打开快速菜单";
+
 // MARK: CopyStack
 "copystack" = "粘贴队列";
 "open_copystack" = "打开粘贴队列";

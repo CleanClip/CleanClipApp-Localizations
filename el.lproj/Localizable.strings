@@ -68,6 +68,9 @@
 "ignore" = "Παράβλεψη Αντιγράφων από %@";
 "cancel_ignore" = "Να επιτρέπονται αντίγραφα από το %@";
 
+"open_quickmenu" = "Άνοιγμα Γρήγορου Μενού";
+"open_quickmenu_tooltip" = "Άνοιγμα Γρήγορου Μενού";
+
 // MARK: CopyStack
 "copystack" = "Ουρά Επικόλλησης";
 "open_copystack" = "Άνοιγμα Ουράς Επικόλλησης";

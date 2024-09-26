@@ -68,6 +68,9 @@
 "ignore" = "%@ からのコピーを無視";
 "cancel_ignore" = "%@ からのコピーを許可";
 
+"open_quickmenu" = "クイックメニューを開く";
+"open_quickmenu_tooltip" = "クイックメニューを開く";
+
 // MARK: CopyStack
 "copystack" = "ペーストキュー";
 "open_copystack" = "ペーストキューを開く";
