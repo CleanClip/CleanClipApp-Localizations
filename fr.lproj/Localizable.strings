@@ -403,6 +403,7 @@
 "text_cursor" = "Curseur de texte";
 "screen_center" = "Centre de l'écran";
 "popup_at_fallback" = "En raison de restrictions système, il peut être difficile de localiser correctement la position d'entrée dans certaines applications. Veuillez en choisir une de secours.";
+"popup_at_fallback_title" = "Position de secours";
 
 "quick_menu_disable_all_animations" = "Désactiver toutes les animations";
 

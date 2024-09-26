@@ -403,6 +403,7 @@
 "text_cursor" = "Textový kurzor";
 "screen_center" = "Stred obrazovky";
 "popup_at_fallback" = "Zaradi omejitev sistema morda ni mogoče natančno določiti mesta vnosa. Izberite rezervno mesto.";
+"popup_at_fallback_title" = "Náhradná pozícia";
 
 "quick_menu_disable_all_animations" = "Deaktivovať všetky animácie";
 

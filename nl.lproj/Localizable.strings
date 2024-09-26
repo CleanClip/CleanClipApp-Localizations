@@ -403,6 +403,7 @@
 "text_cursor" = "Tekst cursor";
 "screen_center" = "Scherm centrum";
 "popup_at_fallback" = "Vanwege systeembeperkingen kan de invoerpositie niet correct worden bepaald in sommige toepassingen. Kies een alternatieve positie.";
+"popup_at_fallback_title" = "Fallbackpositie";
 
 "quick_menu_disable_all_animations" = "Schakel alle animaties uit";
 

@@ -403,6 +403,7 @@
 "text_cursor" = "テキストカーソル";
 "screen_center" = "画面の中央";
 "popup_at_fallback" = "システムの制限により、一部のアプリケーションで入力位置を正確に特定できません。代替位置を選択してください";
+"popup_at_fallback_title" = "フォールバック位置";
 
 "quick_menu_disable_all_animations" = "すべてのアニメーションを無効にする";
 

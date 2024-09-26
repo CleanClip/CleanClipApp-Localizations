@@ -403,6 +403,7 @@
 "text_cursor" = "Text Cursor";
 "screen_center" = "Screen Center";
 "popup_at_fallback" = "Due to system restrictions, the input position cannot be accurately located in some applications. Please select an alternative position for it";
+"popup_at_fallback_title" = "Fallback Position";
 
 "quick_menu_disable_all_animations" = "Disable All Animations";
 

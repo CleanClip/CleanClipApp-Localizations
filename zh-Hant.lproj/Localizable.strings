@@ -403,6 +403,7 @@
 "text_cursor" = "文字游標";
 "screen_center" = "螢幕中心";
 "popup_at_fallback" = "由於系統限制，在某些應用程式中無法正確定位輸入位置，請為其選擇一個備用位置";
+"popup_at_fallback_title" = "備用位置";
 
 "quick_menu_disable_all_animations" = "禁用所有動畫";
 
