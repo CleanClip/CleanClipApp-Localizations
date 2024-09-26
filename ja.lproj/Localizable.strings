@@ -406,6 +406,7 @@
 "popup_at_fallback_title" = "フォールバック位置";
 
 "quick_menu_disable_all_animations" = "すべてのアニメーションを無効にする";
+"quick_menu_always_show_lists" = "リストを常に表示";
 
 // MARK: Main Window
 "main_window_title" = "メインウインドウ";

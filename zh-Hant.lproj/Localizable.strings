@@ -406,6 +406,7 @@
 "popup_at_fallback_title" = "備用位置";
 
 "quick_menu_disable_all_animations" = "禁用所有動畫";
+"quick_menu_always_show_lists" = "始終顯示列表";
 
 // MARK: Main Window
 "main_window_title" = "主視窗:";

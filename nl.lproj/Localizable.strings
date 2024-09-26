@@ -406,6 +406,7 @@
 "popup_at_fallback_title" = "Fallbackpositie";
 
 "quick_menu_disable_all_animations" = "Schakel alle animaties uit";
+"quick_menu_always_show_lists" = "Altijd lijsten tonen";
 
 // MARK: Main Window
 "main_window_title" = "Hoofdvenster:";
