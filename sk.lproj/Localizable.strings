@@ -339,6 +339,8 @@
 "or_monthly" = "alebo %@/mesiac";
 "basic_plan" = "Základný plán";
 "basic_plan_description" = "Obmedzené na 25 vložení za deň, všetky ostatné funkcie sú bezplatné";
+"lifetime_plan" = "Životný plán";
+"lifetime_plan_description" = "Neobmedzené vkladanie za deň, všetky ostatné funkcie sú zadarmo";
 
 
 // quickmenu settings

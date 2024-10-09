@@ -339,6 +339,8 @@
 "or_monthly" = "ou %@/mois";
 "basic_plan" = "Plan de base";
 "basic_plan_description" = "Limité à 25 collages par jour, toutes les autres fonctionnalités sont gratuites";
+"lifetime_plan" = "Plan à vie";
+"lifetime_plan_description" = "Pastes illimités par jour, toutes les autres fonctionnalités sont gratuites";
 
 
 // quickmenu settings

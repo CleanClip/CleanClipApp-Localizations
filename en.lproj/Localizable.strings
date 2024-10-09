@@ -339,6 +339,8 @@
 "or_monthly" = "or %@/month";
 "basic_plan" = "Basic Plan";
 "basic_plan_description" = "Limited to 25 pastes per day, all other features are free";
+"lifetime_plan" = "Lifetime Plan";
+"lifetime_plan_description" = "Unlimited pastes per day, all other features are free";
 
 
 // quickmenu settings

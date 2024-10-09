@@ -339,6 +339,8 @@
 "or_monthly" = "of %@/maand";
 "basic_plan" = "Basisplan";
 "basic_plan_description" = "Beperkt tot 25 plakken per dag, alle andere functies zijn gratis";
+"lifetime_plan" = "Levenslang Plan";
+"lifetime_plan_description" = "Onbeperkt plakken per dag, alle andere functies zijn gratis";
 
 
 // quickmenu settings

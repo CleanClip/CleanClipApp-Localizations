@@ -339,6 +339,8 @@
 "or_monthly" = "または%@/月";
 "basic_plan" = "基本プラン";
 "basic_plan_description" = "1日あたり25回のペーストに制限されており、その他のすべての機能は無料です";
+"lifetime_plan" = "ライフタイムプラン";
+"lifetime_plan_description" = "1日あたり無制限のペースト、その他の機能はすべて無料";
 
 
 // quickmenu settings

@@ -339,6 +339,8 @@
 "or_monthly" = "或每月%@";
 "basic_plan" = "基础计划";
 "basic_plan_description" = "每天限制25次粘贴，其他所有功能均为免费";
+"lifetime_plan" = "终身计划";
+"lifetime_plan_description" = "每天无限粘贴，所有其他功能免费";
 
 
 // quickmenu settings
