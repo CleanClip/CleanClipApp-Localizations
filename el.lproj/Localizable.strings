@@ -327,6 +327,19 @@
 
 // Pro
 "pro_unpaid_version" = "%@ φορές που απομένουν σήμερα";
+"pro" = "Προ";
+
+"upgrade_plan_unlock_unlimited" = "Αναβάθμιση προγράμματος για να ξεκλειδώσετε απεριόριστο αριθμό επικολλήσεων. Μπορείτε να ακυρώσετε ή να αλλάξετε τη συνδρομή σας οποιαδήποτε στιγμή.";
+"subscribe" = "Εγγραφή";
+"subscribed" = "Εγγεγραμμένος";
+"change_plan" = "Αλλαγή Προγράμματος";
+"active" = "Ενεργό";
+"next_cycle_active" = "Ενεργό Επόμενος Κύκλος";
+"free" = "Δωρεάν";
+"or_monthly" = "ή %@/μήνα";
+"basic_plan" = "Βασικό Πρόγραμμα";
+"basic_plan_description" = "Περιορισμένο σε 25 επικολλήσεις ανά ημέρα, όλες οι άλλες δυνατότητες είναι δωρεάν";
+
 
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "Να Εμφανίζονται Πάντα οι Συμβουλές Συντόμευσης";
@@ -373,6 +386,7 @@
 "settings_about" = "Σχετικά";
 "settings_appupdates" = "Διαθέσιμη Ενημέρωση Λογισμικού";
 "settings_license" = "Άδεια χρήσης";
+"settings_pro" = "Προ";
 "upgrade_to_recommand_os_version" = "Συνιστάται η χρήση macOS 13.0+ για βέλτιστη εμπειρία!";
 
 // MARK: General

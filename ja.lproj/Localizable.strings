@@ -327,6 +327,19 @@
 
 // Pro
 "pro_unpaid_version" = "今日の残り %@ 回";
+"pro" = "プロ";
+
+"upgrade_plan_unlock_unlimited" = "無制限のペースト数を解除するためにプランをアップグレードしてください。いつでもサブスクリプションをキャンセルまたは変更できます。";
+"subscribe" = "サブスクライブ";
+"subscribed" = "サブスクライブ済み";
+"change_plan" = "プランを変更";
+"active" = "アクティブ";
+"next_cycle_active" = "次のサイクルでアクティブ";
+"free" = "無料";
+"or_monthly" = "または%@/月";
+"basic_plan" = "基本プラン";
+"basic_plan_description" = "1日あたり25回のペーストに制限されており、その他のすべての機能は無料です";
+
 
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "ショートカットのヒントを常に表示";
@@ -373,6 +386,7 @@
 "settings_about" = "情報";
 "settings_appupdates" = "ソフトウェア更新が利用可能です";
 "settings_license" = "ライセンス";
+"settings_pro" = "プロ";
 "upgrade_to_recommand_os_version" = "最適な体験を得るために macOS 13.0+ をお勧めします！";
 
 // MARK: General

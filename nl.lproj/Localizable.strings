@@ -327,6 +327,19 @@
 
 // Pro
 "pro_unpaid_version" = "Nog %@ keer over vandaag";
+"pro" = "Pro";
+
+"upgrade_plan_unlock_unlimited" = "Upgrade je plan om onbeperkt plakken te ontgrendelen. Je kunt je abonnement op elk moment annuleren of wijzigen.";
+"subscribe" = "Abonneren";
+"subscribed" = "Geabonneerd";
+"change_plan" = "Plan Wijzigen";
+"active" = "Actief";
+"next_cycle_active" = "Actief Volgende Cyclus";
+"free" = "Gratis";
+"or_monthly" = "of %@/maand";
+"basic_plan" = "Basisplan";
+"basic_plan_description" = "Beperkt tot 25 plakken per dag, alle andere functies zijn gratis";
+
 
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "Sneltoetsen altijd tonen";
@@ -373,6 +386,7 @@
 "settings_about" = "Over";
 "settings_appupdates" = "Software-update beschikbaar";
 "settings_license" = "Licentie";
+"settings_pro" = "Pro";
 "upgrade_to_recommand_os_version" = "Aanbevolen macOS 13.0+ voor de beste ervaring!";
 
 // MARK: General

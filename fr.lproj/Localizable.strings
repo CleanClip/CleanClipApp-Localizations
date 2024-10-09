@@ -327,6 +327,19 @@
 
 // Pro
 "pro_unpaid_version" = "Reste %@ utilisations aujourd'hui";
+"pro" = "Pro";
+
+"upgrade_plan_unlock_unlimited" = "Mettez à niveau votre plan pour débloquer un nombre illimité de collages. Vous pouvez annuler ou modifier votre abonnement à tout moment.";
+"subscribe" = "S'abonner";
+"subscribed" = "Abonné";
+"change_plan" = "Changer de plan";
+"active" = "Actif";
+"next_cycle_active" = "Actif au prochain cycle";
+"free" = "Gratuit";
+"or_monthly" = "ou %@/mois";
+"basic_plan" = "Plan de base";
+"basic_plan_description" = "Limité à 25 collages par jour, toutes les autres fonctionnalités sont gratuites";
+
 
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "Toujours afficher les raccourcis";
@@ -373,6 +386,7 @@
 "settings_about" = "À propos";
 "settings_appupdates" = "Mise à jour logicielle disponible";
 "settings_license" = "Licence";
+"settings_pro" = "Pro";
 "upgrade_to_recommand_os_version" = "Mise à niveau recommandée vers macOS 13.0+ pour une expérience optimale !";
 
 // MARK: General

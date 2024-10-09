@@ -327,6 +327,19 @@
 
 // Pro
 "pro_unpaid_version" = "Zostáva %@ krát dnes";
+"pro" = "Pro";
+
+"upgrade_plan_unlock_unlimited" = "Zvýšte plán na odomknutie neobmedzeného počtu vložení. Predplatné môžete kedykoľvek zrušiť alebo zmeniť.";
+"subscribe" = "Predplatiť";
+"subscribed" = "Predplatené";
+"change_plan" = "Zmeniť plán";
+"active" = "Aktívne";
+"next_cycle_active" = "Aktívne v nasledujúcom cykle";
+"free" = "Bezplatné";
+"or_monthly" = "alebo %@/mesiac";
+"basic_plan" = "Základný plán";
+"basic_plan_description" = "Obmedzené na 25 vložení za deň, všetky ostatné funkcie sú bezplatné";
+
 
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "Vždy zobrazovať tipy na skratky";
@@ -373,6 +386,7 @@
 "settings_about" = "O nas";
 "settings_appupdates" = "Na voljo je posodobitev programske opreme";
 "settings_license" = "Licenca";
+"settings_pro" = "Pro";
 "upgrade_to_recommand_os_version" = "Priporočamo uporabo macOS 13.0+ za najboljšo izkušnjo!";
 
 // MARK: General

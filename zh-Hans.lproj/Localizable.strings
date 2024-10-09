@@ -327,6 +327,19 @@
 
 // Pro
 "pro_unpaid_version" = "今日剩余 %@ 次";
+"pro" = "专业版";
+
+"upgrade_plan_unlock_unlimited" = "升级计划以解锁无限粘贴次数。您可以随时取消或更改您的订阅。";
+"subscribe" = "订阅";
+"subscribed" = "已订阅";
+"change_plan" = "更改计划";
+"active" = "激活";
+"next_cycle_active" = "下个周期激活";
+"free" = "免费";
+"or_monthly" = "或每月%@";
+"basic_plan" = "基础计划";
+"basic_plan_description" = "每天限制25次粘贴，其他所有功能均为免费";
+
 
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "总是展示快捷键提示";
@@ -373,6 +386,7 @@
 "settings_about" = "关于";
 "settings_appupdates" = "有软件更新可用";
 "settings_license" = "许可证";
+"settings_pro" = "专业版";
 "upgrade_to_recommand_os_version" = "推荐使用 macOS 13.0+ 以获得最佳体验!";
 
 // MARK: General

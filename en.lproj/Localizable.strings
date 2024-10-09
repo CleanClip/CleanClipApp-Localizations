@@ -327,6 +327,19 @@
 
 // Pro
 "pro_unpaid_version" = "%@ times remaining today";
+"pro" = "Pro";
+
+"upgrade_plan_unlock_unlimited" = "Upgrade plan to unlock unlimited paste count. You can cancel or change your subscription at any time.";
+"subscribe" = "Subscribe";
+"subscribed" = "Subscribed";
+"change_plan" = "Change Plan";
+"active" = "Active";
+"next_cycle_active" = "Active Next Cycle";
+"free" = "Free";
+"or_monthly" = "or %@/month";
+"basic_plan" = "Basic Plan";
+"basic_plan_description" = "Limited to 25 pastes per day, all other features are free";
+
 
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "Always Show Shortcut Tips";
@@ -373,6 +386,7 @@
 "settings_about" = "About";
 "settings_appupdates" = "Software Update Available";
 "settings_license" = "License";
+"settings_pro" = "Pro";
 "upgrade_to_recommand_os_version" = "Recommended to use macOS 13.0+ for the best experience!";
 
 // MARK: General
