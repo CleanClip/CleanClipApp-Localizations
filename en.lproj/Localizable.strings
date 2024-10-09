@@ -53,7 +53,7 @@
 // 菜单栏版本
 "menu_version" = "Version: %@";
 
-"no_records_found" = "No records found📝";
+"no_records_found" = "No Records Found📝";
 "next_page" = "Next Page";
 "prev_page" = "Previous Page";
 "preview" = "Preview";
