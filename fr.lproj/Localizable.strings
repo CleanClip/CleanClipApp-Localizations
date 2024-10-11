@@ -341,7 +341,8 @@
 "basic_plan_description" = "Limité à 25 collages par jour, toutes les autres fonctionnalités sont gratuites";
 "lifetime_plan" = "Plan à vie";
 "lifetime_plan_description" = "Pastes illimités par jour, toutes les autres fonctionnalités sont gratuites";
-
+"subscribe_with_free_trial" = "Abonnez-vous avec un essai gratuit";
+"free_trail_desc" = "Gratuit pendant 14 jours, des frais s'appliquent après la fin de l'essai.\nVous pouvez annuler votre abonnement à tout moment, et annuler pendant la période d'essai ne vous coûtera rien.";
 
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "Toujours afficher les raccourcis";

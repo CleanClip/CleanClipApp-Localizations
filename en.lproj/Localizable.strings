@@ -341,7 +341,8 @@
 "basic_plan_description" = "Limited to 25 pastes per day, all other features are free";
 "lifetime_plan" = "Lifetime Plan";
 "lifetime_plan_description" = "Unlimited pastes per day, all other features are free";
-
+"subscribe_with_free_trial" = "Subscribe with Free Trial";
+"free_trail_desc" = "Free for 14 days, charges apply after the trial ends.\nYou can cancel your subscription at any time, and canceling during the trial period will not incur any charges.";
 
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "Always Show Shortcut Tips";

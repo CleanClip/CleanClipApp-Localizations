@@ -341,7 +341,8 @@
 "basic_plan_description" = "每天限制25次粘贴，其他所有功能均为免费";
 "lifetime_plan" = "终身计划";
 "lifetime_plan_description" = "每天无限粘贴，所有其他功能免费";
-
+"subscribe_with_free_trial" = "订阅并享受免费试用";
+"free_trail_desc" = "14 天免费试用，试用结束后将开始收费。\n您可以随时取消订阅，在试用期间取消不会产生任何费用。";
 
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "总是展示快捷键提示";

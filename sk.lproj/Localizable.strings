@@ -341,7 +341,8 @@
 "basic_plan_description" = "Obmedzené na 25 vložení za deň, všetky ostatné funkcie sú bezplatné";
 "lifetime_plan" = "Životný plán";
 "lifetime_plan_description" = "Neobmedzené vkladanie za deň, všetky ostatné funkcie sú zadarmo";
-
+"subscribe_with_free_trial" = "Prihláste sa s bezplatným skúšobným obdobím";
+"free_trail_desc" = "Bezplatne na 14 dní, poplatky sa uplatňujú po skončení skúšobného obdobia.\nSvoju predplatnú službu môžete zrušiť kedykoľvek a zrušenie počas skúšobného obdobia nebude mať žiadne poplatky.";
 
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "Vždy zobrazovať tipy na skratky";
