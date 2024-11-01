@@ -7,6 +7,7 @@
 "preferences" = "設定";
 "preferences_ignore" = "無視";
 "preferences_general" = "一般";
+"preferences_monitors" = "複数のモニター";
 "preferences_storage" = "保管";
 "accessibility_alert_message" = "“CleanClip”は、アクセシビリティ機能を使用してこのコンピュータを制御することを求めています。";
 "accessibility_alert_comment" = "システム環境設定の“セキュリティとプライバシー”環境設定で、このアプリケーションへのアクセスを許可してください。\n\n“+“ボタンをクリックし、“CleanClip“を選択して、その横のチェックボックスをオンにします。";
@@ -433,6 +434,7 @@
 "main_window_shortcut_desc" = "メインウィンドウを開くためのグローバルショートカットキー。";
 "main_window_auto_collapse" = "自動折りたたみ";
 "main_window_full_mode" = "フルハイト";
+"main_window_auto_follow_focus" = "フォーカスのあるモニターに自動的に移動";
 
 // MARK: Paste Stack
 "paste_stack_title" = "ペーストキュー:";
@@ -445,6 +447,8 @@
 "paste_stack_order_stack" = "スタック順";
 "paste_stack_order_queue" = "キュー順";
 "paste_stack_order_shuffle" = "シャッフル順";
+
+"paste_queue_auto_follow_focus" = "フォーカスのあるモニターに自動的に移動";
 
 // MARK: Storage
 "number_of_copies" = "保持する履歴項目数";

@@ -7,6 +7,7 @@
 "preferences" = "Preferences...";
 "preferences_ignore" = "Ignore";
 "preferences_general" = "General";
+"preferences_monitors" = "Multiple Monitors";
 "preferences_storage" = "Storage";
 "accessibility_alert_message" = "“CleanClip” would like to control this computer using accessibility features.";
 "accessibility_alert_comment" = "Grant access to this application in Security & Privacy preferences, located in System Preferences.\n\nClick + button, select CleanClip and toggle on the checkbox next to it.";
@@ -433,6 +434,7 @@
 "main_window_shortcut_desc" = "Global shortcut key to open main window.";
 "main_window_auto_collapse" = "Auto Collapse";
 "main_window_full_mode" = "Full Height";
+"main_window_auto_follow_focus" = "Automatically move to the monitor with focus";
 
 // MARK: Paste Stack
 "paste_stack_title" = "Paste Queue:";
@@ -445,6 +447,8 @@
 "paste_stack_order_stack" = "Stack Order";
 "paste_stack_order_queue" = "Queue Order";
 "paste_stack_order_shuffle" = "Shuffle Order";
+
+"paste_queue_auto_follow_focus" = "Automatically move to the monitor with focus";
 
 // MARK: Storage
 "number_of_copies" = "Number of history items to keep";

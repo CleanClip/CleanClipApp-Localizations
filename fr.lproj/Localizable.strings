@@ -7,6 +7,7 @@
 "preferences" = "Préférences...";
 "preferences_ignore" = "Ignorer";
 "preferences_general" = "Général";
+"preferences_monitors" = "Moniteurs multiples";
 "preferences_storage" = "Stockage";
 "accessibility_alert_message" = "“CleanClip” souhaite contrôler cet ordinateur en utilisant des fonctions d'accessibilité.";
 "accessibility_alert_comment" = "Accorder les droits à cette application dans le panneau Sécurité & confidentialité, situé dans Préférences Système.\n\nCliquez sur le bouton +, sélectionnez “CleanClip“ et cochez la case à côté.";
@@ -433,6 +434,7 @@
 "main_window_shortcut_desc" = "Touche de raccourci pour ouvrir la fenêtre principale.";
 "main_window_auto_collapse" = "Réduction automatique";
 "main_window_full_mode" = "Hauteur complète";
+"main_window_auto_follow_focus" = "Déplacer automatiquement vers le moniteur avec le focus";
 
 // MARK: Paste Stack
 "paste_stack_title" = "File de collage :";
@@ -445,6 +447,8 @@
 "paste_stack_order_stack" = "Ordre de la pile";
 "paste_stack_order_queue" = "Ordre de la file d'attente";
 "paste_stack_order_shuffle" = "Ordre aléatoire";
+
+"paste_queue_auto_follow_focus" = "Déplacer automatiquement vers le moniteur avec le focus";
 
 // MARK: Storage
 "number_of_copies" = "Nombre d'éléments à garder dans l'historique";

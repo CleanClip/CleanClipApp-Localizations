@@ -7,6 +7,7 @@
 "preferences" = "Preferencie...";
 "preferences_ignore" = "Ignorovať";
 "preferences_general" = "Všeobecné";
+"preferences_monitors" = "Viacero monitorov";
 "preferences_storage" = "Úložisko";
 "accessibility_alert_message" = "\"CleanClip\" by chcel ovládať tento počítač pomocou funkcií Prístupnosti.";
 "accessibility_alert_comment" = "Udeľ prístup CleanClip v Systémových nastaveniach > Súkromie a bezpečnosť > Prístupnosť.";
@@ -433,6 +434,7 @@
 "main_window_shortcut_desc" = "Globálna klávesová skratka na otvorenie hlavného okna.";
 "main_window_auto_collapse" = "Samodejno skrij";
 "main_window_full_mode" = "Polna višina";
+"main_window_auto_follow_focus" = "Automaticky sa presunúť na monitor s fokusom";
 
 // MARK: Paste Stack
 "paste_stack_title" = "Čakalna vrsta lepljenja:";
@@ -445,6 +447,8 @@
 "paste_stack_order_stack" = "Vrstni red skladanja";
 "paste_stack_order_queue" = "Vrstni red čakanja";
 "paste_stack_order_shuffle" = "Naključni vrstni red";
+
+"paste_queue_auto_follow_focus" = "Automaticky sa presunúť na monitor s fokusom";
 
 // MARK: Storage
 "number_of_copies" = "Počet položiek histórie, ktoré sa majú uchovávať";

@@ -7,6 +7,7 @@
 "preferences" = "偏好设置";
 "preferences_ignore" = "忽略";
 "preferences_general" = "通用";
+"preferences_monitors" = "多显示器";
 "preferences_storage" = "贮存";
 "accessibility_alert_message" = "“CleanClip“想要使用“辅助功能”控制此计算机。";
 "accessibility_alert_comment" = "在“系统偏好设置”中的“安全性和隐私”设置中授予此应用程序权限。\n\n单击 ”+” 按钮，选择 ”CleanClip” 并打开旁边的复选框。";
@@ -433,6 +434,7 @@
 "main_window_shortcut_desc" = "打开主窗口的全局快捷键。";
 "main_window_auto_collapse" = "自动收起";
 "main_window_full_mode" = "完整高度";
+"main_window_auto_follow_focus" = "自动切换到当前聚焦的显示器";
 
 // MARK: Paste Stack
 "paste_stack_title" = "粘贴队列:";
@@ -445,6 +447,8 @@
 "paste_stack_order_stack" = "堆栈顺序";
 "paste_stack_order_queue" = "队列顺序";
 "paste_stack_order_shuffle" = "随机顺序";
+
+"paste_queue_auto_follow_focus" = "自动切换到当前聚焦的显示器";
 
 // MARK: Storage
 "number_of_copies" = "保留历史记录条数";

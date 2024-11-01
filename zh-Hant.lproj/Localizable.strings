@@ -7,6 +7,7 @@
 "preferences" = "偏好設定";
 "preferences_ignore" = "忽略";
 "preferences_general" = "一般";
+"preferences_monitors" = "多重顯示器";
 "preferences_storage" = "儲存";
 "accessibility_alert_message" = "「CleanClip「想要使用「輔助功能」控制此 Mac。";
 "accessibility_alert_comment" = "在「系統偏好設定」中的「安全性和隱私權」設定中允許此應用程式權限。\n\n單擊 「+ 「按鈕，選擇 「CleanClip 「並打開旁邊的複選框。";
@@ -433,6 +434,7 @@
 "main_window_shortcut_desc" = "打開主視窗的全域快捷鍵。";
 "main_window_auto_collapse" = "自動折疊";
 "main_window_full_mode" = "全高度";
+"main_window_auto_follow_focus" = "自動移動到有焦點的顯示器";
 
 // MARK: Paste Stack
 "paste_stack_title" = "貼上佇列:";
@@ -445,6 +447,8 @@
 "paste_stack_order_stack" = "堆疊順序";
 "paste_stack_order_queue" = "佇列順序";
 "paste_stack_order_shuffle" = "隨機順序";
+
+"paste_queue_auto_follow_focus" = "自動移動到有焦點的顯示器";
 
 // MARK: Storage
 "number_of_copies" = "保留歷史記錄條數";

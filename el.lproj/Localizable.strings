@@ -7,6 +7,7 @@
 "preferences" = "Προτιμήσεις...";
 "preferences_ignore" = "Παράβλεψη";
 "preferences_general" = "Γενικά";
+"preferences_monitors" = "Πολλαπλές Οθόνες";
 "preferences_storage" = "Αποθήκευση";
 "accessibility_alert_message" = "“CleanClip” θα ήθελε να ελέγξει αυτόν τον υπολογιστή χρησιμοποιώντας τα χαρακτηριστικά προσβασιμότητας.";
 "accessibility_alert_comment" = "Χορηγήστε πρόσβαση σε αυτήν την εφαρμογή στις προτιμήσεις ασφάλειας & απορρήτου, που βρίσκονται στις Προτιμήσεις συστήματος.\n\nΚάντε κλικ στο κουμπί +, επιλέξτε CleanClip και κάντε εναλλαγή στο πλαίσιο ελέγχου δίπλα του.";
@@ -433,6 +434,7 @@
 "main_window_shortcut_desc" = "Καθολικό πλήκτρο συντόμευσης για άνοιγμα του κύριου παραθύρου.";
 "main_window_auto_collapse" = "Αυτόματη Σύμπτυξη";
 "main_window_full_mode" = "Πλήρους Ύψους";
+"main_window_auto_follow_focus" = "Αυτόματη μετακίνηση στην οθόνη με εστίαση";
 
 // MARK: Paste Stack
 "paste_stack_title" = "Ουρά Επικόλλησης:";
@@ -445,6 +447,8 @@
 "paste_stack_order_stack" = "Σειρά Πυργών";
 "paste_stack_order_queue" = "Σειρά Ουράς";
 "paste_stack_order_shuffle" = "Ανακάτεμα Σειράς";
+
+"paste_queue_auto_follow_focus" = "Αυτόματη μετακίνηση στην οθόνη με εστίαση";
 
 // MARK: Storage
 "number_of_copies" = "Αριθμός στοιχείων ιστορικού προς διατήρηση";

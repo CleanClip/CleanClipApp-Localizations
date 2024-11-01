@@ -7,6 +7,7 @@
 "preferences" = "Voorkeuren...";
 "preferences_ignore" = "Negeren";
 "preferences_general" = "Algemeen";
+"preferences_monitors" = "Meerdere Monitoren";
 "preferences_storage" = "Opslagruimte";
 "accessibility_alert_message" = "\"CleanClip\" wil deze computer bedienen met behulp van toegankelijkheidsfuncties.";
 "accessibility_alert_comment" = "Verleen toegang tot dit programma in het paneel 'Beveiliging en privacy' in Systeemvoorkeuren.\n\nKlik op de + knop, selecteer CleanClip en schakel het selectievakje ernaast in.";
@@ -433,6 +434,7 @@
 "main_window_shortcut_desc" = "Globale sneltoets om het hoofdvenster te openen.";
 "main_window_auto_collapse" = "Automatisch inklappen";
 "main_window_full_mode" = "Volledige hoogte";
+"main_window_auto_follow_focus" = "Automatisch verplaatsen naar de monitor met focus";
 
 // MARK: Paste Stack
 "paste_stack_title" = "Plakwachtrij:";
@@ -445,6 +447,8 @@
 "paste_stack_order_stack" = "Stapelvolgorde";
 "paste_stack_order_queue" = "Wachtrijvolgorde";
 "paste_stack_order_shuffle" = "Willekeurige volgorde";
+
+"paste_queue_auto_follow_focus" = "Automatisch verplaatsen naar de monitor met focus";
 
 // MARK: Storage
 "number_of_copies" = "Aantal in de geschiedenis te bewaren items";
