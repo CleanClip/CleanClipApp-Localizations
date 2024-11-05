@@ -25,14 +25,22 @@
 "feature_0_intro" = "⌘ + ; Met één klik toegang tot de pop-up met de geschiedenis";
 "feature_1" = "Context-switching-vrij";
 "feature_1_intro" = "Het is niet nodig om van focus te wisselen, de pop-up verschijnt altijd op de cursorpositie";
-"feature_2" = "Prikborden";
-"feature_2_intro" = "Dubbelklik op ⌘ + ; om snel toegang te krijgen tot de prikborden";
-"feature_3" = "Plakwachtrij";
-"feature_3_intro" = "⌘ + ' om snel content te verzamelen en te ordenen voor efficiënt gebruik";
-"feature_4" = "Snel zoeken";
-"feature_4_intro" = "Typ een letter om direct te zoeken en zelfs de oudste records te vinden";
-"feature_5" = "Automatisch kopieën opslaan";
-"feature_5_intro" = "U hoeft zich geen zorgen te maken over het verliezen van belangrijke inhoud. CleanClip zal het automatisch opslaan voor u";
+"feature_2" = "Verzamel Lijsten";
+"feature_2_intro" = "Dubbelklik ⌘ + ; om snel tussen de Lijsten te schakelen";
+"feature_3" = "Slimme Lijsten";
+"feature_3_intro" = "Je kunt slimme lijsten maken om specifieke inhoud automatisch te organiseren";
+"feature_4" = "Plakwachtrij";
+"feature_4_intro" = "⌘ + ' open Plakwachtrij om items in volgorde te plakken";
+"feature_5" = "Snelle Zoekopdracht";
+"feature_5_intro" = "Typ een letter om onmiddellijk te zoeken en zelfs de oudste records te vinden";
+"feature_6" = "Automatisch Opslaan Kopieën";
+"feature_6_intro" = "Maak je geen zorgen over het verliezen van belangrijke inhoud. CleanClip slaat het automatisch voor je op";
+"feature_7" = "Batchbewerking";
+"feature_7_intro" = "⌘⇧; open het hoofdvenster om inhoud in bulk te beheren en te gebruiken";
+"feature_8" = "Sleep & Zet Neer";
+"feature_8_intro" = "Elk item kan direct worden gebruikt door te slepen en neer te zetten";
+"feature_9" = "Vastpinnen aan het scherm";
+"feature_9_intro" = "Sleep het voorbeeldvenster van het item, en het zal automatisch aan het scherm worden vastgepind";
 "close" = "Sluiten";
 "congrats_permanent_member" = "Gefeliciteerd! U bent nu lid voor het leven!";
 "congrats_member" = "Gefeliciteerd! U bent nu premium lid!";
@@ -330,7 +338,8 @@
 "pro_unpaid_version" = "Nog %@ keer over vandaag";
 "pro" = "Pro";
 
-"upgrade_plan_unlock_unlimited" = "Upgrade je plan om onbeperkt plakken te ontgrendelen. Je kunt je abonnement op elk moment annuleren of wijzigen.";
+"start_free" = "Begin Gratis";
+"upgrade_plan_unlock_unlimited" = "Probeer CleanClip gratis op je Mac. Betaal alleen als je ervoor kiest om door te gaan, of annuleer op elk moment.";
 "subscribe" = "Abonneren";
 "subscribed" = "Geabonneerd";
 "change_plan" = "Plan Wijzigen";
@@ -342,8 +351,13 @@
 "basic_plan_description" = "Beperkt tot 25 plakken per dag, alle andere functies zijn gratis";
 "lifetime_plan" = "Levenslang Plan";
 "lifetime_plan_description" = "Onbeperkt plakken per dag, alle andere functies zijn gratis";
-"subscribe_with_free_trial" = "Abonneer met gratis proefperiode";
-"free_trail_desc" = "Gratis voor 14 dagen, kosten zijn van toepassing na het einde van de proefperiode.\nJe kunt je abonnement op elk moment annuleren, en annuleren tijdens de proefperiode brengt geen kosten met zich mee.";
+"subscribe_with_free_trial" = "Begin Je Gratis Proefperiode";
+"free_trail_desc" = "7 dagen gratis, daarna %@/jaar";
+"choose_your_plan" = "Kies Je Plan";
+"choose_your_plan_desc" = "Gratis proefperiode is inbegrepen bij elk plan. Je kunt je abonnement op elk moment annuleren of wijzigen.";
+"current_plan" = "Huidig Plan";
+"cancel" = "Annuleren";
+"continue" = "Doorgaan";
 
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "Sneltoetsen altijd tonen";

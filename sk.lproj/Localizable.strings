@@ -25,14 +25,22 @@
 "feature_0_intro" = "⌘ + ; Prístup do kontextového okna histórie jediným kliknutím";
 "feature_1" = "Bez prepínania kontextu";
 "feature_1_intro" = "Nie je potrebné prepínať inde, kontextové okno sa vždy zobrazí na pozícii kurzora";
-"feature_2" = "Nástenky";
-"feature_2_intro" = "Rýchle otvorenie nástenky dvojitým kliknutím na ⌘ + ;";
-"feature_3" = "Paste Queue";
-"feature_3_intro" = "⌘ + ' na rýchle zhromažďovanie obsahu a jeho usporiadanie pre efektívne využitie";
-"feature_4" = "Rýchle vyhľadávanie";
-"feature_4_intro" = "Zadaj písmeno pre okamžité vyhľadanie a nájdenie aj tých najstarších záznamov";
-"feature_5" = "Automatické ukladanie kopírovania";
-"feature_5_intro" = "Nemusíš sa obávať straty dôležitého obsahu. CleanClip ho automaticky uloží za Teba";
+"feature_2" = "Zoznamy zbierok";
+"feature_2_intro" = "Dvojitým kliknutím ⌘ + ; rýchlo prepnete zoznamy";
+"feature_3" = "Inteligentné zoznamy";
+"feature_3_intro" = "Môžete vytvoriť inteligentné zoznamy na automatické organizovanie konkrétneho obsahu";
+"feature_4" = "Čakáreň na vloženie";
+"feature_4_intro" = "⌘ + ' otvorí čakáreň na vloženie, aby ste mohli vkladať položky v poradí";
+"feature_5" = "Rýchle vyhľadávanie";
+"feature_5_intro" = "Napíšte písmeno a okamžite vyhľadajte a nájdite aj najstaršie záznamy";
+"feature_6" = "Automatické ukladanie kópií";
+"feature_6_intro" = "Nemusíte sa obávať straty dôležitého obsahu. CleanClip ho automaticky uloží za vás";
+"feature_7" = "Hromadná operácia";
+"feature_7_intro" = "⌘⇧; otvorenie hlavného okna vám umožní spravovať a používať obsah hromadne";
+"feature_8" = "Drag & Drop";
+"feature_8_intro" = "Každú položku môžete použiť priamo ťahaním a pustení";
+"feature_9" = "Pripnúť na obrazovku";
+"feature_9_intro" = "Potiahnite a pustite okno náhľadu položky a automaticky sa pripne na obrazovku";
 "close" = "Zavrieť";
 "congrats_permanent_member" = "Gratulujeme! Odteraz si doživotným členom!";
 "congrats_member" = "Gratulujeme! Odteraz si prémiovým členom!";
@@ -330,7 +338,8 @@
 "pro_unpaid_version" = "Zostáva %@ krát dnes";
 "pro" = "Pro";
 
-"upgrade_plan_unlock_unlimited" = "Zvýšte plán na odomknutie neobmedzeného počtu vložení. Predplatné môžete kedykoľvek zrušiť alebo zmeniť.";
+"start_free" = "Začať zadarmo";
+"upgrade_plan_unlock_unlimited" = "Vyskúšajte CleanClip zadarmo na svojom Macu. Plaťte iba v prípade, že sa rozhodnete pokračovať, alebo zrušte kedykoľvek.";
 "subscribe" = "Predplatiť";
 "subscribed" = "Predplatené";
 "change_plan" = "Zmeniť plán";
@@ -342,8 +351,13 @@
 "basic_plan_description" = "Obmedzené na 25 vložení za deň, všetky ostatné funkcie sú bezplatné";
 "lifetime_plan" = "Životný plán";
 "lifetime_plan_description" = "Neobmedzené vkladanie za deň, všetky ostatné funkcie sú zadarmo";
-"subscribe_with_free_trial" = "Prihláste sa s bezplatným skúšobným obdobím";
-"free_trail_desc" = "Bezplatne na 14 dní, poplatky sa uplatňujú po skončení skúšobného obdobia.\nSvoju predplatnú službu môžete zrušiť kedykoľvek a zrušenie počas skúšobného obdobia nebude mať žiadne poplatky.";
+"subscribe_with_free_trial" = "Začnite svoju bezplatnú skúšku";
+"free_trail_desc" = "7 dní zadarmo, potom %@/rok";
+"choose_your_plan" = "Vyberte si svoj plán";
+"choose_your_plan_desc" = "Bezplatná skúška je zahrnutá v akomkoľvek pláne. Môžete zrušiť alebo zmeniť svoje predplatné kedykoľvek.";
+"current_plan" = "Aktuálny plán";
+"cancel" = "Zrušiť";
+"continue" = "Pokračovať";
 
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "Vždy zobrazovať tipy na skratky";

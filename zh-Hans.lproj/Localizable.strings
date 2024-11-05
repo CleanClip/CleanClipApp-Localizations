@@ -25,14 +25,22 @@
 "feature_0_intro" = "⌘ + ; 一键呼出历史弹窗";
 "feature_1" = "无需上下文切换";
 "feature_1_intro" = "无需切换视野焦点，弹窗总在输入光标处出现";
-"feature_2" = "固定面板";
-"feature_2_intro" = "双击 ⌘ + ; 快速访问固定面板";
-"feature_3" = "粘贴队列";
-"feature_3_intro" = "⌘ + ' 帮助你快速收集内容，然后集中整理使用";
-"feature_4" = "快速搜索";
-"feature_4_intro" = "键入字母快速搜索，再久远的记录也瞬间找到";
-"feature_5" = "自动保存";
-"feature_5_intro" = "自动保存复制记录，无需担心丢失重要内容";
+"feature_2" = "收藏列表";
+"feature_2_intro" = "双击⌘ + ;快速切换列表";
+"feature_3" = "智能列表";
+"feature_3_intro" = "您可以创建智能列表以自动组织特定内容";
+"feature_4" = "粘贴队列";
+"feature_4_intro" = "⌘ + ' 打开粘贴队列，按顺序粘贴项目";
+"feature_5" = "快速搜索";
+"feature_5_intro" = "输入一个字母即可瞬间搜索并找到即使是最旧的记录";
+"feature_6" = "自动保存副本";
+"feature_6_intro" = "无需担心丢失重要内容。CleanClip 会自动为您保存";
+"feature_7" = "批量操作";
+"feature_7_intro" = "⌘⇧; 打开主窗口，允许您批量管理和使用内容";
+"feature_8" = "拖放";
+"feature_8_intro" = "每个项目都可以通过拖放直接使用";
+"feature_9" = "固定到屏幕";
+"feature_9_intro" = "拖放项目预览窗口，它会自动固定到屏幕上";
 "close" = "关闭";
 "congrats_permanent_member" = "恭喜成为尊贵的永久会员";
 "congrats_member" = "恭喜成为尊贵的付费会员";
@@ -330,7 +338,8 @@
 "pro_unpaid_version" = "今日剩余 %@ 次";
 "pro" = "专业版";
 
-"upgrade_plan_unlock_unlimited" = "升级计划以解锁无限粘贴次数。您可以随时取消或更改您的订阅。";
+"start_free" = "开始免费试用";
+"upgrade_plan_unlock_unlimited" = "在你的 Mac 上免费试用 CleanClip。只有在你选择继续时才需付费，或随时取消。";
 "subscribe" = "订阅";
 "subscribed" = "已订阅";
 "change_plan" = "更改计划";
@@ -342,8 +351,13 @@
 "basic_plan_description" = "每天限制25次粘贴，其他所有功能均为免费";
 "lifetime_plan" = "终身计划";
 "lifetime_plan_description" = "每天无限粘贴，所有其他功能免费";
-"subscribe_with_free_trial" = "订阅并享受免费试用";
-"free_trail_desc" = "14 天免费试用，试用结束后将开始收费。\n您可以随时取消订阅，在试用期间取消不会产生任何费用。";
+"subscribe_with_free_trial" = "开始您的免费试用";
+"free_trail_desc" = "7 天免费，然后 %@/年";
+"choose_your_plan" = "选择您的计划";
+"choose_your_plan_desc" = "任何计划均包含免费试用。您可以随时取消或更改订阅。";
+"current_plan" = "当前计划";
+"cancel" = "取消";
+"continue" = "继续";
 
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "总是展示快捷键提示";

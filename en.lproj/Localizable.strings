@@ -25,14 +25,22 @@
 "feature_0_intro" = "⌘ + ; One-click access to the history popup";
 "feature_1" = "Context Switching-Free";
 "feature_1_intro" = "No need to switch focus, the popup always appears at the cursor position";
-"feature_2" = "Pinboards";
-"feature_2_intro" = "Double-click ⌘ + ; to quickly access the Pinboards";
-"feature_3" = "Paste Queue";
-"feature_3_intro" = "⌘ + ' to quickly collect content and organize it for efficient use";
-"feature_4" = "Quick Search";
-"feature_4_intro" = "Type a letter to instantly search and find even the oldest records";
-"feature_5" = "Auto Save Copies";
-"feature_5_intro" = "No need to worry about losing important content. CleanClip will automatically save it for you";
+"feature_2" = "Collection Lists";
+"feature_2_intro" = "Double-click ⌘ + ; to quickly switch the Lists";
+"feature_3" = "Smart Lists";
+"feature_3_intro" = "You can create smart lists to automatically organize specific content";
+"feature_4" = "Paste Queue";
+"feature_4_intro" = "⌘ + ' open Paste Queue to paste items in order";
+"feature_5" = "Quick Search";
+"feature_5_intro" = "Type a letter to instantly search and find even the oldest records";
+"feature_6" = "Auto Save Copies";
+"feature_6_intro" = "No need to worry about losing important content. CleanClip will automatically save it for you";
+"feature_7" = "Batch operation";
+"feature_7_intro" = "⌘⇧; open the main window allows you to manage and use content in bulk";
+"feature_8" = "Drag & Drop";
+"feature_8_intro" = "Each item can be used directly by dragging and dropping";
+"feature_9" = "Pin to screen";
+"feature_9_intro" = "Drag and drop the item preview window, and it will automatically pin to the screen";
 "close" = "Close";
 "congrats_permanent_member" = "Congratulations! You are now a lifetime member!";
 "congrats_member" = "Congratulations! You are now a premium member!";
@@ -330,7 +338,8 @@
 "pro_unpaid_version" = "%@ times remaining today";
 "pro" = "Pro";
 
-"upgrade_plan_unlock_unlimited" = "Upgrade plan to unlock unlimited paste count. You can cancel or change your subscription at any time.";
+"start_free" = "Start Free";
+"upgrade_plan_unlock_unlimited" = "Try CleanClip for free on your Mac. Pay only if you choose to continue, or cancel at any time.";
 "subscribe" = "Subscribe";
 "subscribed" = "Subscribed";
 "change_plan" = "Change Plan";
@@ -342,8 +351,13 @@
 "basic_plan_description" = "Limited to 25 pastes per day, all other features are free";
 "lifetime_plan" = "Lifetime Plan";
 "lifetime_plan_description" = "Unlimited pastes per day, all other features are free";
-"subscribe_with_free_trial" = "Subscribe with Free Trial";
-"free_trail_desc" = "Free for 14 days, charges apply after the trial ends.\nYou can cancel your subscription at any time, and canceling during the trial period will not incur any charges.";
+"subscribe_with_free_trial" = "Start Your Free Trial";
+"free_trail_desc" = "7 days free, then %@/year";
+"choose_your_plan" = "Choose Your Plan";
+"choose_your_plan_desc" = "Free trial is included with any plan. You can cancel or change your subscription at any time.";
+"current_plan" = "Current Plan";
+"cancel" = "Cancel";
+"continue" = "Continue";
 
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "Always Show Shortcut Tips";

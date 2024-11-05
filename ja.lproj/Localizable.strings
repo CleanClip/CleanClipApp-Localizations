@@ -25,14 +25,22 @@
 "feature_0_intro" = "⌘ + ; 履歴ポップアップへのワンクリックアクセス";
 "feature_1" = "コンテキスト切り替え不要";
 "feature_1_intro" = "フォーカスを切り替える必要がなく、ポップアップは常にカーソルの位置に表示されます。";
-"feature_2" = "ピンボード";
-"feature_2_intro" = "⌘ + ; をダブルクリックして、ピンボードにすばやくアクセス";
-"feature_3" = "ペーストキュー";
-"feature_3_intro" = "⌘+ 'を使用すると、コンテンツをすばやく収集し、効率的に整理できます";
-"feature_4" = "クイック検索";
-"feature_4_intro" = "一文字入力するだけで、最も古い記録でも即座に検索して見つけられます";
-"feature_5" = "コピーの自動保存";
-"feature_5_intro" = "重要なコンテンツを失う心配はありません。CleanClipが自動的に保存してくれます";
+"feature_2" = "コレクションリスト";
+"feature_2_intro" = "ダブルクリック ⌘ + ; でリストを素早く切り替え";
+"feature_3" = "スマートリスト";
+"feature_3_intro" = "特定のコンテンツを自動的に整理するスマートリストを作成できます";
+"feature_4" = "ペーストキュー";
+"feature_4_intro" = "⌘ + ' でペーストキューを開き、アイテムを順番にペーストします";
+"feature_5" = "クイック検索";
+"feature_5_intro" = "文字を入力することで、瞬時に検索し、最も古い記録さえ見つけることができます";
+"feature_6" = "自動保存コピー";
+"feature_6_intro" = "重要なコンテンツを失う心配はありません。CleanClipが自動的に保存します";
+"feature_7" = "バッチ操作";
+"feature_7_intro" = "⌘⇧; メインウィンドウを開くことで、コンテンツを一括管理・使用できます";
+"feature_8" = "ドラッグ＆ドロップ";
+"feature_8_intro" = "各アイテムはドラッグ＆ドロップで直接使用できます";
+"feature_9" = "画面にピン留め";
+"feature_9_intro" = "アイテムプレビューウィンドウをドラッグ＆ドロップすると、自動的に画面にピン留めされます";
 "close" = "閉じる";
 "congrats_permanent_member" = "おめでとうございます！あなたはライフタイムメンバーになりました！";
 "congrats_member" = "おめでとうございます！あなたはプレミアムメンバーになりました！";
@@ -330,7 +338,8 @@
 "pro_unpaid_version" = "今日の残り %@ 回";
 "pro" = "プロ";
 
-"upgrade_plan_unlock_unlimited" = "無制限のペースト数を解除するためにプランをアップグレードしてください。いつでもサブスクリプションをキャンセルまたは変更できます。";
+"start_free" = "無料で始める";
+"upgrade_plan_unlock_unlimited" = "MacでCleanClipを無料でお試しください。続行する場合のみ料金が発生し、いつでもキャンセルできます。";
 "subscribe" = "サブスクライブ";
 "subscribed" = "サブスクライブ済み";
 "change_plan" = "プランを変更";
@@ -342,8 +351,13 @@
 "basic_plan_description" = "1日あたり25回のペーストに制限されており、その他のすべての機能は無料です";
 "lifetime_plan" = "ライフタイムプラン";
 "lifetime_plan_description" = "1日あたり無制限のペースト、その他の機能はすべて無料";
-"subscribe_with_free_trial" = "無料トライアルで購読する";
-"free_trail_desc" = "14日間無料、トライアル終了後に料金が発生します。\nいつでも購読をキャンセルできます。トライアル期間中にキャンセルしても料金は発生しません。";
+"subscribe_with_free_trial" = "無料トライアルを開始";
+"free_trail_desc" = "7日間無料、その後%@/年";
+"choose_your_plan" = "プランを選択";
+"choose_your_plan_desc" = "すべてのプランに無料トライアルが含まれています。いつでもサブスクリプションをキャンセルまたは変更できます。";
+"current_plan" = "現在のプラン";
+"cancel" = "キャンセル";
+"continue" = "続ける";
 
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "ショートカットのヒントを常に表示";

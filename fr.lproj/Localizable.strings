@@ -25,14 +25,22 @@
 "feature_0_intro" = "⌘ + ; Accès en un clic à la fenêtre de l'historique";
 "feature_1" = "Pas de changement de contexte";
 "feature_1_intro" = "Pas besoin de changer de focus, la fenêtre apparaît toujours à la position du curseur";
-"feature_2" = "Préférés";
-"feature_2_intro" = "Double-cliquez sur ⌘ + ; pour accéder rapidement aux Épingles";
-"feature_3" = "File de collage";
-"feature_3_intro" = "⌘ + ' pour collecter rapidement le contenu et l'organiser pour une utilisation efficace";
-"feature_4" = "Recherche rapide";
-"feature_4_intro" = "Tapez une lettre pour rechercher instantanément et trouver même les éléments les plus anciens";
-"feature_5" = "Sauvegarde automatique des copies";
-"feature_5_intro" = "Pas besoin de vous soucier de la perte de contenu important. CleanClip l'enregistrera automatiquement pour vous";
+"feature_2" = "Listes de Collection";
+"feature_2_intro" = "Double-cliquez sur ⌘ + ; pour changer rapidement les Listes";
+"feature_3" = "Listes Intelligentes";
+"feature_3_intro" = "Vous pouvez créer des listes intelligentes pour organiser automatiquement un contenu spécifique";
+"feature_4" = "File d'attente de collage";
+"feature_4_intro" = "⌘ + ' ouvrir la File d'attente de collage pour coller les éléments dans l'ordre";
+"feature_5" = "Recherche Rapide";
+"feature_5_intro" = "Tapez une lettre pour rechercher instantanément et trouver même les enregistrements les plus anciens";
+"feature_6" = "Sauvegarde automatique des copies";
+"feature_6_intro" = "Pas besoin de s'inquiéter de perdre du contenu important. CleanClip le sauvegardera automatiquement pour vous";
+"feature_7" = "Opération par lot";
+"feature_7_intro" = "⌘⇧; ouvrir la fenêtre principale vous permet de gérer et d'utiliser le contenu en masse";
+"feature_8" = "Glisser & Déposer";
+"feature_8_intro" = "Chaque élément peut être utilisé directement en le faisant glisser et en le déposant";
+"feature_9" = "Épingler à l'écran";
+"feature_9_intro" = "Faites glisser et déposez la fenêtre d'aperçu de l'élément, et elle sera automatiquement épinglée à l'écran";
 "close" = "Fermer";
 "congrats_permanent_member" = "Félicitations! Vous êtes maintenant un membre à vie!";
 "congrats_member" = "Félicitations! Vous êtes à présent un utilisateur premium!";
@@ -330,7 +338,8 @@
 "pro_unpaid_version" = "Reste %@ utilisations aujourd'hui";
 "pro" = "Pro";
 
-"upgrade_plan_unlock_unlimited" = "Mettez à niveau votre plan pour débloquer un nombre illimité de collages. Vous pouvez annuler ou modifier votre abonnement à tout moment.";
+"start_free" = "Commencer Gratuitement";
+"upgrade_plan_unlock_unlimited" = "Essayez CleanClip gratuitement sur votre Mac. Payez uniquement si vous choisissez de continuer, ou annulez à tout moment.";
 "subscribe" = "S'abonner";
 "subscribed" = "Abonné";
 "change_plan" = "Changer de plan";
@@ -342,8 +351,13 @@
 "basic_plan_description" = "Limité à 25 collages par jour, toutes les autres fonctionnalités sont gratuites";
 "lifetime_plan" = "Plan à vie";
 "lifetime_plan_description" = "Pastes illimités par jour, toutes les autres fonctionnalités sont gratuites";
-"subscribe_with_free_trial" = "Abonnez-vous avec un essai gratuit";
-"free_trail_desc" = "Gratuit pendant 14 jours, des frais s'appliquent après la fin de l'essai.\nVous pouvez annuler votre abonnement à tout moment, et annuler pendant la période d'essai ne vous coûtera rien.";
+"subscribe_with_free_trial" = "Commencez Votre Essai Gratuit";
+"free_trail_desc" = "7 jours gratuits, puis %@/an";
+"choose_your_plan" = "Choisissez Votre Plan";
+"choose_your_plan_desc" = "L'essai gratuit est inclus avec n'importe quel plan. Vous pouvez annuler ou changer votre abonnement à tout moment.";
+"current_plan" = "Plan Actuel";
+"cancel" = "Annuler";
+"continue" = "Continuer";
 
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "Toujours afficher les raccourcis";
