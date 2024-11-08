@@ -5,7 +5,6 @@
 "about" = "关于";
 "quit" = "退出";
 "preferences" = "偏好设置";
-"preferences_ignore" = "忽略";
 "preferences_general" = "通用";
 "preferences_monitors" = "多显示器";
 "preferences_storage" = "贮存";
@@ -399,7 +398,7 @@
 "settings_quick_menu" = "快捷菜单";
 "settings_main_window" = "主窗口";
 "settings_paste_stack" = "粘贴队列";
-"settings_ignore" = "忽略";
+"settings_ignore" = "规则";
 "settings_ocr" = "OCR";
 "settings_about" = "关于";
 "settings_appupdates" = "有软件更新可用";
@@ -469,12 +468,26 @@
 "unlimited" = "无限制";
 
 // MARK: Ignore
-"ignore_apps" = "忽略的应用程序";
+"ignore_apps" = "按应用程序";
 "app" = "应用程序";
 "ignore_or_not" = "忽略";
 "bundle_id" = "Bundle标识";
 "select_all" = "全选";
 "unselect_all" = "取消全选";
+"ignore_lists_name" = "忽略规则 %@";
+"ignore_custom_lists_desc" = "你可以添加多个筛选过滤器，筛选出的内容将不会被 CleanClip 保存";
+"ignored_pastetypes" = "按类型";
+"ignored_advanced" = "高级";
+"add_ignored_lists" = "添加忽略规则";
+"type" = "剪贴板类型";
+"type_count" = "数量";
+"type_name" = "";
+"choose_an_application" = "选择一个应用程序";
+
+"preset_pastetype_text" = "文字";
+"preset_pastetype_image" = "图片";
+"preset_pastetype_1password" = "1Password";
+
 
 // MARK: About
 "acknowledgements" = "鸣谢";

@@ -5,7 +5,6 @@
 "about" = "Over CleanClip...";
 "quit" = "Stop";
 "preferences" = "Voorkeuren...";
-"preferences_ignore" = "Negeren";
 "preferences_general" = "Algemeen";
 "preferences_monitors" = "Meerdere Monitoren";
 "preferences_storage" = "Opslagruimte";
@@ -399,7 +398,7 @@
 "settings_quick_menu" = "Snelmenu";
 "settings_main_window" = "Hoofdvenster";
 "settings_paste_stack" = "Plakwachtrij";
-"settings_ignore" = "Negeren";
+"settings_ignore" = "Regels";
 "settings_ocr" = "OCR";
 "settings_about" = "Over";
 "settings_appupdates" = "Software-update beschikbaar";
@@ -469,12 +468,26 @@
 "unlimited" = "Onbeperkt";
 
 // MARK: Ignore
-"ignore_apps" = "Genegeerde apps";
+"ignore_apps" = "Op apps";
 "app" = "Applicatie";
 "ignore_or_not" = "Negeren";
 "bundle_id" = "Bundel-ID";
 "select_all" = "Alles selecteren";
 "unselect_all" = "Alles deselecteren";
+"ignore_lists_name" = "Negeren regels %@";
+"ignore_custom_lists_desc" = "Je kunt meerdere filterfilters toevoegen, de gefilterde inhoud zal niet door CleanClip worden opgeslagen";
+"ignored_pastetypes" = "Op types";
+"ignored_advanced" = "Geavanceerd";
+"add_ignored_lists" = "Voeg negeren regels toe";
+"type" = "Plakbordtype";
+"type_count" = "Aantal";
+"type_name" = "";
+"choose_an_application" = "Kies een applicatie";
+
+"preset_pastetype_text" = "Tekst";
+"preset_pastetype_image" = "Afbeelding";
+"preset_pastetype_1password" = "1Password";
+
 
 // MARK: About
 "acknowledgements" = "Dankbetuigingen";

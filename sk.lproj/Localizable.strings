@@ -5,7 +5,6 @@
 "about" = "O apke CleanClip...";
 "quit" = "Ukončiť";
 "preferences" = "Preferencie...";
-"preferences_ignore" = "Ignorovať";
 "preferences_general" = "Všeobecné";
 "preferences_monitors" = "Viacero monitorov";
 "preferences_storage" = "Úložisko";
@@ -399,7 +398,7 @@
 "settings_quick_menu" = "Hitri meni";
 "settings_main_window" = "Glavno okno";
 "settings_paste_stack" = "Vrsta lepljenja";
-"settings_ignore" = "Prezri";
+"settings_ignore" = "Pravidlá";
 "settings_ocr" = "OCR";
 "settings_about" = "O nas";
 "settings_appupdates" = "Na voljo je posodobitev programske opreme";
@@ -469,12 +468,26 @@
 "unlimited" = "Nekonečný";
 
 // MARK: Ignore
-"ignore_apps" = "Prezri aplikacije";
+"ignore_apps" = "Podľa aplikácií";
 "app" = "Aplikácia";
 "ignore_or_not" = "Ignorovať";
 "bundle_id" = "Identifikátor balíka";
 "select_all" = "Vybrať všetko";
 "unselect_all" = "Zrušiť výber všetkého";
+"ignore_lists_name" = "Ignorovať pravidlo %@";
+"ignore_custom_lists_desc" = "Môžete pridať viacero filtrov, obsah, ktorý prejde filtrami, nebude uložený v CleanClip";
+"ignored_pastetypes" = "Podľa typov";
+"ignored_advanced" = "Pokročilé";
+"add_ignored_lists" = "Pridať ignorované pravidlo";
+"type" = "Typ schránky";
+"type_count" = "Počet";
+"type_name" = "";
+"choose_an_application" = "Vyberte aplikáciu";
+
+"preset_pastetype_text" = "Text";
+"preset_pastetype_image" = "Obrázok";
+"preset_pastetype_1password" = "1Password";
+
 
 // MARK: About
 "acknowledgements" = "Podakovanie";

@@ -5,7 +5,6 @@
 "about" = "À propos de CleanClip...";
 "quit" = "Quitter";
 "preferences" = "Préférences...";
-"preferences_ignore" = "Ignorer";
 "preferences_general" = "Général";
 "preferences_monitors" = "Moniteurs multiples";
 "preferences_storage" = "Stockage";
@@ -399,7 +398,7 @@
 "settings_quick_menu" = "Menu rapide";
 "settings_main_window" = "Fenêtre principale";
 "settings_paste_stack" = "File de collage";
-"settings_ignore" = "Ignorer";
+"settings_ignore" = "Règles";
 "settings_ocr" = "OCR";
 "settings_about" = "À propos";
 "settings_appupdates" = "Mise à jour logicielle disponible";
@@ -469,12 +468,26 @@
 "unlimited" = "Illimité";
 
 // MARK: Ignore
-"ignore_apps" = "Applications ignorées";
+"ignore_apps" = "Par Applications";
 "app" = "Application";
 "ignore_or_not" = "Ignorer";
 "bundle_id" = "Identifiant du bundle";
 "select_all" = "Tout Sélectionner";
 "unselect_all" = "Tout Désélectionner";
+"ignore_lists_name" = "Règle d'ignorance %@";
+"ignore_custom_lists_desc" = "Vous pouvez ajouter plusieurs filtres de sélection, le contenu filtré ne sera pas enregistré par CleanClip";
+"ignored_pastetypes" = "Par Types";
+"ignored_advanced" = "Avancé";
+"add_ignored_lists" = "Ajouter une règle d'ignorance";
+"type" = "Type de Presse-papiers";
+"type_count" = "Nombre";
+"type_name" = "";
+"choose_an_application" = "Choisissez une application";
+
+"preset_pastetype_text" = "Texte";
+"preset_pastetype_image" = "Image";
+"preset_pastetype_1password" = "1Password";
+
 
 // MARK: About
 "acknowledgements" = "Mentions légales";

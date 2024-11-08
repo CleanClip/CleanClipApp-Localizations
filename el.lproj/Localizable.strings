@@ -5,7 +5,6 @@
 "about" = "Σχετικά με το CleanClip...";
 "quit" = "Έξοδος";
 "preferences" = "Προτιμήσεις...";
-"preferences_ignore" = "Παράβλεψη";
 "preferences_general" = "Γενικά";
 "preferences_monitors" = "Πολλαπλές Οθόνες";
 "preferences_storage" = "Αποθήκευση";
@@ -399,7 +398,7 @@
 "settings_quick_menu" = "Γρήγορο Μενού";
 "settings_main_window" = "Κύριο Παράθυρο";
 "settings_paste_stack" = "Ουρά Επικόλλησης";
-"settings_ignore" = "Αγνόηση";
+"settings_ignore" = "Κανόνες";
 "settings_ocr" = "OCR";
 "settings_about" = "Σχετικά";
 "settings_appupdates" = "Διαθέσιμη Ενημέρωση Λογισμικού";
@@ -469,12 +468,26 @@
 "unlimited" = "Απεριόριστο";
 
 // MARK: Ignore
-"ignore_apps" = "Αγνόηση Εφαρμογών";
+"ignore_apps" = "Κατά εφαρμογές";
 "app" = "Εφαρμογή";
 "ignore_or_not" = "Αγνόηση";
 "bundle_id" = "Αναγνωριστικό Bundle";
 "select_all" = "Επιλογή Όλων";
 "unselect_all" = "Αποεπιλογή Όλων";
+"ignore_lists_name" = "Αγνοήστε κανόνες %@";
+"ignore_custom_lists_desc" = "Μπορείτε να προσθέσετε πολλαπλά φίλτρα, το περιεχόμενο που φιλτράρεται δεν θα αποθηκευτεί από το CleanClip";
+"ignored_pastetypes" = "Κατά τύπους";
+"ignored_advanced" = "Προχωρημένο";
+"add_ignored_lists" = "Προσθήκη κανόνων αγνόησης";
+"type" = "Τύπος Πρόσθεσης";
+"type_count" = "Μετρητής";
+"type_name" = "";
+"choose_an_application" = "Επιλέξτε μια εφαρμογή";
+
+"preset_pastetype_text" = "Κείμενο";
+"preset_pastetype_image" = "Εικόνα";
+"preset_pastetype_1password" = "1Password";
+
 
 // MARK: About
 "acknowledgements" = "Αναγνωρίσεις";

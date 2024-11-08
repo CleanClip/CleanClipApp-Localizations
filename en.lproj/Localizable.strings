@@ -5,7 +5,6 @@
 "about" = "About CleanClip...";
 "quit" = "Quit";
 "preferences" = "Preferences...";
-"preferences_ignore" = "Ignore";
 "preferences_general" = "General";
 "preferences_monitors" = "Multiple Monitors";
 "preferences_storage" = "Storage";
@@ -399,7 +398,7 @@
 "settings_quick_menu" = "Quick Menu";
 "settings_main_window" = "Main Window";
 "settings_paste_stack" = "Paste Queue";
-"settings_ignore" = "Ignore";
+"settings_ignore" = "Rules";
 "settings_ocr" = "OCR";
 "settings_about" = "About";
 "settings_appupdates" = "Software Update Available";
@@ -469,12 +468,26 @@
 "unlimited" = "Unlimited";
 
 // MARK: Ignore
-"ignore_apps" = "Ignored Applications";
+"ignore_apps" = "By Apps";
 "app" = "Application";
 "ignore_or_not" = "Ignore";
 "bundle_id" = "Bundle Id";
 "select_all" = "Select All";
 "unselect_all" = "Unselect All";
+"ignore_lists_name" = "Ignored Rules %@";
+"ignore_custom_lists_desc" = "You can add multiple filtering rules, and the filtered content will not be saved by CleanClip.";
+"ignored_pastetypes" = "By Types";
+"ignored_advanced" = "Advanced";
+"add_ignored_lists" = "Add Ignored Rules";
+"type" = "Pasteboard Type";
+"type_count" = "Count";
+"type_name" = "";
+"choose_an_application" = "Choose an application";
+
+"preset_pastetype_text" = "文字";
+"preset_pastetype_image" = "图片";
+"preset_pastetype_1password" = "1Password";
+
 
 // MARK: About
 "acknowledgements" = "Acknowledgements";

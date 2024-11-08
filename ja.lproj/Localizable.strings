@@ -5,7 +5,6 @@
 "about" = "CleanClipについて";
 "quit" = "終了";
 "preferences" = "設定";
-"preferences_ignore" = "無視";
 "preferences_general" = "一般";
 "preferences_monitors" = "複数のモニター";
 "preferences_storage" = "保管";
@@ -399,7 +398,7 @@
 "settings_quick_menu" = "クイックメニュー";
 "settings_main_window" = "メインウィンドウ";
 "settings_paste_stack" = "貼り付けキュー";
-"settings_ignore" = "無視";
+"settings_ignore" = "ルール";
 "settings_ocr" = "OCR";
 "settings_about" = "情報";
 "settings_appupdates" = "ソフトウェア更新が利用可能です";
@@ -469,12 +468,26 @@
 "unlimited" = "無制限";
 
 // MARK: Ignore
-"ignore_apps" = "無視するアプリ";
+"ignore_apps" = "アプリ別";
 "app" = "アプリケーション";
 "ignore_or_not" = "無視";
 "bundle_id" = "バンドルID";
 "select_all" = "すべて選択";
 "unselect_all" = "すべて選択解除";
+"ignore_lists_name" = "無視ルール %@";
+"ignore_custom_lists_desc" = "複数のフィルタを追加できます。フィルタリングされた内容は CleanClip に保存されません";
+"ignored_pastetypes" = "タイプ別";
+"ignored_advanced" = "詳細";
+"add_ignored_lists" = "無視ルールを追加";
+"type" = "ペーストボードタイプ";
+"type_count" = "カウント";
+"type_name" = "";
+"choose_an_application" = "アプリケーションを選択";
+
+"preset_pastetype_text" = "テキスト";
+"preset_pastetype_image" = "画像";
+"preset_pastetype_1password" = "1Password";
+
 
 // MARK: About
 "acknowledgements" = "謝辞";
