@@ -1,7 +1,7 @@
 "clear_all_tooltip" = "Verwijder alle items.";
 "about_tooltip" = "Lees meer over de toepassing.";
 "quit_tooltip" = "Programma afsluiten.";
-"clear_all" = "Wis alles";
+"clear_all" = "Alles wissen";
 "about" = "Over CleanClip...";
 "quit" = "Stop";
 "preferences" = "Voorkeuren...";
@@ -13,6 +13,7 @@
 "accessibility_alert_deny" = "Afwijzen";
 "accessibility_alert_open" = "Open systeemvoorkeuren";
 "clear_alert_message" = "Weet u zeker dat u alle inhoud wilt wissen?";
+"clear_scope_alert_message" = "Weet je zeker dat je alle inhoud onder de ingestelde voorwaarden wilt wissen?";
 "clear_alert_comment" = "U kunt deze actie niet ongedaan maken.";
 "clear_alert_cancel" = "Niet nu";
 "clear_alert_confirm" = "Wis alles";
@@ -399,6 +400,7 @@
 "settings_main_window" = "Hoofdvenster";
 "settings_paste_stack" = "Plakwachtrij";
 "settings_ignore" = "Regels";
+"settings_storage" = "Opslag";
 "settings_ocr" = "OCR";
 "settings_about" = "Over";
 "settings_appupdates" = "Software-update beschikbaar";
@@ -464,8 +466,28 @@
 "paste_queue_auto_follow_focus" = "Automatisch verplaatsen naar de monitor met focus";
 
 // MARK: Storage
-"number_of_copies" = "Aantal in de geschiedenis te bewaren items";
+// 时间单位
+"day" = "dag";
+"week" = "week";
+"month" = "maand";
+"year" = "jaar";
+"never" = "nooit";
+"two_years" = "2 jaar";
+
+// 界面文本
+"auto_clear" = "Automatisch wissen";
+"auto_clear_by_time" = "Automatisch wissen op basis van tijd: %@";
+"number_of_copies" = "Automatisch opruimen op aantal:";
 "unlimited" = "Onbeperkt";
+
+// 清理范围
+"clear_scope" = "Wisscope";
+"clear_favorites" = "Inclusief verzamellijstitems";
+"clear_favorites_description" = "Als uitgeschakeld, worden verzamellijstitems niet opgenomen in de automatische wissen scope";
+"clear_with_alias" = "Inclusief aliased items";
+"clear_with_alias_description" = "Als uitgeschakeld, worden aliased items niet opgenomen in de automatische wissen scope";
+"clear_once" = "Een keer wissen";
+"clear_all" = "Alles wissen";
 
 // MARK: Ignore
 "ignore_apps" = "Op apps";

@@ -1,7 +1,7 @@
 "clear_all_tooltip" = "全ての項目をクリアします。";
 "about_tooltip" = "アプリケーションについての詳細を表示します。";
 "quit_tooltip" = "アプリケーションを終了します。";
-"clear_all" = "クリア";
+"clear_all" = "すべての内容をクリア";
 "about" = "CleanClipについて";
 "quit" = "終了";
 "preferences" = "設定";
@@ -13,6 +13,7 @@
 "accessibility_alert_deny" = "拒否";
 "accessibility_alert_open" = "“システム環境設定”を開く";
 "clear_alert_message" = "履歴をクリアしますか？";
+"clear_scope_alert_message" = "設定された条件の下ですべてのコンテンツをクリアしてもよろしいですか？";
 "clear_alert_comment" = "このアクションは元に戻すことができません。";
 "clear_alert_cancel" = "キャンセル";
 "clear_alert_confirm" = "クリア";
@@ -399,6 +400,7 @@
 "settings_main_window" = "メインウィンドウ";
 "settings_paste_stack" = "貼り付けキュー";
 "settings_ignore" = "ルール";
+"settings_storage" = "ストレージ";
 "settings_ocr" = "OCR";
 "settings_about" = "情報";
 "settings_appupdates" = "ソフトウェア更新が利用可能です";
@@ -464,8 +466,28 @@
 "paste_queue_auto_follow_focus" = "フォーカスのあるモニターに自動的に移動";
 
 // MARK: Storage
-"number_of_copies" = "保持する履歴項目数";
+// 时间单位
+"day" = "日";
+"week" = "週";
+"month" = "月";
+"year" = "年";
+"never" = "決して";
+"two_years" = "2 年";
+
+// 界面文本
+"auto_clear" = "自動クリア";
+"auto_clear_by_time" = "時間による自動クリア: %@";
+"number_of_copies" = "数量に応じて自動的にクリーンアップ:";
 "unlimited" = "無制限";
+
+// 清理范围
+"clear_scope" = "クリア範囲";
+"clear_favorites" = "コレクションリストアイテムを含める";
+"clear_favorites_description" = "無効にすると、コレクションリストアイテムは自動クリアの範囲に含まれません";
+"clear_with_alias" = "エイリアスアイテムを含める";
+"clear_with_alias_description" = "無効にすると、エイリアスアイテムは自動クリアの範囲に含まれません";
+"clear_once" = "一度クリア";
+"clear_all" = "すべての内容をクリア";
 
 // MARK: Ignore
 "ignore_apps" = "アプリ別";

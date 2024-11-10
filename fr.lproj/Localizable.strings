@@ -1,7 +1,7 @@
 "clear_all_tooltip" = "Supprimer toute la liste.";
 "about_tooltip" = "Plus d'informations à propos de l'application.";
 "quit_tooltip" = "Quitter l'application.";
-"clear_all" = "Supprimer tout";
+"clear_all" = "Effacer tout le contenu";
 "about" = "À propos de CleanClip...";
 "quit" = "Quitter";
 "preferences" = "Préférences...";
@@ -13,6 +13,7 @@
 "accessibility_alert_deny" = "Refuser";
 "accessibility_alert_open" = "Ouvrir les Préférences Système";
 "clear_alert_message" = "Voulez-vous vraiment effacer l'historique?";
+"clear_scope_alert_message" = "Êtes-vous sûr de vouloir effacer tout le contenu sous les conditions définies ?";
 "clear_alert_comment" = "Vous ne pouvez pas annuler cette action.";
 "clear_alert_cancel" = "Annuler";
 "clear_alert_confirm" = "Supprimer";
@@ -399,6 +400,7 @@
 "settings_main_window" = "Fenêtre principale";
 "settings_paste_stack" = "File de collage";
 "settings_ignore" = "Règles";
+"settings_storage" = "Stockage";
 "settings_ocr" = "OCR";
 "settings_about" = "À propos";
 "settings_appupdates" = "Mise à jour logicielle disponible";
@@ -464,8 +466,28 @@
 "paste_queue_auto_follow_focus" = "Déplacer automatiquement vers le moniteur avec le focus";
 
 // MARK: Storage
-"number_of_copies" = "Nombre d'éléments à garder dans l'historique";
-"unlimited" = "Illimité";
+// 时间单位
+"day" = "jour";
+"week" = "semaine";
+"month" = "mois";
+"year" = "an";
+"never" = "jamais";
+"two_years" = "2 ans";
+
+// 界面文本
+"auto_clear" = "Nettoyage automatique";
+"auto_clear_by_time" = "Nettoyage automatique par temps : %@";
+"number_of_copies" = "Nettoyage automatique par quantité :";
+"unlimited" = "illimité";
+
+// 清理范围
+"clear_scope" = "Portée de nettoyage";
+"clear_favorites" = "Inclure les éléments de la liste de collection";
+"clear_favorites_description" = "Si désactivé, les éléments de la liste de collection ne seront pas inclus dans le champ d'application de la suppression automatique";
+"clear_with_alias" = "Inclure les éléments aliasés";
+"clear_with_alias_description" = "Si désactivé, les éléments aliasés ne seront pas inclus dans le champ d'application de la suppression automatique";
+"clear_once" = "Effacer une fois";
+"clear_all" = "Effacer tout le contenu";
 
 // MARK: Ignore
 "ignore_apps" = "Par Applications";

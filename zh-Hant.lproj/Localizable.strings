@@ -1,7 +1,7 @@
 "clear_all_tooltip" = "清除全部項目。";
 "about_tooltip" = "查看更多應用信息。";
 "quit_tooltip" = "結束應用。";
-"clear_all" = "全部清除";
+"clear_all" = "清空全部內容";
 "about" = "關於";
 "quit" = "結束";
 "preferences" = "偏好設定";
@@ -13,6 +13,7 @@
 "accessibility_alert_deny" = "拒絕";
 "accessibility_alert_open" = "打開系統偏好設定";
 "clear_alert_message" = "確定要清除全部歷史記錄嗎？";
+"clear_scope_alert_message" = "您確定要清除在設定條件下的所有內容嗎？";
 "clear_alert_comment" = "無法還原此操作。";
 "clear_alert_cancel" = "取消";
 "clear_alert_confirm" = "清除";
@@ -399,6 +400,7 @@
 "settings_main_window" = "主視窗";
 "settings_paste_stack" = "貼上佇列";
 "settings_ignore" = "規則";
+"settings_storage" = "儲存空間";
 "settings_ocr" = "OCR";
 "settings_about" = "關於";
 "settings_appupdates" = "軟體更新可用";
@@ -464,8 +466,28 @@
 "paste_queue_auto_follow_focus" = "自動移動到有焦點的顯示器";
 
 // MARK: Storage
-"number_of_copies" = "保留歷史記錄條數";
-"unlimited" = "無限制";
+// 时间单位
+"day" = "天";
+"week" = "週";
+"month" = "月";
+"year" = "年";
+"never" = "永不";
+"two_years" = "2 年";
+
+// 界面文本
+"auto_clear" = "自動清理";
+"auto_clear_by_time" = "按時間自動清理: %@";
+"number_of_copies" = "按數量自動清理:";
+"unlimited" = "無限";
+
+// 清理范围
+"clear_scope" = "清理範圍";
+"clear_favorites" = "包含收藏清單項目";
+"clear_favorites_description" = "如果禁用，收藏清單項目將不會包含在自動清除範圍內";
+"clear_with_alias" = "包含別名項目";
+"clear_with_alias_description" = "如果禁用，別名項目將不會包含在自動清除範圍內";
+"clear_once" = "清理一次";
+"clear_all" = "清空全部內容";
 
 // MARK: Ignore
 "ignore_apps" = "按應用程式";

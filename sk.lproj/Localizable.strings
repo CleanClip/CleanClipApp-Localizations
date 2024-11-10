@@ -1,7 +1,7 @@
 "clear_all_tooltip" = "Vymazať všetky položky.";
 "about_tooltip" = "Prečítaj si viac o aplikácii.";
 "quit_tooltip" = "Ukončiť aplikáciu.";
-"clear_all" = "Vymazať všetko";
+"clear_all" = "Vymazať všetok obsah";
 "about" = "O apke CleanClip...";
 "quit" = "Ukončiť";
 "preferences" = "Preferencie...";
@@ -13,6 +13,7 @@
 "accessibility_alert_deny" = "Zakázať";
 "accessibility_alert_open" = "Otvoriť Systémové nastavenia";
 "clear_alert_message" = "Naozaj chceš vymazať všetok obsah?";
+"clear_scope_alert_message" = "Ste ste si istý, že chcete vymazať všetok obsah pod nastavenými podmienkami?";
 "clear_alert_comment" = "Túto akciu nemožno vrátiť späť.";
 "clear_alert_cancel" = "Teraz nie";
 "clear_alert_confirm" = "Odstrániť všetko";
@@ -399,6 +400,7 @@
 "settings_main_window" = "Glavno okno";
 "settings_paste_stack" = "Vrsta lepljenja";
 "settings_ignore" = "Pravidlá";
+"settings_storage" = "Úložisko";
 "settings_ocr" = "OCR";
 "settings_about" = "O nas";
 "settings_appupdates" = "Na voljo je posodobitev programske opreme";
@@ -464,8 +466,28 @@
 "paste_queue_auto_follow_focus" = "Automaticky sa presunúť na monitor s fokusom";
 
 // MARK: Storage
-"number_of_copies" = "Počet položiek histórie, ktoré sa majú uchovávať";
-"unlimited" = "Nekonečný";
+// 时间单位
+"day" = "deň";
+"week" = "týždeň";
+"month" = "mesiac";
+"year" = "rok";
+"never" = "nikdy";
+"two_years" = "2 roky";
+
+// 界面文本
+"auto_clear" = "Automatické vymazanie";
+"auto_clear_by_time" = "Automatické vymazanie podľa času: %@";
+"number_of_copies" = "Automatické čistenie podľa počtu:";
+"unlimited" = "neobmedzené";
+
+// 清理范围
+"clear_scope" = "Rozsah vymazania";
+"clear_favorites" = "Zahrnúť položky zo zoznamu zbierok";
+"clear_favorites_description" = "Ak je zakázané, položky zo zoznamu zbierok nebudú zahrnuté v automatickom vymazávaní";
+"clear_with_alias" = "Zahrnúť aliasované položky";
+"clear_with_alias_description" = "Ak je zakázané, aliasované položky nebudú zahrnuté v automatickom vymazávaní";
+"clear_once" = "Vymazať raz";
+"clear_all" = "Vymazať všetok obsah";
 
 // MARK: Ignore
 "ignore_apps" = "Podľa aplikácií";
