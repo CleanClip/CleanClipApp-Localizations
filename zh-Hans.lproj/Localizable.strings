@@ -506,7 +506,7 @@
 "type_name" = "";
 "choose_an_application" = "选择一个应用程序";
 
-"preset_pastetype_text" = "文字";
+"preset_pastetype_text" = "文本";
 "preset_pastetype_image" = "图片";
 "preset_pastetype_1password" = "1Password";
 
