@@ -343,14 +343,15 @@
 "subscribe" = "Predplatiť";
 "subscribed" = "Predplatené";
 "change_plan" = "Zmeniť plán";
-"active" = "Aktívne";
+"active" = "Aktívny";
 "next_cycle_active" = "Aktívne v nasledujúcom cykle";
 "free" = "Bezplatné";
 "or_monthly" = "alebo %@/mesiac";
 "basic_plan" = "Základný plán";
 "basic_plan_description" = "Obmedzené na 25 vložení za deň, všetky ostatné funkcie sú bezplatné";
 "lifetime_plan" = "Životný plán";
-"lifetime_plan_description" = "Neobmedzené vkladanie za deň, všetky ostatné funkcie sú zadarmo";
+"lifetime_plan_description" = "Už ste členom doživotného plánu";
+"manage_plan" = "Spravovať plán...";
 "subscribe_with_free_trial" = "Začnite svoju bezplatnú skúšku";
 "free_trail_desc" = "7 dní zadarmo, potom %@/rok";
 "choose_your_plan" = "Vyberte si svoj plán";

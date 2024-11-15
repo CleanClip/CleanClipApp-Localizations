@@ -343,14 +343,15 @@
 "subscribe" = "Subscribe";
 "subscribed" = "Subscribed";
 "change_plan" = "Change Plan";
-"active" = "Active";
+"active" = "Actived";
 "next_cycle_active" = "Active Next Cycle";
 "free" = "Free";
 "or_monthly" = "or %@/month";
 "basic_plan" = "Basic Plan";
 "basic_plan_description" = "Limited to 25 pastes per day, all other features are free";
 "lifetime_plan" = "Lifetime Plan";
-"lifetime_plan_description" = "Unlimited pastes per day, all other features are free";
+"lifetime_plan_description" = "You are already a lifetime plan member";
+"manage_plan" = "Manage Plan...";
 "subscribe_with_free_trial" = "Start Your Free Trial";
 "free_trail_desc" = "7 days free, then %@/year";
 "choose_your_plan" = "Choose Your Plan";

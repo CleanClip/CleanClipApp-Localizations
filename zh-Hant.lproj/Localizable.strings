@@ -343,14 +343,15 @@
 "subscribe" = "訂閱";
 "subscribed" = "已訂閱";
 "change_plan" = "更改計劃";
-"active" = "啟用";
+"active" = "已啟用";
 "next_cycle_active" = "下個週期啟用";
 "free" = "免費";
 "or_monthly" = "或每月%@";
 "basic_plan" = "基本計劃";
 "basic_plan_description" = "每日限制25次粘貼，所有其他功能免費";
 "lifetime_plan" = "終身計劃";
-"lifetime_plan_description" = "每天無限次粘貼，所有其他功能免費";
+"lifetime_plan_description" = "您已經是終身計劃會員";
+"manage_plan" = "管理計劃...";
 "subscribe_with_free_trial" = "開始您的免費試用";
 "free_trail_desc" = "7天免費，然後%@/年";
 "choose_your_plan" = "選擇您的計劃";

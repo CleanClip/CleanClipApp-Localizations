@@ -343,14 +343,15 @@
 "subscribe" = "S'abonner";
 "subscribed" = "Abonné";
 "change_plan" = "Changer de plan";
-"active" = "Actif";
+"active" = "Activé";
 "next_cycle_active" = "Actif au prochain cycle";
 "free" = "Gratuit";
 "or_monthly" = "ou %@/mois";
 "basic_plan" = "Plan de base";
 "basic_plan_description" = "Limité à 25 collages par jour, toutes les autres fonctionnalités sont gratuites";
 "lifetime_plan" = "Plan à vie";
-"lifetime_plan_description" = "Pastes illimités par jour, toutes les autres fonctionnalités sont gratuites";
+"lifetime_plan_description" = "Vous êtes déjà membre du plan à vie";
+"manage_plan" = "Gérer le plan...";
 "subscribe_with_free_trial" = "Commencez Votre Essai Gratuit";
 "free_trail_desc" = "7 jours gratuits, puis %@/an";
 "choose_your_plan" = "Choisissez Votre Plan";

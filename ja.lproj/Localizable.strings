@@ -350,7 +350,8 @@
 "basic_plan" = "基本プラン";
 "basic_plan_description" = "1日あたり25回のペーストに制限されており、その他のすべての機能は無料です";
 "lifetime_plan" = "ライフタイムプラン";
-"lifetime_plan_description" = "1日あたり無制限のペースト、その他の機能はすべて無料";
+"lifetime_plan_description" = "あなたはすでにライフタイムプランのメンバーです";
+"manage_plan" = "プランを管理...";
 "subscribe_with_free_trial" = "無料トライアルを開始";
 "free_trail_desc" = "7日間無料、その後%@/年";
 "choose_your_plan" = "プランを選択";
