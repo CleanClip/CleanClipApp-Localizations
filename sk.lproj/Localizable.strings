@@ -359,6 +359,9 @@
 "current_plan" = "Aktuálny plán";
 "cancel" = "Zrušiť";
 "continue" = "Pokračovať";
+"terms" = "Podmienky";
+"privacy" = "Ochrana osobných údajov";
+"restore" = "Obnoviť";
 
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "Vždy zobrazovať tipy na skratky";

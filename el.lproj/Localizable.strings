@@ -359,6 +359,9 @@
 "current_plan" = "Τρέχον σχέδιο";
 "cancel" = "Ακύρωση";
 "continue" = "Συνέχεια";
+"terms" = "Όροι";
+"privacy" = "Απόρρητο";
+"restore" = "Αποκατάσταση";
 
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "Να Εμφανίζονται Πάντα οι Συμβουλές Συντόμευσης";

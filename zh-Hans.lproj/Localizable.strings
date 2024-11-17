@@ -359,6 +359,9 @@
 "current_plan" = "当前计划";
 "cancel" = "取消";
 "continue" = "继续";
+"terms" = "条款";
+"privacy" = "隐私";
+"restore" = "恢复";
 
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "总是展示快捷键提示";

@@ -359,6 +359,9 @@
 "current_plan" = "現在のプラン";
 "cancel" = "キャンセル";
 "continue" = "続ける";
+"terms" = "利用規約";
+"privacy" = "プライバシー";
+"restore" = "復元";
 
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "ショートカットのヒントを常に表示";

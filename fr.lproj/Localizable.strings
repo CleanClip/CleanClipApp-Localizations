@@ -359,6 +359,9 @@
 "current_plan" = "Plan Actuel";
 "cancel" = "Annuler";
 "continue" = "Continuer";
+"terms" = "Conditions";
+"privacy" = "Confidentialité";
+"restore" = "Restaurer";
 
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "Toujours afficher les raccourcis";

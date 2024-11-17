@@ -359,6 +359,9 @@
 "current_plan" = "Huidig Plan";
 "cancel" = "Annuleren";
 "continue" = "Doorgaan";
+"terms" = "Voorwaarden";
+"privacy" = "Privacy";
+"restore" = "Herstellen";
 
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "Sneltoetsen altijd tonen";

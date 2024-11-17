@@ -359,6 +359,9 @@
 "current_plan" = "當前計劃";
 "cancel" = "取消";
 "continue" = "繼續";
+"terms" = "條款";
+"privacy" = "隱私權";
+"restore" = "恢復";
 
 // quickmenu settings
 "quickmenu_option_show_shortcut" = "總是展示快捷鍵提示";
