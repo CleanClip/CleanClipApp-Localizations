@@ -672,11 +672,13 @@
 // VIP Benefits
 "vip_benefits_title" = "Τα αποκλειστικά προνόμια VIP σας";
 "vip_benefit_reward_title" = "Μέχρι 25% ανταμοιβή σύστασης";
-"vip_benefit_reward_desc" = "Για κάθε φίλο που προσκαλείτε να πληρώσει, κερδίζετε ανταμοιβή 20%-25% του ποσού που πληρώθηκε. Οι πρώτοι 5 25%, από τον 6ο και μετά 20%";
-"vip_benefit_withdraw_title" = "Απεριόριστη ανάληψη";
+"vip_benefit_reward_desc" = "25% ανταμοιβή για τις πρώτες 5 παραπομπές, 20% μετά";
+"vip_benefit_withdraw_title" = "Απεριόριστες Αναλήψεις";
 "vip_benefit_withdraw_desc" = "Ανάληψη οποτεδήποτε, χωρίς περιορισμούς ποσού";
 "vip_benefit_priority_title" = "Προτεραιότητα στην εκκαθάριση";
 "vip_benefit_priority_desc" = "Προτεραιότητα στην επεξεργασία της ανάληψής σας εντός 48 ωρών";
+"vip_benefit_pro_title" = "Πλήρεις Επαγγελματικές Λειτουργίες";
+"vip_benefit_pro_desc" = "Πρόσβαση σε όλα τα premium χαρακτηριστικά του CleanClip Pro";
 
 // Rewards
 "rewards_total_title" = "Συγκεντρωτικές ανταμοιβές";

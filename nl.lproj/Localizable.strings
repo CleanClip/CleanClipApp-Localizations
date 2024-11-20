@@ -672,11 +672,13 @@
 // VIP Benefits
 "vip_benefits_title" = "Jouw exclusieve VIP-rechten";
 "vip_benefit_reward_title" = "Maximaal 25% aanbevelingsbeloning";
-"vip_benefit_reward_desc" = "Voor elke vriend die je uitnodigt en betaalt, ontvang je 20%-25% van het betaalde bedrag als beloning. Eerste 5 vrienden 25%, vanaf de 6e vriend 20%";
-"vip_benefit_withdraw_title" = "Onbeperkt opnemen";
+"vip_benefit_reward_desc" = "25% beloning voor de eerste 5 verwijzingen, 20% daarna";
+"vip_benefit_withdraw_title" = "Onbeperkte Opnames";
 "vip_benefit_withdraw_desc" = "Te allen tijde opnemen, zonder bedrag limiet";
 "vip_benefit_priority_title" = "Prioriteit bij uitbetaling";
 "vip_benefit_priority_desc" = "Uw opname wordt binnen 48 uur prioriteit gegeven";
+"vip_benefit_pro_title" = "Volledige Professionele Functies";
+"vip_benefit_pro_desc" = "Toegang tot alle premium functies van CleanClip Pro";
 
 // Rewards
 "rewards_total_title" = "Totaal beloningen";

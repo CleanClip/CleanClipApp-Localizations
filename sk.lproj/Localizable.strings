@@ -672,11 +672,13 @@
 // VIP Benefits
 "vip_benefits_title" = "Vaše exkluzívne VIP výhody";
 "vip_benefit_reward_title" = "Maximálne 25% odmena za odporúčanie";
-"vip_benefit_reward_desc" = "Za každého pozvaného priateľa, ktorý zaplatí, získate odmenu vo výške 20%-25% z jeho zaplatenej sumy. Prvých 5 priateľov 25%, od 6. priateľa 20%";
+"vip_benefit_reward_desc" = "25% odmena za prvých 5 odporúčaní, 20% potom";
 "vip_benefit_withdraw_title" = "Neobmedzené výbery";
 "vip_benefit_withdraw_desc" = "Kedykoľvek si môžete vybrať, bez obmedzenia sumy";
 "vip_benefit_priority_title" = "Prioritné vyplatenie";
 "vip_benefit_priority_desc" = "Vaša žiadosť o výber bude spracovaná s prioritou do 48 hodín";
+"vip_benefit_pro_title" = "Úplné profesionálne funkcie";
+"vip_benefit_pro_desc" = "Prístup ku všetkým prémiovým funkciám CleanClip Pro";
 
 // Rewards
 "rewards_total_title" = "Nahromadené odmeny";

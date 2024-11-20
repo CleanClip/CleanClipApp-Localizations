@@ -672,11 +672,13 @@
 // VIP Benefits
 "vip_benefits_title" = "您的專屬VIP權益";
 "vip_benefit_reward_title" = "最高25%推薦獎勵";
-"vip_benefit_reward_desc" = "每邀請一位好友付費，獲得其實付金額20%-25%的獎勵。前5位25%，第6位開始20%";
-"vip_benefit_withdraw_title" = "無限制提現";
+"vip_benefit_reward_desc" = "前5位推薦獲得25%獎勵，之後為20%";
+"vip_benefit_withdraw_title" = "無限制提款";
 "vip_benefit_withdraw_desc" = "隨時提現，無金額限制";
 "vip_benefit_priority_title" = "優先結算";
 "vip_benefit_priority_desc" = "48 小時內優先處理您的提現";
+"vip_benefit_pro_title" = "完整的專業功能";
+"vip_benefit_pro_desc" = "訪問 CleanClip Pro 的所有高級功能";
 
 // Rewards
 "rewards_total_title" = "累積獎勵";

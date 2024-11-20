@@ -672,11 +672,13 @@
 // VIP Benefits
 "vip_benefits_title" = "あなたの専用VIP特典";
 "vip_benefit_reward_title" = "最大25%の推薦報酬";
-"vip_benefit_reward_desc" = "友達を一人有料に招待するごとに、実際の支払額の20%-25%の報酬を得る。最初の5人は25%、6人目からは20%";
+"vip_benefit_reward_desc" = "最初の5件の紹介に対して25%の報酬、その後は20%";
 "vip_benefit_withdraw_title" = "無制限の引き出し";
 "vip_benefit_withdraw_desc" = "いつでも引き出し可能、金額制限なし";
 "vip_benefit_priority_title" = "優先決済";
 "vip_benefit_priority_desc" = "48時間以内にあなたの引き出しを優先処理します";
+"vip_benefit_pro_title" = "フルプロフェッショナル機能";
+"vip_benefit_pro_desc" = "CleanClip Proのすべてのプレミアム機能にアクセス";
 
 // Rewards
 "rewards_total_title" = "累積報酬";

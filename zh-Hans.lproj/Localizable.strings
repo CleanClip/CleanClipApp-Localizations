@@ -672,11 +672,13 @@
 // VIP Benefits
 "vip_benefits_title" = "您的专属VIP权益";
 "vip_benefit_reward_title" = "最高25%推荐奖励";
-"vip_benefit_reward_desc" = "每邀请一位好友付费，获得其实付金额20%-25%的奖励。前5位25%，第6位开始20%";
-"vip_benefit_withdraw_title" = "无限制提现";
+"vip_benefit_reward_desc" = "前5个推荐人奖励25%，之后奖励20%";
+"vip_benefit_withdraw_title" = "无限提款";
 "vip_benefit_withdraw_desc" = "随时提现，无金额限制";
 "vip_benefit_priority_title" = "优先结算";
 "vip_benefit_priority_desc" = "48小时内优先处理您的提现";
+"vip_benefit_pro_title" = "完整专业功能";
+"vip_benefit_pro_desc" = "访问CleanClip Pro的所有高级功能";
 
 // Rewards
 "rewards_total_title" = "累积奖励";

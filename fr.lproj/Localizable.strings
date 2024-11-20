@@ -672,11 +672,13 @@
 // VIP Benefits
 "vip_benefits_title" = "Vos avantages VIP exclusifs";
 "vip_benefit_reward_title" = "Récompense de recommandation jusqu'à 25%";
-"vip_benefit_reward_desc" = "Pour chaque ami invité qui paie, obtenez une récompense de 20% à 25% du montant payé. 25% pour les 5 premiers, 20% à partir du 6ème";
+"vip_benefit_reward_desc" = "25 % de récompense pour les 5 premières recommandations, 20 % par la suite";
 "vip_benefit_withdraw_title" = "Retraits illimités";
 "vip_benefit_withdraw_desc" = "Retrait à tout moment, sans limite de montant";
 "vip_benefit_priority_title" = "Règlement prioritaire";
 "vip_benefit_priority_desc" = "Traitement prioritaire de votre retrait dans les 48 heures";
+"vip_benefit_pro_title" = "Fonctionnalités professionnelles complètes";
+"vip_benefit_pro_desc" = "Accès à toutes les fonctionnalités premium de CleanClip Pro";
 
 // Rewards
 "rewards_total_title" = "Récompenses cumulées";

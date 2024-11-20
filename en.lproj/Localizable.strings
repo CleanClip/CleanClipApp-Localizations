@@ -672,11 +672,13 @@
 // VIP Benefits
 "vip_benefits_title" = "Your Exclusive VIP Benefits";
 "vip_benefit_reward_title" = "Up to 25% Referral Reward";
-"vip_benefit_reward_desc" = "Get 20%-25% of the actual payment as a reward for each friend invited to pay. 25% for the first 5, 20% starting from the 6th";
+"vip_benefit_reward_desc" = "25% reward for first 5 referrals, 20% thereafter";
 "vip_benefit_withdraw_title" = "Unlimited Withdrawals";
 "vip_benefit_withdraw_desc" = "Withdraw anytime, no amount limit";
 "vip_benefit_priority_title" = "Priority Settlement";
 "vip_benefit_priority_desc" = "Your withdrawal will be prioritized within 48 hours";
+"vip_benefit_pro_title" = "Full Professional Features";
+"vip_benefit_pro_desc" = "Access to all premium features of CleanClip Pro";
 
 // Rewards
 "rewards_total_title" = "Total Rewards";
