@@ -230,6 +230,19 @@
 "pin_context_preview_when_hover" = "Activer l'aperçu au survol";
 "pin_context_share" = "Partager...";
 
+"pin_context_paste_one_by_one" = "Coller un par un";
+"pin_context_merge_settings" = "Fusionner les paramètres";
+"pin_context_merge_copy" = "Fusionner et Copier";
+"separator_input_title" = "Entrer le séparateur";
+"common_ok" = "D'accord";
+"common_cancel" = "Annuler";
+"separator_reverse_order" = "Ordre inverse";
+"separator_none" = "Aucun";
+"separator_return" = "Retour à la ligne";
+"separator_tab" = "Tabulation";
+"separator_section_title" = "Séparateur (actuel : %@)";
+"separator_custom" = "Personnalisé...";
+
 // MARK: Content List
 "pin_contents_appname_tooltip" = "Nom de l'application";
 // Empty Page
@@ -603,3 +616,129 @@
 
 // MARK: - Preset resources
 "preset_resources" = "⚡️ Appuyez sur Entrée ou sur une touche numérique pour coller le contenu\n✏️ Maintenez enfoncée la touche Entrée ou une touche numérique pour ouvrir le menu de mise en forme\n👀 Appuyez sur Espace ou survolez avec la souris pour prévisualiser, faites glisser la fenêtre de prévisualisation pour l'épingler à l'écran\n🖱️ Maintenez enfoncée l'élément pour le faire glisser, relâchez pour coller\n👇 Appuyez sur Tab pour développer ou retourner les pages\n🔍 ⌘F ou appuyez directement sur une touche de lettre pour commencer la recherche\n📋 ⌘C pour copier l'élément actuel dans le presse-papiers\n❌ ⌘D pour supprimer\n📝 ⌘A pour définir un alias\n⭐ ⌘S pour ajouter aux favoris par défaut\n👆 ⇧+Tab pour retourner les pages vers le haut\n🖱️ Clic droit sur l'élément pour afficher les options du menu\n✂️ Sélectionnez plusieurs lignes et appuyez sur ⌘⇧C pour diviser et copier en plusieurs lignes\n📚 ⌘' pour ouvrir la file d'attente de collage pour coller plusieurs éléments dans l'ordre\n🖱️ ⌘⇧C pour ouvrir la fenêtre principale pour la gestion et l'utilisation en lot, plus conviviale pour la souris\n⌨️ ⌘←/⌘→ Basculer rapidement entre les listes\n⚡️ Appuyez à nouveau sur le raccourci du menu rapide pour obtenir le même effet";
+
+// MARK: - Invite Friends
+// Payment Methods
+"payment_method_alipay" = "Alipay";
+"payment_method_wechat" = "Paiement WeChat";
+"payment_method_paypal" = "PayPal";
+
+// Form Fields
+"form_field_name" = "Nom réel";
+"form_field_alipay" = "Compte Alipay";
+"form_field_wechat" = "Compte WeChat";
+"form_field_bank_account" = "Numéro de compte bancaire";
+"form_field_bank_name" = "Banque";
+"form_field_paypal" = "Compte PayPal";
+
+// Placeholders
+"form_field_name_placeholder" = "Veuillez entrer votre nom réel";
+"form_field_alipay_placeholder" = "Veuillez entrer votre compte Alipay";
+// ... 其他占位文本
+
+// Loading
+"loading" = "Chargement...";
+
+// Rules
+"invite_rules_title" = "📜 Règles de récompense d'invitation CleanClip Pro";
+"invite_rules_trial_title" = "Si vous êtes un utilisateur d'essai";
+"invite_rules_trial_1" = "Pour chaque ami invité à essayer, obtenez un mois d'adhésion supplémentaire";
+"invite_rules_trial_2" = "Pour chaque ami invité qui paie, obtenez un remboursement de 12% du montant payé";
+"invite_rules_paid_title" = "Si vous êtes un utilisateur payant";
+"invite_rules_paid_1" = "Pour chaque ami invité qui paie, obtenez un remboursement de 25% du montant payé";
+"invite_rules_paid_2" = "À partir du sixième utilisateur payant, ce taux est ajusté à 20%";
+
+// Buttons
+"invite_start_button" = "Commencer maintenant";
+"become_paid_user_button" = "Devenir utilisateur payant maintenant";
+"become_trial_user_button" = "Devenir utilisateur d'essai maintenant";
+"activate_license_button" = "J'ai déjà un numéro de série, activer";
+"refresh_login_button" = "Activé, rafraîchir l'état de connexion";
+"upgrade_paid_button" = "Passer à la version payante";
+"bind_email_button" = "Cliquez pour lier votre e-mail afin d'obtenir le lien d'invitation";
+
+// Titles
+"invite_friends_title" = "Inviter des amis";
+"invite_friends_subtitle" = "Invitez des amis à utiliser CleanClip Pro et obtenez des récompenses";
+"invite_link_title" = "Lien d'invitation";
+"upgrade_paid_title" = "Passer à la version payante pour débloquer plus de récompenses";
+
+// Features
+"reward_increase_title" = "Augmentation des récompenses";
+"reward_increase_desc" = "La récompense de recommandation passe de 12% à un maximum de 25%";
+"unlimited_withdraw_title" = "Retraits illimités";
+"unlimited_withdraw_desc" = "Retraits possibles à tout moment sans limite de montant";
+
+// VIP Benefits
+"vip_benefits_title" = "Vos avantages VIP exclusifs";
+"vip_benefit_reward_title" = "Récompense de recommandation jusqu'à 25%";
+"vip_benefit_reward_desc" = "Pour chaque ami invité qui paie, obtenez une récompense de 20% à 25% du montant payé. 25% pour les 5 premiers, 20% à partir du 6ème";
+"vip_benefit_withdraw_title" = "Retraits illimités";
+"vip_benefit_withdraw_desc" = "Retrait à tout moment, sans limite de montant";
+"vip_benefit_priority_title" = "Règlement prioritaire";
+"vip_benefit_priority_desc" = "Traitement prioritaire de votre retrait dans les 48 heures";
+
+// Rewards
+"rewards_total_title" = "Récompenses cumulées";
+"rewards_available_title" = "Récompenses disponibles pour retrait";
+"rewards_withdrawn_title" = "Récompenses retirées";
+
+// Withdrawal
+"withdrawal_title" = "Demande de retrait";
+"withdrawal_form_button" = "Remplissez le formulaire pour faire une demande";
+
+// Footer
+"footer_reward_desc" = "Plus vous invitez, plus vous gagnez ! Partagez avec vos amis et découvrez la puissance de CleanClip Pro ensemble. Demande de retrait traitée sous 72 heures.";
+"footer_support_email" = "Email de support : support@cleanclip.cc";
+
+// Email Binding
+"email_binding_title" = "Lier l'email";
+"email_binding_desc" = "Après avoir lié votre email, vous pourrez obtenir un lien d'invitation exclusif";
+"email_input_placeholder" = "Veuillez entrer votre adresse email";
+"cancel_button" = "Annuler";
+"confirm_binding_button" = "Confirmer la liaison";
+
+// Alert
+"email_sent_title" = "Email envoyé";
+"email_sent_message" = "Un email de vérification a été envoyé à votre adresse, veuillez le vérifier et compléter la vérification";
+"binding_failed_title" = "Échec de la liaison";
+"binding_failed_message" = "Échec de la liaison de l'email, veuillez réessayer plus tard : %@";
+
+// Error Messages
+"email_invalid_title" = "Format d'email invalide";
+"email_invalid_message" = "Veuillez entrer une adresse email valide";
+"network_error_title" = "Erreur réseau";
+"network_error_message" = "Veuillez vérifier votre connexion réseau et réessayer";
+"unknown_error_title" = "Erreur inconnue";
+"unknown_error_message" = "Une erreur inconnue s'est produite, veuillez réessayer plus tard";
+
+// Rules
+"reward_rules_title" = "Distribution des récompenses";
+"reward_rules_payment_time" = "Vous devez demander le retrait vous-même, il sera distribué selon le mode de retrait choisi, avec un délai de 72 heures";
+"reward_rules_no_minimum" = "Aucune exigence de montant minimum pour le retrait";
+"reward_rules_paid_refund" = "Pour les utilisateurs payants, un remboursement intégral sera effectué en premier, puis le paiement sera effectué via le canal de retrait";
+"reward_rules_refund_channel" = "Le remboursement sera effectué par le même canal que le paiement initial";
+"reward_rules_payment_fee" = "Des frais de transaction de 4,4% + 0,3 $ seront déduits pour chaque retrait PayPal (versés à PayPal), aucun frais de transaction pour les retraits WeChat et Alipay";
+
+// Testimonials
+"testimonial_title" = "Retour des utilisateurs";
+"testimonial_1_content" = "En recommandant des amis, je peux gagner pas mal d'argent pour le café chaque mois, c'est génial !";
+"testimonial_1_author" = "David";
+"testimonial_2_content" = "Après avoir partagé avec mes collègues, j'ai obtenu 3 mois d'abonnement, le logiciel est très utile et les récompenses de parrainage sont très concrètes.";
+"testimonial_2_author" = "Sarah";
+
+// Withdrawal Form
+"payment_method_title" = "Méthode de retrait";
+"save_button" = "Enregistrer";
+
+// Common Buttons
+"confirm_button" = "Confirmer";
+
+"loading" = "Chargement...";
+"reward_rules_payment_title" = "Distribution des récompenses";
+"email_sent_title" = "Email envoyé";
+"email_verification_sent_message" = "Un email de vérification a été envoyé à votre adresse, veuillez le vérifier et compléter la vérification";
+"binding_failed_title" = "Échec de la liaison";
+"binding_failed_message" = "Échec de la liaison de l'email, veuillez réessayer plus tard : %@";
+
+"invite_friends" = "Invitez & Gagnez";

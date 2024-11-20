@@ -230,6 +230,19 @@
 "pin_context_preview_when_hover" = "Enable Preview on Hover";
 "pin_context_share" = "Share...";
 
+"pin_context_paste_one_by_one" = "Paste one by one";
+"pin_context_merge_settings" = "Merge settings";
+"pin_context_merge_copy" = "Merge and Copy";
+"separator_input_title" = "Input separator";
+"common_ok" = "OK";
+"common_cancel" = "Cancel";
+"separator_reverse_order" = "Reverse order";
+"separator_none" = "None";
+"separator_return" = "New line";
+"separator_tab" = "Tab";
+"separator_section_title" = "Separator (current: %@)";
+"separator_custom" = "Custom...";
+
 // MARK: Content List
 "pin_contents_appname_tooltip" = "Application Name";
 // Empty Page
@@ -603,3 +616,129 @@
 
 // MARK: - Preset resources
 "preset_resources" = "⚡️ Press Enter or number key to paste content\n✏️ Long press Enter or number key to open formatting menu\n👀 Press Space or hover mouse for preview, drag preview window to pin on screen\n🖱️ Long press item to drag, release to paste\n👇 Press Tab to expand or flip pages\n🔍 ⌘F or directly press letter key to start searching\n📋 ⌘C to copy current item to clipboard\n❌ ⌘D to delete\n📝 ⌘A to set alias\n⭐ ⌘S to add to default favorites\n👆 ⇧+Tab to flip pages upwards\n🖱️ Right-click item to view menu options\n✂️ Select multiple lines and press ⌘⇧C to split and copy as multiple lines\n📚 ⌘' to open paste queue for pasting multiple items in order\n🖱️ ⌘⇧C to open main window for batch management and usage, more mouse-friendly\n⌨️ ⌘←/⌘→ Quickly switch lists\n⚡️ Press the Quick Menu shortcut again achieves the same effect";
+
+// MARK: - Invite Friends
+// Payment Methods
+"payment_method_alipay" = "Alipay";
+"payment_method_wechat" = "WeChat Pay";
+"payment_method_paypal" = "PayPal";
+
+// Form Fields
+"form_field_name" = "Real Name";
+"form_field_alipay" = "Alipay Account";
+"form_field_wechat" = "WeChat Account";
+"form_field_bank_account" = "Bank Account Number";
+"form_field_bank_name" = "Bank Name";
+"form_field_paypal" = "PayPal Account";
+
+// Placeholders
+"form_field_name_placeholder" = "Please enter your real name";
+"form_field_alipay_placeholder" = "Please enter your Alipay account";
+// ... 其他占位文本
+
+// Loading
+"loading" = "Loading...";
+
+// Rules
+"invite_rules_title" = "📜 CleanClip Pro Invite Friends Reward Rules";
+"invite_rules_trial_title" = "If you are a trial user";
+"invite_rules_trial_1" = "Get one month of membership bonus for each friend invited to try";
+"invite_rules_trial_2" = "Get 12% cashback of the actual payment for each friend invited to pay";
+"invite_rules_paid_title" = "If you are a paid user";
+"invite_rules_paid_1" = "Get 25% cashback of the actual payment for each friend invited to pay";
+"invite_rules_paid_2" = "From the sixth paid user onwards, this rate is adjusted to 20%";
+
+// Buttons
+"invite_start_button" = "Start Now";
+"become_paid_user_button" = "Become a Paid User Now";
+"become_trial_user_button" = "Become a Trial User Now";
+"activate_license_button" = "Already have a serial number, activate it";
+"refresh_login_button" = "Activated, refresh login status";
+"upgrade_paid_button" = "Upgrade to Paid Plan";
+"bind_email_button" = "Click to bind email to get the invite link";
+
+// Titles
+"invite_friends_title" = "Invite Friends";
+"invite_friends_subtitle" = "Invite friends to use CleanClip Pro and earn rewards";
+"invite_link_title" = "Invite Link";
+"upgrade_paid_title" = "Upgrade to Paid Version to unlock more rewards";
+
+// Features
+"reward_increase_title" = "Reward Increase";
+"reward_increase_desc" = "Referral rewards increase from 12% to up to 25%";
+"unlimited_withdraw_title" = "Unlimited Withdrawals";
+"unlimited_withdraw_desc" = "Withdraw anytime without amount limits";
+
+// VIP Benefits
+"vip_benefits_title" = "Your Exclusive VIP Benefits";
+"vip_benefit_reward_title" = "Up to 25% Referral Reward";
+"vip_benefit_reward_desc" = "Get 20%-25% of the actual payment as a reward for each friend invited to pay. 25% for the first 5, 20% starting from the 6th";
+"vip_benefit_withdraw_title" = "Unlimited Withdrawals";
+"vip_benefit_withdraw_desc" = "Withdraw anytime, no amount limit";
+"vip_benefit_priority_title" = "Priority Settlement";
+"vip_benefit_priority_desc" = "Your withdrawal will be prioritized within 48 hours";
+
+// Rewards
+"rewards_total_title" = "Total Rewards";
+"rewards_available_title" = "Available for Withdrawal";
+"rewards_withdrawn_title" = "Withdrawn";
+
+// Withdrawal
+"withdrawal_title" = "Withdrawal Application";
+"withdrawal_form_button" = "Fill out the form to apply";
+
+// Footer
+"footer_reward_desc" = "The more you invite, the more rewards you earn! Share with your friends and experience the powerful features of CleanClip Pro together. Withdrawals will be processed within 72 hours.";
+"footer_support_email" = "Support Email: support@cleanclip.cc";
+
+// Email Binding
+"email_binding_title" = "Bind Email";
+"email_binding_desc" = "Bind your email to get a unique invitation link";
+"email_input_placeholder" = "Please enter your email address";
+"cancel_button" = "Cancel";
+"confirm_binding_button" = "Confirm Binding";
+
+// Alert
+"email_sent_title" = "Email Sent";
+"email_sent_message" = "A verification email has been sent to your inbox, please check and complete the verification";
+"binding_failed_title" = "Binding Failed";
+"binding_failed_message" = "Email binding failed, please try again later: %@";
+
+// Error Messages
+"email_invalid_title" = "Invalid Email Format";
+"email_invalid_message" = "Please enter a valid email address";
+"network_error_title" = "Network Error";
+"network_error_message" = "Please check your network connection and try again";
+"unknown_error_title" = "Unknown Error";
+"unknown_error_message" = "An unknown error occurred, please try again later";
+
+// Rules
+"reward_rules_title" = "Reward Distribution";
+"reward_rules_payment_time" = "You need to apply for withdrawal yourself, and it will be distributed according to the chosen withdrawal method, processed within 72 hours";
+"reward_rules_no_minimum" = "No minimum withdrawal amount required";
+"reward_rules_paid_refund" = "For paid users, a full refund will be issued first, then the payment will be made from the withdrawal channel";
+"reward_rules_refund_channel" = "Refunds will be returned through the original payment channel";
+"reward_rules_payment_fee" = "A transaction fee of 4.4% + $0.3 (paid to Paypal) will be deducted for each Paypal withdrawal, while WeChat and Alipay withdrawals have no transaction fees";
+
+// Testimonials
+"testimonial_title" = "User Feedback";
+"testimonial_1_content" = "By recommending friends to use it, I can earn quite a bit of coffee money every month, it's amazing!";
+"testimonial_1_author" = "David";
+"testimonial_2_content" = "After sharing with colleagues, I received a 3-month membership, the software is very useful, and the referral rewards are substantial.";
+"testimonial_2_author" = "Sarah";
+
+// Withdrawal Form
+"payment_method_title" = "Withdrawal Method";
+"save_button" = "Save";
+
+// Common Buttons
+"confirm_button" = "Confirm";
+
+"loading" = "Loading...";
+"reward_rules_payment_title" = "Reward Distribution";
+"email_sent_title" = "Email Sent";
+"email_verification_sent_message" = "A verification email has been sent to your inbox, please check and complete the verification";
+"binding_failed_title" = "Binding Failed";
+"binding_failed_message" = "Email binding failed, please try again later: %@";
+
+"invite_friends" = "Invite & Earn";

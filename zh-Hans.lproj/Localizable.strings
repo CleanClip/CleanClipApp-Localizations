@@ -230,6 +230,19 @@
 "pin_context_preview_when_hover" = "开启鼠标悬停预览";
 "pin_context_share" = "分享...";
 
+"pin_context_paste_one_by_one" = "逐个粘贴";
+"pin_context_merge_settings" = "合并设置";
+"pin_context_merge_copy" = "合并并复制";
+"separator_input_title" = "输入分隔符";
+"common_ok" = "确定";
+"common_cancel" = "取消";
+"separator_reverse_order" = "反向排序";
+"separator_none" = "无";
+"separator_return" = "换行";
+"separator_tab" = "制表符";
+"separator_section_title" = "分隔符（当前：%@）";
+"separator_custom" = "自定义...";
+
 // MARK: Content List
 "pin_contents_appname_tooltip" = "应用名称";
 // Empty Page
@@ -603,3 +616,129 @@
 
 // MARK: - Preset resources
 "preset_resources" = "⚡️ 按下 Enter 或数字键，粘贴内容\n✏️ 长按 Enter 或数字键，打开格式化选单\n👀 按下空格键或鼠标悬浮进行预览，拖动预览窗口可将其固定在屏幕上\n🖱️ 长按项目进行拖动，松开粘贴\n👇 按下 Tab 展开或翻页\n🔍 ⌘F 或直接按下字母键开始搜索\n📋 ⌘C 复制当前项到剪贴板\n❌ ⌘D 删除\n📝 ⌘A 设置别名\n⭐ ⌘S 添加到默认收藏夹\n👆 ⇧+Tab 往上翻页\n🖱️ 右键项目查看菜单项\n✂️ 选中多行内容后按下⌘⇧C拆分成多行复制\n📚 ⌘' 打开粘贴队列帮助你按顺序粘贴多个项目\n🖱️ ⌘⇧C 打开主窗口，进行批量管理和使用，对鼠标更友好\n⌨️ ⌘←/⌘→可快速切换列表\n⚡️ 再次按下快捷菜单快捷键也可以";
+
+// MARK: - Invite Friends
+// Payment Methods
+"payment_method_alipay" = "支付宝";
+"payment_method_wechat" = "微信支付";
+"payment_method_paypal" = "PayPal";
+
+// Form Fields
+"form_field_name" = "真实姓名";
+"form_field_alipay" = "支付宝账号";
+"form_field_wechat" = "微信账号";
+"form_field_bank_account" = "银行卡号";
+"form_field_bank_name" = "开户银行";
+"form_field_paypal" = "PayPal 账号";
+
+// Placeholders
+"form_field_name_placeholder" = "请输入真实姓名";
+"form_field_alipay_placeholder" = "请输入支付宝账号";
+// ... 其他占位文本
+
+// Loading
+"loading" = "加载中...";
+
+// Rules
+"invite_rules_title" = "📜 CleanClip Pro 邀请好友奖励规则";
+"invite_rules_trial_title" = "如果你是试用用户";
+"invite_rules_trial_1" = "每邀请一位好友试用，获得一个月会员加成";
+"invite_rules_trial_2" = "每邀请一位好友付费，获得实付金额 12% 的返现";
+"invite_rules_paid_title" = "如果你是付费用户";
+"invite_rules_paid_1" = "每邀请一位好友付费，获得 25% 实付金额返现";
+"invite_rules_paid_2" = "从第六位付费用户开始，该比例调整为 20%";
+
+// Buttons
+"invite_start_button" = "立即开始";
+"become_paid_user_button" = "立即成为付费用户";
+"become_trial_user_button" = "立即成为试用用户";
+"activate_license_button" = "已有序列号，去激活";
+"refresh_login_button" = "已激活，刷新登录状态";
+"upgrade_paid_button" = "升级到付费版";
+"bind_email_button" = "点击绑定邮箱以获取邀请链接";
+
+// Titles
+"invite_friends_title" = "邀请好友";
+"invite_friends_subtitle" = "邀请好友使用 CleanClip Pro，获得奖励";
+"invite_link_title" = "邀请链接";
+"upgrade_paid_title" = "升级到付费版解锁更多奖励";
+
+// Features
+"reward_increase_title" = "奖励提升";
+"reward_increase_desc" = "推荐奖励从12%提升至最高25%";
+"unlimited_withdraw_title" = "无限制提现";
+"unlimited_withdraw_desc" = "随时提现无金额限制";
+
+// VIP Benefits
+"vip_benefits_title" = "您的专属VIP权益";
+"vip_benefit_reward_title" = "最高25%推荐奖励";
+"vip_benefit_reward_desc" = "每邀请一位好友付费，获得其实付金额20%-25%的奖励。前5位25%，第6位开始20%";
+"vip_benefit_withdraw_title" = "无限制提现";
+"vip_benefit_withdraw_desc" = "随时提现，无金额限制";
+"vip_benefit_priority_title" = "优先结算";
+"vip_benefit_priority_desc" = "48小时内优先处理您的提现";
+
+// Rewards
+"rewards_total_title" = "累积奖励";
+"rewards_available_title" = "可提现奖励";
+"rewards_withdrawn_title" = "已提现奖励";
+
+// Withdrawal
+"withdrawal_title" = "提现申请";
+"withdrawal_form_button" = "填写表单进行申请";
+
+// Footer
+"footer_reward_desc" = "邀请越多，奖励越多！分享给您的朋友，一起体验CleanClip Pro的强大功能。申请提现72小时到账。";
+"footer_support_email" = "服务支持邮箱: support@cleanclip.cc";
+
+// Email Binding
+"email_binding_title" = "绑定邮箱";
+"email_binding_desc" = "绑定邮箱后即可获取专属邀请链接";
+"email_input_placeholder" = "请输入邮箱地址";
+"cancel_button" = "取消";
+"confirm_binding_button" = "确认绑定";
+
+// Alert
+"email_sent_title" = "邮件已发送";
+"email_sent_message" = "验证邮件已发送到您的邮箱，请查收并完成验证";
+"binding_failed_title" = "绑定失败";
+"binding_failed_message" = "邮箱绑定失败，请稍后重试：%@";
+
+// Error Messages
+"email_invalid_title" = "邮箱格式错误";
+"email_invalid_message" = "请输入正确的邮箱地址";
+"network_error_title" = "网络错误";
+"network_error_message" = "请检查网络连接后重试";
+"unknown_error_title" = "未知错误";
+"unknown_error_message" = "发生未知错误，请稍后重试";
+
+// Rules
+"reward_rules_title" = "奖励发放";
+"reward_rules_payment_time" = "需自行申请提现，将根据选择的提现方式发放，72小时到账";
+"reward_rules_no_minimum" = "无最低提现金额要求";
+"reward_rules_paid_refund" = "对于付费用户默认先全额退款，再从提现渠道打款";
+"reward_rules_refund_channel" = "退款将从付费渠道原路返还";
+"reward_rules_payment_fee" = "Paypal提现每笔需要扣除4.4%+$0.3交易费（交给Paypal），微信、支付宝提现无交易费";
+
+// Testimonials
+"testimonial_title" = "用户反馈";
+"testimonial_1_content" = "通过推荐朋友使用，每个月都能赚到不少咖啡钱，太棒了！";
+"testimonial_1_author" = "David";
+"testimonial_2_content" = "分享给同事后获得了3个月会员，软件很好用，推荐奖励也很实在。";
+"testimonial_2_author" = "Sarah";
+
+// Withdrawal Form
+"payment_method_title" = "提现方式";
+"save_button" = "保存";
+
+// Common Buttons
+"confirm_button" = "确定";
+
+"loading" = "加载中...";
+"reward_rules_payment_title" = "奖励发放";
+"email_sent_title" = "邮件已发送";
+"email_verification_sent_message" = "验证邮件已发送到您的邮箱，请查收并完成验证";
+"binding_failed_title" = "绑定失败";
+"binding_failed_message" = "邮箱绑定失败，请稍后重试：%@";
+
+"invite_friends" = "邀请并赚取";

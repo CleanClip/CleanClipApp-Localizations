@@ -230,6 +230,19 @@
 "pin_context_preview_when_hover" = "ホバーでプレビューを有効にする";
 "pin_context_share" = "共有...";
 
+"pin_context_paste_one_by_one" = "一つずつ貼り付け";
+"pin_context_merge_settings" = "設定を統合";
+"pin_context_merge_copy" = "統合してコピー";
+"separator_input_title" = "区切り文字を入力";
+"common_ok" = "OK";
+"common_cancel" = "キャンセル";
+"separator_reverse_order" = "逆順";
+"separator_none" = "なし";
+"separator_return" = "改行";
+"separator_tab" = "タブ";
+"separator_section_title" = "区切り文字（現在：%@）";
+"separator_custom" = "カスタム...";
+
 // MARK: Content List
 "pin_contents_appname_tooltip" = "アプリケーション名";
 // Empty Page
@@ -603,3 +616,129 @@
 
 // MARK: - Preset resources
 "preset_resources" = "⚡️ Enterキーまたは数字キーを押してコンテンツを貼り付ける\n✏️ Enterキーまたは数字キーを長押ししてフォーマットメニューを開く\n👀 Spaceキーを押すかマウスをホバーするとプレビューが表示され、プレビューウィンドウをドラッグして画面に固定できます\n🖱️ アイテムを長押ししてドラッグし、リリースして貼り付ける\n👇 Tabキーを押して展開またはページをめくる\n🔍 ⌘Fを押すか、直接文字キーを押して検索を開始する\n📋 現在のアイテムをクリップボードにコピーするには⌘Cを押す\n❌ 削除するには⌘Dを押す\n📝 別名を設定するには⌘Aを押す\n⭐ デフォルトのお気に入りに追加するには⌘Sを押す\n👆 ⇧+Tabを押してページを上にめくる\n🖱️ アイテムを右クリックしてメニューオプションを表示する\n✂️ 複数行を選択して⌘⇧Cを押して分割してコピーする\n📚 貼り付けキューを開くには⌘'を押して、順番に複数のアイテムを貼り付ける\n🖱️ ⌘⇧Cを押してバッチ管理と使用のためのメインウィンドウを開くと、よりマウスフレンドリーになります\n⌨️ ⌘←/⌘→ リストを素早く切り替える\n⚡️ クイックメニューショートカットを再度押すと同じ効果が得られます";
+
+// MARK: - Invite Friends
+// Payment Methods
+"payment_method_alipay" = "アリペイ";
+"payment_method_wechat" = "WeChatペイ";
+"payment_method_paypal" = "PayPal";
+
+// Form Fields
+"form_field_name" = "本名";
+"form_field_alipay" = "アリペイアカウント";
+"form_field_wechat" = "WeChatアカウント";
+"form_field_bank_account" = "銀行口座番号";
+"form_field_bank_name" = "銀行名";
+"form_field_paypal" = "PayPalアカウント";
+
+// Placeholders
+"form_field_name_placeholder" = "本名を入力してください";
+"form_field_alipay_placeholder" = "アリペイアカウントを入力してください";
+// ... 其他占位文本
+
+// Loading
+"loading" = "読み込み中...";
+
+// Rules
+"invite_rules_title" = "📜 CleanClip Pro 招待友達報酬ルール";
+"invite_rules_trial_title" = "試用ユーザーの場合";
+"invite_rules_trial_1" = "友達を一人試用に招待するごとに、1ヶ月の会員特典を獲得";
+"invite_rules_trial_2" = "友達を一人有料に招待するごとに、実際の支払額の12%をキャッシュバック";
+"invite_rules_paid_title" = "有料ユーザーの場合";
+"invite_rules_paid_1" = "友達を一人有料に招待するごとに、実際の支払額の25%をキャッシュバック";
+"invite_rules_paid_2" = "6人目の有料ユーザーから、この割合は20%に調整されます";
+
+// Buttons
+"invite_start_button" = "今すぐ開始";
+"become_paid_user_button" = "今すぐ有料ユーザーになる";
+"become_trial_user_button" = "今すぐ試用ユーザーになる";
+"activate_license_button" = "シリアル番号を持っているので、アクティブ化する";
+"refresh_login_button" = "アクティブ化済み、ログイン状態を更新";
+"upgrade_paid_button" = "有料版にアップグレード";
+"bind_email_button" = "招待リンクを取得するためにメールをバインドする";
+
+// Titles
+"invite_friends_title" = "友達を招待";
+"invite_friends_subtitle" = "友達にCleanClip Proを使わせて、報酬を得る";
+"invite_link_title" = "招待リンク";
+"upgrade_paid_title" = "有料版にアップグレードして、さらに多くの報酬をアンロック";
+
+// Features
+"reward_increase_title" = "報酬の増加";
+"reward_increase_desc" = "推薦報酬が12%から最大25%に増加";
+"unlimited_withdraw_title" = "無制限の引き出し";
+"unlimited_withdraw_desc" = "いつでも金額制限なしで引き出し可能";
+
+// VIP Benefits
+"vip_benefits_title" = "あなたの専用VIP特典";
+"vip_benefit_reward_title" = "最大25%の推薦報酬";
+"vip_benefit_reward_desc" = "友達を一人有料に招待するごとに、実際の支払額の20%-25%の報酬を得る。最初の5人は25%、6人目からは20%";
+"vip_benefit_withdraw_title" = "無制限の引き出し";
+"vip_benefit_withdraw_desc" = "いつでも引き出し可能、金額制限なし";
+"vip_benefit_priority_title" = "優先決済";
+"vip_benefit_priority_desc" = "48時間以内にあなたの引き出しを優先処理します";
+
+// Rewards
+"rewards_total_title" = "累積報酬";
+"rewards_available_title" = "引き出し可能な報酬";
+"rewards_withdrawn_title" = "引き出された報酬";
+
+// Withdrawal
+"withdrawal_title" = "引き出し申請";
+"withdrawal_form_button" = "フォームに記入して申請";
+
+// Footer
+"footer_reward_desc" = "友達を招待すればするほど、報酬が増えます！あなたの友達と一緒にCleanClip Proの強力な機能を体験してください。引き出し申請は72時間以内に処理されます。";
+"footer_support_email" = "サポートメール: support@cleanclip.cc";
+
+// Email Binding
+"email_binding_title" = "メールアドレスのバインド";
+"email_binding_desc" = "メールアドレスをバインドすると、専用の招待リンクを取得できます";
+"email_input_placeholder" = "メールアドレスを入力してください";
+"cancel_button" = "キャンセル";
+"confirm_binding_button" = "バインドを確認";
+
+// Alert
+"email_sent_title" = "メールが送信されました";
+"email_sent_message" = "確認メールがあなたのメールアドレスに送信されました。受信して確認を完了してください";
+"binding_failed_title" = "バインド失敗";
+"binding_failed_message" = "メールアドレスのバインドに失敗しました。後でもう一度お試しください：%@";
+
+// Error Messages
+"email_invalid_title" = "メールアドレスの形式が無効";
+"email_invalid_message" = "正しいメールアドレスを入力してください";
+"network_error_title" = "ネットワークエラー";
+"network_error_message" = "ネットワーク接続を確認してから再試行してください";
+"unknown_error_title" = "不明なエラー";
+"unknown_error_message" = "不明なエラーが発生しました。後でもう一度お試しください";
+
+// Rules
+"reward_rules_title" = "報酬の支払い";
+"reward_rules_payment_time" = "自分で引き出しを申請する必要があります。選択した引き出し方法に基づいて支払われ、72時間以内に処理されます";
+"reward_rules_no_minimum" = "最低引き出し金額の要件はありません";
+"reward_rules_paid_refund" = "有料ユーザーには、まず全額返金し、その後引き出しチャネルから支払います";
+"reward_rules_refund_channel" = "返金は有料チャネルから元のルートで返されます";
+"reward_rules_payment_fee" = "Paypalでの引き出しには、取引ごとに4.4%+$0.3の手数料がかかります（Paypalに支払われます）。WeChat、Alipayでの引き出しには手数料はありません";
+
+// Testimonials
+"testimonial_title" = "ユーザーのフィードバック";
+"testimonial_1_content" = "友達を推薦することで、毎月かなりのコーヒー代を稼げています。素晴らしい！";
+"testimonial_1_author" = "デイビッド";
+"testimonial_2_content" = "同僚にシェアした後、3ヶ月の会員を獲得しました。ソフトウェアはとても使いやすく、報酬も実際的です。";
+"testimonial_2_author" = "サラ";
+
+// Withdrawal Form
+"payment_method_title" = "引き出し方法";
+"save_button" = "保存";
+
+// Common Buttons
+"confirm_button" = "確認";
+
+"loading" = "読み込み中...";
+"reward_rules_payment_title" = "報酬の支払い";
+"email_sent_title" = "メールが送信されました";
+"email_verification_sent_message" = "確認メールがあなたのメールアドレスに送信されました。受信して確認を完了してください";
+"binding_failed_title" = "バインド失敗";
+"binding_failed_message" = "メールアドレスのバインドに失敗しました。後でもう一度お試しください：%@";
+
+"invite_friends" = "招待して稼ぐ";

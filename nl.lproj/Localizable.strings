@@ -230,6 +230,19 @@
 "pin_context_preview_when_hover" = "Voorbeeld bij hoveren inschakelen";
 "pin_context_share" = "Delen...";
 
+"pin_context_paste_one_by_one" = "Een voor een plakken";
+"pin_context_merge_settings" = "Instellingen samenvoegen";
+"pin_context_merge_copy" = "Samenvoegen en kopiëren";
+"separator_input_title" = "Voer scheidingsteken in";
+"common_ok" = "OK";
+"common_cancel" = "Annuleren";
+"separator_reverse_order" = "Omgekeerde volgorde";
+"separator_none" = "Geen";
+"separator_return" = "Nieuwe regel";
+"separator_tab" = "Tab";
+"separator_section_title" = "Scheidingsteken (huidig: %@)";
+"separator_custom" = "Aangepast...";
+
 // MARK: Content List
 "pin_contents_appname_tooltip" = "Applicatienaam";
 // Empty Page
@@ -603,3 +616,129 @@
 
 // MARK: - Preset resources
 "preset_resources" = "⚡️ Druk op Enter of een cijfertoets om inhoud te plakken\n✏️ Houd Enter of een cijfertoets lang ingedrukt om het opmaakmenu te openen\n👀 Druk op Spatie of beweeg de muis om een voorbeeld te bekijken, sleep het voorbeeldvenster om het op het scherm vast te zetten\n🖱️ Houd het item lang ingedrukt om te slepen, laat los om te plakken\n👇 Druk op Tab om pagina's uit te vouwen of om te slaan\n🔍 ⌘F of druk direct op een lettertoets om te zoeken\n📋 ⌘C om het huidige item naar het klembord te kopiëren\n❌ ⌘D om te verwijderen\n📝 ⌘A om een alias in te stellen\n⭐ ⌘S om toe te voegen aan standaard favorieten\n👆 ⇧+Tab om pagina's omhoog te slaan\n🖱️ Klik met de rechtermuisknop op een item om menuopties te bekijken\n✂️ Selecteer meerdere regels en druk op ⌘⇧C om te splitsen en kopiëren als meerdere regels\n📚 ⌘' om de plakwachtrij te openen voor het plakken van meerdere items in volgorde\n🖱️ ⌘⇧C om het hoofdvenster te openen voor batchbeheer en gebruik, meer muisvriendelijk\n⌨️ ⌘←/⌘→ Snel schakelen tussen lijsten\n⚡️ Druk nogmaals op de snelmenu-sneltoets voor hetzelfde effect";
+
+// MARK: - Invite Friends
+// Payment Methods
+"payment_method_alipay" = "Alipay";
+"payment_method_wechat" = "WeChat Pay";
+"payment_method_paypal" = "PayPal";
+
+// Form Fields
+"form_field_name" = "Echte naam";
+"form_field_alipay" = "Alipay-account";
+"form_field_wechat" = "WeChat-account";
+"form_field_bank_account" = "Bankrekeningnummer";
+"form_field_bank_name" = "Banknaam";
+"form_field_paypal" = "PayPal-account";
+
+// Placeholders
+"form_field_name_placeholder" = "Voer uw echte naam in";
+"form_field_alipay_placeholder" = "Voer uw Alipay-account in";
+// ... 其他占位文本
+
+// Loading
+"loading" = "Laden...";
+
+// Rules
+"invite_rules_title" = "📜 CleanClip Pro Vrienden uitnodigen beloningsregels";
+"invite_rules_trial_title" = "Als je een proefgebruiker bent";
+"invite_rules_trial_1" = "Voor elke vriend die je uitnodigt voor een proefperiode, ontvang je een maand lidmaatschap bonus";
+"invite_rules_trial_2" = "Voor elke vriend die je uitnodigt en betaalt, ontvang je 12% van het betaalde bedrag als cashback";
+"invite_rules_paid_title" = "Als je een betalende gebruiker bent";
+"invite_rules_paid_1" = "Voor elke vriend die je uitnodigt en betaalt, ontvang je 25% van het betaalde bedrag als cashback";
+"invite_rules_paid_2" = "Vanaf de zesde betalende gebruiker wordt dit percentage aangepast naar 20%";
+
+// Buttons
+"invite_start_button" = "Begin nu";
+"become_paid_user_button" = "Word nu betalende gebruiker";
+"become_trial_user_button" = "Word nu proefgebruiker";
+"activate_license_button" = "Heb je een serienummer? Activeer het";
+"refresh_login_button" = "Geactiveerd, vernieuw loginstatus";
+"upgrade_paid_button" = "Upgrade naar de betaalde versie";
+"bind_email_button" = "Klik om e-mail te koppelen voor uitnodigingslink";
+
+// Titles
+"invite_friends_title" = "Nodig vrienden uit";
+"invite_friends_subtitle" = "Nodig vrienden uit om CleanClip Pro te gebruiken en ontvang beloningen";
+"invite_link_title" = "Uitnodigingslink";
+"upgrade_paid_title" = "Upgrade naar de betaalde versie om meer beloningen te ontgrendelen";
+
+// Features
+"reward_increase_title" = "Beloning verhoging";
+"reward_increase_desc" = "Aanbevelingsbeloning verhoogd van 12% tot maximaal 25%";
+"unlimited_withdraw_title" = "Onbeperkt opnemen";
+"unlimited_withdraw_desc" = "Opnemen zonder bedrag limiet op elk moment";
+
+// VIP Benefits
+"vip_benefits_title" = "Jouw exclusieve VIP-rechten";
+"vip_benefit_reward_title" = "Maximaal 25% aanbevelingsbeloning";
+"vip_benefit_reward_desc" = "Voor elke vriend die je uitnodigt en betaalt, ontvang je 20%-25% van het betaalde bedrag als beloning. Eerste 5 vrienden 25%, vanaf de 6e vriend 20%";
+"vip_benefit_withdraw_title" = "Onbeperkt opnemen";
+"vip_benefit_withdraw_desc" = "Te allen tijde opnemen, zonder bedrag limiet";
+"vip_benefit_priority_title" = "Prioriteit bij uitbetaling";
+"vip_benefit_priority_desc" = "Uw opname wordt binnen 48 uur prioriteit gegeven";
+
+// Rewards
+"rewards_total_title" = "Totaal beloningen";
+"rewards_available_title" = "Beschikbare beloningen voor opname";
+"rewards_withdrawn_title" = "Opgenomen beloningen";
+
+// Withdrawal
+"withdrawal_title" = "Opname aanvraag";
+"withdrawal_form_button" = "Vul het formulier in om aan te vragen";
+
+// Footer
+"footer_reward_desc" = "Hoe meer u uitnodigt, hoe meer beloningen! Deel met uw vrienden en ervaar de krachtige functies van CleanClip Pro samen. Aanvraag voor opname binnen 72 uur op uw rekening.";
+"footer_support_email" = "Klantenservice e-mail: support@cleanclip.cc";
+
+// Email Binding
+"email_binding_title" = "E-mail koppelen";
+"email_binding_desc" = "Na het koppelen van uw e-mail ontvangt u een exclusieve uitnodigingslink";
+"email_input_placeholder" = "Voer uw e-mailadres in";
+"cancel_button" = "Annuleren";
+"confirm_binding_button" = "Bevestig koppeling";
+
+// Alert
+"email_sent_title" = "E-mail verzonden";
+"email_sent_message" = "Bevestigingsmail is naar uw e-mailadres verzonden, controleer en voltooi de verificatie";
+"binding_failed_title" = "Koppeling mislukt";
+"binding_failed_message" = "E-mail koppeling mislukt, probeer het later opnieuw: %@";
+
+// Error Messages
+"email_invalid_title" = "Ongeldig e-mailformaat";
+"email_invalid_message" = "Voer een geldig e-mailadres in";
+"network_error_title" = "Netwerkfout";
+"network_error_message" = "Controleer uw netwerkverbinding en probeer het opnieuw";
+"unknown_error_title" = "Onbekende fout";
+"unknown_error_message" = "Er is een onbekende fout opgetreden, probeer het later opnieuw";
+
+// Rules
+"reward_rules_title" = "Beloningsuitkering";
+"reward_rules_payment_time" = "U moet zelf een opname aanvragen, het wordt uitgekeerd op basis van de gekozen opname methode, binnen 72 uur op uw rekening";
+"reward_rules_no_minimum" = "Geen minimum opname bedrag vereiste";
+"reward_rules_paid_refund" = "Voor betalende gebruikers wordt standaard eerst het volledige bedrag terugbetaald, daarna wordt het bedrag via de opname methode overgemaakt";
+"reward_rules_refund_channel" = "Terugbetalingen worden via de oorspronkelijke betaalmethode teruggestort";
+"reward_rules_payment_fee" = "Voor PayPal-opnames wordt 4,4% + $0,3 transactiekosten (aan PayPal) in rekening gebracht, voor WeChat en Alipay zijn er geen transactiekosten";
+
+// Testimonials
+"testimonial_title" = "Gebruikersfeedback";
+"testimonial_1_content" = "Door vrienden aan te bevelen, kan ik elke maand een leuk zakcentje verdienen, geweldig!";
+"testimonial_1_author" = "David";
+"testimonial_2_content" = "Na het delen met collega's kreeg ik 3 maanden lidmaatschap, de software is erg gebruiksvriendelijk en de beloningen zijn ook heel eerlijk.";
+"testimonial_2_author" = "Sarah";
+
+// Withdrawal Form
+"payment_method_title" = "Opname methode";
+"save_button" = "Opslaan";
+
+// Common Buttons
+"confirm_button" = "Bevestigen";
+
+"loading" = "Laden...";
+"reward_rules_payment_title" = "Beloningsuitkering";
+"email_sent_title" = "E-mail verzonden";
+"email_verification_sent_message" = "Bevestigingsmail is naar uw e-mailadres verzonden, controleer en voltooi de verificatie";
+"binding_failed_title" = "Koppeling mislukt";
+"binding_failed_message" = "E-mail koppeling mislukt, probeer het later opnieuw: %@";
+
+"invite_friends" = "Uitnodigen & Verdienen";

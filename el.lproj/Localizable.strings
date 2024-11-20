@@ -230,6 +230,19 @@
 "pin_context_preview_when_hover" = "Ενεργοποίηση προεπισκόπησης στο Hover";
 "pin_context_share" = "Μοιραστείτε...";
 
+"pin_context_paste_one_by_one" = "Επικόλληση ένα προς ένα";
+"pin_context_merge_settings" = "Συγχώνευση ρυθμίσεων";
+"pin_context_merge_copy" = "Συγχώνευση και Αντιγραφή";
+"separator_input_title" = "Εισαγωγή διαχωριστικού";
+"common_ok" = "Εντάξει";
+"common_cancel" = "Ακύρωση";
+"separator_reverse_order" = "Αντίστροφη ταξινόμηση";
+"separator_none" = "Καμία";
+"separator_return" = "Νέα γραμμή";
+"separator_tab" = "Ταμπ";
+"separator_section_title" = "Διαχωριστικό (τώρα: %@)";
+"separator_custom" = "Προσαρμοσμένο...";
+
 // MARK: Content List
 "pin_contents_appname_tooltip" = "Όνομα εφαρμογής";
 // Empty Page
@@ -603,3 +616,129 @@
 
 // MARK: - Preset resources
 "preset_resources" = "⚡️ Πατήστε Enter ή αριθμητικό πλήκτρο για επικόλληση περιεχομένου\n✏️ Κρατήστε πατημένο το Enter ή το αριθμητικό πλήκτρο για να ανοίξετε το μενού μορφοποίησης\n👀 Πατήστε το Space ή κάντε hover με το ποντίκι για προεπισκόπηση, σύρετε το παράθυρο προεπισκόπησης για να καρφιτσώσετε στην οθόνη\n🖱️ Κρατήστε πατημένο το στοιχείο για σύρσιμο, αφήστε το για επικόλληση\n👇 Πατήστε Tab για επέκταση ή αναστροφή σελίδων\n🔍 ⌘F ή πατήστε απευθείας το γράμμα για έναρξη αναζήτησης\n📋 ⌘C για αντιγραφή του τρέχοντος στοιχείου στο πρόχειρο\n❌ ⌘D για διαγραφή\n📝 ⌘A για ορισμό ψευδωνύμου\n⭐ ⌘S για προσθήκη στα προεπιλεγμένα αγαπημένα\n👆 ⇧+Tab για αναστροφή σελίδων προς τα επάνω\n🖱️ Δεξί κλικ στο στοιχείο για προβολή επιλογών μενού\n✂️ Επιλέξτε πολλαπλές γραμμές και πατήστε ⌘⇧C για διαίρεση και αντιγραφή ως πολλαπλές γραμμές\n📚 ⌘' για να ανοίξετε την ουρά επικόλλησης για επικόλληση πολλαπλών στοιχείων με σειρά\n🖱️ ⌘⇧C για να ανοίξετε το κύριο παράθυρο για διαχείριση και χρήση πακέτων, πιο φιλικό προς το ποντίκι\n⌨️ ⌘←/⌘→ Γρήγορη μετάβαση μεταξύ λιστών\n⚡️ Πατήστε ξανά τη συντόμευση του Γρήγορου Μενού για τον ίδιο ακριβώς αποτέλεσμα";
+
+// MARK: - Invite Friends
+// Payment Methods
+"payment_method_alipay" = "Alipay";
+"payment_method_wechat" = "Wechat Pay";
+"payment_method_paypal" = "PayPal";
+
+// Form Fields
+"form_field_name" = "Πραγματικό όνομα";
+"form_field_alipay" = "Λογαριασμός Alipay";
+"form_field_wechat" = "Λογαριασμός Wechat";
+"form_field_bank_account" = "Αριθμός τραπεζικού λογαριασμού";
+"form_field_bank_name" = "Τράπεζα";
+"form_field_paypal" = "Λογαριασμός PayPal";
+
+// Placeholders
+"form_field_name_placeholder" = "Εισάγετε το πραγματικό όνομα";
+"form_field_alipay_placeholder" = "Εισάγετε τον λογαριασμό Alipay";
+// ... 其他占位文本
+
+// Loading
+"loading" = "Φόρτωση...";
+
+// Rules
+"invite_rules_title" = "📜 Κανόνες επιβράβευσης προσκλήσεων CleanClip Pro";
+"invite_rules_trial_title" = "Αν είστε χρήστης δοκιμής";
+"invite_rules_trial_1" = "Για κάθε φίλο που προσκαλείτε να δοκιμάσει, κερδίζετε έναν μήνα επιπλέον μέλους";
+"invite_rules_trial_2" = "Για κάθε φίλο που προσκαλείτε να πληρώσει, κερδίζετε επιστροφή 12% του ποσού που πληρώθηκε";
+"invite_rules_paid_title" = "Αν είστε πληρωμένος χρήστης";
+"invite_rules_paid_1" = "Για κάθε φίλο που προσκαλείτε να πληρώσει, κερδίζετε επιστροφή 25% του ποσού που πληρώθηκε";
+"invite_rules_paid_2" = "Από τον έκτο πληρωμένο χρήστη και μετά, το ποσοστό προσαρμόζεται στο 20%";
+
+// Buttons
+"invite_start_button" = "Ξεκινήστε τώρα";
+"become_paid_user_button" = "Γίνετε πληρωμένος χρήστης τώρα";
+"become_trial_user_button" = "Γίνετε χρήστης δοκιμής τώρα";
+"activate_license_button" = "Έχω σειριακό αριθμό, προχωρήστε στην ενεργοποίηση";
+"refresh_login_button" = "Ενεργοποιημένο, ανανεώστε την κατάσταση σύνδεσης";
+"upgrade_paid_button" = "Αναβάθμιση στην πληρωμένη έκδοση";
+"bind_email_button" = "Κάντε κλικ για να συνδέσετε το email σας και να αποκτήσετε τον σύνδεσμο πρόσκλησης";
+
+// Titles
+"invite_friends_title" = "Προσκαλέστε φίλους";
+"invite_friends_subtitle" = "Προσκαλέστε φίλους να χρησιμοποιήσουν το CleanClip Pro και κερδίστε ανταμοιβές";
+"invite_link_title" = "Σύνδεσμος πρόσκλησης";
+"upgrade_paid_title" = "Αναβάθμιση στην πληρωμένη έκδοση για να ξεκλειδώσετε περισσότερες ανταμοιβές";
+
+// Features
+"reward_increase_title" = "Αύξηση ανταμοιβής";
+"reward_increase_desc" = "Η ανταμοιβή σύστασης αυξάνεται από 12% έως 25% το μέγιστο";
+"unlimited_withdraw_title" = "Απεριόριστη ανάληψη";
+"unlimited_withdraw_desc" = "Ανάληψη οποιαδήποτε στιγμή χωρίς περιορισμούς ποσού";
+
+// VIP Benefits
+"vip_benefits_title" = "Τα αποκλειστικά προνόμια VIP σας";
+"vip_benefit_reward_title" = "Μέχρι 25% ανταμοιβή σύστασης";
+"vip_benefit_reward_desc" = "Για κάθε φίλο που προσκαλείτε να πληρώσει, κερδίζετε ανταμοιβή 20%-25% του ποσού που πληρώθηκε. Οι πρώτοι 5 25%, από τον 6ο και μετά 20%";
+"vip_benefit_withdraw_title" = "Απεριόριστη ανάληψη";
+"vip_benefit_withdraw_desc" = "Ανάληψη οποτεδήποτε, χωρίς περιορισμούς ποσού";
+"vip_benefit_priority_title" = "Προτεραιότητα στην εκκαθάριση";
+"vip_benefit_priority_desc" = "Προτεραιότητα στην επεξεργασία της ανάληψής σας εντός 48 ωρών";
+
+// Rewards
+"rewards_total_title" = "Συγκεντρωτικές ανταμοιβές";
+"rewards_available_title" = "Διαθέσιμες ανταμοιβές προς ανάληψη";
+"rewards_withdrawn_title" = "Ανταμοιβές που έχουν αναληφθεί";
+
+// Withdrawal
+"withdrawal_title" = "Αίτηση ανάληψης";
+"withdrawal_form_button" = "Συμπληρώστε τη φόρμα για να υποβάλετε αίτηση";
+
+// Footer
+"footer_reward_desc" = "Όσο περισσότερους προσκαλείτε, τόσες περισσότερες ανταμοιβές κερδίζετε! Μοιραστείτε το με τους φίλους σας και ζήστε τη δύναμη του CleanClip Pro. Η αίτηση ανάληψης θα πιστωθεί εντός 72 ωρών.";
+"footer_support_email" = "Διεύθυνση υποστήριξης: support@cleanclip.cc";
+
+// Email Binding
+"email_binding_title" = "Σύνδεση email";
+"email_binding_desc" = "Αφού συνδέσετε το email σας, θα λάβετε αποκλειστικό σύνδεσμο πρόσκλησης";
+"email_input_placeholder" = "Εισάγετε τη διεύθυνση email";
+"cancel_button" = "Ακύρωση";
+"confirm_binding_button" = "Επιβεβαίωση σύνδεσης";
+
+// Alert
+"email_sent_title" = "Email έχει σταλεί";
+"email_sent_message" = "Το email επιβεβαίωσης έχει σταλεί στο email σας, παρακαλώ ελέγξτε και ολοκληρώστε την επιβεβαίωση";
+"binding_failed_title" = "Αποτυχία σύνδεσης";
+"binding_failed_message" = "Η σύνδεση email απέτυχε, παρακαλώ δοκιμάστε ξανά αργότερα: %@";
+
+// Error Messages
+"email_invalid_title" = "Λάθος μορφή email";
+"email_invalid_message" = "Παρακαλώ εισάγετε μια σωστή διεύθυνση email";
+"network_error_title" = "Σφάλμα δικτύου";
+"network_error_message" = "Παρακαλώ ελέγξτε τη σύνδεση δικτύου και δοκιμάστε ξανά";
+"unknown_error_title" = "Άγνωστο σφάλμα";
+"unknown_error_message" = "Συνέβη άγνωστο σφάλμα, παρακαλώ δοκιμάστε ξανά αργότερα";
+
+// Rules
+"reward_rules_title" = "Κανόνες ανταμοιβών";
+"reward_rules_payment_time" = "Πρέπει να υποβάλετε αίτηση για ανάληψη, θα εκδοθούν σύμφωνα με την επιλεγμένη μέθοδο ανάληψης, εντός 72 ωρών";
+"reward_rules_no_minimum" = "Δεν υπάρχει ελάχιστο όριο ανάληψης";
+"reward_rules_paid_refund" = "Για τους πληρωμένους χρήστες, η επιστροφή χρημάτων γίνεται πρώτα πλήρως και στη συνέχεια η πληρωμή από την οδό ανάληψης";
+"reward_rules_refund_channel" = "Η επιστροφή χρημάτων θα γίνει μέσω της αρχικής οδού πληρωμής";
+"reward_rules_payment_fee" = "Η ανάληψη μέσω Paypal απαιτεί χρέωση 4.4% + $0.3 (προς την Paypal), οι αναλήψεις μέσω WeChat και Alipay δεν έχουν χρέωση";
+
+// Testimonials
+"testimonial_title" = "Ανατροφοδότηση χρηστών";
+"testimonial_1_content" = "Μέσω της σύστασης φίλων, μπορώ να κερδίζω αρκετά χρήματα για καφέ κάθε μήνα, είναι υπέροχο!";
+"testimonial_1_author" = "David";
+"testimonial_2_content" = "Μετά τη μοιρασιά με τους συναδέλφους, κέρδισα 3 μήνες συνδρομής, το λογισμικό είναι πολύ χρήσιμο και οι ανταμοιβές είναι πολύ πραγματικές.";
+"testimonial_2_author" = "Sarah";
+
+// Withdrawal Form
+"payment_method_title" = "Μέθοδος ανάληψης";
+"save_button" = "Αποθήκευση";
+
+// Common Buttons
+"confirm_button" = "Επιβεβαίωση";
+
+"loading" = "Φόρτωση...";
+"reward_rules_payment_title" = "Κανόνες ανταμοιβών";
+"email_sent_title" = "Email έχει σταλεί";
+"email_verification_sent_message" = "Το email επιβεβαίωσης έχει σταλεί στο email σας, παρακαλώ ελέγξτε και ολοκληρώστε την επιβεβαίωση";
+"binding_failed_title" = "Αποτυχία σύνδεσης";
+"binding_failed_message" = "Η σύνδεση email απέτυχε, παρακαλώ δοκιμάστε ξανά αργότερα: %@";
+
+"invite_friends" = "Προσκαλέστε & Κερδίστε";

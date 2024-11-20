@@ -230,6 +230,19 @@
 "pin_context_preview_when_hover" = "Povoliť náhľad pri prejdení myšou";
 "pin_context_share" = "Zdieľať...";
 
+"pin_context_paste_one_by_one" = "Vkladať po jednom";
+"pin_context_merge_settings" = "Zlúčiť nastavenia";
+"pin_context_merge_copy" = "Zlúčiť a kopírovať";
+"separator_input_title" = "Zadajte oddeľovač";
+"common_ok" = "OK";
+"common_cancel" = "Zrušiť";
+"separator_reverse_order" = "Obrátené poradie";
+"separator_none" = "Žiadny";
+"separator_return" = "Nový riadok";
+"separator_tab" = "Tabulátor";
+"separator_section_title" = "Oddeľovač (aktuálne: %@)";
+"separator_custom" = "Vlastný...";
+
 // MARK: Content List
 "pin_contents_appname_tooltip" = "Názov aplikácie";
 // Empty Page
@@ -603,3 +616,129 @@
 
 // MARK: - Preset resources
 "preset_resources" = "⚡️ Nytt tast Enter eller talltast for å lime inn innhold\n✏️ Hold tast Enter eller talltast inne for å åpne formateringsmenyen\n👀 Trykk mellomrom eller svev musen for forhåndsvisning, dra forhåndsvisningsvinduet for å feste på skjermen\n🖱️ Hold inne elementet for å dra, slipp for å lime inn\n👇 Trykk Tab for å utvide eller bla sider\n🔍 ⌘F eller trykk direkte på bokstavtast for å starte søket\n📋 ⌘C for å kopiere gjeldende element til utklippstavlen\n❌ ⌘D for å slette\n📝 ⌘A for å sette alias\n⭐ ⌘S for å legge til i standardfavoritter\n👆 ⇧+Tab for å bla sider oppover\n🖱️ Høyreklikk på elementet for å se menyvalg\n✂️ Velg flere linjer og trykk ⌘⇧C for å splitte og kopiere som flere linjer\n📚 ⌘' for å åpne innlimingskøen for å lime inn flere elementer i rekkefølge\n🖱️ ⌘⇧C for å åpne hovedvinduet for massebehandling og bruk, mer mus-vennlig\n⌨️ ⌘←/⌘→ Bytt raskt mellom lister\n⚡️ Trykk hurtigtasten for hurtigmenyen igjen for å oppnå samme effekt";
+
+// MARK: - Invite Friends
+// Payment Methods
+"payment_method_alipay" = "Alipay";
+"payment_method_wechat" = "WeChat Pay";
+"payment_method_paypal" = "PayPal";
+
+// Form Fields
+"form_field_name" = "Skutočné meno";
+"form_field_alipay" = "Účet Alipay";
+"form_field_wechat" = "Účet WeChat";
+"form_field_bank_account" = "Číslo bankového účtu";
+"form_field_bank_name" = "Názov banky";
+"form_field_paypal" = "Účet PayPal";
+
+// Placeholders
+"form_field_name_placeholder" = "Zadajte skutočné meno";
+"form_field_alipay_placeholder" = "Zadajte účet Alipay";
+// ... 其他占位文本
+
+// Loading
+"loading" = "Načítava sa...";
+
+// Rules
+"invite_rules_title" = "📜 CleanClip Pro pravidlá odmien za pozvanie priateľov";
+"invite_rules_trial_title" = "Ak ste používateľom skúšobnej verzie";
+"invite_rules_trial_1" = "Za každého pozvaného priateľa na skúšku získate mesiac členstva navyše";
+"invite_rules_trial_2" = "Za každého pozvaného priateľa, ktorý zaplatí, získate 12% z reálnej zaplatenej sumy späť";
+"invite_rules_paid_title" = "Ak ste plateným používateľom";
+"invite_rules_paid_1" = "Za každého pozvaného priateľa, ktorý zaplatí, získate 25% z reálnej zaplatenej sumy späť";
+"invite_rules_paid_2" = "Od šiesteho plateného používateľa sa tento pomer zníži na 20%";
+
+// Buttons
+"invite_start_button" = "Začať teraz";
+"become_paid_user_button" = "Staňte sa plateným používateľom teraz";
+"become_trial_user_button" = "Staňte sa používateľom skúšobnej verzie teraz";
+"activate_license_button" = "Mám sériové číslo, aktivovať";
+"refresh_login_button" = "Aktivované, obnoviť stav prihlásenia";
+"upgrade_paid_button" = "Prejsť na platenú verziu";
+"bind_email_button" = "Kliknite na prepojenie e-mailu pre získanie pozývacieho odkazu";
+
+// Titles
+"invite_friends_title" = "Pozvať priateľov";
+"invite_friends_subtitle" = "Pozvite priateľov, aby používali CleanClip Pro a získajte odmenu";
+"invite_link_title" = "Pozývací odkaz";
+"upgrade_paid_title" = "Prejdite na platenú verziu a odomknite viac odmien";
+
+// Features
+"reward_increase_title" = "Zvýšenie odmien";
+"reward_increase_desc" = "Odmeny za odporúčanie sa zvyšujú z 12% na maximálne 25%";
+"unlimited_withdraw_title" = "Neobmedzené výbery";
+"unlimited_withdraw_desc" = "Výbery kedykoľvek bez obmedzenia sumy";
+
+// VIP Benefits
+"vip_benefits_title" = "Vaše exkluzívne VIP výhody";
+"vip_benefit_reward_title" = "Maximálne 25% odmena za odporúčanie";
+"vip_benefit_reward_desc" = "Za každého pozvaného priateľa, ktorý zaplatí, získate odmenu vo výške 20%-25% z jeho zaplatenej sumy. Prvých 5 priateľov 25%, od 6. priateľa 20%";
+"vip_benefit_withdraw_title" = "Neobmedzené výbery";
+"vip_benefit_withdraw_desc" = "Kedykoľvek si môžete vybrať, bez obmedzenia sumy";
+"vip_benefit_priority_title" = "Prioritné vyplatenie";
+"vip_benefit_priority_desc" = "Vaša žiadosť o výber bude spracovaná s prioritou do 48 hodín";
+
+// Rewards
+"rewards_total_title" = "Nahromadené odmeny";
+"rewards_available_title" = "Odmeny na výber";
+"rewards_withdrawn_title" = "Vybrané odmeny";
+
+// Withdrawal
+"withdrawal_title" = "Žiadosť o výber";
+"withdrawal_form_button" = "Vyplňte formulár na podanie žiadosti";
+
+// Footer
+"footer_reward_desc" = "Čím viac pozvete, tým viac odmien získate! Zdieľajte s priateľmi a zažite silu CleanClip Pro. Žiadosť o výber bude spracovaná do 72 hodín.";
+"footer_support_email" = "Podpora: support@cleanclip.cc";
+
+// Email Binding
+"email_binding_title" = "Prepojenie e-mailu";
+"email_binding_desc" = "Po prepojení e-mailu získate svoj vlastný pozývací odkaz";
+"email_input_placeholder" = "Zadajte e-mailovú adresu";
+"cancel_button" = "Zrušiť";
+"confirm_binding_button" = "Potvrdiť prepojenie";
+
+// Alert
+"email_sent_title" = "E-mail bol odoslaný";
+"email_sent_message" = "Overovací e-mail bol odoslaný na vašu e-mailovú adresu, prosím skontrolujte a dokončite overenie";
+"binding_failed_title" = "Prepojenie zlyhalo";
+"binding_failed_message" = "Prepojenie e-mailu zlyhalo, skúste to prosím neskôr: %@";
+
+// Error Messages
+"email_invalid_title" = "Neplatný formát e-mailu";
+"email_invalid_message" = "Zadajte prosím správnu e-mailovú adresu";
+"network_error_title" = "Chyba siete";
+"network_error_message" = "Skontrolujte prosím pripojenie na internet a skúste to znova";
+"unknown_error_title" = "Neznáma chyba";
+"unknown_error_message" = "Vyskytla sa neznáma chyba, skúste to prosím neskôr";
+
+// Rules
+"reward_rules_title" = "Pravidlá odmien";
+"reward_rules_payment_time" = "Je potrebné si sám požiadať o výber, odmeny budú vyplatené podľa zvolenej metódy výberu, do 72 hodín";
+"reward_rules_no_minimum" = "Žiadne minimálne požiadavky na výber";
+"reward_rules_paid_refund" = "Pre platených používateľov sa najprv vráti celá suma, a potom sa vyplatí z vyberanej metódy";
+"reward_rules_refund_channel" = "Vrátenie bude uskutočnené cez pôvodný platobný kanál";
+"reward_rules_payment_fee" = "Pri výbere cez Paypal sa odpočítava poplatok 4.4% + $0.3 (pre Paypal), výbery cez WeChat a Alipay sú bez poplatku";
+
+// Testimonials
+"testimonial_title" = "Spätná väzba používateľov";
+"testimonial_1_content" = "Odporúčaním priateľov si každý mesiac zarobím slušné vreckové, je to skvelé!";
+"testimonial_1_author" = "David";
+"testimonial_2_content" = "Po zdieľaní s kolegami som získal 3-mesačné členstvo, softvér je veľmi užitočný a odmeny sú reálne.";
+"testimonial_2_author" = "Sarah";
+
+// Withdrawal Form
+"payment_method_title" = "Metóda výberu";
+"save_button" = "Uložiť";
+
+// Common Buttons
+"confirm_button" = "Potvrdiť";
+
+"loading" = "Načítava sa...";
+"reward_rules_payment_title" = "Pravidlá vyplácania odmien";
+"email_sent_title" = "E-mail bol odoslaný";
+"email_verification_sent_message" = "Overovací e-mail bol odoslaný na vašu e-mailovú adresu, prosím skontrolujte a dokončite overenie";
+"binding_failed_title" = "Prepojenie zlyhalo";
+"binding_failed_message" = "Prepojenie e-mailu zlyhalo, skúste to prosím neskôr: %@";
+
+"invite_friends" = "Pozvite a zarábajte";

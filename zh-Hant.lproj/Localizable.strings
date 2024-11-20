@@ -230,6 +230,19 @@
 "pin_context_preview_when_hover" = "開啟滑鼠懸停預覽";
 "pin_context_share" = "分享...";
 
+"pin_context_paste_one_by_one" = "逐個粘貼";
+"pin_context_merge_settings" = "合併設定";
+"pin_context_merge_copy" = "合併並複製";
+"separator_input_title" = "輸入分隔符";
+"common_ok" = "確定";
+"common_cancel" = "取消";
+"separator_reverse_order" = "反向排序";
+"separator_none" = "無";
+"separator_return" = "換行";
+"separator_tab" = "制表符";
+"separator_section_title" = "分隔符（當前：%@）";
+"separator_custom" = "自定義...";
+
 // MARK: Content List
 "pin_contents_appname_tooltip" = "應用程式名稱";
 // Empty Page
@@ -603,3 +616,129 @@
 
 // MARK: - Preset resources
 "preset_resources" = "⚡️ 按 Enter 鍵或數字鍵粘貼內容\n✏️ 長按 Enter 鍵或數字鍵打開格式菜單\n👀 按空格鍵或將滑鼠懸停在預覽上，拖動預覽窗口固定在屏幕上\n🖱️ 長按項目拖動，釋放以粘貼\n👇 按 Tab 鍵展開或翻轉頁面\n🔍 ⌘F 或直接按字母鍵開始搜索\n📋 ⌘C 複製當前項目到剪貼板\n❌ ⌘D 刪除\n📝 ⌘A 設置別名\n⭐ ⌘S 添加到默認收藏夾\n👆 ⇧+Tab 向上翻頁\n🖱️ 右鍵單擊項目查看菜單選項\n✂️ 選擇多行文本，按 ⌘⇧C 拆分並複製為多行\n📚 ⌘' 打開粘貼隊列以按順序粘貼多個項目\n🖱️ ⌘⇧C 打開主窗口進行批量管理和使用，更適合鼠標操作\n⌨️ ⌘←/⌘→ 快速切換列表\n⚡️ 再次按下快捷菜單快捷鍵即可實現相同效果";
+
+// MARK: - Invite Friends
+// Payment Methods
+"payment_method_alipay" = "支付寶";
+"payment_method_wechat" = "微信支付";
+"payment_method_paypal" = "PayPal";
+
+// Form Fields
+"form_field_name" = "真實姓名";
+"form_field_alipay" = "支付寶帳號";
+"form_field_wechat" = "微信帳號";
+"form_field_bank_account" = "銀行卡號";
+"form_field_bank_name" = "開戶銀行";
+"form_field_paypal" = "PayPal 帳號";
+
+// Placeholders
+"form_field_name_placeholder" = "請輸入真實姓名";
+"form_field_alipay_placeholder" = "請輸入支付寶帳號";
+// ... 其他占位文本
+
+// Loading
+"loading" = "加載中...";
+
+// Rules
+"invite_rules_title" = "📜 CleanClip Pro 邀請好友獎勵規則";
+"invite_rules_trial_title" = "如果你是試用用戶";
+"invite_rules_trial_1" = "每邀請一位好友試用，獲得一個月會員加成";
+"invite_rules_trial_2" = "每邀請一位好友付費，獲得實付金額 12% 的返現";
+"invite_rules_paid_title" = "如果你是付費用戶";
+"invite_rules_paid_1" = "每邀請一位好友付費，獲得 25% 實付金額返現";
+"invite_rules_paid_2" = "從第六位付費用戶開始，該比例調整為 20%";
+
+// Buttons
+"invite_start_button" = "立即開始";
+"become_paid_user_button" = "立即成為付費用戶";
+"become_trial_user_button" = "立即成為試用用戶";
+"activate_license_button" = "已有序列號，去激活";
+"refresh_login_button" = "已激活，刷新登錄狀態";
+"upgrade_paid_button" = "升級到付費版";
+"bind_email_button" = "點擊綁定郵箱以獲取邀請鏈接";
+
+// Titles
+"invite_friends_title" = "邀請好友";
+"invite_friends_subtitle" = "邀請好友使用 CleanClip Pro，獲得獎勵";
+"invite_link_title" = "邀請鏈接";
+"upgrade_paid_title" = "升級到付費版解鎖更多獎勵";
+
+// Features
+"reward_increase_title" = "獎勵提升";
+"reward_increase_desc" = "推薦獎勵從12%提升至最高25%";
+"unlimited_withdraw_title" = "無限制提現";
+"unlimited_withdraw_desc" = "隨時提現無金額限制";
+
+// VIP Benefits
+"vip_benefits_title" = "您的專屬VIP權益";
+"vip_benefit_reward_title" = "最高25%推薦獎勵";
+"vip_benefit_reward_desc" = "每邀請一位好友付費，獲得其實付金額20%-25%的獎勵。前5位25%，第6位開始20%";
+"vip_benefit_withdraw_title" = "無限制提現";
+"vip_benefit_withdraw_desc" = "隨時提現，無金額限制";
+"vip_benefit_priority_title" = "優先結算";
+"vip_benefit_priority_desc" = "48 小時內優先處理您的提現";
+
+// Rewards
+"rewards_total_title" = "累積獎勵";
+"rewards_available_title" = "可提現獎勵";
+"rewards_withdrawn_title" = "已提現獎勵";
+
+// Withdrawal
+"withdrawal_title" = "提現申請";
+"withdrawal_form_button" = "填寫表單進行申請";
+
+// Footer
+"footer_reward_desc" = "邀請越多，獎勵越多！分享給您的朋友，一起體驗 CleanClip Pro 的強大功能。申請提現 72 小時到帳。";
+"footer_support_email" = "服務支持郵箱: support@cleanclip.cc";
+
+// Email Binding
+"email_binding_title" = "綁定郵箱";
+"email_binding_desc" = "綁定郵箱後即可獲取專屬邀請鏈接";
+"email_input_placeholder" = "請輸入郵箱地址";
+"cancel_button" = "取消";
+"confirm_binding_button" = "確認綁定";
+
+// Alert
+"email_sent_title" = "郵件已發送";
+"email_sent_message" = "驗證郵件已發送到您的郵箱，請查收並完成驗證";
+"binding_failed_title" = "綁定失敗";
+"binding_failed_message" = "郵箱綁定失敗，請稍後重試：%@";
+
+// Error Messages
+"email_invalid_title" = "郵箱格式錯誤";
+"email_invalid_message" = "請輸入正確的郵箱地址";
+"network_error_title" = "網絡錯誤";
+"network_error_message" = "請檢查網絡連接後重試";
+"unknown_error_title" = "未知錯誤";
+"unknown_error_message" = "發生未知錯誤，請稍後重試";
+
+// Rules
+"reward_rules_title" = "獎勵發放";
+"reward_rules_payment_time" = "需自行申請提現，將根據選擇的提現方式發放，72 小時到帳";
+"reward_rules_no_minimum" = "無最低提現金額要求";
+"reward_rules_paid_refund" = "對於付費用戶默認先全額退款，再從提現渠道打款";
+"reward_rules_refund_channel" = "退款將從付費渠道原路返還";
+"reward_rules_payment_fee" = "Paypal 提現每筆需要扣除 4.4%+$0.3 交易費(交給 Paypal)，微信、支付寶提現無交易費";
+
+// Testimonials
+"testimonial_title" = "用戶反饋";
+"testimonial_1_content" = "通過推薦朋友使用，每個月都能賺到不少咖啡錢，太棒了！";
+"testimonial_1_author" = "David";
+"testimonial_2_content" = "分享給同事後獲得了3個月會員，軟件很好用，推薦獎勵也很實在。";
+"testimonial_2_author" = "Sarah";
+
+// Withdrawal Form
+"payment_method_title" = "提現方式";
+"save_button" = "保存";
+
+// Common Buttons
+"confirm_button" = "確定";
+
+"loading" = "加載中...";
+"reward_rules_payment_title" = "獎勵發放";
+"email_sent_title" = "郵件已發送";
+"email_verification_sent_message" = "驗證郵件已發送到您的郵箱，請查收並完成驗證";
+"binding_failed_title" = "綁定失敗";
+"binding_failed_message" = "郵箱綁定失敗，請稍後重試：%@";
+
+"invite_friends" = "邀請 & 賺取";
