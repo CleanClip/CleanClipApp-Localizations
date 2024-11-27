@@ -135,7 +135,12 @@
 "none" = "Κανένα";
 "post_action_text" = "Κείμενο";
 "post_action_text_content" = "Κείμενο προστέθηκε στο τέλος";
-"paste_queue_remove_after_paste" = "Αφαίρεση από την ουρά μετά την επικόλληση";
+"paste_queue_remove_after_paste" = "Αφαίρεση από την Ουρά μετά την Επικόλληση";
+"copy_stack_paste_all_one_by_one" = "Αυτόματη Επικόλληση Ένα προς Ένα";
+"copy_stack_paste_all_one_by_one_desc" = "Αυτόματη πίεση ⌘V μέχρι το τέλος, εφαρμόσιμο για στοιχεία που δεν μπορούν να συγχωνευτούν, όπως οι εικόνες.";
+"copy_stack_paste_all_merge" = "Συγχώνευση Όλων και Επικόλληση";
+"copy_stack_paste_all_merge_desc" = "Συγχώνευση όλου του κειμένου μαζί και στη συνέχεια επικόλληση ταυτόχρονα; μην συγχωνεύετε στοιχεία που δεν περιέχουν κείμενο. Το περιεχόμενο των επιλογών δράσης μετά την επικόλληση θα μετατραπεί σε χαρακτήρες ως διαχωριστικά.";
+"copy_stack_clear" = "Καθαρισμός Όλων των Στοιχείων";
 
 // Migration
 "migration_data_upgrading" = "Ενημέρωση δεδομένων...";
@@ -243,6 +248,7 @@
 "separator_section_title" = "Διαχωριστικό (τώρα: %@)";
 "separator_custom" = "Προσαρμοσμένο...";
 "pin_always_show_application_icon" = "Πάντα Εμφάνιση Εικονιδίου Εφαρμογής";
+"pin_appr_max_lines" = "Όριο Γραμμών Κειμένου";
 
 // MARK: Content List
 "pin_contents_appname_tooltip" = "Όνομα εφαρμογής";
@@ -392,6 +398,7 @@
 "quickmenu_general_default_action_copy" = "Αντιγραφή Μόνο";
 "quickmenu_general_move_to_top" = "Μετακίνηση στην κορυφή μετά τη χρήση";
 "quickmenu_tip_prefences" = "Προτιμήσεις";
+"quickmenu_appr_max_lines" = "Όριο Γραμμών Κειμένου";
 // Tool List
 "quickmenu_option_switch" = "Εναλλαγή Αντικειμένου \"[0-9]";
 "quickmenu_option_search" = "Αναζήτηση ⌘F";

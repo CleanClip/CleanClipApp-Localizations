@@ -135,7 +135,12 @@
 "none" = "Geen";
 "post_action_text" = "Tekst";
 "post_action_text_content" = "Tekst toegevoegd aan het einde";
-"paste_queue_remove_after_paste" = "Verwijder na plakken uit de wachtrij";
+"paste_queue_remove_after_paste" = "Verwijder uit Lijst na Plakken";
+"copy_stack_paste_all_one_by_one" = "Automatisch Plakken Eén voor Eén";
+"copy_stack_paste_all_one_by_one_desc" = "Automatisch ⌘V indrukken tot het einde, toepasbaar voor items die niet samengevoegd kunnen worden, zoals afbeeldingen.";
+"copy_stack_paste_all_merge" = "Alles Samenvoegen en Plakken";
+"copy_stack_paste_all_merge_desc" = "Voeg alle tekstinhoud samen en plak het dan in één keer; voeg geen items samen die geen tekst bevatten. De inhoud van de actie-opties na het plakken wordt omgezet in tekens als scheidingstekens.";
+"copy_stack_clear" = "Alle Items Wissen";
 
 // Migration
 "migration_data_upgrading" = "Gegevens bijwerken...";
@@ -243,6 +248,7 @@
 "separator_section_title" = "Scheidingsteken (huidig: %@)";
 "separator_custom" = "Aangepast...";
 "pin_always_show_application_icon" = "Altijd het applicatie-icoon weergeven";
+"pin_appr_max_lines" = "Limiet voor Aantal Regels";
 
 // MARK: Content List
 "pin_contents_appname_tooltip" = "Applicatienaam";
@@ -392,6 +398,7 @@
 "quickmenu_general_default_action_copy" = "Alleen kopiëren";
 "quickmenu_general_move_to_top" = "Na gebruik naar boven verplaatsen";
 "quickmenu_tip_prefences" = "Voorkeuren";
+"quickmenu_appr_max_lines" = "Limiet voor Aantal Regels";
 // Tool List
 "quickmenu_option_switch" = "Schakel item ⌘[0-9]";
 "quickmenu_option_search" = "Zoeken ⌘F";

@@ -136,6 +136,11 @@
 "post_action_text" = "نص";
 "post_action_text_content" = "نص مضاف في النهاية";
 "paste_queue_remove_after_paste" = "إزالة من القائمة بعد اللصق";
+"copy_stack_paste_all_one_by_one" = "لصق تلقائي واحد تلو الآخر";
+"copy_stack_paste_all_one_by_one_desc" = "اضغط تلقائيًا على ⌘V حتى النهاية، ينطبق على العناصر التي لا يمكن دمجها، مثل الصور.";
+"copy_stack_paste_all_merge" = "دمج الكل ولصقه";
+"copy_stack_paste_all_merge_desc" = "دمج كل محتوى النص معًا ثم لصقه دفعة واحدة؛ لا تدمج العناصر التي لا تحتوي على نص. سيتم تحويل محتوى خيارات الإجراء بعد اللصق إلى أحرف كفواصل.";
+"copy_stack_clear" = "مسح جميع العناصر";
 
 // Migration
 "migration_data_upgrading" = "ترقية البيانات...";
@@ -243,6 +248,7 @@
 "separator_section_title" = "الفاصل (الحالي: %@)";
 "separator_custom" = "مخصص...";
 "pin_always_show_application_icon" = "عرض أيقونة التطبيق دائمًا";
+"pin_appr_max_lines" = "حد عدد الأسطر النصية";
 
 // MARK: Content List
 "pin_contents_appname_tooltip" = "اسم التطبيق";
@@ -392,6 +398,7 @@
 "quickmenu_general_default_action_copy" = "نسخ فقط";
 "quickmenu_general_move_to_top" = "نقل إلى الأعلى بعد الاستخدام";
 "quickmenu_tip_prefences" = "التفضيلات";
+"quickmenu_appr_max_lines" = "حد عدد الأسطر النصية";
 // Tool List
 "quickmenu_option_switch" = "تبديل العنصر ⌘[0-9]";
 "quickmenu_option_search" = "بحث ⌘F";

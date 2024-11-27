@@ -136,6 +136,11 @@
 "post_action_text" = "Texto";
 "post_action_text_content" = "Texto Agregado al Final";
 "paste_queue_remove_after_paste" = "Eliminar de la cola después de pegar";
+"copy_stack_paste_all_one_by_one" = "Pegar automáticamente uno por uno";
+"copy_stack_paste_all_one_by_one_desc" = "Presionar automáticamente ⌘V hasta el final, aplicable para elementos que no se pueden fusionar, como imágenes.";
+"copy_stack_paste_all_merge" = "Fusionar todo y pegar";
+"copy_stack_paste_all_merge_desc" = "Fusionar todo el contenido de texto y luego pegarlo todo de una vez; no fusionar elementos que no contengan texto. El contenido de las opciones de acción después de pegar se convertirá en caracteres como delimitadores.";
+"copy_stack_clear" = "Eliminar todos los elementos";
 
 // Migration
 "migration_data_upgrading" = "Actualizando datos...";
@@ -243,6 +248,7 @@
 "separator_section_title" = "Separador (actual: %@)";
 "separator_custom" = "Personalizado...";
 "pin_always_show_application_icon" = "Mostrar Siempre el Icono de la Aplicación";
+"pin_appr_max_lines" = "Límite de líneas de texto";
 
 // MARK: Content List
 "pin_contents_appname_tooltip" = "Nombre de la Aplicación";
@@ -392,6 +398,7 @@
 "quickmenu_general_default_action_copy" = "Solo copiar";
 "quickmenu_general_move_to_top" = "Mover al principio después de usar";
 "quickmenu_tip_prefences" = "Preferencias";
+"quickmenu_appr_max_lines" = "Límite de líneas de texto";
 // Tool List
 "quickmenu_option_switch" = "Cambiar elemento ⌘[0-9]";
 "quickmenu_option_search" = "Buscar ⌘F";

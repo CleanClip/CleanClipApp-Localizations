@@ -135,7 +135,12 @@
 "none" = "Žiadna";
 "post_action_text" = "Tekst";
 "post_action_text_content" = "Tekst dodan na kraju";
-"paste_queue_remove_after_paste" = "Odstrániť z fronty po vložení";
+"paste_queue_remove_after_paste" = "Odstranit z fronty po vložení";
+"copy_stack_paste_all_one_by_one" = "Automatické vkládání jeden po druhém";
+"copy_stack_paste_all_one_by_one_desc" = "Automaticky stiskněte ⌘V až do konce, platí pro položky, které nelze sloučit, jako jsou obrázky.";
+"copy_stack_paste_all_merge" = "Sloučit vše a vložit";
+"copy_stack_paste_all_merge_desc" = "Sloučit veškerý textový obsah dohromady a poté jej vložit najednou; neslučujte položky, které neobsahují text. Obsah možností akce po vložení bude převeden na znaky jako oddělovače.";
+"copy_stack_clear" = "Vymazat všechny položky";
 
 // Migration
 "migration_data_upgrading" = "Aktualizácia údajov...";
@@ -243,6 +248,7 @@
 "separator_section_title" = "Oddeľovač (aktuálne: %@)";
 "separator_custom" = "Vlastný...";
 "pin_always_show_application_icon" = "Vždy zobraziť ikonu aplikácie";
+"pin_appr_max_lines" = "Limit počtu řádků textu";
 
 // MARK: Content List
 "pin_contents_appname_tooltip" = "Názov aplikácie";
@@ -392,6 +398,7 @@
 "quickmenu_general_default_action_copy" = "Iba kopírovať";
 "quickmenu_general_move_to_top" = "Premakni na vrh po uporabi";
 "quickmenu_tip_prefences" = "Predvoľby";
+"quickmenu_appr_max_lines" = "Limit počtu řádků textu";
 // Tool List
 "quickmenu_option_switch" = "Prepnúť položku ⌘[0-9]";
 "quickmenu_option_search" = "Hľadať ⌘F";

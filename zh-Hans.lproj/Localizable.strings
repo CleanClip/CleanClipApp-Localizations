@@ -136,6 +136,11 @@
 "post_action_text" = "文本";
 "post_action_text_content" = "文本添加到末尾";
 "paste_queue_remove_after_paste" = "粘贴后从队列中移除";
+"copy_stack_paste_all_one_by_one" = "逐个自动粘贴";
+"copy_stack_paste_all_one_by_one_desc" = "自动按下⌘V直到结束，适用于无法合并的项目，例如图片。";
+"copy_stack_paste_all_merge" = "合并所有并粘贴";
+"copy_stack_paste_all_merge_desc" = "将所有文本内容合并在一起，然后一次性粘贴；不合并不包含文本的项目。粘贴后操作选项的内容将被转换为字符作为分隔符。";
+"copy_stack_clear" = "清除所有项目";
 
 // Migration
 "migration_data_upgrading" = "数据升级中...";
@@ -243,6 +248,7 @@
 "separator_section_title" = "分隔符（当前：%@）";
 "separator_custom" = "自定义...";
 "pin_always_show_application_icon" = "始终显示应用程序图标";
+"pin_appr_max_lines" = "文本行限制";
 
 // MARK: Content List
 "pin_contents_appname_tooltip" = "应用名称";
@@ -392,6 +398,7 @@
 "quickmenu_general_default_action_copy" = "仅复制";
 "quickmenu_general_move_to_top" = "使用后移至顶部";
 "quickmenu_tip_prefences" = "偏好设置";
+"quickmenu_appr_max_lines" = "文本行限制";
 // Tool List
 "quickmenu_option_switch" = "切换项目 ⌘[0-9]";
 "quickmenu_option_search" = "搜索 ⌘F";

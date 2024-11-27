@@ -136,6 +136,11 @@
 "post_action_text" = "Texte";
 "post_action_text_content" = "Texte ajouté à la fin";
 "paste_queue_remove_after_paste" = "Retirer de la file d'attente après le collage";
+"copy_stack_paste_all_one_by_one" = "Coller un par un automatiquement";
+"copy_stack_paste_all_one_by_one_desc" = "Appuyez automatiquement sur ⌘V jusqu'à la fin, applicable aux éléments qui ne peuvent pas être fusionnés, comme les images.";
+"copy_stack_paste_all_merge" = "Fusionner tout et coller";
+"copy_stack_paste_all_merge_desc" = "Fusionnez tout le contenu textuel ensemble puis collez-le en une seule fois ; ne fusionnez pas les éléments qui ne contiennent pas de texte. Le contenu des options d'action après le collage sera converti en caractères comme délimiteurs.";
+"copy_stack_clear" = "Effacer tous les éléments";
 
 // Migration
 "migration_data_upgrading" = "Mise à jour des données...";
@@ -243,6 +248,7 @@
 "separator_section_title" = "Séparateur (actuel : %@)";
 "separator_custom" = "Personnalisé...";
 "pin_always_show_application_icon" = "Toujours afficher l'icône de l'application";
+"pin_appr_max_lines" = "Limite de lignes de texte";
 
 // MARK: Content List
 "pin_contents_appname_tooltip" = "Nom de l'application";
@@ -392,6 +398,7 @@
 "quickmenu_general_default_action_copy" = "Copier uniquement";
 "quickmenu_general_move_to_top" = "Déplacer en haut après utilisation";
 "quickmenu_tip_prefences" = "Préférences";
+"quickmenu_appr_max_lines" = "Limite de lignes de texte";
 // Tool List
 "quickmenu_option_switch" = "Changer d'élément ⌘[0-9]";
 "quickmenu_option_search" = "Rechercher ⌘F";

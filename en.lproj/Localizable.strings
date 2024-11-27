@@ -135,7 +135,12 @@
 "none" = "None";
 "post_action_text" = "Text";
 "post_action_text_content" = "Text Added at the End";
-"paste_queue_remove_after_paste" = "Remove from queue after pasting";
+"paste_queue_remove_after_paste" = "Remove from Queue after Pasting";
+"copy_stack_paste_all_one_by_one" = "Auto Paste One by One";
+"copy_stack_paste_all_one_by_one_desc" = "Auto press ⌘V until the end, applicable for items that cannot be merged, such as images.";
+"copy_stack_paste_all_merge" = "Merge All and Paste";
+"copy_stack_paste_all_merge_desc" = "Merge all text content together and then paste it all at once; do not merge items that do not contain text. The content of the action options after pasting will be converted into characters as delimiters.";
+"copy_stack_clear" = "Clear All Items";
 
 // Migration
 "migration_data_upgrading" = "Upgrading data...";
@@ -243,6 +248,7 @@
 "separator_section_title" = "Separator (current: %@)";
 "separator_custom" = "Custom...";
 "pin_always_show_application_icon" = "Always Show Application Icon";
+"pin_appr_max_lines" = "Text Line Limit";
 
 // MARK: Content List
 "pin_contents_appname_tooltip" = "Application Name";
@@ -392,6 +398,7 @@
 "quickmenu_general_default_action_copy" = "Copy Only";
 "quickmenu_general_move_to_top" = "Move to Top after Use";
 "quickmenu_tip_prefences" = "Preferences";
+"quickmenu_appr_max_lines" = "Text Line Limit";
 // Tool List
 "quickmenu_option_switch" = "Switch Item ⌘[0-9]";
 "quickmenu_option_search" = "Search ⌘F";

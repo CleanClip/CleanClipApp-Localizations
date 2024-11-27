@@ -135,7 +135,12 @@
 "none" = "無し";
 "post_action_text" = "テキスト";
 "post_action_text_content" = "末尾に追加されたテキスト";
-"paste_queue_remove_after_paste" = "ペースト後にキューから削除";
+"paste_queue_remove_after_paste" = "貼り付け後にキューから削除";
+"copy_stack_paste_all_one_by_one" = "自動で一つずつ貼り付け";
+"copy_stack_paste_all_one_by_one_desc" = "最後まで自動で⌘Vを押し続けます。画像など、統合できないアイテムに適用されます。";
+"copy_stack_paste_all_merge" = "すべて統合して貼り付け";
+"copy_stack_paste_all_merge_desc" = "すべてのテキストコンテンツをまとめて、一度に貼り付けます。テキストを含まないアイテムは統合しません。貼り付け後のアクションオプションの内容は、区切り文字として文字に変換されます。";
+"copy_stack_clear" = "すべてのアイテムをクリア";
 
 // Migration
 "migration_data_upgrading" = "データをアップグレード中...";
@@ -243,6 +248,7 @@
 "separator_section_title" = "区切り文字（現在：%@）";
 "separator_custom" = "カスタム...";
 "pin_always_show_application_icon" = "アプリケーションアイコンを常に表示";
+"pin_appr_max_lines" = "テキスト行制限";
 
 // MARK: Content List
 "pin_contents_appname_tooltip" = "アプリケーション名";
@@ -392,6 +398,7 @@
 "quickmenu_general_default_action_copy" = "コピーのみ";
 "quickmenu_general_move_to_top" = "使用後にトップに移動";
 "quickmenu_tip_prefences" = "詳細設定";
+"quickmenu_appr_max_lines" = "テキスト行制限";
 // Tool List
 "quickmenu_option_switch" = "アイテム切り替え ⌘[0-9]";
 "quickmenu_option_search" = "検索 ⌘F";

@@ -136,6 +136,11 @@
 "post_action_text" = "텍스트";
 "post_action_text_content" = "끝에 추가된 텍스트";
 "paste_queue_remove_after_paste" = "붙여넣기 후 큐에서 제거";
+"copy_stack_paste_all_one_by_one" = "자동으로 하나씩 붙여넣기";
+"copy_stack_paste_all_one_by_one_desc" = "끝까지 ⌘V를 자동으로 눌러줍니다. 이미지와 같이 병합할 수 없는 항목에 적용됩니다.";
+"copy_stack_paste_all_merge" = "모두 병합하고 붙여넣기";
+"copy_stack_paste_all_merge_desc" = "모든 텍스트 내용을 함께 병합한 후 한 번에 붙여넣습니다. 텍스트가 포함되지 않은 항목은 병합하지 마십시오. 붙여넣기 후 작업 옵션의 내용은 구분자로 문자로 변환됩니다.";
+"copy_stack_clear" = "모든 항목 지우기";
 
 // Migration
 "migration_data_upgrading" = "데이터 업그레이드 중...";
@@ -243,6 +248,7 @@
 "separator_section_title" = "구분자 (현재: %@)";
 "separator_custom" = "사용자 정의...";
 "pin_always_show_application_icon" = "애플리케이션 아이콘 항상 표시";
+"pin_appr_max_lines" = "텍스트 줄 제한";
 
 // MARK: Content List
 "pin_contents_appname_tooltip" = "애플리케이션 이름";
@@ -392,6 +398,7 @@
 "quickmenu_general_default_action_copy" = "복사만";
 "quickmenu_general_move_to_top" = "사용 후 맨 위로 이동";
 "quickmenu_tip_prefences" = "환경설정";
+"quickmenu_appr_max_lines" = "텍스트 줄 제한";
 // Tool List
 "quickmenu_option_switch" = "항목 전환 ⌘[0-9]";
 "quickmenu_option_search" = "검색 ⌘F";

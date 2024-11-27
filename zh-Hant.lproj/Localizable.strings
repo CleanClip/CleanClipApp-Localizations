@@ -135,7 +135,12 @@
 "none" = "無";
 "post_action_text" = "文字";
 "post_action_text_content" = "添加至末尾的文字";
-"paste_queue_remove_after_paste" = "在粘貼後從佇列中移除";
+"paste_queue_remove_after_paste" = "貼上後從隊列中移除";
+"copy_stack_paste_all_one_by_one" = "逐一自動貼上";
+"copy_stack_paste_all_one_by_one_desc" = "自動按下 ⌘V 直到結束，適用於無法合併的項目，例如圖片。";
+"copy_stack_paste_all_merge" = "合併所有並貼上";
+"copy_stack_paste_all_merge_desc" = "將所有文本內容合併在一起，然後一次性貼上；不合併不包含文本的項目。貼上後的動作選項內容將轉換為字符作為分隔符。";
+"copy_stack_clear" = "清除所有項目";
 
 // Migration
 "migration_data_upgrading" = "數據升級中...";
@@ -243,6 +248,7 @@
 "separator_section_title" = "分隔符（當前：%@）";
 "separator_custom" = "自定義...";
 "pin_always_show_application_icon" = "始終顯示應用程式圖示";
+"pin_appr_max_lines" = "文本行數限制";
 
 // MARK: Content List
 "pin_contents_appname_tooltip" = "應用程式名稱";
@@ -392,6 +398,7 @@
 "quickmenu_general_default_action_copy" = "僅複製";
 "quickmenu_general_move_to_top" = "使用後移至頂部";
 "quickmenu_tip_prefences" = "偏好設置";
+"quickmenu_appr_max_lines" = "文本行數限制";
 // Tool List
 "quickmenu_option_switch" = "切換項目 ⌘[0-9]";
 "quickmenu_option_search" = "搜尋 ⌘F";
