@@ -1,0 +1,749 @@
+"clear_all_tooltip" = "Borrar todos los elementos.";
+"about_tooltip" = "Leer más sobre la aplicación.";
+"quit_tooltip" = "Salir de la aplicación.";
+"clear_all" = "Borrar todo el contenido";
+"about" = "Acerca de CleanClip...";
+"quit" = "Salir";
+"preferences" = "Preferencias...";
+"preferences_general" = "General";
+"preferences_monitors" = "Múltiples Monitores";
+"preferences_storage" = "Almacenamiento";
+"accessibility_alert_message" = "“CleanClip” desea controlar este ordenador utilizando funciones de accesibilidad.";
+"accessibility_alert_comment" = "Concede acceso a esta aplicación en las preferencias de Seguridad y Privacidad, ubicadas en Preferencias del Sistema.\n\nHaz clic en el botón +, selecciona CleanClip y activa la casilla de verificación junto a él.";
+"accessibility_alert_deny" = "Denegar";
+"accessibility_alert_open" = "Abrir Preferencias del Sistema";
+"clear_alert_message" = "¿Estás seguro de que deseas borrar todo el contenido?";
+"clear_scope_alert_message" = "¿Estás seguro de que deseas borrar todo el contenido bajo las condiciones establecidas?";
+"clear_alert_comment" = "No puedes deshacer esta acción.";
+"clear_alert_cancel" = "No ahora";
+"clear_alert_confirm" = "Borrar Todo";
+
+// MARK: - CleanClip
+"license_intro" = "Busca y utiliza todo lo que copiaste justo en la posición de entrada, no en la barra de menú a 1000 millas de distancia.";
+"license_title" = "¡Bienvenido a CleanClip!";
+"feature_0" = "Acceso Rápido";
+"feature_0_intro" = "⌘ + ; Acceso con un clic al popup del historial";
+"feature_1" = "Sin Cambio de Contexto";
+"feature_1_intro" = "No es necesario cambiar el enfoque, el popup siempre aparece en la posición del cursor";
+"feature_2" = "Listas de Colección";
+"feature_2_intro" = "Haz doble clic en ⌘ + ; para cambiar rápidamente las Listas";
+"feature_3" = "Listas Inteligentes";
+"feature_3_intro" = "Puedes crear listas inteligentes para organizar automáticamente contenido específico";
+"feature_4" = "Cola de Pegar";
+"feature_4_intro" = "⌘ + ' abre la Cola de Pegar para pegar elementos en orden";
+"feature_5" = "Búsqueda Rápida";
+"feature_5_intro" = "Escribe una letra para buscar y encontrar instantáneamente incluso los registros más antiguos";
+"feature_6" = "Copias de Guardado Automático";
+"feature_6_intro" = "No te preocupes por perder contenido importante. CleanClip lo guardará automáticamente por ti";
+"feature_7" = "Operación por Lotes";
+"feature_7_intro" = "⌘⇧; abre la ventana principal que te permite gestionar y utilizar contenido en masa";
+"feature_8" = "Arrastrar y Soltar";
+"feature_8_intro" = "Cada elemento se puede utilizar directamente arrastrándolo y soltándolo";
+"feature_9" = "Fijar en la pantalla";
+"feature_9_intro" = "Arrastra y suelta la ventana de vista previa del elemento, y se fijará automáticamente en la pantalla";
+"close" = "Cerrar";
+"congrats_permanent_member" = "¡Felicidades! ¡Ahora eres un miembro de por vida!";
+"congrats_member" = "¡Felicidades! ¡Ahora eres un miembro premium!";
+"get_start" = "¡Comenzar!";
+"unbind_device_failure" = "Error al desvincular el dispositivo";
+"unbind_device" = "Desvincular Dispositivo";
+"input_serial_number_hint" = "Introduce la licencia para activar";
+"activate_failed" = "Activación fallida";
+"activate" = "Activar";
+"purchase_serial_number" = "Comprar una licencia";
+"start_trial" = "Iniciar prueba";
+
+"plan" = "Gestor de licencias";
+"activate_tooltip" = "Introduce el número de serie para convertirte en miembro";
+"deactivate_tooltip" = "Desvincular este dispositivo";
+"plan_tooltip" = "Gestión del estado de membresía";
+"manual" = "Guía de inicio rápido...";
+"manual_tooltip" = "Ver guía de inicio rápido";
+// 菜单栏版本
+"menu_version" = "Versión: %@";
+
+"no_records_found" = "No se encontraron registros📝";
+"next_page" = "Página siguiente";
+"prev_page" = "Página anterior";
+"preview" = "Vista previa";
+"search_number" = "Búsqueda por número";
+"switch_item" = "Cambiar opción";
+
+"paste_to" = "Pegar en %@";
+"lines" = "%@ líneas";
+"words" = "%@ palabras";
+"chars" = "%@ caracteres";
+
+"ignore" = "Ignorar copias de %@";
+"cancel_ignore" = "Permitir copias de %@";
+
+"open_quickmenu" = "Abrir menú rápido";
+"open_quickmenu_tooltip" = "Abrir menú rápido";
+
+// MARK: CopyStack
+"copystack" = "Cola de pegado";
+"open_copystack" = "Abrir cola de pegado";
+"open_copystack_tooltip" = "Abrir cola de pegado";
+"stack_empty" = "La cola está vacía";
+
+"clear_stack" = "Limpiar";
+
+"plain_mode" = "Modo simple";
+"paste_as_plain" = "**Texto** simple";
+"paste_as_origin" = "**Texto** original";
+
+"toggle_recording" = "Estado de grabación";
+"stop_recording" = "Pausar";
+"start_to_record" = "Reanudar";
+
+"reverse_order_desc" = "Orden";
+"reverse_order" = "Invertir";
+
+// MARK: PIN
+"pin" = "Favorito";
+"unpin" = "Desfavoritar";
+"delete" = "Eliminar";
+"tab_pin" = "Favoritos";
+"tab_all" = "Todos";
+
+// popup tip
+"tip_history_item" = "Haz clic derecho para mostrar el menú";
+"tip_tab_to_next" = "⇥ Expandir/Página siguiente";
+"tip_tab_to_prev" = "⇧⇥ Página anterior";
+"tip_paste_stack" = "Cola de pegado";
+"tip_show_help" = "Ayuda";
+"tip_search" = "⌘F Abrir búsqueda\na-z Búsqueda directa";
+"tip_tab" = "%@ Cambiar pestañas";
+"tip_right_click" = "Clic derecho";
+"tip_context_menu" = "Eliminar/Fijar";
+
+"tip_format_brush" = "Formato de Brocha";
+"tip_show_tutorial" = "Mostrar Ayuda del Menú Rápido";
+
+// Output Format
+"preview" = "Vista previa";
+"remove_extra_spaces" = "**Eliminar** Espacios Adicionales";
+"strip_all_whitespaces" = "**EliminarTodo**Espacios";
+"make_title_case" = "**Título** en Mayúsculas";
+"make_sentence_case" = "**Oración** en Mayúsculas";
+"capitalize_words" = "**Capitalizar** Palabras";
+"make_upper_case" = "HACER **MAYÚSCULAS**";
+"make_lower_case" = "hacer **minúsculas**";
+
+// Paste stack options
+"post_action_title" = "Acción Después de Pegar";
+"none" = "Ninguno";
+"post_action_text" = "Texto";
+"post_action_text_content" = "Texto Agregado al Final";
+"paste_queue_remove_after_paste" = "Eliminar de la cola después de pegar";
+
+// Migration
+"migration_data_upgrading" = "Actualizando datos...";
+"migration_data_upgrading_claim" = "Según el volumen de tus datos, la actualización puede tardar de segundos a minutos";
+"migrate_upgrading" = "Actualizaciones de Datos";
+"migrate_start" = "OK";
+"migrate_upgraded" = "¡Actualización de datos exitosa!";
+
+// edit
+"edit" = "Editar";
+"edit_text" = "Editar Texto";
+
+// 新手引导
+"tutorial_title" = "Prueba estas fantásticas funciones";
+// 快捷菜单
+"quick_menu" = "Menú Rápido";
+"quick_use_short" = "Uso Rápido";
+"quick_use" = "Uso Rápido - Un menú de acceso directo que se centra en la eficiencia del teclado";
+"quickuse_desc" = "1. ⌘; Abre el menú rápido\n2. a-z: Comienza a buscar directamente, escribe 'imagen' para buscar imágenes, escribe 'archivo' para buscar archivos\n3. Barra espaciadora: Vista previa\n4. ⇥/⇧⇥: Desplazarse hacia arriba/abajo\n5. Teclas numéricas/Enter: Pegar elementos correspondientes";
+"preset_paste_format" = "Establecer Formato de Pegado Predeterminado";
+"preset_paste_format_desc" = "Después de establecer el formato, todos los elementos se pegarán según el formato especificado.\nLos formatos actualmente soportados incluyen: texto sin formato, todo en minúsculas, todo en mayúsculas, etc.\nPlan emocionante: Abrir la interfaz de conversión para permitir a los desarrolladores desarrollar libremente métodos de conversión ricos.";
+"quick_paste_format" = "Pegado de Formato Rápido";
+"quick_paste_format_desc" = "1. Mantén presionado el número de índice del contenido para mostrar el menú de formato\n2. Mantén presionada la barra espaciadora para previsualizar el texto formateado\n3. Presiona brevemente el número de índice de formato para confirmar la selección";
+"drag_image_to_file" = "Pegar Imagen como Archivo";
+"drag_image_to_file_desc" = "Las imágenes se pueden pegar o arrastrar directamente como archivos, ya sea utilizando el menú rápido o la cola de pegado.";
+"call_pinboards" = "Fijar y Usar Contenido Comúnmente Usado";
+"call_pinboards_desc" = "Presiona el acceso directo del menú rápido ⌘; dos veces para ver el contenido fijado comúnmente usado, sin necesidad de recordar nuevas combinaciones de teclas.\nFija los elementos comúnmente usados para mantenerlos en la parte superior de la lista, evitando que sean abrumados por nuevos elementos y usándolos en cualquier momento.";
+
+// 粘贴队列
+"paste_stack" = "Cola de Pegado";
+"paste_stack_intro" = "Introducción";
+"paste_stack_intro_desc" = "Cuando se abre la cola de pegado, el contenido copiado ingresará automáticamente a la cola, y ⌘V pegará el siguiente elemento en la cola en orden.\n1. Haz clic en los 'botones de flecha arriba y abajo' en la parte inferior para invertir la lista\n2. 'Arrastra elementos' para cambiar el orden\n3. 'Haz clic en #' para cambiar al elemento especificado\n4. La opción 'Acción Después de Pegar' presionará automáticamente la tecla correspondiente después de pegar";
+"paste_stack_fill_form" = "Asistir en el Llenado de Formularios";
+"paste_stack_fill_form_desc" = "Usar la cola de pegado puede ayudar a llenar formularios copiando y pegando en orden.";
+"paste_stack_quick_fill_form" = "Llenado Rápido de Formularios - Copia Dividida";
+"paste_stack_quick_fill_form_desc" = "Usa ⌘⇧C 'Copia Dividida' para dividir directamente múltiples líneas en múltiples elementos y copiarlos a la cola de pegado. La opción 'Acción Después de Pegar' ayuda a cambiar automáticamente a la siguiente celda, ¡haciendo que el llenado rápido de formularios sea aún más poderoso!";
+"paste_stack_collect" = "Recopilar Información";
+"paste_stack_collect_desc" = "Recopila contenido en múltiples páginas y pégalo todo a la vez en la página de destino, optimizando el proceso y ahorrando tiempo.";
+
+// 菜单栏
+"status_bar" = "Barra de Estado";
+"status_bar_functions" = "Funciones de la Barra de Estado";
+"status_bar_functions_desc" = "1. Mostrar el registro copiado más reciente\n2. Mantén presionado ⌥ y haz clic en el ícono para pausar o reanudar la monitorización del portapapeles\n3. Bloquear rápidamente el contenido copiado de la aplicación actual\n4. Administrador de licencias\n5. Guía de inicio rápido";
+
+// 主窗口
+"main_window" = "Ventana Principal";
+"main_window_soon" = "Próximamente";
+"main_window_soon_desc" = "La ventana principal proporciona una ventana residente, fácil de navegar, arrastrar y soltar, y gestionar, haciendo que sea más conveniente para los usuarios de mouse.";
+
+// 导航
+"previous" = "Anterior";
+"next" = "Siguiente";
+"done" = "Finalizar Tutorial";
+
+// MARK: - PinnedWindow
+"pinned_window" = "Abrir Ventana Principal";
+"pinned_window_tooltip" = "La ventana principal es una ventana residente para gestionar y organizar el contenido del portapapeles";
+
+// MARK: Title
+"pin_apps_all" = "Todas las Aplicaciones";
+"pin_apps_all_tooltip" = "Mostrar Todas las Aplicaciones";
+"pin_apps_frontmost" = "Seguir Aplicación en Primer Plano";
+"pin_apps_frontmost_tooltip" = "Mostrar siempre el contenido de la aplicación en primer plano";
+"pin_apps_empty" = "La lista de aplicaciones fuente se mostrará aquí";
+"pin_bottom_accent_color" = "Color de Énfasis";
+"pin_bottom_accent_color_system" = "Usar Color de Énfasis del Sistema";
+"pin_bottom_appearence" = "Apariencia";
+"pin_bottom_appearence_line_spacing" = "Espaciado de Líneas";
+"pin_bottom_auto_collect_tooltip" = "Recoger automáticamente a la lista actual";
+"pin_bottom_collapse_or_expand_tooltip" = "Colapsar/Expandir Ventana";
+"pin_bottom_pin_tooltip" = "Redimensionar automáticamente la ventana según el estado de hover del ratón";
+"pin_bottom_scroll_to_top_tooltip" = "Desplazarse hacia Arriba";
+"pin_bottom_setting_tooltip" = "Opciones";
+"pin_bottom_content" = "Contenido";
+"pin_bottom_all_as_default_filter" = "Visualización Predeterminada:";
+
+"pin_context_delete_lists" = "Eliminar";
+"pin_context_remove_from_lists" = "Eliminar de la Lista";
+"pin_context_manage_lists" = "Ver Información";
+"pin_context_add_new_lists" = "Agregar Lista";
+"pin_context_add_to_lists" = "Agregar a la Lista";
+"pin_context_alias" = "Establecer Alias";
+"pin_context_copy_to_clipboard" = "Copiar al Portapapeles";
+"pin_context_split_to_multilines" = "Dividir en Múltiples Elementos";
+"pin_context_delete" = "Eliminar";
+"pin_context_merge_paste" = "Combinar y Pegar";
+"pin_context_paste" = "Pegar";
+"pin_context_paste_as_plain" = "Pegar como Texto Sin Formato";
+"pin_context_paste_as" = "Pegar como...";
+"pin_context_preview" = "Vista Previa";
+"pin_context_edit" = "Editar";
+"pin_context_preview_when_hover" = "Habilitar Vista Previa al Pasar el Ratón";
+"pin_context_share" = "Compartir...";
+
+"pin_context_paste_one_by_one" = "Pegar uno por uno";
+"pin_context_merge_settings" = "Combinar configuraciones";
+"pin_context_merge_copy" = "Combinar y Copiar";
+"separator_input_title" = "Separador de entrada";
+"common_ok" = "Aceptar";
+"common_cancel" = "Cancelar";
+"separator_reverse_order" = "Orden Inverso";
+"separator_none" = "Ninguno";
+"separator_return" = "Nueva línea";
+"separator_tab" = "Tabulación";
+"separator_section_title" = "Separador (actual: %@)";
+"separator_custom" = "Personalizado...";
+"pin_always_show_application_icon" = "Mostrar Siempre el Icono de la Aplicación";
+
+// MARK: Content List
+"pin_contents_appname_tooltip" = "Nombre de la Aplicación";
+// Empty Page
+"pin_contents_list_empty" = "La lista está vacía";
+"pin_contents_list_empty_desc" = "Intenta copiar algún contenido";
+
+// MARK: Add List Window
+"pin_lists_title" = "Editar Lista";
+"pin_lists_name" = "Nombre:";
+"pin_lists_color" = "Color:";
+"pin_lists_color_preview" = "Vista Previa del Color:";
+
+"pin_lists_shortcut" = "Abrir en el Menú Rápido:";
+"pin_lists_shortcut_for_pin" = "Abrir en la Ventana Principal:";
+
+"pin_lists_delete" = "Eliminar";
+"pin_lists_done" = "Hecho";
+
+"pin_lists_smartlist" = "Lista Inteligente";
+"pin_lists_match" = "Coincidir";
+"pin_lists_match_all" = "Todo";
+"pin_lists_match_any" = "Cualquiera";
+"pin_lists_match_following" = "Condiciones:";
+
+"pin_lists_unknown" = "Desconocido";
+
+// Filters
+"pin_lists_filter_belongs" = "Pertenece a";
+"pin_lists_filter_not_belongs" = "No pertenece a";
+"pin_lists_filter_lists_empty" = "La lista está vacía";
+
+"pin_lists_filter_contains" = "Contiene";
+"pin_lists_filter_starts_with" = "Empieza con";
+"pin_lists_filter_ends_with" = "Termina con";
+"pin_lists_filter_include" = "Incluir";
+"pin_lists_filter_exclude" = "Excluir";
+"pin_lists_filter_matches_word" = "Coincide con la Palabra";
+"pin_lists_filter_regular_expression" = "Expresión Regular";
+
+"pin_lists_filter_from" = "De";
+"pin_lists_filter_not_from" = "No de";
+
+"pin_lists_filter_is" = "Es";
+"pin_lists_filter_is_not" = "No es";
+"pin_lists_filter_link" = "Enlace";
+
+"pin_lists_filter_media_type_file" = "Archivo";
+"pin_lists_filter_media_type_html" = "HTML";
+"pin_lists_filter_media_type_image" = "Imagen";
+"pin_lists_filter_media_type_link" = "Enlace";
+"pin_lists_filter_media_type_other" = "Otro";
+"pin_lists_filter_media_type_rtf" = "Texto Enriquecido";
+"pin_lists_filter_media_type_text" = "Texto";
+
+"pin_lists_filter_text_length_eq" = "Igual a";
+"pin_lists_filter_text_length_gt" = "Mayor que";
+"pin_lists_filter_text_length_gt_eq" = "Mayor o igual a";
+"pin_lists_filter_text_length_lt" = "Menor que";
+"pin_lists_filter_text_length_lt_eq" = "Menor o igual a";
+
+"pin_lists_filter_remote_title" = "Este elemento es de";
+"pin_lists_filter_remote_other" = "Otros Dispositivos";
+"pin_lists_filter_remote_this" = "Este Mac";
+
+"pin_lists_filter_type_app" = "Aplicación";
+"pin_lists_filter_type_keyword" = "Palabra Clave";
+"pin_lists_filter_type_link" = "Enlace";
+"pin_lists_filter_type_lists" = "Listas";
+"pin_lists_filter_type_media_type" = "Tipo de Medios";
+"pin_lists_filter_type_remote_copies" = "Dispositivo de Origen";
+"pin_lists_filter_type_text_length" = "Longitud del Texto";
+
+"pin_title_app_all" = "Todo";
+"pin_title_back_tooltip" = "Volver a la Lista de Visualización Predeterminada";
+"pin_title_application_tooltip" = "Ámbito de Aplicación Actual";
+"pin_title_pin_tooltip" = "Haz clic para Fijar o Seguir la Aplicación en Primer Plano";
+"pin_title_scope_all" = "Todo";
+"pin_title_lists_favorite" = "Favorito";
+"pin_title_lists_tutorial" = "Tutorial";
+"pin_title_lists_image" = "Imagen";
+"pin_title_lists_file" = "Archivo";
+"pin_title_lists_link" = "Enlace";
+"pin_title_lists_email" = "Correo Electrónico";
+"pin_title_lists_remote" = "Remoto";
+"pin_title_lists_notes" = "Desde Notas";
+"pin_title_scope_tooltip" = "Especifica el ámbito del contenido de búsqueda";
+"pin_title_search_tooltip" = "⌘F Mostrar u Ocultar Rápidamente el Cuadro de Búsqueda";
+
+"pin_unknown" = "Desconocido";
+
+// pin tutorial
+"main_window_intro_short" = "Introducción";
+"main_window_intro" = "Ventana Principal - Una ventana fija con potentes capacidades de organización y gestión de contenido";
+"main_window_intro_desc" = "La Ventana Principal es una ventana fija en la pantalla que te permite operar, gestionar y utilizar registros del portapapeles en lote.\nFiltro: Filtra libremente los elementos mostrados según App + Lista.\nBúsqueda: Busca rápidamente dentro del rango de filtrado.\nSelección: Haz clic izquierdo para seleccionar un solo elemento; ⌘+clic para agregar un elemento; ⇧+clic para agregar todos los elementos entre dos selecciones;\nPegar: Haz doble clic para pegar un solo elemento; arrastra y suelta o menú de clic derecho para operar en lote múltiples elementos.";
+"main_window_follow_frontmost" = "Seguir Automáticamente la Aplicación en Primer Plano";
+"main_window_follow_frontmost_desc" = "Al seleccionar el modo Seguir la Aplicación en Primer Plano, el filtro de la aplicación seguirá automáticamente los cambios de la aplicación en primer plano y mostrará el historial del portapapeles de esa aplicación.\nEste modo, cuando se usa con listas, puede crear muchas posibilidades y proporcionar espacios dedicados para cada aplicación, desbloqueando el potencial de la aplicación.";
+"main_window_youtubelinks_short" = "Listas Inteligentes";
+"main_window_youtubelinks" = "Listas Inteligentes - Filtrado inteligente de elementos basado en condiciones";
+"main_window_youtubelinks_desc" = "Con Listas Inteligentes, puedes establecer libremente condiciones de filtrado para obtener el contenido deseado.\nLas condiciones de filtrado actualmente soportadas incluyen: tipo de medio, coincidencia de palabras clave, coincidencia de expresiones regulares, longitud de caracteres, aplicación de origen, dispositivo de origen y ubicación en la colección.";
+"main_window_manual_collection" = "Listas de Colección - Gestión Manual";
+"main_window_manual_collection_desc" = "Selecciona uno o más 'elementos', haz clic derecho y elige 'Agregar a Listas' para guardarlos en listas específicas.\nLas listas de colección pueden ser filtradas por listas inteligentes, permitiendo más posibilidades.";
+"main_window_sketch" = "Listas de Colección - Colección Automática";
+"main_window_sketch_desc" = "Selecciona una lista de colección, activa la opción de colección automática a continuación, y cualquier contenido que copies se guardará automáticamente en la lista especificada.\nPuedes establecer un alias para ello, facilitando el acceso a la lista siempre que lo necesites.\nMuchas aplicaciones, especialmente aplicaciones de creación de contenido como Sketch y Final Cut Pro, carecen de una función de colección conveniente.\nSi tus aplicaciones favoritas no soportan colecciones, ¡esta función será extremadamente útil para ti!";
+
+// Pro
+"pro_unpaid_version" = "%@ veces restantes hoy";
+"pro" = "Pro";
+
+"start_free" = "Comenzar Gratis";
+"upgrade_plan_unlock_unlimited" = "Prueba CleanClip gratis en tu Mac. Paga solo si decides continuar, o cancela en cualquier momento.";
+"subscribe" = "Suscribirse";
+"subscribed" = "Suscrito";
+"change_plan" = "Cambiar Plan";
+"active" = "Activado";
+"next_cycle_active" = "Activo en el Próximo Ciclo";
+"free" = "Gratis";
+"or_monthly" = "o %@/mes";
+"basic_plan" = "Plan Básico";
+"basic_plan_description" = "Limitado a 25 pegados por día, todas las demás funciones son gratis";
+"lifetime_plan" = "Plan de Por Vida";
+"lifetime_plan_description" = "Ya eres miembro del plan de por vida";
+"manage_plan" = "Gestionar Plan...";
+"subscribe_with_free_trial" = "Comienza Tu Prueba Gratuita";
+"free_trail_desc" = "7 días gratis, luego %@/año";
+"choose_your_plan" = "Elige tu plan";
+"choose_your_plan_desc" = "La prueba gratuita está incluida con cualquier plan. Puedes cancelar o cambiar tu suscripción en cualquier momento.";
+"current_plan" = "Plan actual";
+"cancel" = "Cancelar";
+"continue" = "Continuar";
+"terms" = "Términos";
+"privacy" = "Privacidad";
+"restore" = "Restaurar";
+
+// quickmenu settings
+"quickmenu_option_show_shortcut" = "Mostrar siempre consejos de acceso directo";
+"quickmenu_option_show_when_hover" = "Mostrar automáticamente al pasar el ratón";
+"quickmenu_option_show_when_cmd_down" = "Mostrar automáticamente al mantener ⌘ presionado";
+"quickmenu_option" = "Opciones de la barra de herramientas";
+"quickmenu_appr_always_expand" = "Número predeterminado de elementos";
+"quickmenu_appr_always_expand_5" = "5 elementos";
+"quickmenu_appr_always_expand_10" = "10 elementos";
+"quickmenu_general_preview_on_hover" = "Vista previa automática al pasar el ratón";
+"quickmenu_general_preview_on_hover_delay" = "Retraso de vista previa";
+"quickmenu_general_default_action" = "Acción predeterminada";
+"quickmenu_general_default_action_auto_paste" = "Pegado automático";
+"quickmenu_general_default_action_copy" = "Solo copiar";
+"quickmenu_general_move_to_top" = "Mover al principio después de usar";
+"quickmenu_tip_prefences" = "Preferencias";
+// Tool List
+"quickmenu_option_switch" = "Cambiar elemento ⌘[0-9]";
+"quickmenu_option_search" = "Buscar ⌘F";
+"quickmenu_option_switchTab" = "Cambiar lista ⌘;";
+"quickmenu_option_copy" = "Copiar al portapapeles ⌘C";
+"quickmenu_option_star" = "Marcar ⌘S";
+"quickmenu_option_delete" = "Eliminar ⌘D";
+"quickmenu_option_edit" = "Editar ⌘E";
+"quickmenu_option_alias" = "Establecer alias ⌘A";
+
+// ocr
+"preferences_ocr_primary_language" = "Idioma principal";
+"preferences_ocr_revision" = "Revisión";
+"preferences_ocr_reindex" = "Actualizar índice de búsqueda";
+"quickmenu_preview_ocr_header" = "Texto en la imagen";
+
+// MARK: - settings
+// MARK: settings name
+"settings_general" = "General";
+"settings_shortcuts" = "Atajos";
+"settings_paste_format" = "Formato de pegado";
+"settings_lists" = "Listas";
+"settings_quick_menu" = "Menú rápido";
+"settings_main_window" = "Ventana principal";
+"settings_paste_stack" = "Cola de pegado";
+"settings_ignore" = "Reglas";
+"settings_storage" = "Almacenamiento";
+"settings_ocr" = "OCR";
+"settings_about" = "Acerca de";
+"settings_appupdates" = "Actualización de software disponible";
+"settings_license" = "Licencia";
+"settings_pro" = "Pro";
+"upgrade_to_recommand_os_version" = "¡Se recomienda usar macOS 13.0+ para la mejor experiencia!";
+
+// MARK: General
+"check_update" = "Verificar actualización";
+"check_update_desc" = "Buscar actualizaciones automáticamente";
+"check_update_failed" = "Error al buscar actualizaciones";
+"check_update_no_update" = "No hay nueva versión";
+"sounds" = "Sonidos";
+"sounds_selection" = "Selección de Sonido";
+"sounds_desc" = "Reproducir efectos de sonido cuando se añade un nuevo elemento al historial y se selecciona el elemento anterior.";
+"launch_at_login" = "Iniciar al iniciar sesión";
+"shortcuts" = "Atajos";
+"appearance" = "Tema";
+"appearance_light" = "Claro";
+"appearance_dark" = "Oscuro";
+"appearance_auto" = "Sistema";
+
+// Menu Icon
+"show_menu_icon" = "Mostrar icono del menú";
+"show_menu_icon_desc" = "Si el icono del menú no se muestra, puedes abrir el menú tocando el icono en la parte inferior del popup de historial.";
+
+"show_recently_desc" = "Mostrar copia reciente junto al icono del menú";
+
+// MARK: Quick Menu
+"quick_menu_title" = "Menú Rápido:";
+"quick_menu_shortcut_desc" = "Tecla de acceso rápido global para abrir la aplicación.";
+
+"popup_at" = "Mostrar en";
+"window_center" = "Centro de la Ventana";
+"mouse_cursor" = "Cursor del Ratón";
+"text_cursor" = "Cursor de Texto";
+"screen_center" = "Centro de la Pantalla";
+"popup_at_fallback" = "Debido a restricciones del sistema, la posición de entrada no se puede localizar con precisión en algunas aplicaciones. Por favor selecciona una posición alternativa para ello.";
+"popup_at_fallback_title" = "Posición Alternativa";
+
+"quick_menu_disable_all_animations" = "Desactivar Todas las Animaciones";
+"quick_menu_always_show_lists" = "Mostrar Siempre Listas";
+"quick_menu_always_show_footer" = "Mostrar Siempre Pie de Página";
+"quick_menu_always_show_application_icon" = "Mostrar Siempre Icono de la Aplicación";
+
+// MARK: Main Window
+"main_window_title" = "Ventana Principal:";
+"main_window_shortcut_desc" = "Tecla de acceso rápido global para abrir la ventana principal.";
+"main_window_auto_collapse" = "Colapso Automático";
+"main_window_full_mode" = "Altura Completa";
+"main_window_auto_follow_focus" = "Moverse automáticamente al monitor con foco";
+
+// MARK: Paste Stack
+"paste_stack_title" = "Cola de Pegar:";
+"paste_stack_desc" = "Tecla de acceso rápido global para abrir la cola de pegar. Predeterminado: 「⌘ + '」";
+
+"split_copy" = "Copia Dividida: ";
+"split_copy_desc" = "Copia Dividida separará múltiples líneas de texto en elementos separados para copiar.";
+
+"paste_stack_order" = "Orden Predeterminado:";
+"paste_stack_order_stack" = "Orden de Pila";
+"paste_stack_order_queue" = "Orden de Cola";
+"paste_stack_order_shuffle" = "Orden Aleatorio";
+
+"paste_queue_auto_follow_focus" = "Moverse automáticamente al monitor con foco";
+
+// MARK: Storage
+// 时间单位
+"day" = "Día";
+"week" = "Semana";
+"month" = "Mes";
+"year" = "Año";
+"never" = "Nunca";
+"two_years" = "2 Años";
+
+// 界面文本
+"auto_clear" = "Borrado automático";
+"auto_clear_by_time" = "Borrado automático por tiempo: %@";
+"number_of_copies" = "Limpieza automática por cantidad:";
+"unlimited" = "Ilimitado";
+
+// 清理范围
+"clear_scope" = "Limpiar alcance";
+"clear_favorites" = "Incluir elementos de la lista de colección";
+"clear_favorites_description" = "Si está desactivado, los elementos de la lista de colección no se incluirán en el alcance de limpieza automática";
+"clear_with_alias" = "Incluir elementos alias";
+"clear_with_alias_description" = "Si está desactivado, los elementos alias no se incluirán en el alcance de limpieza automática";
+"clear_once" = "Limpiar una vez";
+"clear_all" = "Borrar todo el contenido";
+
+// MARK: Ignore
+"ignore_apps" = "Por Aplicaciones";
+"app" = "Aplicación";
+"ignore_or_not" = "Ignorar";
+"bundle_id" = "Id de Paquete";
+"select_all" = "Seleccionar Todo";
+"unselect_all" = "Deseleccionar Todo";
+"ignore_lists_name" = "Reglas Ignoradas %@";
+"ignore_custom_lists_desc" = "Puedes agregar múltiples reglas de filtrado, y el contenido filtrado no será guardado por CleanClip.";
+"ignored_pastetypes" = "Por Tipos";
+"ignored_advanced" = "Avanzado";
+"add_ignored_lists" = "Agregar Reglas Ignoradas";
+"type" = "Tipo de Portapapeles";
+"type_count" = "Contar";
+"type_name" = "";
+"choose_an_application" = "Elige una aplicación";
+
+"preset_pastetype_text" = "Texto";
+"preset_pastetype_image" = "Imagen";
+"preset_pastetype_1password" = "1Password";
+
+
+// MARK: About
+"acknowledgements" = "Agradecimientos";
+"visit_website" = "Visitar Sitio Web";
+"contact_us" = "Contáctanos";
+"copyright" = "©️Derechos de Autor";
+
+// MARK: settings lists
+"lists_desc" = "Mejor organiza tu contenido a través de listas de colección y listas inteligentes";
+"lists_name" = "Nombre";
+"is_smartlist" = "Lista Inteligente";
+"count" = "Contar";
+"desc" = "Descripción de la Lista Inteligente";
+
+// MARK: settings shortcuts
+"name" = "Función";
+"shortcuts" = "Atajos";
+"shortcuts_quick_menu" = "Alternar Menú Rápido";
+"shortcuts_main_window" = "Alternar Ventana Principal";
+"shortcuts_paste_stack" = "Alternar Cola de Pegado";
+"shortcuts_split_copy" = "Dividir Copia";
+"shortcuts_split_copy_desc" = "Dividir y copiar automáticamente el texto seleccionado en múltiples elementos";
+"shortcuts_lists" = "Establecer accesos directos para abrir listas rápidamente";
+"shortcuts_lists_name" = "Nombre de la Lista";
+"shortcuts_for_quick" = "Abrir en Menú Rápido";
+"shortcuts_for_pin" = "Abrir en Ventana Principal";
+
+// shortcuts display
+"shortcuts_for_quick_menu" = "Accesos directos comunes en Menú Rápido";
+
+"shortcuts_display_select_item" = "Seleccionar Elemento";
+"shortcuts_display_select_item_shortcut" = "[0-9]/⮐";
+
+"shortcuts_display_move_to_item" = "Mover a Elemento";
+"shortcuts_display_move_to_item_shortcut" = "⌘[0-9]/↑↓";
+
+"shortcuts_display_format_options_menu" = "Menú de Opciones de Formato";
+"shortcuts_display_format_options_menu_shortcut" = "Presiona largo [0-9]/⮐";
+
+"shortcuts_display_preview" = "Vista Previa";
+"shortcuts_display_preview_shortcut" = "Espacio";
+
+"shortcuts_display_favorate" = "Guardar en Favoritos";
+"shortcuts_display_favorate_shortcut" = "⌘S";
+
+"shortcuts_display_alias" = "Agregar Alias";
+"shortcuts_display_alias_shortcut" = "⌘A";
+
+"shortcuts_display_edit" = "Editar Elemento";
+"shortcuts_display_edit_shortcut" = "⌘E";
+
+"shortcuts_display_copy_to_clipboard" = "Copiar al Portapapeles";
+"shortcuts_display_copy_to_clipboard_shortcut" = "⌘C";
+
+"shortcuts_display_switch_next_tab" = "Lista Siguiente";
+"shortcuts_display_switch_next_tab_shortcut" = "Mismo que el Atajo del Menú Rápido";
+
+"shortcuts_display_switch_next_tab2" = "Lista Siguiente 2";
+"shortcuts_display_switch_next_tab2_shortcut" = "⌘→";
+
+"shortcuts_display_switch_prev_tab" = "Lista Anterior";
+"shortcuts_display_switch_prev_tab_shortcut" = "⌘←";
+
+"shortcuts_display_search" = "Iniciar Búsqueda";
+"shortcuts_display_search_shortcut" = "⌘F";
+
+"shortcuts_display_search2" = "Iniciar Búsqueda Directamente";
+"shortcuts_display_search2_shortcut" = "Ingresar caracteres directamente";
+
+// MARK: settings output formats
+"output_format_desc" = "Formato de salida predefinido, el texto se formateará en el formato especificado al pegar";
+
+// MARK: settings ocr
+"ocr_desc" = "Realizar automáticamente OCR en imágenes copiadas, habilitando la búsqueda de texto en imágenes en el futuro";
+
+// MARK: settings appUpdates
+"avaiable_updates" = "Actualizaciones Disponibles";
+"beta_updates" = "Actualizaciones Beta";
+"install_now" = "Reiniciar y Actualizar";
+"updates_more_info" = "Más Información...";
+"new_version" = "Nueva Versión";
+
+// MARK: settings license
+"upgrade_to_pro" = "Actualizar a Pro";
+"free_amount_today" = "Cantidad Gratuita Usada Hoy";
+"upgrade_to_pro_for_unlimited_access" = "¡Actualiza a Pro para acceso ilimitado a todas las funciones!";
+
+// MARK: - Preset resources
+"preset_resources" = "⚡️ Presiona Enter o la tecla numérica para pegar contenido\n✏️ Presiona largo Enter o la tecla numérica para abrir el menú de formato\n👀 Presiona Espacio o pasa el mouse para vista previa, arrastra la ventana de vista previa para fijar en la pantalla\n🖱️ Presiona largo el elemento para arrastrar, suelta para pegar\n👇 Presiona Tab para expandir o voltear páginas\n🔍 ⌘F o presiona directamente la tecla de letra para iniciar la búsqueda\n📋 ⌘C para copiar el elemento actual al portapapeles\n❌ ⌘D para eliminar\n📝 ⌘A para establecer alias\n⭐ ⌘S para agregar a favoritos predeterminados\n👆 ⇧+Tab para voltear páginas hacia arriba\n🖱️ Clic derecho en el elemento para ver opciones del menú\n✂️ Selecciona múltiples líneas y presiona ⌘⇧C para dividir y copiar como múltiples líneas\n📚 ⌘' para abrir la cola de pegado para pegar múltiples elementos en orden\n🖱️ ⌘⇧C para abrir la ventana principal para gestión y uso por lotes, más amigable con el mouse\n⌨️ ⌘←/⌘→ Cambiar listas rápidamente\n⚡️ Presionar el atajo del Menú Rápido nuevamente logra el mismo efecto";
+
+// MARK: - Invite Friends
+// Payment Methods
+"payment_method_alipay" = "Alipay";
+"payment_method_wechat" = "WeChat Pay";
+"payment_method_paypal" = "PayPal";
+
+// Form Fields
+"form_field_name" = "Nombre Real";
+"form_field_alipay" = "Cuenta de Alipay";
+"form_field_wechat" = "Cuenta de WeChat";
+"form_field_bank_account" = "Número de Cuenta Bancaria";
+"form_field_bank_name" = "Nombre del Banco";
+"form_field_paypal" = "Cuenta de PayPal";
+
+// Placeholders
+"form_field_name_placeholder" = "Por favor ingresa tu nombre real";
+"form_field_alipay_placeholder" = "Por favor ingresa tu cuenta de Alipay";
+// ... 其他占位文本
+
+// Loading
+"loading" = "Cargando...";
+
+// Rules
+"invite_rules_title" = "📜 Reglas de Recompensa por Invitar Amigos de CleanClip Pro";
+"invite_rules_trial_title" = "Si eres un usuario de prueba";
+"invite_rules_trial_1" = "Obtén un mes de bonificación de membresía por cada amigo invitado a probar";
+"invite_rules_trial_2" = "Obtén un 12% de reembolso del pago real por cada amigo invitado a pagar";
+"invite_rules_paid_title" = "Si eres un usuario de pago";
+"invite_rules_paid_1" = "Obtén un 25% de reembolso del pago real por cada amigo invitado a pagar";
+"invite_rules_paid_2" = "A partir del sexto usuario de pago, esta tasa se ajusta al 20%";
+
+// Buttons
+"invite_start_button" = "Comienza Ahora";
+"become_paid_user_button" = "Conviértete en Usuario de Pago Ahora";
+"become_trial_user_button" = "Conviértete en Usuario de Prueba Ahora";
+"activate_license_button" = "Ya tengo un número de serie, actívalo";
+"refresh_login_button" = "Activado, actualiza el estado de inicio de sesión";
+"upgrade_paid_button" = "Actualizar a Plan de Pago";
+"bind_email_button" = "Haz clic para vincular el correo electrónico y obtener el enlace de invitación";
+
+// Titles
+"invite_friends_title" = "Invitar Amigos";
+"invite_friends_subtitle" = "Invita a amigos a usar CleanClip Pro y gana recompensas";
+"invite_link_title" = "Enlace de Invitación";
+"upgrade_paid_title" = "Actualiza a la Versión de Pago para desbloquear más recompensas";
+
+// Features
+"reward_increase_title" = "Aumento de Recompensas";
+"reward_increase_desc" = "Las recompensas por referencia aumentan del 12% hasta un 25%";
+"unlimited_withdraw_title" = "Retiros Ilimitados";
+"unlimited_withdraw_desc" = "Retira en cualquier momento sin límites de cantidad";
+
+// VIP Benefits
+"vip_benefits_title" = "Tus Beneficios VIP Exclusivos";
+"vip_benefit_reward_title" = "Hasta un 25% de Recompensa por Referencia";
+"vip_benefit_reward_desc" = "25% de recompensa por las primeras 5 referencias, 20% después";
+"vip_benefit_withdraw_title" = "Retiros Ilimitados";
+"vip_benefit_withdraw_desc" = "Retira en cualquier momento, sin límite de cantidad";
+"vip_benefit_priority_title" = "Liquidación Prioritaria";
+"vip_benefit_priority_desc" = "Tu retiro será priorizado dentro de 48 horas";
+"vip_benefit_pro_title" = "Funciones Profesionales Completas";
+"vip_benefit_pro_desc" = "Acceso a todas las funciones premium de CleanClip Pro";
+
+// Rewards
+"rewards_total_title" = "Recompensas Totales";
+"rewards_available_title" = "Disponible para Retiro";
+"rewards_withdrawn_title" = "Retirado";
+
+// Withdrawal
+"withdrawal_title" = "Solicitud de Retiro";
+"withdrawal_form_button" = "Completa el formulario para aplicar";
+
+// Footer
+"footer_reward_desc" = "¡Cuanto más invites, más recompensas ganarás! Comparte con tus amigos y experimenta juntos las potentes funciones de CleanClip Pro. Los retiros se procesarán dentro de 72 horas.";
+"footer_support_email" = "Correo de Soporte: support@cleanclip.cc";
+
+// Email Binding
+"email_binding_title" = "Vincular Correo Electrónico";
+"email_binding_desc" = "Vincula tu correo electrónico para obtener un enlace de invitación único";
+"email_input_placeholder" = "Por favor, ingresa tu dirección de correo electrónico";
+"cancel_button" = "Cancelar";
+"confirm_binding_button" = "Confirmar Vinculación";
+
+// Alert
+"email_sent_title" = "Correo Enviado";
+"email_sent_message" = "Se ha enviado un correo de verificación a tu bandeja de entrada, por favor verifica y completa la verificación";
+"binding_failed_title" = "Vinculación Fallida";
+"binding_failed_message" = "La vinculación del correo electrónico falló, por favor intenta de nuevo más tarde: %@";
+
+// Error Messages
+"email_invalid_title" = "Formato de Correo Electrónico Inválido";
+"email_invalid_message" = "Por favor, ingresa una dirección de correo electrónico válida";
+"network_error_title" = "Error de Red";
+"network_error_message" = "Por favor, verifica tu conexión de red e intenta de nuevo";
+"unknown_error_title" = "Error Desconocido";
+"unknown_error_message" = "Ocurrió un error desconocido, por favor intenta de nuevo más tarde";
+
+// Rules
+"reward_rules_title" = "Distribución de Recompensas";
+"reward_rules_payment_time" = "Necesitas solicitar el retiro tú mismo, y se distribuirá según el método de retiro elegido, procesado dentro de 72 horas";
+"reward_rules_no_minimum" = "No se requiere un monto mínimo de retiro";
+"reward_rules_paid_refund" = "Para los usuarios de pago, se emitirá primero un reembolso completo, luego se realizará el pago a través del canal de retiro";
+"reward_rules_refund_channel" = "Los reembolsos se devolverán a través del canal de pago original";
+"reward_rules_payment_fee" = "Se deducirá una tarifa de transacción del 4.4% + $0.3 (pagada a Paypal) por cada retiro de Paypal, mientras que los retiros de WeChat y Alipay no tienen tarifas de transacción";
+
+// Testimonials
+"testimonial_title" = "Comentarios de Usuarios";
+"testimonial_1_content" = "Al recomendar amigos para usarlo, puedo ganar bastante dinero para café cada mes, ¡es increíble!";
+"testimonial_1_author" = "David";
+"testimonial_2_content" = "Después de compartir con colegas, recibí una membresía de 3 meses, el software es muy útil y las recompensas por referidos son sustanciales.";
+"testimonial_2_author" = "Sarah";
+
+// Withdrawal Form
+"payment_method_title" = "Método de Retiro";
+"save_button" = "Guardar";
+
+// Common Buttons
+"confirm_button" = "Confirmar";
+
+"loading" = "Cargando...";
+"reward_rules_payment_title" = "Distribución de Recompensas";
+"email_sent_title" = "Correo Enviado";
+"email_verification_sent_message" = "Se ha enviado un correo electrónico de verificación a tu bandeja de entrada, por favor revisa y completa la verificación";
+"binding_failed_title" = "Vinculación Fallida";
+"binding_failed_message" = "La vinculación del correo electrónico falló, por favor intenta de nuevo más tarde: %@";
+
+"invite_friends" = "Invitar y Ganar";

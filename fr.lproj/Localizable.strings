@@ -242,6 +242,7 @@
 "separator_tab" = "Tabulation";
 "separator_section_title" = "Séparateur (actuel : %@)";
 "separator_custom" = "Personnalisé...";
+"pin_always_show_application_icon" = "Toujours afficher l'icône de l'application";
 
 // MARK: Content List
 "pin_contents_appname_tooltip" = "Nom de l'application";
@@ -460,6 +461,8 @@
 
 "quick_menu_disable_all_animations" = "Désactiver toutes les animations";
 "quick_menu_always_show_lists" = "Toujours afficher les listes";
+"quick_menu_always_show_footer" = "Toujours afficher le pied de page";
+"quick_menu_always_show_application_icon" = "Toujours afficher l'icône de l'application";
 
 // MARK: Main Window
 "main_window_title" = "Fenêtre principale:";

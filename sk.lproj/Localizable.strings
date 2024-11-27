@@ -242,6 +242,7 @@
 "separator_tab" = "Tabulátor";
 "separator_section_title" = "Oddeľovač (aktuálne: %@)";
 "separator_custom" = "Vlastný...";
+"pin_always_show_application_icon" = "Vždy zobraziť ikonu aplikácie";
 
 // MARK: Content List
 "pin_contents_appname_tooltip" = "Názov aplikácie";
@@ -460,6 +461,8 @@
 
 "quick_menu_disable_all_animations" = "Deaktivovať všetky animácie";
 "quick_menu_always_show_lists" = "Vždy zobraziť zoznamy";
+"quick_menu_always_show_footer" = "Vždy zobraziť pätičku";
+"quick_menu_always_show_application_icon" = "Vždy zobraziť ikonu aplikácie";
 
 // MARK: Main Window
 "main_window_title" = "Hlavné okno:";

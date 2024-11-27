@@ -242,6 +242,7 @@
 "separator_tab" = "Ταμπ";
 "separator_section_title" = "Διαχωριστικό (τώρα: %@)";
 "separator_custom" = "Προσαρμοσμένο...";
+"pin_always_show_application_icon" = "Πάντα Εμφάνιση Εικονιδίου Εφαρμογής";
 
 // MARK: Content List
 "pin_contents_appname_tooltip" = "Όνομα εφαρμογής";
@@ -460,6 +461,8 @@
 
 "quick_menu_disable_all_animations" = "Απενεργοποίηση όλων των κινούμενων σχεδίων";
 "quick_menu_always_show_lists" = "Πάντα Εμφάνιση Λιστών";
+"quick_menu_always_show_footer" = "Πάντα Εμφάνιση Υποσέλιδου";
+"quick_menu_always_show_application_icon" = "Πάντα Εμφάνιση Εικονιδίου Εφαρμογής";
 
 // MARK: Main Window
 "main_window_title" = "Κεντρικό παράθυρο:";

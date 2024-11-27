@@ -1,0 +1,749 @@
+"clear_all_tooltip" = "모든 항목 지우기.";
+"about_tooltip" = "애플리케이션에 대한 자세한 정보 읽기.";
+"quit_tooltip" = "애플리케이션 종료.";
+"clear_all" = "모든 콘텐츠 지우기";
+"about" = "CleanClip에 대하여...";
+"quit" = "종료";
+"preferences" = "환경설정...";
+"preferences_general" = "일반";
+"preferences_monitors" = "다중 모니터";
+"preferences_storage" = "저장소";
+"accessibility_alert_message" = "“CleanClip”이 접근성 기능을 사용하여 이 컴퓨터를 제어하고자 합니다.";
+"accessibility_alert_comment" = "시스템 환경설정의 보안 및 개인 정보 보호 환경설정에서 이 애플리케이션에 대한 접근을 허용하세요.\n\n+ 버튼을 클릭하고 CleanClip을 선택한 후 옆의 체크박스를 활성화하세요.";
+"accessibility_alert_deny" = "거부";
+"accessibility_alert_open" = "시스템 환경설정 열기";
+"clear_alert_message" = "모든 콘텐츠를 지우시겠습니까?";
+"clear_scope_alert_message" = "설정된 조건 아래에서 모든 콘텐츠를 지우시겠습니까?";
+"clear_alert_comment" = "이 작업은 취소할 수 없습니다.";
+"clear_alert_cancel" = "지금 안 함";
+"clear_alert_confirm" = "모두 지우기";
+
+// MARK: - CleanClip
+"license_intro" = "메뉴 바에서 1000마일 떨어진 곳이 아니라 입력 위치에서 복사한 모든 것을 검색하고 사용할 수 있습니다.";
+"license_title" = "CleanClip에 오신 것을 환영합니다!";
+"feature_0" = "빠른 접근";
+"feature_0_intro" = "⌘ + ; 히스토리 팝업에 원클릭 접근";
+"feature_1" = "컨텍스트 전환 없음";
+"feature_1_intro" = "포커스를 전환할 필요 없이 팝업이 항상 커서 위치에 나타납니다.";
+"feature_2" = "컬렉션 목록";
+"feature_2_intro" = "⌘ + ;를 더블 클릭하여 목록을 빠르게 전환";
+"feature_3" = "스마트 목록";
+"feature_3_intro" = "특정 콘텐츠를 자동으로 정리하는 스마트 목록을 만들 수 있습니다.";
+"feature_4" = "붙여넣기 대기열";
+"feature_4_intro" = "⌘ + '를 눌러 붙여넣기 대기열을 열고 항목을 순서대로 붙여넣기";
+"feature_5" = "빠른 검색";
+"feature_5_intro" = "문자를 입력하여 즉시 검색하고 가장 오래된 기록도 찾기";
+"feature_6" = "자동 저장 복사본";
+"feature_6_intro" = "중요한 콘텐츠를 잃어버릴 걱정이 없습니다. CleanClip이 자동으로 저장합니다.";
+"feature_7" = "배치 작업";
+"feature_7_intro" = "⌘⇧;를 눌러 메인 창을 열고 콘텐츠를 대량으로 관리하고 사용할 수 있습니다.";
+"feature_8" = "드래그 앤 드롭";
+"feature_8_intro" = "각 항목은 드래그 앤 드롭으로 직접 사용할 수 있습니다.";
+"feature_9" = "화면에 고정";
+"feature_9_intro" = "항목 미리보기 창을 드래그 앤 드롭하면 자동으로 화면에 고정됩니다.";
+"close" = "닫기";
+"congrats_permanent_member" = "축하합니다! 이제 평생 회원이 되셨습니다!";
+"congrats_member" = "축하합니다! 이제 프리미엄 회원이 되셨습니다!";
+"get_start" = "시작하기!";
+"unbind_device_failure" = "장치 바인딩 해제 실패";
+"unbind_device" = "장치 바인딩 해제";
+"input_serial_number_hint" = "활성화를 위한 라이센스를 입력하세요";
+"activate_failed" = "활성화 실패";
+"activate" = "활성화";
+"purchase_serial_number" = "라이센스 구매";
+"start_trial" = "체험 시작";
+
+"plan" = "라이센스 관리자";
+"activate_tooltip" = "회원이 되기 위해 일련 번호를 입력하세요";
+"deactivate_tooltip" = "이 장치의 연결 해제";
+"plan_tooltip" = "회원 상태 관리";
+"manual" = "빠른 시작 가이드...";
+"manual_tooltip" = "빠른 시작 가이드 보기";
+// 菜单栏版本
+"menu_version" = "버전: %@";
+
+"no_records_found" = "기록이 없습니다📝";
+"next_page" = "다음 페이지";
+"prev_page" = "이전 페이지";
+"preview" = "미리보기";
+"search_number" = "번호 검색";
+"switch_item" = "옵션 전환";
+
+"paste_to" = "%@에 붙여넣기";
+"lines" = "%@ 줄";
+"words" = "%@ 단어";
+"chars" = "%@ 문자";
+
+"ignore" = "%@에서 복사 무시";
+"cancel_ignore" = "%@에서 복사 허용";
+
+"open_quickmenu" = "빠른 메뉴 열기";
+"open_quickmenu_tooltip" = "빠른 메뉴 열기";
+
+// MARK: CopyStack
+"copystack" = "붙여넣기 대기열";
+"open_copystack" = "붙여넣기 대기열 열기";
+"open_copystack_tooltip" = "붙여넣기 대기열 열기";
+"stack_empty" = "대기열이 비어 있습니다";
+
+"clear_stack" = "지우기";
+
+"plain_mode" = "일반 모드";
+"paste_as_plain" = "**일반** 텍스트";
+"paste_as_origin" = "**원본** 텍스트";
+
+"toggle_recording" = "녹음 상태";
+"stop_recording" = "일시 정지";
+"start_to_record" = "재개";
+
+"reverse_order_desc" = "주문";
+"reverse_order" = "역순";
+
+// MARK: PIN
+"pin" = "즐겨찾기";
+"unpin" = "즐겨찾기 해제";
+"delete" = "삭제";
+"tab_pin" = "즐겨찾기";
+"tab_all" = "모두";
+
+// popup tip
+"tip_history_item" = "우클릭하여 메뉴 표시";
+"tip_tab_to_next" = "⇥ 확장/다음 페이지";
+"tip_tab_to_prev" = "⇧⇥ 이전 페이지";
+"tip_paste_stack" = "붙여넣기 대기열";
+"tip_show_help" = "도움말";
+"tip_search" = "⌘F 검색 열기\na-z 직접 검색";
+"tip_tab" = "%@ 탭 전환";
+"tip_right_click" = "우클릭";
+"tip_context_menu" = "삭제/즐겨찾기";
+
+"tip_format_brush" = "형식 브러시";
+"tip_show_tutorial" = "빠른 메뉴 도움말 보기";
+
+// Output Format
+"preview" = "미리보기";
+"remove_extra_spaces" = "**여분의** 공백 제거";
+"strip_all_whitespaces" = "**모든** 공백 제거";
+"make_title_case" = "**제목** 대문자";
+"make_sentence_case" = "**문장** 대문자";
+"capitalize_words" = "**단어** 대문자";
+"make_upper_case" = "**대문자**로 만들기";
+"make_lower_case" = "**소문자**로 만들기";
+
+// Paste stack options
+"post_action_title" = "붙여넣기 후 작업";
+"none" = "없음";
+"post_action_text" = "텍스트";
+"post_action_text_content" = "끝에 추가된 텍스트";
+"paste_queue_remove_after_paste" = "붙여넣기 후 큐에서 제거";
+
+// Migration
+"migration_data_upgrading" = "데이터 업그레이드 중...";
+"migration_data_upgrading_claim" = "데이터 양에 따라 업그레이드에 몇 초에서 몇 분이 걸릴 수 있습니다.";
+"migrate_upgrading" = "데이터 업그레이드";
+"migrate_start" = "확인";
+"migrate_upgraded" = "데이터 업그레이드 성공!";
+
+// edit
+"edit" = "편집";
+"edit_text" = "텍스트 편집";
+
+// 新手引导
+"tutorial_title" = "이 멋진 기능들을 사용해 보세요";
+// 快捷菜单
+"quick_menu" = "빠른 메뉴";
+"quick_use_short" = "빠른 사용";
+"quick_use" = "빠른 사용 - 키보드 효율성에 중점을 둔 단축 메뉴";
+"quickuse_desc" = "1. ⌘; 빠른 메뉴 열기\n2. a-z: 직접 검색 시작, 'image'를 입력하여 이미지 검색, 'file'을 입력하여 파일 검색\n3. 스페이스바: 미리보기\n4. ⇥/⇧⇥: 위/아래로 스크롤\n5. 숫자 키/Enter: 해당 항목 붙여넣기";
+"preset_paste_format" = "기본 붙여넣기 형식 설정";
+"preset_paste_format_desc" = "형식을 설정한 후 모든 항목이 지정된 형식에 따라 붙여넣어집니다.\n현재 지원되는 형식에는 일반 텍스트, 모두 소문자, 모두 대문자 등이 포함됩니다.\n흥미로운 계획: 변환 인터페이스를 열어 개발자가 자유롭게 다양한 변환 방법을 개발할 수 있도록 지원합니다.";
+"quick_paste_format" = "빠른 형식 붙여넣기";
+"quick_paste_format_desc" = "1. 콘텐츠 인덱스 번호를 길게 눌러 형식 메뉴를 불러옵니다.\n2. 스페이스바를 길게 눌러 형식화된 텍스트 미리보기\n3. 형식 인덱스 번호를 짧게 눌러 선택 확인";
+"drag_image_to_file" = "파일로 이미지 붙여넣기";
+"drag_image_to_file_desc" = "이미지는 빠른 메뉴나 붙여넣기 큐를 사용하여 파일로 직접 붙여넣거나 드래그할 수 있습니다.";
+"call_pinboards" = "자주 사용하는 콘텐츠 고정 및 사용";
+"call_pinboards_desc" = "빠른 메뉴 단축키 ⌘;를 두 번 눌러 고정된 자주 사용하는 콘텐츠를 확인하세요. 새로운 키 조합을 기억할 필요가 없습니다.\n자주 사용하는 항목을 고정하여 목록의 맨 위에 유지하고 새로운 항목에 의해 압도되지 않도록 하여 언제든지 사용할 수 있습니다.";
+
+// 粘贴队列
+"paste_stack" = "붙여넣기 큐";
+"paste_stack_intro" = "소개";
+"paste_stack_intro_desc" = "붙여넣기 큐가 열리면 복사된 콘텐츠가 자동으로 큐에 들어가고 ⌘V를 눌러 큐에서 다음 항목을 순서대로 붙여넣습니다.\n1. 하단의 '위아래 화살표 버튼'을 클릭하여 목록을 반전\n2. '항목 드래그'로 순서 변경\n3. '클릭 #'으로 지정된 항목으로 전환\n4. '붙여넣기 후 작업' 옵션은 붙여넣기 후 자동으로 해당 키를 누릅니다.";
+"paste_stack_fill_form" = "양식 작성 지원";
+"paste_stack_fill_form_desc" = "붙여넣기 큐를 사용하여 순서대로 복사하고 붙여넣어 양식을 작성하는 데 도움을 줄 수 있습니다.";
+"paste_stack_quick_fill_form" = "빠른 양식 작성 - 분할 복사";
+"paste_stack_quick_fill_form_desc" = "⌘⇧C '분할 복사'를 사용하여 여러 줄을 여러 항목으로 직접 분할하고 붙여넣기 큐에 복사합니다. '붙여넣기 후 작업' 옵션은 자동으로 다음 셀로 전환하여 빠른 양식 작성을 더욱 강력하게 만듭니다!";
+"paste_stack_collect" = "정보 수집";
+"paste_stack_collect_desc" = "여러 페이지에서 콘텐츠를 수집하고 대상 페이지에 한 번에 붙여넣어 프로세스를 최적화하고 시간을 절약합니다.";
+
+// 菜单栏
+"status_bar" = "상태 표시줄";
+"status_bar_functions" = "상태 표시줄 기능";
+"status_bar_functions_desc" = "1. 가장 최근에 복사된 기록 표시\n2. ⌥를 누른 채 아이콘을 클릭하여 클립보드 모니터링 일시 중지 또는 재개\n3. 현재 앱에서 복사된 콘텐츠를 빠르게 차단\n4. 라이센스 관리자\n5. 빠른 시작 가이드";
+
+// 主窗口
+"main_window" = "주 창";
+"main_window_soon" = "곧 출시 예정";
+"main_window_soon_desc" = "주 창은 상주하며 쉽게 탐색하고 드래그 앤 드롭할 수 있는 관리 창을 제공하여 마우스 사용자를 더욱 편리하게 만듭니다.";
+
+// 导航
+"previous" = "이전";
+"next" = "다음";
+"done" = "튜토리얼 완료";
+
+// MARK: - PinnedWindow
+"pinned_window" = "메인 창 열기";
+"pinned_window_tooltip" = "메인 창은 클립보드 내용을 관리하고 정리하기 위한 상주 창입니다";
+
+// MARK: Title
+"pin_apps_all" = "모든 애플리케이션";
+"pin_apps_all_tooltip" = "모든 애플리케이션 보기";
+"pin_apps_frontmost" = "가장 앞에 있는 애플리케이션 따르기";
+"pin_apps_frontmost_tooltip" = "가장 앞에 있는 애플리케이션의 내용을 항상 표시합니다";
+"pin_apps_empty" = "소스 앱 목록이 여기 표시됩니다";
+"pin_bottom_accent_color" = "강조 색상";
+"pin_bottom_accent_color_system" = "시스템 강조 색상 사용";
+"pin_bottom_appearence" = "모양";
+"pin_bottom_appearence_line_spacing" = "줄 간격";
+"pin_bottom_auto_collect_tooltip" = "현재 목록으로 자동 수집";
+"pin_bottom_collapse_or_expand_tooltip" = "창 축소/확장";
+"pin_bottom_pin_tooltip" = "마우스 호버 상태에 따라 창 크기를 자동 조정합니다";
+"pin_bottom_scroll_to_top_tooltip" = "맨 위로 스크롤";
+"pin_bottom_setting_tooltip" = "옵션";
+"pin_bottom_content" = "내용";
+"pin_bottom_all_as_default_filter" = "기본 표시:";
+
+"pin_context_delete_lists" = "삭제";
+"pin_context_remove_from_lists" = "목록에서 제거";
+"pin_context_manage_lists" = "정보 보기";
+"pin_context_add_new_lists" = "목록 추가";
+"pin_context_add_to_lists" = "목록에 추가";
+"pin_context_alias" = "별칭 설정";
+"pin_context_copy_to_clipboard" = "클립보드에 복사";
+"pin_context_split_to_multilines" = "여러 항목으로 나누기";
+"pin_context_delete" = "삭제";
+"pin_context_merge_paste" = "병합 및 붙여넣기";
+"pin_context_paste" = "붙여넣기";
+"pin_context_paste_as_plain" = "일반 텍스트로 붙여넣기";
+"pin_context_paste_as" = "다음으로 붙여넣기...";
+"pin_context_preview" = "미리보기";
+"pin_context_edit" = "편집";
+"pin_context_preview_when_hover" = "호버 시 미리보기 활성화";
+"pin_context_share" = "공유...";
+
+"pin_context_paste_one_by_one" = "하나씩 붙여넣기";
+"pin_context_merge_settings" = "설정 병합";
+"pin_context_merge_copy" = "병합 및 복사";
+"separator_input_title" = "입력 구분자";
+"common_ok" = "확인";
+"common_cancel" = "취소";
+"separator_reverse_order" = "역순";
+"separator_none" = "없음";
+"separator_return" = "새 줄";
+"separator_tab" = "탭";
+"separator_section_title" = "구분자 (현재: %@)";
+"separator_custom" = "사용자 정의...";
+"pin_always_show_application_icon" = "애플리케이션 아이콘 항상 표시";
+
+// MARK: Content List
+"pin_contents_appname_tooltip" = "애플리케이션 이름";
+// Empty Page
+"pin_contents_list_empty" = "목록이 비어 있습니다";
+"pin_contents_list_empty_desc" = "내용을 복사해 보세요";
+
+// MARK: Add List Window
+"pin_lists_title" = "목록 편집";
+"pin_lists_name" = "이름:";
+"pin_lists_color" = "색상:";
+"pin_lists_color_preview" = "색상 미리보기:";
+
+"pin_lists_shortcut" = "빠른 메뉴에서 열기:";
+"pin_lists_shortcut_for_pin" = "메인 창에서 열기:";
+
+"pin_lists_delete" = "삭제";
+"pin_lists_done" = "완료";
+
+"pin_lists_smartlist" = "스마트 목록";
+"pin_lists_match" = "일치";
+"pin_lists_match_all" = "모두";
+"pin_lists_match_any" = "임의의";
+"pin_lists_match_following" = "조건:";
+
+"pin_lists_unknown" = "알 수 없음";
+
+// Filters
+"pin_lists_filter_belongs" = "소속";
+"pin_lists_filter_not_belongs" = "소속되지 않음";
+"pin_lists_filter_lists_empty" = "목록이 비어 있습니다";
+
+"pin_lists_filter_contains" = "포함";
+"pin_lists_filter_starts_with" = "로 시작";
+"pin_lists_filter_ends_with" = "로 끝";
+"pin_lists_filter_include" = "포함";
+"pin_lists_filter_exclude" = "제외";
+"pin_lists_filter_matches_word" = "단어와 일치";
+"pin_lists_filter_regular_expression" = "정규 표현식";
+
+"pin_lists_filter_from" = "에서";
+"pin_lists_filter_not_from" = "에서 아님";
+
+"pin_lists_filter_is" = "입니다";
+"pin_lists_filter_is_not" = "아닙니다";
+"pin_lists_filter_link" = "링크";
+
+"pin_lists_filter_media_type_file" = "파일";
+"pin_lists_filter_media_type_html" = "HTML";
+"pin_lists_filter_media_type_image" = "이미지";
+"pin_lists_filter_media_type_link" = "링크";
+"pin_lists_filter_media_type_other" = "기타";
+"pin_lists_filter_media_type_rtf" = "리치 텍스트";
+"pin_lists_filter_media_type_text" = "텍스트";
+
+"pin_lists_filter_text_length_eq" = "같음";
+"pin_lists_filter_text_length_gt" = "보다 큼";
+"pin_lists_filter_text_length_gt_eq" = "보다 크거나 같음";
+"pin_lists_filter_text_length_lt" = "보다 작음";
+"pin_lists_filter_text_length_lt_eq" = "보다 작거나 같음";
+
+"pin_lists_filter_remote_title" = "이 항목은 다음에서 가져왔습니다";
+"pin_lists_filter_remote_other" = "다른 장치";
+"pin_lists_filter_remote_this" = "이 Mac";
+
+"pin_lists_filter_type_app" = "애플리케이션";
+"pin_lists_filter_type_keyword" = "키워드";
+"pin_lists_filter_type_link" = "링크";
+"pin_lists_filter_type_lists" = "목록";
+"pin_lists_filter_type_media_type" = "미디어 유형";
+"pin_lists_filter_type_remote_copies" = "소스 장치";
+"pin_lists_filter_type_text_length" = "텍스트 길이";
+
+"pin_title_app_all" = "모두";
+"pin_title_back_tooltip" = "기본 표시 목록으로 돌아가기";
+"pin_title_application_tooltip" = "현재 애플리케이션 범위";
+"pin_title_pin_tooltip" = "클릭하여 가장 앞에 있는 애플리케이션을 고정하거나 팔로우";
+"pin_title_scope_all" = "모두";
+"pin_title_lists_favorite" = "즐겨찾기";
+"pin_title_lists_tutorial" = "튜토리얼";
+"pin_title_lists_image" = "이미지";
+"pin_title_lists_file" = "파일";
+"pin_title_lists_link" = "링크";
+"pin_title_lists_email" = "이메일";
+"pin_title_lists_remote" = "원격";
+"pin_title_lists_notes" = "노트에서";
+"pin_title_scope_tooltip" = "검색 내용의 범위를 지정합니다";
+"pin_title_search_tooltip" = "⌘F 검색 상자를 빠르게 표시하거나 숨기기";
+
+"pin_unknown" = "알 수 없음";
+
+// pin tutorial
+"main_window_intro_short" = "소개";
+"main_window_intro" = "메인 윈도우 - 강력한 콘텐츠 조직 및 관리 기능을 갖춘 고정 창";
+"main_window_intro_desc" = "메인 윈도우는 화면에 고정된 창으로, 클립보드 기록을 일괄적으로 운영, 관리 및 사용할 수 있습니다.\n필터: 앱 + 목록에 따라 표시된 항목을 자유롭게 필터링합니다.\n검색: 필터링 범위 내에서 빠르게 검색합니다.\n선택: 왼쪽 클릭으로 단일 항목 선택; ⌘+클릭으로 항목 추가; ⇧+클릭으로 두 선택 사이의 모든 항목 추가;\n붙여넣기: 더블 클릭으로 단일 항목 붙여넣기; 드래그 앤 드롭 또는 오른쪽 클릭 메뉴로 여러 항목을 일괄 운영합니다.";
+"main_window_follow_frontmost" = "가장 앞에 있는 앱 자동 팔로우";
+"main_window_follow_frontmost_desc" = "가장 앞에 있는 앱 모드를 선택하면, 앱 필터가 가장 앞에 있는 앱의 변경 사항을 자동으로 따르고 해당 앱의 클립보드 기록을 표시합니다.\n이 모드는 목록과 함께 사용하면 많은 가능성을 창출하고 각 앱에 전용 공간을 제공하여 앱의 잠재력을 열 수 있습니다.";
+"main_window_youtubelinks_short" = "스마트 목록";
+"main_window_youtubelinks" = "스마트 목록 - 조건에 따라 항목을 스마트 필터링";
+"main_window_youtubelinks_desc" = "스마트 목록을 사용하면 원하는 콘텐츠를 얻기 위해 필터링 조건을 자유롭게 설정할 수 있습니다.\n현재 지원되는 필터링 조건에는: 미디어 유형, 키워드 일치, 정규 표현식 일치, 문자 길이, 소스 앱, 소스 장치 및 수집 위치가 포함됩니다.";
+"main_window_manual_collection" = "수집 목록 - 수동 관리";
+"main_window_manual_collection_desc" = "하나 이상의 '항목'을 선택하고 오른쪽 클릭하여 '목록에 추가'를 선택하여 특정 목록에 저장합니다.\n수집 목록은 스마트 목록으로 필터링할 수 있어 더 많은 가능성을 제공합니다.";
+"main_window_sketch" = "수집 목록 - 자동 수집";
+"main_window_sketch_desc" = "수집 목록을 선택하고 아래의 자동 수집 옵션을 활성화하면 복사한 모든 콘텐츠가 지정된 목록에 자동으로 저장됩니다.\n별칭을 설정할 수 있어 필요할 때 쉽게 목록에 접근할 수 있습니다.\n많은 앱, 특히 Sketch 및 Final Cut Pro와 같은 콘텐츠 생성 앱은 편리한 수집 기능이 부족합니다.\n좋아하는 앱이 수집을 지원하지 않는 경우 이 기능은 매우 유용할 것입니다!";
+
+// Pro
+"pro_unpaid_version" = "오늘 남은 %@회";
+"pro" = "프로";
+
+"start_free" = "무료 시작";
+"upgrade_plan_unlock_unlimited" = "Mac에서 CleanClip을 무료로 사용해 보세요. 계속 사용하기로 선택하면 요금을 지불하고 언제든지 취소할 수 있습니다.";
+"subscribe" = "구독";
+"subscribed" = "구독됨";
+"change_plan" = "계획 변경";
+"active" = "활성화됨";
+"next_cycle_active" = "다음 주기 활성화";
+"free" = "무료";
+"or_monthly" = "또는 %@/월";
+"basic_plan" = "기본 계획";
+"basic_plan_description" = "하루에 25회 붙여넣기로 제한되며, 다른 모든 기능은 무료입니다.";
+"lifetime_plan" = "평생 계획";
+"lifetime_plan_description" = "이미 평생 계획 회원입니다.";
+"manage_plan" = "계획 관리...";
+"subscribe_with_free_trial" = "무료 체험 시작";
+"free_trail_desc" = "7일 무료, 이후 %@/년";
+"choose_your_plan" = "플랜 선택";
+"choose_your_plan_desc" = "모든 플랜에 무료 체험이 포함되어 있습니다. 언제든지 구독을 취소하거나 변경할 수 있습니다.";
+"current_plan" = "현재 플랜";
+"cancel" = "취소";
+"continue" = "계속";
+"terms" = "약관";
+"privacy" = "개인정보 보호";
+"restore" = "복원";
+
+// quickmenu settings
+"quickmenu_option_show_shortcut" = "항상 단축키 팁 표시";
+"quickmenu_option_show_when_hover" = "호버 시 자동 표시";
+"quickmenu_option_show_when_cmd_down" = "⌘ 키를 누를 때 자동 표시";
+"quickmenu_option" = "툴바 옵션";
+"quickmenu_appr_always_expand" = "항상 표시할 항목 수";
+"quickmenu_appr_always_expand_5" = "5개 항목";
+"quickmenu_appr_always_expand_10" = "10개 항목";
+"quickmenu_general_preview_on_hover" = "호버 시 자동 미리보기";
+"quickmenu_general_preview_on_hover_delay" = "미리보기 지연";
+"quickmenu_general_default_action" = "기본 동작";
+"quickmenu_general_default_action_auto_paste" = "자동 붙여넣기";
+"quickmenu_general_default_action_copy" = "복사만";
+"quickmenu_general_move_to_top" = "사용 후 맨 위로 이동";
+"quickmenu_tip_prefences" = "환경설정";
+// Tool List
+"quickmenu_option_switch" = "항목 전환 ⌘[0-9]";
+"quickmenu_option_search" = "검색 ⌘F";
+"quickmenu_option_switchTab" = "목록 전환 ⌘;";
+"quickmenu_option_copy" = "클립보드에 복사 ⌘C";
+"quickmenu_option_star" = "북마크 ⌘S";
+"quickmenu_option_delete" = "삭제 ⌘D";
+"quickmenu_option_edit" = "편집 ⌘E";
+"quickmenu_option_alias" = "별칭 설정 ⌘A";
+
+// ocr
+"preferences_ocr_primary_language" = "기본 언어";
+"preferences_ocr_revision" = "개정판";
+"preferences_ocr_reindex" = "검색 인덱스 업데이트";
+"quickmenu_preview_ocr_header" = "이미지 내 텍스트";
+
+// MARK: - settings
+// MARK: settings name
+"settings_general" = "일반";
+"settings_shortcuts" = "단축키";
+"settings_paste_format" = "붙여넣기 형식";
+"settings_lists" = "목록";
+"settings_quick_menu" = "퀵 메뉴";
+"settings_main_window" = "메인 창";
+"settings_paste_stack" = "붙여넣기 대기열";
+"settings_ignore" = "규칙";
+"settings_storage" = "저장소";
+"settings_ocr" = "OCR";
+"settings_about" = "정보";
+"settings_appupdates" = "소프트웨어 업데이트 가능";
+"settings_license" = "라이센스";
+"settings_pro" = "프로";
+"upgrade_to_recommand_os_version" = "최고의 경험을 위해 macOS 13.0 이상을 사용하는 것이 좋습니다!";
+
+// MARK: General
+"check_update" = "업데이트 확인";
+"check_update_desc" = "자동으로 업데이트 확인";
+"check_update_failed" = "업데이트 확인 실패";
+"check_update_no_update" = "새로운 버전 없음";
+"sounds" = "소리";
+"sounds_selection" = "소리 선택";
+"sounds_desc" = "새 항목이 기록에 추가되고 이전 항목이 선택될 때 소리 효과를 재생합니다.";
+"launch_at_login" = "로그인 시 실행";
+"shortcuts" = "단축키";
+"appearance" = "테마";
+"appearance_light" = "밝은 테마";
+"appearance_dark" = "어두운 테마";
+"appearance_auto" = "시스템";
+
+// Menu Icon
+"show_menu_icon" = "메뉴 아이콘 표시";
+"show_menu_icon_desc" = "메뉴 아이콘이 표시되지 않으면 기록 팝업 하단의 아이콘을 탭하여 메뉴를 열 수 있습니다.";
+
+"show_recently_desc" = "메뉴 아이콘 옆에 최근 복사본 표시";
+
+// MARK: Quick Menu
+"quick_menu_title" = "빠른 메뉴:";
+"quick_menu_shortcut_desc" = "응용 프로그램을 열기 위한 전역 단축키.";
+
+"popup_at" = "팝업 위치";
+"window_center" = "창 중앙";
+"mouse_cursor" = "마우스 커서";
+"text_cursor" = "텍스트 커서";
+"screen_center" = "화면 중앙";
+"popup_at_fallback" = "시스템 제한으로 인해 일부 응용 프로그램에서 입력 위치를 정확하게 찾을 수 없습니다. 대체 위치를 선택해 주세요.";
+"popup_at_fallback_title" = "대체 위치";
+
+"quick_menu_disable_all_animations" = "모든 애니메이션 비활성화";
+"quick_menu_always_show_lists" = "항상 목록 표시";
+"quick_menu_always_show_footer" = "항상 바닥글 표시";
+"quick_menu_always_show_application_icon" = "항상 응용 프로그램 아이콘 표시";
+
+// MARK: Main Window
+"main_window_title" = "주 창:";
+"main_window_shortcut_desc" = "주 창을 열기 위한 전역 단축키.";
+"main_window_auto_collapse" = "자동 축소";
+"main_window_full_mode" = "전체 높이";
+"main_window_auto_follow_focus" = "포커스가 있는 모니터로 자동 이동";
+
+// MARK: Paste Stack
+"paste_stack_title" = "붙여넣기 대기열:";
+"paste_stack_desc" = "붙여넣기 대기열을 열기 위한 전역 단축키. 기본값: 「⌘ + '」";
+
+"split_copy" = "분할 복사: ";
+"split_copy_desc" = "분할 복사는 여러 줄의 텍스트를 복사할 수 있는 개별 항목으로 나눕니다.";
+
+"paste_stack_order" = "기본 순서:";
+"paste_stack_order_stack" = "스택 순서";
+"paste_stack_order_queue" = "대기열 순서";
+"paste_stack_order_shuffle" = "셔플 순서";
+
+"paste_queue_auto_follow_focus" = "포커스가 있는 모니터로 자동 이동";
+
+// MARK: Storage
+// 时间单位
+"day" = "일";
+"week" = "주";
+"month" = "월";
+"year" = "년";
+"never" = "절대";
+"two_years" = "2년";
+
+// 界面文本
+"auto_clear" = "자동 삭제";
+"auto_clear_by_time" = "시간에 따른 자동 삭제: %@";
+"number_of_copies" = "수량에 따라 자동 정리:";
+"unlimited" = "무제한";
+
+// 清理范围
+"clear_scope" = "범위 지우기";
+"clear_favorites" = "컬렉션 목록 항목 포함";
+"clear_favorites_description" = "비활성화하면 컬렉션 목록 항목이 자동 정리 범위에 포함되지 않습니다.";
+"clear_with_alias" = "별칭 항목 포함";
+"clear_with_alias_description" = "비활성화하면 별칭 항목이 자동 정리 범위에 포함되지 않습니다.";
+"clear_once" = "한 번 지우기";
+"clear_all" = "모든 콘텐츠 지우기";
+
+// MARK: Ignore
+"ignore_apps" = "앱별";
+"app" = "애플리케이션";
+"ignore_or_not" = "무시";
+"bundle_id" = "번들 ID";
+"select_all" = "모두 선택";
+"unselect_all" = "모두 선택 해제";
+"ignore_lists_name" = "무시된 규칙 %@";
+"ignore_custom_lists_desc" = "여러 필터링 규칙을 추가할 수 있으며, 필터링된 내용은 CleanClip에 의해 저장되지 않습니다.";
+"ignored_pastetypes" = "유형별";
+"ignored_advanced" = "고급";
+"add_ignored_lists" = "무시된 규칙 추가";
+"type" = "클립보드 유형";
+"type_count" = "수";
+"type_name" = "";
+"choose_an_application" = "애플리케이션 선택";
+
+"preset_pastetype_text" = "텍스트";
+"preset_pastetype_image" = "이미지";
+"preset_pastetype_1password" = "1Password";
+
+
+// MARK: About
+"acknowledgements" = "감사의 말";
+"visit_website" = "웹사이트 방문";
+"contact_us" = "문의하기";
+"copyright" = "©️저작권";
+
+// MARK: settings lists
+"lists_desc" = "목록 및 스마트 목록을 통해 콘텐츠를 더 잘 정리하세요.";
+"lists_name" = "이름";
+"is_smartlist" = "스마트 목록";
+"count" = "수";
+"desc" = "스마트 목록 설명";
+
+// MARK: settings shortcuts
+"name" = "기능";
+"shortcuts" = "단축키";
+"shortcuts_quick_menu" = "빠른 메뉴 전환";
+"shortcuts_main_window" = "주 창 전환";
+"shortcuts_paste_stack" = "붙여넣기 대기열 전환";
+"shortcuts_split_copy" = "복사 분할";
+"shortcuts_split_copy_desc" = "선택한 텍스트를 자동으로 여러 항목으로 분할하고 복사합니다.";
+"shortcuts_lists" = "목록을 빠르게 열기 위한 단축키 설정";
+"shortcuts_lists_name" = "목록 이름";
+"shortcuts_for_quick" = "빠른 메뉴에서 열기";
+"shortcuts_for_pin" = "주 창에서 열기";
+
+// shortcuts display
+"shortcuts_for_quick_menu" = "빠른 메뉴의 일반 단축키";
+
+"shortcuts_display_select_item" = "항목 선택";
+"shortcuts_display_select_item_shortcut" = "[0-9]/⮐";
+
+"shortcuts_display_move_to_item" = "항목으로 이동";
+"shortcuts_display_move_to_item_shortcut" = "⌘[0-9]/↑↓";
+
+"shortcuts_display_format_options_menu" = "형식 옵션 메뉴";
+"shortcuts_display_format_options_menu_shortcut" = "길게 누르기 [0-9]/⮐";
+
+"shortcuts_display_preview" = "미리보기";
+"shortcuts_display_preview_shortcut" = "스페이스";
+
+"shortcuts_display_favorate" = "즐겨찾기에 저장";
+"shortcuts_display_favorate_shortcut" = "⌘S";
+
+"shortcuts_display_alias" = "별칭 추가";
+"shortcuts_display_alias_shortcut" = "⌘A";
+
+"shortcuts_display_edit" = "항목 편집";
+"shortcuts_display_edit_shortcut" = "⌘E";
+
+"shortcuts_display_copy_to_clipboard" = "클립보드에 복사";
+"shortcuts_display_copy_to_clipboard_shortcut" = "⌘C";
+
+"shortcuts_display_switch_next_tab" = "다음 목록";
+"shortcuts_display_switch_next_tab_shortcut" = "빠른 메뉴 단축키와 동일";
+
+"shortcuts_display_switch_next_tab2" = "다음 목록 2";
+"shortcuts_display_switch_next_tab2_shortcut" = "⌘→";
+
+"shortcuts_display_switch_prev_tab" = "이전 목록";
+"shortcuts_display_switch_prev_tab_shortcut" = "⌘←";
+
+"shortcuts_display_search" = "검색 시작";
+"shortcuts_display_search_shortcut" = "⌘F";
+
+"shortcuts_display_search2" = "즉시 검색 시작";
+"shortcuts_display_search2_shortcut" = "문자를 직접 입력";
+
+// MARK: settings output formats
+"output_format_desc" = "미리 정의된 출력 형식, 붙여넣을 때 텍스트가 지정된 형식으로 포맷됩니다";
+
+// MARK: settings ocr
+"ocr_desc" = "복사된 이미지에 대해 자동으로 OCR을 수행하여 향후 이미지에서 텍스트 검색을 가능하게 합니다";
+
+// MARK: settings appUpdates
+"avaiable_updates" = "사용 가능한 업데이트";
+"beta_updates" = "베타 업데이트";
+"install_now" = "재시작 및 업데이트";
+"updates_more_info" = "자세한 정보...";
+"new_version" = "새 버전";
+
+// MARK: settings license
+"upgrade_to_pro" = "프로로 업그레이드";
+"free_amount_today" = "오늘 사용한 무료 금액";
+"upgrade_to_pro_for_unlimited_access" = "모든 기능에 대한 무제한 액세스를 위해 프로로 업그레이드하세요!";
+
+// MARK: - Preset resources
+"preset_resources" = "⚡️ Enter 또는 숫자 키를 눌러 내용을 붙여넣기\n✏️ Enter 또는 숫자 키를 길게 눌러 형식 메뉴 열기\n👀 스페이스를 눌러 미리보기, 미리보기 창을 드래그하여 화면에 고정\n🖱️ 항목을 길게 눌러 드래그, 놓으면 붙여넣기\n👇 Tab을 눌러 페이지 확장 또는 뒤집기\n🔍 ⌘F 또는 문자 키를 직접 눌러 검색 시작\n📋 ⌘C로 현재 항목을 클립보드에 복사\n❌ ⌘D로 삭제\n📝 ⌘A로 별칭 설정\n⭐ ⌘S로 기본 즐겨찾기에 추가\n👆 ⇧+Tab으로 페이지 위로 뒤집기\n🖱️ 항목을 우클릭하여 메뉴 옵션 보기\n✂️ 여러 줄 선택 후 ⌘⇧C로 나누어 복사\n📚 ⌘'로 여러 항목을 순서대로 붙여넣기 위해 붙여넣기 대기열 열기\n🖱️ ⌘⇧C로 배치 관리 및 사용을 위한 메인 창 열기, 마우스 친화적\n⌨️ ⌘←/⌘→ 목록을 빠르게 전환\n⚡️ 빠른 메뉴 단축키를 다시 누르면 동일한 효과";
+
+// MARK: - Invite Friends
+// Payment Methods
+"payment_method_alipay" = "알리페이";
+"payment_method_wechat" = "위챗 페이";
+"payment_method_paypal" = "페이팔";
+
+// Form Fields
+"form_field_name" = "실명";
+"form_field_alipay" = "알리페이 계좌";
+"form_field_wechat" = "위챗 계좌";
+"form_field_bank_account" = "은행 계좌 번호";
+"form_field_bank_name" = "은행 이름";
+"form_field_paypal" = "페이팔 계좌";
+
+// Placeholders
+"form_field_name_placeholder" = "실명을 입력하세요";
+"form_field_alipay_placeholder" = "알리페이 계좌를 입력하세요";
+// ... 其他占位文本
+
+// Loading
+"loading" = "로딩 중...";
+
+// Rules
+"invite_rules_title" = "📜 CleanClip Pro 친구 초대 보상 규칙";
+"invite_rules_trial_title" = "당신이 체험 사용자라면";
+"invite_rules_trial_1" = "초대한 친구가 체험할 때마다 한 달의 멤버십 보너스 획득";
+"invite_rules_trial_2" = "초대한 친구가 결제할 때마다 실제 결제 금액의 12% 캐시백 획득";
+"invite_rules_paid_title" = "당신이 유료 사용자라면";
+"invite_rules_paid_1" = "초대한 친구가 결제할 때마다 실제 결제 금액의 25%를 캐시백으로 받습니다.";
+"invite_rules_paid_2" = "여섯 번째 유료 사용자부터는 이 비율이 20%로 조정됩니다.";
+
+// Buttons
+"invite_start_button" = "지금 시작하기";
+"become_paid_user_button" = "지금 유료 사용자 되기";
+"become_trial_user_button" = "지금 체험 사용자 되기";
+"activate_license_button" = "이미 일련번호가 있으면 활성화하기";
+"refresh_login_button" = "활성화됨, 로그인 상태 새로 고침";
+"upgrade_paid_button" = "유료 플랜으로 업그레이드";
+"bind_email_button" = "이메일을 바인딩하여 초대 링크 받기";
+
+// Titles
+"invite_friends_title" = "친구 초대하기";
+"invite_friends_subtitle" = "친구를 CleanClip Pro에 초대하고 보상을 받으세요";
+"invite_link_title" = "초대 링크";
+"upgrade_paid_title" = "유료 버전으로 업그레이드하여 더 많은 보상 잠금 해제";
+
+// Features
+"reward_increase_title" = "보상 증가";
+"reward_increase_desc" = "추천 보상이 12%에서 최대 25%로 증가합니다.";
+"unlimited_withdraw_title" = "무제한 출금";
+"unlimited_withdraw_desc" = "금액 제한 없이 언제든지 출금 가능";
+
+// VIP Benefits
+"vip_benefits_title" = "당신의 독점 VIP 혜택";
+"vip_benefit_reward_title" = "최대 25% 추천 보상";
+"vip_benefit_reward_desc" = "첫 5명의 추천에 대해 25% 보상, 이후 20%";
+"vip_benefit_withdraw_title" = "무제한 출금";
+"vip_benefit_withdraw_desc" = "언제든지 출금 가능, 금액 제한 없음";
+"vip_benefit_priority_title" = "우선 정산";
+"vip_benefit_priority_desc" = "당신의 출금은 48시간 이내에 우선 처리됩니다.";
+"vip_benefit_pro_title" = "전체 전문 기능";
+"vip_benefit_pro_desc" = "CleanClip Pro의 모든 프리미엄 기능에 접근";
+
+// Rewards
+"rewards_total_title" = "총 보상";
+"rewards_available_title" = "출금 가능";
+"rewards_withdrawn_title" = "출금됨";
+
+// Withdrawal
+"withdrawal_title" = "출금 신청";
+"withdrawal_form_button" = "신청서를 작성하세요";
+
+// Footer
+"footer_reward_desc" = "더 많이 초대할수록 더 많은 보상을 받습니다! 친구들과 공유하고 CleanClip Pro의 강력한 기능을 함께 경험하세요. 출금은 72시간 이내에 처리됩니다.";
+"footer_support_email" = "지원 이메일: support@cleanclip.cc";
+
+// Email Binding
+"email_binding_title" = "이메일 바인딩";
+"email_binding_desc" = "고유한 초대 링크를 받기 위해 이메일을 바인딩하세요";
+"email_input_placeholder" = "이메일 주소를 입력하세요";
+"cancel_button" = "취소";
+"confirm_binding_button" = "바인딩 확인";
+
+// Alert
+"email_sent_title" = "이메일 발송 완료";
+"email_sent_message" = "확인 이메일이 귀하의 받은 편지함으로 발송되었습니다. 확인 후 완료해 주세요.";
+"binding_failed_title" = "바인딩 실패";
+"binding_failed_message" = "이메일 바인딩에 실패했습니다. 나중에 다시 시도해 주세요: %@";
+
+// Error Messages
+"email_invalid_title" = "유효하지 않은 이메일 형식";
+"email_invalid_message" = "유효한 이메일 주소를 입력하세요";
+"network_error_title" = "네트워크 오류";
+"network_error_message" = "네트워크 연결을 확인하고 다시 시도해 주세요";
+"unknown_error_title" = "알 수 없는 오류";
+"unknown_error_message" = "알 수 없는 오류가 발생했습니다. 나중에 다시 시도해 주세요";
+
+// Rules
+"reward_rules_title" = "보상 분배";
+"reward_rules_payment_time" = "출금은 직접 신청해야 하며, 선택한 출금 방법에 따라 분배되며 72시간 이내에 처리됩니다.";
+"reward_rules_no_minimum" = "최소 인출 금액이 필요하지 않습니다";
+"reward_rules_paid_refund" = "유료 사용자에게는 먼저 전액 환불이 이루어지고, 그 후 인출 채널에서 결제가 이루어집니다";
+"reward_rules_refund_channel" = "환불은 원래 결제 채널을 통해 반환됩니다";
+"reward_rules_payment_fee" = "각 Paypal 인출에 대해 4.4% + $0.3(Paypal에 지급) 의 거래 수수료가 공제되며, WeChat 및 Alipay 인출은 거래 수수료가 없습니다";
+
+// Testimonials
+"testimonial_title" = "사용자 피드백";
+"testimonial_1_content" = "친구에게 추천함으로써 매달 꽤 많은 커피 돈을 벌 수 있어요, 정말 놀라워요!";
+"testimonial_1_author" = "데이비드";
+"testimonial_2_content" = "동료와 공유한 후 3개월 멤버십을 받았고, 소프트웨어가 매우 유용하며 추천 보상이 상당합니다.";
+"testimonial_2_author" = "사라";
+
+// Withdrawal Form
+"payment_method_title" = "인출 방법";
+"save_button" = "저장";
+
+// Common Buttons
+"confirm_button" = "확인";
+
+"loading" = "로딩 중...";
+"reward_rules_payment_title" = "보상 분배";
+"email_sent_title" = "이메일 발송 완료";
+"email_verification_sent_message" = "확인 이메일이 귀하의 받은 편지함으로 전송되었습니다. 확인을 완료해 주세요";
+"binding_failed_title" = "바인딩 실패";
+"binding_failed_message" = "이메일 바인딩에 실패했습니다. 나중에 다시 시도해 주세요: %@";
+
+"invite_friends" = "초대하고 수익 얻기";

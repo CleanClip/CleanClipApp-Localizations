@@ -242,6 +242,7 @@
 "separator_tab" = "制表符";
 "separator_section_title" = "分隔符（當前：%@）";
 "separator_custom" = "自定義...";
+"pin_always_show_application_icon" = "始終顯示應用程式圖示";
 
 // MARK: Content List
 "pin_contents_appname_tooltip" = "應用程式名稱";
@@ -460,6 +461,8 @@
 
 "quick_menu_disable_all_animations" = "禁用所有動畫";
 "quick_menu_always_show_lists" = "始終顯示列表";
+"quick_menu_always_show_footer" = "始終顯示頁腳";
+"quick_menu_always_show_application_icon" = "始終顯示應用程式圖示";
 
 // MARK: Main Window
 "main_window_title" = "主視窗:";

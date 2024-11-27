@@ -242,6 +242,7 @@
 "separator_tab" = "Tab";
 "separator_section_title" = "Scheidingsteken (huidig: %@)";
 "separator_custom" = "Aangepast...";
+"pin_always_show_application_icon" = "Altijd het applicatie-icoon weergeven";
 
 // MARK: Content List
 "pin_contents_appname_tooltip" = "Applicatienaam";
@@ -460,6 +461,8 @@
 
 "quick_menu_disable_all_animations" = "Schakel alle animaties uit";
 "quick_menu_always_show_lists" = "Altijd lijsten tonen";
+"quick_menu_always_show_footer" = "Altijd de voettekst weergeven";
+"quick_menu_always_show_application_icon" = "Altijd het applicatie-icoon weergeven";
 
 // MARK: Main Window
 "main_window_title" = "Hoofdvenster:";

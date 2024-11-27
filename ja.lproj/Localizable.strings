@@ -242,6 +242,7 @@
 "separator_tab" = "タブ";
 "separator_section_title" = "区切り文字（現在：%@）";
 "separator_custom" = "カスタム...";
+"pin_always_show_application_icon" = "アプリケーションアイコンを常に表示";
 
 // MARK: Content List
 "pin_contents_appname_tooltip" = "アプリケーション名";
@@ -460,6 +461,8 @@
 
 "quick_menu_disable_all_animations" = "すべてのアニメーションを無効にする";
 "quick_menu_always_show_lists" = "リストを常に表示";
+"quick_menu_always_show_footer" = "フッターを常に表示";
+"quick_menu_always_show_application_icon" = "アプリケーションアイコンを常に表示";
 
 // MARK: Main Window
 "main_window_title" = "メインウインドウ";
