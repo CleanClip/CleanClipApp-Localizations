@@ -471,6 +471,9 @@
 "quick_menu_always_show_footer" = "フッターを常に表示";
 "quick_menu_always_show_application_icon" = "アプリケーションアイコンを常に表示";
 
+"quick_menu_long_press_show_window" = "長押しでポップアップ";
+"quick_menu_long_press_show_window_delay" = "長押しの時間";
+
 // MARK: Main Window
 "main_window_title" = "メインウインドウ";
 "main_window_shortcut_desc" = "メインウィンドウを開くためのグローバルショートカットキー。";

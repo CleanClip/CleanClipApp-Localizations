@@ -471,6 +471,9 @@
 "quick_menu_always_show_footer" = "Vždy zobraziť pätičku";
 "quick_menu_always_show_application_icon" = "Vždy zobraziť ikonu aplikácie";
 
+"quick_menu_long_press_show_window" = "Dlhé stlačenie na zobrazenie okna";
+"quick_menu_long_press_show_window_delay" = "Dĺžka dlhého stlačenia";
+
 // MARK: Main Window
 "main_window_title" = "Hlavné okno:";
 "main_window_shortcut_desc" = "Globálna klávesová skratka na otvorenie hlavného okna.";

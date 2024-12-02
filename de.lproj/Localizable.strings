@@ -471,6 +471,9 @@
 "quick_menu_always_show_footer" = "Fußzeile immer anzeigen";
 "quick_menu_always_show_application_icon" = "Anwendungssymbol immer anzeigen";
 
+"quick_menu_long_press_show_window" = "Lange drücken, um Popup anzuzeigen";
+"quick_menu_long_press_show_window_delay" = "Dauer des langen Drucks";
+
 // MARK: Main Window
 "main_window_title" = "Hauptfenster:";
 "main_window_shortcut_desc" = "Globale Tastenkombination zum Öffnen des Hauptfensters.";

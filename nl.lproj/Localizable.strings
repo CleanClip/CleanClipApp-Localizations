@@ -471,6 +471,9 @@
 "quick_menu_always_show_footer" = "Altijd de voettekst weergeven";
 "quick_menu_always_show_application_icon" = "Altijd het applicatie-icoon weergeven";
 
+"quick_menu_long_press_show_window" = "Langzaam indrukken om te openen";
+"quick_menu_long_press_show_window_delay" = "Duur van het langzaam indrukken";
+
 // MARK: Main Window
 "main_window_title" = "Hoofdvenster:";
 "main_window_shortcut_desc" = "Globale sneltoets om het hoofdvenster te openen.";

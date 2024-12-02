@@ -471,6 +471,9 @@
 "quick_menu_always_show_footer" = "始终显示页脚";
 "quick_menu_always_show_application_icon" = "始终显示应用程序图标";
 
+"quick_menu_long_press_show_window" = "长按弹出";
+"quick_menu_long_press_show_window_delay" = "长按持续时间";
+
 // MARK: Main Window
 "main_window_title" = "主窗口:";
 "main_window_shortcut_desc" = "打开主窗口的全局快捷键。";

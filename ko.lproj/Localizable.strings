@@ -471,6 +471,9 @@
 "quick_menu_always_show_footer" = "항상 바닥글 표시";
 "quick_menu_always_show_application_icon" = "항상 응용 프로그램 아이콘 표시";
 
+"quick_menu_long_press_show_window" = "길게 눌러서 팝업하기";
+"quick_menu_long_press_show_window_delay" = "길게 누르는 시간";
+
 // MARK: Main Window
 "main_window_title" = "주 창:";
 "main_window_shortcut_desc" = "주 창을 열기 위한 전역 단축키.";

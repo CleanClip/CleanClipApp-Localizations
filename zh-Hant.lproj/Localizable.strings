@@ -471,6 +471,9 @@
 "quick_menu_always_show_footer" = "始終顯示頁腳";
 "quick_menu_always_show_application_icon" = "始終顯示應用程式圖示";
 
+"quick_menu_long_press_show_window" = "長按以彈出";
+"quick_menu_long_press_show_window_delay" = "長按持續時間";
+
 // MARK: Main Window
 "main_window_title" = "主視窗:";
 "main_window_shortcut_desc" = "打開主視窗的全域快捷鍵。";

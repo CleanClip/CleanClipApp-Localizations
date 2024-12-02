@@ -471,6 +471,9 @@
 "quick_menu_always_show_footer" = "แสดงส่วนท้ายเสมอ";
 "quick_menu_always_show_application_icon" = "แสดงไอคอนแอปพลิเคชันเสมอ";
 
+"quick_menu_long_press_show_window" = "กดค้างเพื่อแสดงเมนู";
+"quick_menu_long_press_show_window_delay" = "ระยะเวลาการกดค้าง";
+
 // MARK: Main Window
 "main_window_title" = "หน้าต่างหลัก:";
 "main_window_shortcut_desc" = "ปุ่มทางลัดทั่วโลกเพื่อเปิดหน้าต่างหลัก";

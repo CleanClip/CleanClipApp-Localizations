@@ -471,6 +471,9 @@
 "quick_menu_always_show_footer" = "Πάντα Εμφάνιση Υποσέλιδου";
 "quick_menu_always_show_application_icon" = "Πάντα Εμφάνιση Εικονιδίου Εφαρμογής";
 
+"quick_menu_long_press_show_window" = "Πατήστε παρατεταμένα για να εμφανιστεί το παράθυρο";
+"quick_menu_long_press_show_window_delay" = "Διάρκεια παρατεταμένου πατήματος";
+
 // MARK: Main Window
 "main_window_title" = "Κεντρικό παράθυρο:";
 "main_window_shortcut_desc" = "Καθολικό πλήκτρο συντόμευσης για άνοιγμα του κύριου παραθύρου.";

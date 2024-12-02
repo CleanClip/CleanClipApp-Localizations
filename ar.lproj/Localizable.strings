@@ -471,6 +471,9 @@
 "quick_menu_always_show_footer" = "عرض التذييل دائمًا";
 "quick_menu_always_show_application_icon" = "عرض أيقونة التطبيق دائمًا";
 
+"quick_menu_long_press_show_window" = "اضغط مطولاً لعرض النافذة";
+"quick_menu_long_press_show_window_delay" = "مدة الضغط المطول";
+
 // MARK: Main Window
 "main_window_title" = "النافذة الرئيسية:";
 "main_window_shortcut_desc" = "مفتاح اختصار عالمي لفتح النافذة الرئيسية.";

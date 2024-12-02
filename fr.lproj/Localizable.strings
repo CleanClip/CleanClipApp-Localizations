@@ -471,6 +471,9 @@
 "quick_menu_always_show_footer" = "Toujours afficher le pied de page";
 "quick_menu_always_show_application_icon" = "Toujours afficher l'icône de l'application";
 
+"quick_menu_long_press_show_window" = "Appuyez longuement pour afficher";
+"quick_menu_long_press_show_window_delay" = "Durée de l'appui long";
+
 // MARK: Main Window
 "main_window_title" = "Fenêtre principale:";
 "main_window_shortcut_desc" = "Touche de raccourci pour ouvrir la fenêtre principale.";

@@ -471,6 +471,9 @@
 "quick_menu_always_show_footer" = "Always Show Footer";
 "quick_menu_always_show_application_icon" = "Always Show Application Icon";
 
+"quick_menu_long_press_show_window" = "Long-Press To Popup";
+"quick_menu_long_press_show_window_delay" = "Long-Press Duration";
+
 // MARK: Main Window
 "main_window_title" = "Main Window:";
 "main_window_shortcut_desc" = "Global shortcut key to open main window.";
