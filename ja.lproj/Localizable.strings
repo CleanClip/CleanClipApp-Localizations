@@ -14,7 +14,7 @@
 "accessibility_alert_open" = "“システム環境設定”を開く";
 "clear_alert_message" = "履歴をクリアしますか？";
 "clear_scope_alert_message" = "設定された条件の下ですべてのコンテンツをクリアしてもよろしいですか？";
-"clear_alert_comment" = "このアクションは元に戻すことができません。";
+"clear_alert_comment" = "%@ コレクションリストアイテムを含める\n%@ エイリアスアイテムを含める";
 "clear_alert_cancel" = "キャンセル";
 "clear_alert_confirm" = "クリア";
 
@@ -68,6 +68,7 @@
 "preview" = "プレビュー";
 "search_number" = "番号検索";
 "switch_item" = "オプションを切り替える";
+"expand" = "展開する";
 
 "paste_to" = "%@ に貼り付け";
 "lines" = "%@ 行";
@@ -235,6 +236,9 @@
 "pin_context_preview_when_hover" = "ホバーでプレビューを有効にする";
 "pin_context_share" = "共有...";
 
+"pin_context_paste_settings" = "設定を貼り付ける";
+"pin_context_include_timestamp" = "タイムスタンプを含める";
+"pin_context_include_alias" = "エイリアスを含める";
 "pin_context_paste_one_by_one" = "一つずつ貼り付け";
 "pin_context_merge_settings" = "設定を統合";
 "pin_context_merge_copy" = "統合してコピー";
@@ -516,7 +520,7 @@
 "clear_favorites_description" = "無効にすると、コレクションリストアイテムは自動クリアの範囲に含まれません";
 "clear_with_alias" = "エイリアスアイテムを含める";
 "clear_with_alias_description" = "無効にすると、エイリアスアイテムは自動クリアの範囲に含まれません";
-"clear_once" = "一度クリア";
+"clear_once" = "スコープで一度クリア";
 "clear_all" = "すべての内容をクリア";
 
 // MARK: Ignore

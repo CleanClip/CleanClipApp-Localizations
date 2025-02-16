@@ -14,7 +14,7 @@
 "accessibility_alert_open" = "打开系统偏好设置";
 "clear_alert_message" = "确定要清除全部历史记录吗？";
 "clear_scope_alert_message" = "您确定要清除在设定条件下的所有内容吗？";
-"clear_alert_comment" = "无法撤消此操作。";
+"clear_alert_comment" = "%@ 包含集合列表项\n%@ 包含别名项";
 "clear_alert_cancel" = "取消";
 "clear_alert_confirm" = "清除";
 
@@ -68,6 +68,7 @@
 "preview" = "预览";
 "search_number" = "数字搜索";
 "switch_item" = "切换选项";
+"expand" = "展开";
 
 "paste_to" = "粘贴到 %@";
 "lines" = "%@ 行";
@@ -235,6 +236,9 @@
 "pin_context_preview_when_hover" = "开启鼠标悬停预览";
 "pin_context_share" = "分享...";
 
+"pin_context_paste_settings" = "粘贴设置";
+"pin_context_include_timestamp" = "包含时间戳";
+"pin_context_include_alias" = "包含别名";
 "pin_context_paste_one_by_one" = "逐个粘贴";
 "pin_context_merge_settings" = "合并设置";
 "pin_context_merge_copy" = "合并并复制";
@@ -516,7 +520,7 @@
 "clear_favorites_description" = "如果禁用，收藏列表项目将不包含在自动清除范围内";
 "clear_with_alias" = "包含别名项目";
 "clear_with_alias_description" = "如果禁用，别名项目将不包含在自动清除范围内";
-"clear_once" = "清理一次";
+"clear_once" = "按范围清除一次";
 "clear_all" = "清空全部内容";
 
 // MARK: Ignore

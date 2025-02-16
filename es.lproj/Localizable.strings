@@ -13,8 +13,8 @@
 "accessibility_alert_deny" = "Denegar";
 "accessibility_alert_open" = "Abrir Preferencias del Sistema";
 "clear_alert_message" = "¿Estás seguro de que deseas borrar todo el contenido?";
-"clear_scope_alert_message" = "¿Estás seguro de que deseas borrar todo el contenido bajo las condiciones establecidas?";
-"clear_alert_comment" = "No puedes deshacer esta acción.";
+"clear_scope_alert_message" = "¿Está seguro de que desea borrar todo el contenido bajo las condiciones establecidas?";
+"clear_alert_comment" = "%@ Incluir elementos de la lista de colección\n%@ Incluir elementos con alias";
 "clear_alert_cancel" = "No ahora";
 "clear_alert_confirm" = "Borrar Todo";
 
@@ -68,6 +68,7 @@
 "preview" = "Vista previa";
 "search_number" = "Búsqueda por número";
 "switch_item" = "Cambiar opción";
+"expand" = "Expandir";
 
 "paste_to" = "Pegar en %@";
 "lines" = "%@ líneas";
@@ -235,6 +236,9 @@
 "pin_context_preview_when_hover" = "Habilitar Vista Previa al Pasar el Ratón";
 "pin_context_share" = "Compartir...";
 
+"pin_context_paste_settings" = "Configuraciones de Pegado";
+"pin_context_include_timestamp" = "Incluir Marca de Tiempo";
+"pin_context_include_alias" = "Incluir Alias";
 "pin_context_paste_one_by_one" = "Pegar uno por uno";
 "pin_context_merge_settings" = "Combinar configuraciones";
 "pin_context_merge_copy" = "Combinar y Copiar";
@@ -516,7 +520,7 @@
 "clear_favorites_description" = "Si está desactivado, los elementos de la lista de colección no se incluirán en el alcance de limpieza automática";
 "clear_with_alias" = "Incluir elementos alias";
 "clear_with_alias_description" = "Si está desactivado, los elementos alias no se incluirán en el alcance de limpieza automática";
-"clear_once" = "Limpiar una vez";
+"clear_once" = "Borrar una vez por alcance";
 "clear_all" = "Borrar todo el contenido";
 
 // MARK: Ignore

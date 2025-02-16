@@ -14,7 +14,7 @@
 "accessibility_alert_open" = "Systemeinstellungen öffnen";
 "clear_alert_message" = "Sind Sie sicher, dass Sie alle Inhalte löschen möchten?";
 "clear_scope_alert_message" = "Sind Sie sicher, dass Sie alle Inhalte unter den festgelegten Bedingungen löschen möchten?";
-"clear_alert_comment" = "Sie können diese Aktion nicht rückgängig machen.";
+"clear_alert_comment" = "%@ Sammlungslisten-Elemente einfügen\n%@ Alias-Elemente einfügen";
 "clear_alert_cancel" = "Nicht jetzt";
 "clear_alert_confirm" = "Alle löschen";
 
@@ -68,6 +68,7 @@
 "preview" = "Vorschau";
 "search_number" = "Nummer suchen";
 "switch_item" = "Option wechseln";
+"expand" = "Erweitern";
 
 "paste_to" = "Einfügen in %@";
 "lines" = "%@ Zeilen";
@@ -235,6 +236,9 @@
 "pin_context_preview_when_hover" = "Vorschau bei Hover aktivieren";
 "pin_context_share" = "Teilen...";
 
+"pin_context_paste_settings" = "Einfügeeinstellungen";
+"pin_context_include_timestamp" = "Zeitstempel einfügen";
+"pin_context_include_alias" = "Alias einfügen";
 "pin_context_paste_one_by_one" = "Eins nach dem anderen einfügen";
 "pin_context_merge_settings" = "Einstellungen zusammenführen";
 "pin_context_merge_copy" = "Zusammenführen und kopieren";
@@ -516,7 +520,7 @@
 "clear_favorites_description" = "Wenn deaktiviert, werden Sammlungslisten-Elemente nicht in den automatischen Löschbereich einbezogen";
 "clear_with_alias" = "Alias-Elemente einbeziehen";
 "clear_with_alias_description" = "Wenn deaktiviert, werden Alias-Elemente nicht in den automatischen Löschbereich einbezogen";
-"clear_once" = "Einmal löschen";
+"clear_once" = "Einmal nach Bereich löschen";
 "clear_all" = "Alle Inhalte löschen";
 
 // MARK: Ignore

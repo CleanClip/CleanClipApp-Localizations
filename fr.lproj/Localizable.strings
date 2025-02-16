@@ -13,8 +13,8 @@
 "accessibility_alert_deny" = "Refuser";
 "accessibility_alert_open" = "Ouvrir les Préférences Système";
 "clear_alert_message" = "Voulez-vous vraiment effacer l'historique?";
-"clear_scope_alert_message" = "Êtes-vous sûr de vouloir effacer tout le contenu sous les conditions définies ?";
-"clear_alert_comment" = "Vous ne pouvez pas annuler cette action.";
+"clear_scope_alert_message" = "Êtes-vous sûr de vouloir effacer tout le contenu sous les conditions définies ? ";
+"clear_alert_comment" = "%@ Inclure les éléments de la liste de collection\n%@ Inclure les éléments alias";
 "clear_alert_cancel" = "Annuler";
 "clear_alert_confirm" = "Supprimer";
 
@@ -68,6 +68,7 @@
 "preview" = "Aperçu";
 "search_number" = "Recherche par numéro";
 "switch_item" = "Options de basculement";
+"expand" = "Développer";
 
 "paste_to" = "Coller à %@";
 "lines" = "%@ lignes";
@@ -235,6 +236,9 @@
 "pin_context_preview_when_hover" = "Activer l'aperçu au survol";
 "pin_context_share" = "Partager...";
 
+"pin_context_paste_settings" = "Paramètres de collage";
+"pin_context_include_timestamp" = "Inclure l'horodatage";
+"pin_context_include_alias" = "Inclure l'alias";
 "pin_context_paste_one_by_one" = "Coller un par un";
 "pin_context_merge_settings" = "Fusionner les paramètres";
 "pin_context_merge_copy" = "Fusionner et Copier";
@@ -516,7 +520,7 @@
 "clear_favorites_description" = "Si désactivé, les éléments de la liste de collection ne seront pas inclus dans le champ d'application de la suppression automatique";
 "clear_with_alias" = "Inclure les éléments aliasés";
 "clear_with_alias_description" = "Si désactivé, les éléments aliasés ne seront pas inclus dans le champ d'application de la suppression automatique";
-"clear_once" = "Effacer une fois";
+"clear_once" = "Effacer une fois par portée";
 "clear_all" = "Effacer tout le contenu";
 
 // MARK: Ignore

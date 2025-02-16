@@ -14,7 +14,7 @@
 "accessibility_alert_open" = "เปิดการตั้งค่าระบบ";
 "clear_alert_message" = "คุณแน่ใจหรือไม่ว่าต้องการลบเนื้อหาทั้งหมด?";
 "clear_scope_alert_message" = "คุณแน่ใจหรือไม่ว่าต้องการลบเนื้อหาทั้งหมดภายใต้เงื่อนไขที่ตั้งไว้?";
-"clear_alert_comment" = "คุณไม่สามารถย้อนกลับการกระทำนี้ได้.";
+"clear_alert_comment" = "%@ รวมรายการในรายการสะสม\n%@ รวมรายการที่มีชื่อเล่น";
 "clear_alert_cancel" = "ไม่ตอนนี้";
 "clear_alert_confirm" = "ลบทั้งหมด";
 
@@ -68,6 +68,7 @@
 "preview" = "ดูตัวอย่าง";
 "search_number" = "ค้นหาหมายเลข";
 "switch_item" = "เปลี่ยนตัวเลือก";
+"expand" = "ขยาย";
 
 "paste_to" = "วางไปที่ %@";
 "lines" = "%@ บรรทัด";
@@ -235,6 +236,9 @@
 "pin_context_preview_when_hover" = "เปิดใช้งานการดูตัวอย่างเมื่อชี้";
 "pin_context_share" = "แชร์...";
 
+"pin_context_paste_settings" = "ตั้งค่าการวาง";
+"pin_context_include_timestamp" = "รวมเวลาประทับ";
+"pin_context_include_alias" = "รวมชื่อเล่น";
 "pin_context_paste_one_by_one" = "วางทีละรายการ";
 "pin_context_merge_settings" = "รวมการตั้งค่า";
 "pin_context_merge_copy" = "รวมและคัดลอก";
@@ -516,7 +520,7 @@
 "clear_favorites_description" = "หากปิดใช้งาน รายการในรายการสะสมจะไม่รวมอยู่ในขอบเขตการทำความสะอาดอัตโนมัติ";
 "clear_with_alias" = "รวมรายการที่มีชื่อเล่น";
 "clear_with_alias_description" = "หากปิดใช้งาน รายการที่มีชื่อเล่นจะไม่รวมอยู่ในขอบเขตการทำความสะอาดอัตโนมัติ";
-"clear_once" = "ล้างครั้งเดียว";
+"clear_once" = "ลบครั้งเดียวตามขอบเขต";
 "clear_all" = "ลบเนื้อหาทั้งหมด";
 
 // MARK: Ignore

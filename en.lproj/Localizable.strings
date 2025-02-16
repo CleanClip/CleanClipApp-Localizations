@@ -13,8 +13,8 @@
 "accessibility_alert_deny" = "Deny";
 "accessibility_alert_open" = "Open System Preferences";
 "clear_alert_message" = "Are you sure you want to clear all content?";
-"clear_scope_alert_message" = "Are you sure you want to clear all content under the set conditions?";
-"clear_alert_comment" = "You can't undo this action.";
+"clear_scope_alert_message" = "Are you sure you want to clear all content under the set conditions? ";
+"clear_alert_comment" = "%@ Include collection list items\n%@ Include aliased items";
 "clear_alert_cancel" = "Not Now";
 "clear_alert_confirm" = "Clear All";
 
@@ -68,6 +68,7 @@
 "preview" = "Preview";
 "search_number" = "Number Search";
 "switch_item" = "Switch Option";
+"expand" = "Expand";
 
 "paste_to" = "Paste to %@";
 "lines" = "%@ lines";
@@ -235,6 +236,9 @@
 "pin_context_preview_when_hover" = "Enable Preview on Hover";
 "pin_context_share" = "Share...";
 
+"pin_context_paste_settings" = "Paste Settings";
+"pin_context_include_timestamp" = "Include Timestamp";
+"pin_context_include_alias" = "Include Alias"; 
 "pin_context_paste_one_by_one" = "Paste one by one";
 "pin_context_merge_settings" = "Merge settings";
 "pin_context_merge_copy" = "Merge and Copy";
@@ -516,7 +520,7 @@
 "clear_favorites_description" = "If disabled, collection list items will not be included in the auto clear scope";
 "clear_with_alias" = "Include aliased items";
 "clear_with_alias_description" = "If disabled, aliased items will not be included in the auto clear scope";
-"clear_once" = "Clear once";
+"clear_once" = "Clear once by scope";
 "clear_all" = "Clear all content";
 
 // MARK: Ignore

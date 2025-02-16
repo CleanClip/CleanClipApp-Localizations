@@ -13,8 +13,8 @@
 "accessibility_alert_deny" = "رفض";
 "accessibility_alert_open" = "فتح تفضيلات النظام";
 "clear_alert_message" = "هل أنت متأكد أنك تريد مسح كل المحتوى؟";
-"clear_scope_alert_message" = "هل أنت متأكد أنك تريد مسح كل المحتوى تحت الشروط المحددة؟";
-"clear_alert_comment" = "لا يمكنك التراجع عن هذا الإجراء.";
+"clear_scope_alert_message" = "هل أنت متأكد أنك تريد مسح كل المحتوى تحت الشروط المحددة؟ ";
+"clear_alert_comment" = "%@ تضمين عناصر قائمة الجمع\n%@ تضمين العناصر ذات الاسم المستعار";
 "clear_alert_cancel" = "ليس الآن";
 "clear_alert_confirm" = "مسح الكل";
 
@@ -68,6 +68,7 @@
 "preview" = "معاينة";
 "search_number" = "بحث عن رقم";
 "switch_item" = "تبديل الخيار";
+"expand" = "توسيع";
 
 "paste_to" = "لصق في %@";
 "lines" = "%@ سطر";
@@ -235,6 +236,9 @@
 "pin_context_preview_when_hover" = "تمكين المعاينة عند التمرير";
 "pin_context_share" = "مشاركة...";
 
+"pin_context_paste_settings" = "إعدادات اللصق";
+"pin_context_include_timestamp" = "تضمين الطابع الزمني";
+"pin_context_include_alias" = "تضمين الاسم المستعار";
 "pin_context_paste_one_by_one" = "لصق واحد تلو الآخر";
 "pin_context_merge_settings" = "دمج الإعدادات";
 "pin_context_merge_copy" = "دمج ونسخ";
@@ -516,7 +520,7 @@
 "clear_favorites_description" = "إذا تم تعطيله، فلن يتم تضمين عناصر قائمة المجموعة في نطاق التنظيف التلقائي";
 "clear_with_alias" = "تضمين العناصر المستعارة";
 "clear_with_alias_description" = "إذا تم تعطيله، فلن يتم تضمين العناصر المستعارة في نطاق التنظيف التلقائي";
-"clear_once" = "مسح مرة واحدة";
+"clear_once" = "مسح مرة واحدة حسب النطاق";
 "clear_all" = "مسح كل المحتوى";
 
 // MARK: Ignore

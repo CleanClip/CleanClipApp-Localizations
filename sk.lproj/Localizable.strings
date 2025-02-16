@@ -13,8 +13,8 @@
 "accessibility_alert_deny" = "Zakázať";
 "accessibility_alert_open" = "Otvoriť Systémové nastavenia";
 "clear_alert_message" = "Naozaj chceš vymazať všetok obsah?";
-"clear_scope_alert_message" = "Ste ste si istý, že chcete vymazať všetok obsah pod nastavenými podmienkami?";
-"clear_alert_comment" = "Túto akciu nemožno vrátiť späť.";
+"clear_scope_alert_message" = "Ste si istí, že chcete vymazať všetok obsah pod nastavenými podmienkami? ";
+"clear_alert_comment" = "%@ Zahrnúť položky zo zoznamu zbierok\n%@ Zahrnúť aliasované položky";
 "clear_alert_cancel" = "Teraz nie";
 "clear_alert_confirm" = "Odstrániť všetko";
 
@@ -68,6 +68,7 @@
 "preview" = "Náhľad";
 "search_number" = "Vyhľadávanie čísel";
 "switch_item" = "Možnosť prepínania";
+"expand" = "Rozšíriť";
 
 "paste_to" = "Prilepiť do %@";
 "lines" = "%@ riadkov";
@@ -235,6 +236,9 @@
 "pin_context_preview_when_hover" = "Povoliť náhľad pri prejdení myšou";
 "pin_context_share" = "Zdieľať...";
 
+"pin_context_paste_settings" = "Nastavenia prilepenia";
+"pin_context_include_timestamp" = "Zahrnúť časovú pečiatku";
+"pin_context_include_alias" = "Zahrnúť alias";
 "pin_context_paste_one_by_one" = "Vkladať po jednom";
 "pin_context_merge_settings" = "Zlúčiť nastavenia";
 "pin_context_merge_copy" = "Zlúčiť a kopírovať";
@@ -516,7 +520,7 @@
 "clear_favorites_description" = "Ak je zakázané, položky zo zoznamu zbierok nebudú zahrnuté v automatickom vymazávaní";
 "clear_with_alias" = "Zahrnúť aliasované položky";
 "clear_with_alias_description" = "Ak je zakázané, aliasované položky nebudú zahrnuté v automatickom vymazávaní";
-"clear_once" = "Vymazať raz";
+"clear_once" = "Vymazať raz podľa rozsahu";
 "clear_all" = "Vymazať všetok obsah";
 
 // MARK: Ignore
