@@ -430,6 +430,7 @@
 "settings_paste_stack" = "貼上佇列";
 "settings_ignore" = "規則";
 "settings_storage" = "儲存空間";
+"settings_backup" = "備份與恢復";
 "settings_ocr" = "OCR";
 "settings_about" = "關於";
 "settings_appupdates" = "軟體更新可用";
@@ -761,3 +762,44 @@
 "binding_failed_message" = "郵箱綁定失敗，請稍後重試：%@";
 
 "invite_friends" = "邀請 & 賺取";
+
+// MARK: - BackupSettings
+"backup_and_recovery" = "備份與恢復";
+"actions_and_recovery" = "操作與恢復";
+"manual_backups" = "手動備份";
+"automatic_backups" = "自動備份";
+"auto_backup_description" = "自動備份大約每 8 小時創建一次。系統保留最近的 7 個自動備份，並額外保留每個應用版本的最新備份。手動備份不會自動刪除。";
+"backup_now" = "立即備份";
+"manual_recovery_guide" = "手動恢復指南：";
+"recovery_instructions_intro" = "如果您需要從備份中恢復數據，請按照以下步驟操作：";
+"recovery_step_1" = "1. 在下面的列表中找到您想要恢復的備份，點擊 Finder 按鈕以打開其文件夾。";
+"recovery_step_2" = "2. 複製文件夾中的所有文件（通常是 `.sqlite`、`.sqlite-shm`、`.sqlite-wal）。";
+"recovery_step_3" = "3. 完全退出 CleanClip 應用程序。";
+"recovery_step_4" = "4. 在 Finder 中，轉到以下數據存儲目錄：";
+"recovery_step_5" = "5. 將步驟 2 中複製的文件粘貼到此目錄中，覆蓋現有文件。";
+"recovery_step_6" = "6. 重新啟動 CleanClip 應用程序。";
+"open_directory" = "打開目錄";
+"loading_path" = "加載路徑中...";
+"path_not_available" = "路徑不可用";
+"loading" = "加載中...";
+"no_backups_found" = "未找到 %@ 記錄。";
+"date" = "日期";
+"app_version" = "應用版本";
+"model_version" = "模型版本";
+"size" = "大小";
+"unknown" = "未知";
+"not_available" = "不適用";
+"show_in_finder" = "在 Finder 中顯示";
+"delete_backup" = "刪除備份";
+"delete_selected" = "刪除所選";
+"show_in_finder_help" = "在 Finder 中顯示所選備份（僅限單選）";
+"delete_selected_help" = "刪除所有選定的備份";
+"confirm_delete" = "確認刪除";
+"delete_count_items" = "刪除 %d 項";
+"cancel" = "取消";
+"delete_backups_confirmation" = "您確定要刪除所選的 %d 個備份嗎？此操作無法撤銷。";
+"operation_failed" = "操作失敗";
+"ok" = "確定";
+"load_backups_failed" = "無法加載 %@ 備份列表";
+"manual_backup_failed" = "手動備份失敗";
+"delete_partial_failed" = "刪除某些備份時出錯";

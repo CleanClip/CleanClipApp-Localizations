@@ -430,6 +430,7 @@
 "settings_paste_stack" = "Plakwachtrij";
 "settings_ignore" = "Regels";
 "settings_storage" = "Opslag";
+"settings_backup" = "Back-up en Herstel";
 "settings_ocr" = "OCR";
 "settings_about" = "Over";
 "settings_appupdates" = "Software-update beschikbaar";
@@ -761,3 +762,44 @@
 "binding_failed_message" = "E-mail koppeling mislukt, probeer het later opnieuw: %@";
 
 "invite_friends" = "Uitnodigen & Verdienen";
+
+// MARK: - BackupSettings
+"backup_and_recovery" = "Back-up & Herstel";
+"actions_and_recovery" = "Acties & Herstel";
+"manual_backups" = "Handmatige Back-ups";
+"automatic_backups" = "Automatische Back-ups";
+"auto_backup_description" = "Automatische back-ups worden ongeveer elke 8 uur gemaakt. Het systeem behoudt de meest recente 7 automatische back-ups en houdt daarnaast de laatste back-up van elke app-versie. Handmatige back-ups worden niet automatisch verwijderd.";
+"backup_now" = "Maak nu een back-up";
+"manual_recovery_guide" = "Handleiding voor Herstel:";
+"recovery_instructions_intro" = "Als je gegevens uit een back-up wilt herstellen, volg dan deze stappen:";
+"recovery_step_1" = "1. Zoek de back-up die je wilt herstellen in de onderstaande lijst en klik op de Finder-knop om de map te openen.";
+"recovery_step_2" = "2. Kopieer alle bestanden in de map (meestal `.sqlite`, `.sqlite-shm`, `.sqlite-wal`).";
+"recovery_step_3" = "3. Sluit de CleanClip-applicatie volledig af.";
+"recovery_step_4" = "4. Ga in Finder naar de volgende gegevensopslagdirectory:";
+"recovery_step_5" = "5. Plak de in stap 2 gekopieerde bestanden in deze directory, waarbij je de bestaande bestanden overschrijft.";
+"recovery_step_6" = "6. Start de CleanClip-applicatie opnieuw.";
+"open_directory" = "Open Directory";
+"loading_path" = "Pad laden...";
+"path_not_available" = "Pad niet beschikbaar";
+"loading" = "Laden...";
+"no_backups_found" = "Geen %@ records gevonden.";
+"date" = "Datum";
+"app_version" = "App Versie";
+"model_version" = "Model Versie";
+"size" = "Grootte";
+"unknown" = "Onbekend";
+"not_available" = "N/B";
+"show_in_finder" = "Toon in Finder";
+"delete_backup" = "Verwijder Back-up";
+"delete_selected" = "Verwijder Geselecteerd";
+"show_in_finder_help" = "Toon de geselecteerde back-up in Finder (alleen enkele selectie)";
+"delete_selected_help" = "Verwijder alle geselecteerde back-ups";
+"confirm_delete" = "Bevestig Verwijdering";
+"delete_count_items" = "Verwijder %d Items";
+"cancel" = "Annuleren";
+"delete_backups_confirmation" = "Weet je zeker dat je de geselecteerde %d back-ups wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.";
+"operation_failed" = "Operatie Mislukt";
+"ok" = "OK";
+"load_backups_failed" = "Laden van %@ back-uplijst mislukt";
+"manual_backup_failed" = "Handmatige back-up mislukt";
+"delete_partial_failed" = "Fout bij het verwijderen van sommige back-ups";

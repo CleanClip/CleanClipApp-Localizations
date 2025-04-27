@@ -430,6 +430,7 @@
 "settings_paste_stack" = "貼り付けキュー";
 "settings_ignore" = "ルール";
 "settings_storage" = "ストレージ";
+"settings_backup" = "バックアップと復元";
 "settings_ocr" = "OCR";
 "settings_about" = "情報";
 "settings_appupdates" = "ソフトウェア更新が利用可能です";
@@ -761,3 +762,44 @@
 "binding_failed_message" = "メールアドレスのバインドに失敗しました。後でもう一度お試しください：%@";
 
 "invite_friends" = "招待して稼ぐ";
+
+// MARK: - BackupSettings
+"backup_and_recovery" = "バックアップと復元";
+"actions_and_recovery" = "アクションと復元";
+"manual_backups" = "手動バックアップ";
+"automatic_backups" = "自動バックアップ";
+"auto_backup_description" = "自動バックアップは約8時間ごとに作成されます。システムは最新の7つの自動バックアップを保持し、各アプリバージョンの最新バックアップも保持します。手動バックアップは自動的に削除されることはありません。";
+"backup_now" = "今すぐバックアップ";
+"manual_recovery_guide" = "手動復元ガイド:";
+"recovery_instructions_intro" = "バックアップからデータを復元する必要がある場合は、以下の手順に従ってください:";
+"recovery_step_1" = "1. 下のリストから復元したいバックアップを見つけ、Finderボタンをクリックしてそのフォルダを開きます。";
+"recovery_step_2" = "2. フォルダ内のすべてのファイル（通常は`.sqlite`、`.sqlite-shm`、`.sqlite-wal`）をコピーします。";
+"recovery_step_3" = "3. CleanClipアプリケーションを完全に終了します。";
+"recovery_step_4" = "4. Finderで、次のデータストレージディレクトリに移動します:";
+"recovery_step_5" = "5. ステップ2でコピーしたファイルをこのディレクトリに貼り付け、既存のファイルを上書きします。";
+"recovery_step_6" = "6. CleanClipアプリケーションを再起動します。";
+"open_directory" = "ディレクトリを開く";
+"loading_path" = "パスを読み込んでいます...";
+"path_not_available" = "パスは利用できません";
+"loading" = "読み込み中...";
+"no_backups_found" = "バックアップが見つかりませんでした %@ 件。";
+"date" = "日付";
+"app_version" = "アプリバージョン";
+"model_version" = "モデルバージョン";
+"size" = "サイズ";
+"unknown" = "不明";
+"not_available" = "利用不可";
+"show_in_finder" = "Finderで表示";
+"delete_backup" = "バックアップを削除";
+"delete_selected" = "選択したものを削除";
+"show_in_finder_help" = "選択したバックアップをFinderで表示します（単一選択のみ）";
+"delete_selected_help" = "選択したすべてのバックアップを削除します";
+"confirm_delete" = "削除を確認";
+"delete_count_items" = "%d 件を削除";
+"cancel" = "キャンセル";
+"delete_backups_confirmation" = "選択した%d件のバックアップを削除してもよろしいですか？この操作は元に戻せません。";
+"operation_failed" = "操作に失敗しました";
+"ok" = "OK";
+"load_backups_failed" = "%@ バックアップリストの読み込みに失敗しました";
+"manual_backup_failed" = "手動バックアップに失敗しました";
+"delete_partial_failed" = "一部のバックアップの削除中にエラーが発生しました";

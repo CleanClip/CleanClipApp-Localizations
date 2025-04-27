@@ -430,6 +430,7 @@
 "settings_paste_stack" = "Vrsta lepljenja";
 "settings_ignore" = "Pravidlá";
 "settings_storage" = "Úložisko";
+"settings_backup" = "Zálohovanie a obnova";
 "settings_ocr" = "OCR";
 "settings_about" = "O nas";
 "settings_appupdates" = "Na voljo je posodobitev programske opreme";
@@ -761,3 +762,44 @@
 "binding_failed_message" = "Prepojenie e-mailu zlyhalo, skúste to prosím neskôr: %@";
 
 "invite_friends" = "Pozvite a zarábajte";
+
+// MARK: - BackupSettings
+"backup_and_recovery" = "Zálohovanie a obnova";
+"actions_and_recovery" = "Akcie a obnova";
+"manual_backups" = "Ručné zálohy";
+"automatic_backups" = "Automatické zálohy";
+"auto_backup_description" = "Automatické zálohy sa vytvárajú približne každých 8 hodín. Systém uchováva posledných 7 automatických záloh a navyše uchováva najnovšiu zálohu každej verzie aplikácie. Ručné zálohy nebudú automaticky odstránené.";
+"backup_now" = "Zálohovať teraz";
+"manual_recovery_guide" = "Príručka na ručnú obnovu:";
+"recovery_instructions_intro" = "Ak potrebujete obnoviť údaje zo zálohy, postupujte podľa týchto krokov:";
+"recovery_step_1" = "1. Nájdite zálohu, ktorú chcete obnoviť, v zozname nižšie, kliknite na tlačidlo Finder, aby ste otvorili jej priečinok.";
+"recovery_step_2" = "2. Skopírujte všetky súbory v priečinku (zvyčajne `.sqlite`, `.sqlite-shm`, `.sqlite-wal`).";
+"recovery_step_3" = "3. Úplne ukončite aplikáciu CleanClip.";
+"recovery_step_4" = "4. V aplikácii Finder prejdite do nasledujúceho adresára na ukladanie údajov:";
+"recovery_step_5" = "5. Vložte súbory skopírované v kroku 2 do tohto adresára, čím prepíšete existujúce súbory.";
+"recovery_step_6" = "6. Reštartujte aplikáciu CleanClip.";
+"open_directory" = "Otvoriť adresár";
+"loading_path" = "Načítavanie cesty...";
+"path_not_available" = "Cesta nie je k dispozícii";
+"loading" = "Načítava sa...";
+"no_backups_found" = "Žiadne %@ záznamy.";
+"date" = "Dátum";
+"app_version" = "Verzia aplikácie";
+"model_version" = "Verzia modelu";
+"size" = "Veľkosť";
+"unknown" = "Neznáme";
+"not_available" = "N/A";
+"show_in_finder" = "Zobraziť v aplikácii Finder";
+"delete_backup" = "Odstrániť zálohu";
+"delete_selected" = "Odstrániť vybrané";
+"show_in_finder_help" = "Zobraziť vybranú zálohu v aplikácii Finder (iba jediné vybranie)";
+"delete_selected_help" = "Odstrániť všetky vybrané zálohy";
+"confirm_delete" = "Potvrdiť odstránenie";
+"delete_count_items" = "Odstrániť %d položiek";
+"cancel" = "Zrušiť";
+"delete_backups_confirmation" = "Ste si istí, že chcete odstrániť vybrané %d zálohy? Túto operáciu nie je možné vrátiť späť.";
+"operation_failed" = "Operácia zlyhala";
+"ok" = "OK";
+"load_backups_failed" = "Nepodarilo sa načítať zoznam záloh %@";
+"manual_backup_failed" = "Ručné zálohovanie zlyhalo";
+"delete_partial_failed" = "Chyba pri odstraňovaní niektorých záloh";

@@ -430,6 +430,7 @@
 "settings_paste_stack" = "Cola de pegado";
 "settings_ignore" = "Reglas";
 "settings_storage" = "Almacenamiento";
+"settings_backup" = "Copia de seguridad y recuperación";
 "settings_ocr" = "OCR";
 "settings_about" = "Acerca de";
 "settings_appupdates" = "Actualización de software disponible";
@@ -761,3 +762,44 @@
 "binding_failed_message" = "La vinculación del correo electrónico falló, por favor intenta de nuevo más tarde: %@";
 
 "invite_friends" = "Invitar y Ganar";
+
+// MARK: - BackupSettings
+"backup_and_recovery" = "Copia de seguridad y recuperación";
+"actions_and_recovery" = "Acciones y recuperación";
+"manual_backups" = "Copias de seguridad manuales";
+"automatic_backups" = "Copias de seguridad automáticas";
+"auto_backup_description" = "Las copias de seguridad automáticas se crean aproximadamente cada 8 horas. El sistema retiene las 7 copias de seguridad automáticas más recientes y además mantiene la última copia de seguridad de cada versión de la aplicación. Las copias de seguridad manuales no se eliminarán automáticamente.";
+"backup_now" = "Hacer copia de seguridad ahora";
+"manual_recovery_guide" = "Guía de recuperación manual:";
+"recovery_instructions_intro" = "Si necesita recuperar datos de una copia de seguridad, siga estos pasos:";
+"recovery_step_1" = "1. Encuentre la copia de seguridad que desea restaurar en la lista a continuación, haga clic en el botón del Finder para abrir su carpeta.";
+"recovery_step_2" = "2. Copie todos los archivos en la carpeta (generalmente `.sqlite`, `.sqlite-shm`, `.sqlite-wal`).";
+"recovery_step_3" = "3. Cierre completamente la aplicación CleanClip.";
+"recovery_step_4" = "4. En Finder, vaya al siguiente directorio de almacenamiento de datos:";
+"recovery_step_5" = "5. Pegue los archivos copiados en el paso 2 en este directorio, sobrescribiendo los archivos existentes.";
+"recovery_step_6" = "6. Reinicie la aplicación CleanClip.";
+"open_directory" = "Abrir directorio";
+"loading_path" = "Cargando ruta...";
+"path_not_available" = "Ruta no disponible";
+"loading" = "Cargando...";
+"no_backups_found" = "No se encontraron %@ registros.";
+"date" = "Fecha";
+"app_version" = "Versión de la aplicación";
+"model_version" = "Versión del modelo";
+"size" = "Tamaño";
+"unknown" = "Desconocido";
+"not_available" = "N/A";
+"show_in_finder" = "Mostrar en Finder";
+"delete_backup" = "Eliminar copia de seguridad";
+"delete_selected" = "Eliminar seleccionados";
+"show_in_finder_help" = "Mostrar la copia de seguridad seleccionada en Finder (solo selección única)";
+"delete_selected_help" = "Eliminar todas las copias de seguridad seleccionadas";
+"confirm_delete" = "Confirmar eliminación";
+"delete_count_items" = "Eliminar %d elementos";
+"cancel" = "Cancelar";
+"delete_backups_confirmation" = "¿Está seguro de que desea eliminar las %d copias de seguridad seleccionadas? Esta operación no se puede deshacer.";
+"operation_failed" = "Operación fallida";
+"ok" = "Aceptar";
+"load_backups_failed" = "Error al cargar la lista de copias de seguridad %@";
+"manual_backup_failed" = "La copia de seguridad manual falló";
+"delete_partial_failed" = "Error al eliminar algunas copias de seguridad";

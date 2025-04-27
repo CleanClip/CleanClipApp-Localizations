@@ -430,6 +430,7 @@
 "settings_paste_stack" = "Einfügewarteschlange";
 "settings_ignore" = "Regeln";
 "settings_storage" = "Speicher";
+"settings_backup" = "Sicherung & Wiederherstellung";
 "settings_ocr" = "OCR";
 "settings_about" = "Über";
 "settings_appupdates" = "Software-Update verfügbar";
@@ -761,3 +762,44 @@
 "binding_failed_message" = "E-Mail-Bindung fehlgeschlagen, bitte versuchen Sie es später erneut: %@";
 
 "invite_friends" = "Freunde einladen & verdienen";
+
+// MARK: - BackupSettings
+"backup_and_recovery" = "Backup & Wiederherstellung";
+"actions_and_recovery" = "Aktionen & Wiederherstellung";
+"manual_backups" = "Manuelle Backups";
+"automatic_backups" = "Automatische Backups";
+"auto_backup_description" = "Automatische Backups werden ungefähr alle 8 Stunden erstellt. Das System behält die letzten 7 automatischen Backups und zusätzlich das neueste Backup jeder App-Version. Manuelle Backups werden nicht automatisch gelöscht.";
+"backup_now" = "Jetzt sichern";
+"manual_recovery_guide" = "Handbuch zur Wiederherstellung:";
+"recovery_instructions_intro" = "Wenn Sie Daten aus einem Backup wiederherstellen müssen, befolgen Sie bitte diese Schritte:";
+"recovery_step_1" = "1. Finden Sie das Backup, das Sie wiederherstellen möchten, in der Liste unten und klicken Sie auf die Schaltfläche Finder, um den Ordner zu öffnen.";
+"recovery_step_2" = "2. Kopieren Sie alle Dateien im Ordner (normalerweise `.sqlite`, `.sqlite-shm`, `.sqlite-wal`).";
+"recovery_step_3" = "3. Beenden Sie die CleanClip-Anwendung vollständig.";
+"recovery_step_4" = "4. Gehen Sie im Finder zu folgendem Datenspeicherverzeichnis:";
+"recovery_step_5" = "5. Fügen Sie die in Schritt 2 kopierten Dateien in dieses Verzeichnis ein und überschreiben Sie die vorhandenen Dateien.";
+"recovery_step_6" = "6. Starten Sie die CleanClip-Anwendung neu.";
+"open_directory" = "Verzeichnis öffnen";
+"loading_path" = "Pfad wird geladen...";
+"path_not_available" = "Pfad nicht verfügbar";
+"loading" = "Laden...";
+"no_backups_found" = "Keine %@ Aufzeichnungen gefunden.";
+"date" = "Datum";
+"app_version" = "App-Version";
+"model_version" = "Modellversion";
+"size" = "Größe";
+"unknown" = "Unbekannt";
+"not_available" = "Nicht verfügbar";
+"show_in_finder" = "Im Finder anzeigen";
+"delete_backup" = "Backup löschen";
+"delete_selected" = "Ausgewählte löschen";
+"show_in_finder_help" = "Das ausgewählte Backup im Finder anzeigen (nur Einzelauswahl)";
+"delete_selected_help" = "Alle ausgewählten Backups löschen";
+"confirm_delete" = "Löschung bestätigen";
+"delete_count_items" = "%d Elemente löschen";
+"cancel" = "Abbrechen";
+"delete_backups_confirmation" = "Sind Sie sicher, dass Sie die ausgewählten %d Backups löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.";
+"operation_failed" = "Operation fehlgeschlagen";
+"ok" = "OK";
+"load_backups_failed" = "Fehler beim Laden der %@ Backup-Liste";
+"manual_backup_failed" = "Manuelles Backup fehlgeschlagen";
+"delete_partial_failed" = "Fehler beim Löschen einiger Backups";

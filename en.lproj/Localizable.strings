@@ -430,6 +430,7 @@
 "settings_paste_stack" = "Paste Queue";
 "settings_ignore" = "Rules";
 "settings_storage" = "Storage";
+"settings_backup" = "Backup & Recovery";
 "settings_ocr" = "OCR";
 "settings_about" = "About";
 "settings_appupdates" = "Software Update Available";
@@ -761,3 +762,44 @@
 "binding_failed_message" = "Email binding failed, please try again later: %@";
 
 "invite_friends" = "Invite & Earn";
+
+// MARK: - BackupSettings
+"backup_and_recovery" = "Backup & Recovery";
+"actions_and_recovery" = "Actions & Recovery";
+"manual_backups" = "Manual Backups";
+"automatic_backups" = "Automatic Backups";
+"auto_backup_description" = "Automatic backups are created approximately every 8 hours. The system retains the most recent 7 automatic backups and additionally keeps the latest backup of each App version. Manual backups will not be automatically deleted.";
+"backup_now" = "Backup Now";
+"manual_recovery_guide" = "Manual Recovery Guide:";
+"recovery_instructions_intro" = "If you need to recover data from a backup, please follow these steps:";
+"recovery_step_1" = "1. Find the backup you want to restore in the list below, click the Finder button to open its folder.";
+"recovery_step_2" = "2. Copy all files in the folder (usually `.sqlite`, `.sqlite-shm`, `.sqlite-wal`).";
+"recovery_step_3" = "3. Completely quit the CleanClip application.";
+"recovery_step_4" = "4. In Finder, go to the following data storage directory:";
+"recovery_step_5" = "5. Paste the files copied in step 2 into this directory, overwriting the existing files.";
+"recovery_step_6" = "6. Restart the CleanClip application.";
+"open_directory" = "Open Directory";
+"loading_path" = "Loading path...";
+"path_not_available" = "Path not available";
+"loading" = "Loading...";
+"no_backups_found" = "No %@ records.";
+"date" = "Date";
+"app_version" = "App Version";
+"model_version" = "Model Version";
+"size" = "Size";
+"unknown" = "Unknown";
+"not_available" = "N/A";
+"show_in_finder" = "Show in Finder";
+"delete_backup" = "Delete Backup";
+"delete_selected" = "Delete Selected";
+"show_in_finder_help" = "Show the selected backup in Finder (single selection only)";
+"delete_selected_help" = "Delete all selected backups";
+"confirm_delete" = "Confirm Deletion";
+"delete_count_items" = "Delete %d Items";
+"cancel" = "Cancel";
+"delete_backups_confirmation" = "Are you sure you want to delete the selected %d backups? This operation cannot be undone.";
+"operation_failed" = "Operation Failed";
+"ok" = "OK";
+"load_backups_failed" = "Failed to load %@ backup list";
+"manual_backup_failed" = "Manual backup failed";
+"delete_partial_failed" = "Error deleting some backups";

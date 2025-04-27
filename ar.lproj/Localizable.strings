@@ -430,6 +430,7 @@
 "settings_paste_stack" = "طابور اللصق";
 "settings_ignore" = "القواعد";
 "settings_storage" = "التخزين";
+"settings_backup" = "نسخ احتياطي واستعادة";
 "settings_ocr" = "OCR";
 "settings_about" = "حول";
 "settings_appupdates" = "تحديث البرنامج متاح";
@@ -761,3 +762,44 @@
 "binding_failed_message" = "فشل ربط البريد الإلكتروني، يرجى المحاولة مرة أخرى لاحقًا: %@";
 
 "invite_friends" = "دعوة وكسب";
+
+// MARK: - BackupSettings
+"backup_and_recovery" = "النسخ الاحتياطي والاستعادة";
+"actions_and_recovery" = "الإجراءات والاستعادة";
+"manual_backups" = "النسخ الاحتياطي اليدوي";
+"automatic_backups" = "النسخ الاحتياطي التلقائي";
+"auto_backup_description" = "يتم إنشاء النسخ الاحتياطية التلقائية تقريبًا كل 8 ساعات. يحتفظ النظام بأحدث 7 نسخ احتياطية تلقائية ويحتفظ أيضًا بأحدث نسخة احتياطية من كل إصدار من التطبيق. لن يتم حذف النسخ الاحتياطية اليدوية تلقائيًا.";
+"backup_now" = "نسخ احتياطي الآن";
+"manual_recovery_guide" = "دليل الاستعادة اليدوية:";
+"recovery_instructions_intro" = "إذا كنت بحاجة إلى استعادة البيانات من نسخة احتياطية، يرجى اتباع هذه الخطوات:";
+"recovery_step_1" = "1. ابحث عن النسخة الاحتياطية التي تريد استعادتها في القائمة أدناه، انقر على زر Finder لفتح مجلدها.";
+"recovery_step_2" = "2. انسخ جميع الملفات في المجلد (عادةً `.sqlite`، `.sqlite-shm`، `.sqlite-wal`).";
+"recovery_step_3" = "3. اغلق تطبيق CleanClip تمامًا.";
+"recovery_step_4" = "4. في Finder، انتقل إلى دليل تخزين البيانات التالي:";
+"recovery_step_5" = "5. ألصق الملفات المنسوخة في الخطوة 2 في هذا الدليل، مع الكتابة فوق الملفات الموجودة.";
+"recovery_step_6" = "6. أعد تشغيل تطبيق CleanClip.";
+"open_directory" = "فتح الدليل";
+"loading_path" = "جارٍ تحميل المسار...";
+"path_not_available" = "المسار غير متاح";
+"loading" = "جارٍ التحميل...";
+"no_backups_found" = "لا توجد %@ سجلات.";
+"date" = "التاريخ";
+"app_version" = "إصدار التطبيق";
+"model_version" = "إصدار النموذج";
+"size" = "الحجم";
+"unknown" = "غير معروف";
+"not_available" = "غير متاح";
+"show_in_finder" = "عرض في Finder";
+"delete_backup" = "حذف النسخة الاحتياطية";
+"delete_selected" = "حذف المحدد";
+"show_in_finder_help" = "عرض النسخة الاحتياطية المحددة في Finder (اختيار فردي فقط)";
+"delete_selected_help" = "حذف جميع النسخ الاحتياطية المحددة";
+"confirm_delete" = "تأكيد الحذف";
+"delete_count_items" = "حذف %d عنصر";
+"cancel" = "إلغاء";
+"delete_backups_confirmation" = "هل أنت متأكد أنك تريد حذف النسخ الاحتياطية المحددة %d؟ لا يمكن التراجع عن هذه العملية.";
+"operation_failed" = "فشلت العملية";
+"ok" = "حسناً";
+"load_backups_failed" = "فشل في تحميل قائمة النسخ الاحتياطية %@";
+"manual_backup_failed" = "فشل النسخ الاحتياطي اليدوي";
+"delete_partial_failed" = "خطأ في حذف بعض النسخ الاحتياطية";

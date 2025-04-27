@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from openai import OpenAI
 
-base_url = "https://api.openai-sb.com/v1"
+base_url = "https://openrouter.ai/api/"
 
 client = OpenAI(
     # This is the default and can be omitted

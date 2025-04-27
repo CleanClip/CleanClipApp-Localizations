@@ -430,6 +430,7 @@
 "settings_paste_stack" = "粘贴队列";
 "settings_ignore" = "规则";
 "settings_storage" = "存储";
+"settings_backup" = "备份与恢复";
 "settings_ocr" = "OCR";
 "settings_about" = "关于";
 "settings_appupdates" = "有软件更新可用";
@@ -761,3 +762,44 @@
 "binding_failed_message" = "邮箱绑定失败，请稍后重试：%@";
 
 "invite_friends" = "邀请并赚取";
+
+// MARK: - BackupSettings
+"backup_and_recovery" = "备份与恢复";
+"actions_and_recovery" = "操作与恢复";
+"manual_backups" = "手动备份";
+"automatic_backups" = "自动备份";
+"auto_backup_description" = "自动备份大约每 8 小时创建一次。系统会保留最近的 7 个自动备份，并额外保留每个 App 版本的最新备份。手动备份不会被自动删除。";
+"backup_now" = "立即手动备份";
+"manual_recovery_guide" = "手动恢复指南:";
+"recovery_instructions_intro" = "如果您需要从备份恢复数据，请按以下步骤操作：";
+"recovery_step_1" = "1. 在下方列表中找到您想要恢复的备份，点击访达按钮打开其文件夹。";
+"recovery_step_2" = "2. 复制文件夹内的所有文件（通常是 .sqlite, .sqlite-shm, .sqlite-wal）。";
+"recovery_step_3" = "3. 完全退出 CleanClip 应用。";
+"recovery_step_4" = "4. 在访达中，前往以下数据存储目录:";
+"recovery_step_5" = "5. 将第2步复制的文件粘贴到此目录中，覆盖现有文件。";
+"recovery_step_6" = "6. 重新启动 CleanClip 应用。";
+"open_directory" = "打开目录";
+"loading_path" = "正在加载路径...";
+"path_not_available" = "无法获取路径";
+"loading" = "正在加载...";
+"no_backups_found" = "没有%@记录。";
+"date" = "日期";
+"app_version" = "App 版本";
+"model_version" = "模型版本";
+"size" = "大小";
+"unknown" = "未知";
+"not_available" = "N/A";
+"show_in_finder" = "在访达中显示";
+"delete_backup" = "删除备份";
+"delete_selected" = "删除选中项";
+"show_in_finder_help" = "在访达中显示选中的备份文件（仅限单选）";
+"delete_selected_help" = "删除所有选中的备份";
+"confirm_delete" = "确认删除";
+"delete_count_items" = "删除 %d 项";
+"cancel" = "取消";
+"delete_backups_confirmation" = "您确定要删除选中的 %d 个备份吗？此操作无法撤销。";
+"operation_failed" = "操作失败";
+"ok" = "好的";
+"load_backups_failed" = "加载%@备份列表失败";
+"manual_backup_failed" = "手动备份失败";
+"delete_partial_failed" = "删除部分备份时出错";

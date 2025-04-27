@@ -430,6 +430,7 @@
 "settings_paste_stack" = "File de collage";
 "settings_ignore" = "Règles";
 "settings_storage" = "Stockage";
+"settings_backup" = "Sauvegarde et Récupération";
 "settings_ocr" = "OCR";
 "settings_about" = "À propos";
 "settings_appupdates" = "Mise à jour logicielle disponible";
@@ -761,3 +762,44 @@
 "binding_failed_message" = "Échec de la liaison de l'email, veuillez réessayer plus tard : %@";
 
 "invite_friends" = "Invitez & Gagnez";
+
+// MARK: - BackupSettings
+"backup_and_recovery" = "Sauvegarde & Récupération";
+"actions_and_recovery" = "Actions & Récupération";
+"manual_backups" = "Sauvegardes Manuelles";
+"automatic_backups" = "Sauvegardes Automatiques";
+"auto_backup_description" = "Les sauvegardes automatiques sont créées environ toutes les 8 heures. Le système conserve les 7 sauvegardes automatiques les plus récentes et garde également la dernière sauvegarde de chaque version de l'application. Les sauvegardes manuelles ne seront pas supprimées automatiquement.";
+"backup_now" = "Sauvegarder Maintenant";
+"manual_recovery_guide" = "Guide de Récupération Manuel :";
+"recovery_instructions_intro" = "Si vous devez récupérer des données à partir d'une sauvegarde, veuillez suivre ces étapes :";
+"recovery_step_1" = "1. Trouvez la sauvegarde que vous souhaitez restaurer dans la liste ci-dessous, cliquez sur le bouton Finder pour ouvrir son dossier.";
+"recovery_step_2" = "2. Copiez tous les fichiers dans le dossier (généralement `.sqlite`, `.sqlite-shm`, `.sqlite-wal`).";
+"recovery_step_3" = "3. Quittez complètement l'application CleanClip.";
+"recovery_step_4" = "4. Dans Finder, allez dans le répertoire de stockage de données suivant :";
+"recovery_step_5" = "5. Collez les fichiers copiés à l'étape 2 dans ce répertoire, en écrasant les fichiers existants.";
+"recovery_step_6" = "6. Redémarrez l'application CleanClip.";
+"open_directory" = "Ouvrir le Répertoire";
+"loading_path" = "Chargement du chemin...";
+"path_not_available" = "Chemin non disponible";
+"loading" = "Chargement...";
+"no_backups_found" = "Aucun %@ enregistrements.";
+"date" = "Date";
+"app_version" = "Version de l'Application";
+"model_version" = "Version du Modèle";
+"size" = "Taille";
+"unknown" = "Inconnu";
+"not_available" = "N/A";
+"show_in_finder" = "Afficher dans le Finder";
+"delete_backup" = "Supprimer la Sauvegarde";
+"delete_selected" = "Supprimer Sélectionnés";
+"show_in_finder_help" = "Afficher la sauvegarde sélectionnée dans le Finder (sélection unique uniquement)";
+"delete_selected_help" = "Supprimer toutes les sauvegardes sélectionnées";
+"confirm_delete" = "Confirmer la Suppression";
+"delete_count_items" = "Supprimer %d Éléments";
+"cancel" = "Annuler";
+"delete_backups_confirmation" = "Êtes-vous sûr de vouloir supprimer les %d sauvegardes sélectionnées ? Cette opération ne peut pas être annulée.";
+"operation_failed" = "Échec de l'Opération";
+"ok" = "OK";
+"load_backups_failed" = "Échec du chargement de la liste des sauvegardes %@";
+"manual_backup_failed" = "Échec de la sauvegarde manuelle";
+"delete_partial_failed" = "Erreur lors de la suppression de certaines sauvegardes";
