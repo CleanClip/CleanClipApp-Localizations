@@ -803,3 +803,36 @@
 "load_backups_failed" = "加载%@备份列表失败";
 "manual_backup_failed" = "手动备份失败";
 "delete_partial_failed" = "删除部分备份时出错";
+
+// MARK: - 新增的备份设置字符串
+"backup_settings" = "备份设置";
+"snapshot_backup_technology" = "快照备份技术";
+"snapshot_technology_description" = "CleanClip 采用 APFS 快照技术进行备份。备份文件在访达中显示与原文件相同大小，但实际占用磁盘空间极少。只有数据变化时才占用额外空间，多个备份智能共享数据，大幅节省存储空间。";
+"automatic_backup_settings" = "自动备份设置";
+"enable_auto_backup" = "启用自动备份";
+"backup_frequency" = "备份频率";
+"manual_backup_settings" = "手动备份";
+"create_backup_immediately" = "立即创建一个备份";
+"no_auto_backups" = "暂无自动备份";
+"auto_backup_disabled_hint" = "自动备份已禁用";
+"no_manual_backups" = "暂无手动备份";
+"create_first_backup_hint" = "点击上方按钮创建第一个备份";
+"apparent_size" = "显示大小";
+"recovery_and_troubleshooting" = "恢复和故障排除";
+"recovery_guide" = "数据恢复指南";
+"recovery_prepare" = "准备恢复";
+"recovery_prepare_desc" = "从上方备份列表中选择一个备份，右键选择\"在访达中显示\"";
+"recovery_replace_files" = "替换数据文件";
+"recovery_replace_files_desc" = "复制备份文件夹中的所有文件，点击下方按钮打开数据存储位置，关闭 CleanClip，粘贴并替换现有文件";
+"recovery_restart_app" = "重启应用";
+"recovery_restart_app_desc" = "重新启动 CleanClip，应用将使用恢复的数据";
+"recovery_notice" = "注意事项";
+"recovery_notice_desc" = "恢复操作会覆盖当前数据，建议先备份重要信息";
+"storage_location" = "当前数据存储位置";
+"open_in_finder" = "在访达中打开";
+"every_mins" = "每分钟";
+"every_hour" = "每小时";
+"every_2_hours" = "每2小时";
+"every_4_hours" = "每4小时";
+"every_8_hours" = "每8小时";
+"every_day" = "每天";
