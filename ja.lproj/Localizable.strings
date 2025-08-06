@@ -841,3 +841,6 @@
 "every_4_hours" = "4時間ごと";
 "every_8_hours" = "8時間ごと";
 "every_day" = "毎日";
+"every_2_days" = "2日ごと";
+"every_4_days" = "4日ごと";
+"auto_backup_cleanup_description" = "保持ポリシー: 最新の7件 + 毎日の最新1件 (30日) + 毎月の最新1件 (12ヶ月) + 毎年の最新1件";

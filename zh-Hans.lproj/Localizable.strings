@@ -836,3 +836,6 @@
 "every_4_hours" = "每4小时";
 "every_8_hours" = "每8小时";
 "every_day" = "每天";
+"every_2_days" = "每2天";
+"every_4_days" = "每4天";
+"auto_backup_cleanup_description" = "保留策略：7个最新 + 30天内每天最后1个 + 12个月内每月最后1个 + 每年最后1个";

@@ -841,3 +841,6 @@
 "every_4_hours" = "Každé 4 hodiny";
 "every_8_hours" = "Každých 8 hodín";
 "every_day" = "Každý deň";
+"every_2_days" = "Každé 2 dni";
+"every_4_days" = "Každé 4 dni";
+"auto_backup_cleanup_description" = "Politika uchovávania: 7 najnovších + posledný 1 za deň (30d) + posledný 1 za mesiac (12m) + posledný 1 za rok";

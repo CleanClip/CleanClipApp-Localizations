@@ -841,3 +841,6 @@
 "every_4_hours" = "Elke 4 Uur";
 "every_8_hours" = "Elke 8 Uur";
 "every_day" = "Elke Dag";
+"every_2_days" = "Elke 2 Dagen";
+"every_4_days" = "Elke 4 Dagen";
+"auto_backup_cleanup_description" = "Retentiebeleid: 7 laatste + laatste 1 per dag (30d) + laatste 1 per maand (12m) + laatste 1 per jaar";

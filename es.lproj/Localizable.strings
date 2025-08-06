@@ -841,3 +841,6 @@
 "every_4_hours" = "Cada 4 Horas";
 "every_8_hours" = "Cada 8 Horas";
 "every_day" = "Cada Día";
+"every_2_days" = "Cada 2 Días";
+"every_4_days" = "Cada 4 Días";
+"auto_backup_cleanup_description" = "Política de retención: 7 últimos + 1 último por día (30d) + 1 último por mes (12m) + 1 último por año";

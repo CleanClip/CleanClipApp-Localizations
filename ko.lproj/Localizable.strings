@@ -841,3 +841,6 @@
 "every_4_hours" = "매 4시간";
 "every_8_hours" = "매 8시간";
 "every_day" = "매일";
+"every_2_days" = "2일마다";
+"every_4_days" = "4일마다";
+"auto_backup_cleanup_description" = "보존 정책: 최신 7개 + 하루에 1개 (30일) + 한 달에 1개 (12개월) + 한 해에 1개";

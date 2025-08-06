@@ -841,3 +841,6 @@
 "every_4_hours" = "Alle 4 Stunden";
 "every_8_hours" = "Alle 8 Stunden";
 "every_day" = "Jeden Tag";
+"every_2_days" = "Alle 2 Tage";
+"every_4_days" = "Alle 4 Tage";
+"auto_backup_cleanup_description" = "Aufbewahrungsrichtlinie: 7 neueste + letzte 1 pro Tag (30 Tage) + letzte 1 pro Monat (12 Monate) + letzte 1 pro Jahr";
