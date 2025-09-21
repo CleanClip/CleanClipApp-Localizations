@@ -422,6 +422,7 @@
 // MARK: - settings
 // MARK: settings name
 "settings_general" = "常规";
+"settings_permissions" = "权限";
 "settings_shortcuts" = "快捷键";
 "settings_paste_format" = "粘贴格式";
 "settings_lists" = "列表";
@@ -499,6 +500,20 @@
 "paste_stack_order_shuffle" = "随机顺序";
 
 "paste_queue_auto_follow_focus" = "自动切换到当前聚焦的显示器";
+
+// MARK: - 权限
+"permissions_required" = "所需权限";
+"permissions_required_desc" = "为在文字输入光标处弹出快速菜单与实现粘贴队列，请启用“辅助功能”和“输入监控”。下方显示当前状态，未开启项可一键前往设置。";
+"permissions_quick_add" = "快速添加";
+"permissions_quick_add_desc" = "将应用图标拖入系统设置的列表中，可快速添加权限。";
+"permissions_status" = "权限状态";
+"permissions_accessibility" = "辅助功能";
+"permissions_accessibility_desc" = "用于触发菜单“粘贴”与辅助操作。";
+"permissions_input_monitoring" = "输入监控";
+"permissions_input_monitoring_desc" = "用于监听 Cmd+V 以推进粘贴队列。";
+"permissions_open_settings" = "打开设置…";
+"permissions_recheck" = "重新检测";
+"permissions_enabled" = "已开启";
 
 // MARK: Storage
 // 时间单位

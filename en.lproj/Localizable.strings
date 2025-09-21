@@ -422,6 +422,7 @@
 // MARK: - settings
 // MARK: settings name
 "settings_general" = "General";
+"settings_permissions" = "Permissions";
 "settings_shortcuts" = "Shortcuts";
 "settings_paste_format" = "Paste Format";
 "settings_lists" = "Lists";
@@ -497,6 +498,20 @@
 "paste_stack_order_stack" = "Stack Order";
 "paste_stack_order_queue" = "Queue Order";
 "paste_stack_order_shuffle" = "Shuffle Order";
+
+// MARK: - Permissions
+"permissions_required" = "Required Permissions";
+"permissions_required_desc" = "To show the quick menu at the text cursor and enable the paste queue, please enable Accessibility and Input Monitoring. The current status is shown below; you can open settings for any disabled item.";
+"permissions_quick_add" = "Quick Add";
+"permissions_quick_add_desc" = "Drag the app icon into the list in System Settings to quickly grant permissions.";
+"permissions_status" = "Permission Status";
+"permissions_accessibility" = "Accessibility";
+"permissions_accessibility_desc" = "Used to trigger Paste and assist operations.";
+"permissions_input_monitoring" = "Input Monitoring";
+"permissions_input_monitoring_desc" = "Used to listen for Cmd+V to drive the paste queue.";
+"permissions_open_settings" = "Open Settings…";
+"permissions_recheck" = "Recheck";
+"permissions_enabled" = "Enabled";
 
 "paste_queue_auto_follow_focus" = "Automatically move to the monitor with focus";
 
