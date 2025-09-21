@@ -422,6 +422,7 @@
 // MARK: - settings
 // MARK: settings name
 "settings_general" = "Splošno";
+"settings_permissions" = "Povolenia";
 "settings_shortcuts" = "Bližnjice";
 "settings_paste_format" = "Oblika lepljenja";
 "settings_lists" = "Seznami";
@@ -497,6 +498,20 @@
 "paste_stack_order_stack" = "Vrstni red skladanja";
 "paste_stack_order_queue" = "Vrstni red čakanja";
 "paste_stack_order_shuffle" = "Naključni vrstni red";
+
+// MARK: - Permissions
+"permissions_required" = "Požadované povolenia";
+"permissions_required_desc" = "Aby sa zobrazila rýchla ponuka pri kurzore textu a aktivovala sa fronta na vloženie, povolte prístupnosť a monitorovanie vstupu. Aktuálny stav je zobrazený nižšie; môžete otvoriť nastavenia pre akúkoľvek zakázanú položku.";
+"permissions_quick_add" = "Rýchle pridanie";
+"permissions_quick_add_desc" = "Potiahnite ikonu aplikácie do zoznamu v systémových nastaveniach, aby ste rýchlo udelili povolenia.";
+"permissions_status" = "Stav povolenia";
+"permissions_accessibility" = "Prístupnosť";
+"permissions_accessibility_desc" = "Používa sa na spustenie operácií Vložiť a asistenciu.";
+"permissions_input_monitoring" = "Monitorovanie vstupu";
+"permissions_input_monitoring_desc" = "Používa sa na počúvanie Cmd+V na ovládanie fronty na vloženie.";
+"permissions_open_settings" = "Otvoriť nastavenia…";
+"permissions_recheck" = "Znovu skontrolovať";
+"permissions_enabled" = "Povolené";
 
 "paste_queue_auto_follow_focus" = "Automaticky sa presunúť na monitor s fokusom";
 

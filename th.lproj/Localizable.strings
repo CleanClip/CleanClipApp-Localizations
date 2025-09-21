@@ -422,6 +422,7 @@
 // MARK: - settings
 // MARK: settings name
 "settings_general" = "ทั่วไป";
+"settings_permissions" = "สิทธิ์";
 "settings_shortcuts" = "ทางลัด";
 "settings_paste_format" = "รูปแบบการวาง";
 "settings_lists" = "รายการ";
@@ -497,6 +498,20 @@
 "paste_stack_order_stack" = "ลำดับซ้อน";
 "paste_stack_order_queue" = "ลำดับคิว";
 "paste_stack_order_shuffle" = "ลำดับสุ่ม";
+
+// MARK: - Permissions
+"permissions_required" = "สิทธิ์ที่จำเป็น";
+"permissions_required_desc" = "เพื่อแสดงเมนูด่วนที่เคอร์เซอร์ข้อความและเปิดใช้งานคิววาง กรุณาเปิดใช้งานการเข้าถึงและการตรวจสอบการป้อนข้อมูล สถานะปัจจุบันแสดงด้านล่าง; คุณสามารถเปิดการตั้งค่าสำหรับรายการที่ปิดใช้งานได้ทุกรายการ.";
+"permissions_quick_add" = "เพิ่มด่วน";
+"permissions_quick_add_desc" = "ลากไอคอนแอปไปยังรายการในการตั้งค่าระบบเพื่อให้สิทธิ์อย่างรวดเร็ว.";
+"permissions_status" = "สถานะสิทธิ์";
+"permissions_accessibility" = "การเข้าถึง";
+"permissions_accessibility_desc" = "ใช้เพื่อกระตุ้นการวางและการช่วยเหลือการดำเนินการ.";
+"permissions_input_monitoring" = "การตรวจสอบการป้อนข้อมูล";
+"permissions_input_monitoring_desc" = "ใช้เพื่อฟัง Cmd+V เพื่อขับเคลื่อนคิววาง.";
+"permissions_open_settings" = "เปิดการตั้งค่า…";
+"permissions_recheck" = "ตรวจสอบอีกครั้ง";
+"permissions_enabled" = "เปิดใช้งาน";
 
 "paste_queue_auto_follow_focus" = "ย้ายไปยังจอภาพที่มีโฟกัสโดยอัตโนมัติ";
 

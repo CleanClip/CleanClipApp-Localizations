@@ -422,6 +422,7 @@
 // MARK: - settings
 // MARK: settings name
 "settings_general" = "一般";
+"settings_permissions" = "権限";
 "settings_shortcuts" = "ショートカット";
 "settings_paste_format" = "貼り付け形式";
 "settings_lists" = "リスト";
@@ -497,6 +498,20 @@
 "paste_stack_order_stack" = "スタック順";
 "paste_stack_order_queue" = "キュー順";
 "paste_stack_order_shuffle" = "シャッフル順";
+
+// MARK: - Permissions
+"permissions_required" = "必要な権限";
+"permissions_required_desc" = "テキストカーソルでクイックメニューを表示し、ペーストキューを有効にするには、アクセシビリティと入力モニタリングを有効にしてください。現在のステータスは下に表示されています。無効な項目の設定を開くことができます。";
+"permissions_quick_add" = "クイック追加";
+"permissions_quick_add_desc" = "アプリのアイコンをシステム設定のリストにドラッグして、権限を迅速に付与します。";
+"permissions_status" = "権限のステータス";
+"permissions_accessibility" = "アクセシビリティ";
+"permissions_accessibility_desc" = "ペーストや支援操作をトリガーするために使用されます。";
+"permissions_input_monitoring" = "入力モニタリング";
+"permissions_input_monitoring_desc" = "Cmd+Vをリッスンしてペーストキューを操作するために使用されます。";
+"permissions_open_settings" = "設定を開く…";
+"permissions_recheck" = "再確認";
+"permissions_enabled" = "有効";
 
 "paste_queue_auto_follow_focus" = "フォーカスのあるモニターに自動的に移動";
 

@@ -422,6 +422,7 @@
 // MARK: - settings
 // MARK: settings name
 "settings_general" = "一般";
+"settings_permissions" = "權限";
 "settings_shortcuts" = "快捷鍵";
 "settings_paste_format" = "貼上格式";
 "settings_lists" = "列表";
@@ -497,6 +498,20 @@
 "paste_stack_order_stack" = "堆疊順序";
 "paste_stack_order_queue" = "佇列順序";
 "paste_stack_order_shuffle" = "隨機順序";
+
+// MARK: - Permissions
+"permissions_required" = "所需權限";
+"permissions_required_desc" = "要在文本光標處顯示快速菜單並啟用粘貼隊列，請啟用輔助功能和輸入監控。當前狀態如下所示；您可以為任何禁用的項目打開設置。";
+"permissions_quick_add" = "快速添加";
+"permissions_quick_add_desc" = "將應用圖標拖入系統設置中的列表以快速授予權限。";
+"permissions_status" = "權限狀態";
+"permissions_accessibility" = "輔助功能";
+"permissions_accessibility_desc" = "用於觸發粘貼和輔助操作。";
+"permissions_input_monitoring" = "輸入監控";
+"permissions_input_monitoring_desc" = "用於監聽 Cmd+V 以驅動粘貼隊列。";
+"permissions_open_settings" = "打開設置…";
+"permissions_recheck" = "重新檢查";
+"permissions_enabled" = "已啟用";
 
 "paste_queue_auto_follow_focus" = "自動移動到有焦點的顯示器";
 

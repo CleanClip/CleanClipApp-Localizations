@@ -422,6 +422,7 @@
 // MARK: - settings
 // MARK: settings name
 "settings_general" = "General";
+"settings_permissions" = "Permisos";
 "settings_shortcuts" = "Atajos";
 "settings_paste_format" = "Formato de pegado";
 "settings_lists" = "Listas";
@@ -497,6 +498,20 @@
 "paste_stack_order_stack" = "Orden de Pila";
 "paste_stack_order_queue" = "Orden de Cola";
 "paste_stack_order_shuffle" = "Orden Aleatorio";
+
+// MARK: - Permissions
+"permissions_required" = "Permisos Requeridos";
+"permissions_required_desc" = "Para mostrar el menú rápido en el cursor de texto y habilitar la cola de pegado, por favor habilita Accesibilidad y Monitoreo de Entrada. El estado actual se muestra a continuación; puedes abrir la configuración para cualquier elemento deshabilitado.";
+"permissions_quick_add" = "Añadir Rápido";
+"permissions_quick_add_desc" = "Arrastra el ícono de la aplicación a la lista en Configuración del Sistema para otorgar permisos rápidamente.";
+"permissions_status" = "Estado de Permisos";
+"permissions_accessibility" = "Accesibilidad";
+"permissions_accessibility_desc" = "Utilizado para activar operaciones de Pegado y asistencia.";
+"permissions_input_monitoring" = "Monitoreo de Entrada";
+"permissions_input_monitoring_desc" = "Utilizado para escuchar Cmd+V para activar la cola de pegado.";
+"permissions_open_settings" = "Abrir Configuración…";
+"permissions_recheck" = "Revisar Nuevamente";
+"permissions_enabled" = "Habilitado";
 
 "paste_queue_auto_follow_focus" = "Moverse automáticamente al monitor con foco";
 

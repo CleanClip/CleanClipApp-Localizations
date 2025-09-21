@@ -422,6 +422,7 @@
 // MARK: - settings
 // MARK: settings name
 "settings_general" = "Γενικές ρυθμίσεις";
+"settings_permissions" = "Δικαιώματα";
 "settings_shortcuts" = "Συντομεύσεις";
 "settings_paste_format" = "Μορφή Επικόλλησης";
 "settings_lists" = "Λίστες";
@@ -497,6 +498,20 @@
 "paste_stack_order_stack" = "Σειρά Πυργών";
 "paste_stack_order_queue" = "Σειρά Ουράς";
 "paste_stack_order_shuffle" = "Ανακάτεμα Σειράς";
+
+// MARK: - Permissions
+"permissions_required" = "Απαιτούμενα Δικαιώματα";
+"permissions_required_desc" = "Για να εμφανίσετε το γρήγορο μενού στον κέρσορα κειμένου και να ενεργοποιήσετε τη σειρά επικόλλησης, παρακαλώ ενεργοποιήστε την Προσβασιμότητα και την Παρακολούθηση Εισόδου. Η τρέχουσα κατάσταση εμφανίζεται παρακάτω; μπορείτε να ανοίξετε τις ρυθμίσεις για οποιοδήποτε απενεργοποιημένο στοιχείο.";
+"permissions_quick_add" = "Γρήγορη Προσθήκη";
+"permissions_quick_add_desc" = "Σύρετε το εικονίδιο της εφαρμογής στη λίστα στις Ρυθμίσεις Συστήματος για να παραχωρήσετε γρήγορα δικαιώματα.";
+"permissions_status" = "Κατάσταση Δικαιωμάτων";
+"permissions_accessibility" = "Προσβασιμότητα";
+"permissions_accessibility_desc" = "Χρησιμοποιείται για να ενεργοποιήσει την επικόλληση και τις βοηθητικές λειτουργίες.";
+"permissions_input_monitoring" = "Παρακολούθηση Εισόδου";
+"permissions_input_monitoring_desc" = "Χρησιμοποιείται για να ακούει το Cmd+V για να οδηγήσει τη σειρά επικόλλησης.";
+"permissions_open_settings" = "Άνοιγμα Ρυθμίσεων…";
+"permissions_recheck" = "Επαναξιολόγηση";
+"permissions_enabled" = "Ενεργοποιημένο";
 
 "paste_queue_auto_follow_focus" = "Αυτόματη μετακίνηση στην οθόνη με εστίαση";
 

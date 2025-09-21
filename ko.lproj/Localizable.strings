@@ -422,6 +422,7 @@
 // MARK: - settings
 // MARK: settings name
 "settings_general" = "일반";
+"settings_permissions" = "권한";
 "settings_shortcuts" = "단축키";
 "settings_paste_format" = "붙여넣기 형식";
 "settings_lists" = "목록";
@@ -497,6 +498,20 @@
 "paste_stack_order_stack" = "스택 순서";
 "paste_stack_order_queue" = "대기열 순서";
 "paste_stack_order_shuffle" = "셔플 순서";
+
+// MARK: - Permissions
+"permissions_required" = "필수 권한";
+"permissions_required_desc" = "텍스트 커서에서 빠른 메뉴를 표시하고 붙여넣기 대기열을 활성화하려면 접근성 및 입력 모니터링을 활성화해야 합니다. 현재 상태는 아래에 표시됩니다. 비활성화된 항목의 설정을 열 수 있습니다.";
+"permissions_quick_add" = "빠른 추가";
+"permissions_quick_add_desc" = "앱 아이콘을 시스템 설정의 목록으로 드래그하여 권한을 빠르게 부여하세요.";
+"permissions_status" = "권한 상태";
+"permissions_accessibility" = "접근성";
+"permissions_accessibility_desc" = "붙여넣기 및 보조 작업을 트리거하는 데 사용됩니다.";
+"permissions_input_monitoring" = "입력 모니터링";
+"permissions_input_monitoring_desc" = "Cmd+V를 듣고 붙여넣기 대기열을 구동하는 데 사용됩니다.";
+"permissions_open_settings" = "설정 열기…";
+"permissions_recheck" = "재확인";
+"permissions_enabled" = "활성화됨";
 
 "paste_queue_auto_follow_focus" = "포커스가 있는 모니터로 자동 이동";
 

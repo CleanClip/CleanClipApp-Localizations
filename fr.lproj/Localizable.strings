@@ -422,6 +422,7 @@
 // MARK: - settings
 // MARK: settings name
 "settings_general" = "Général";
+"settings_permissions" = "Autorisations";
 "settings_shortcuts" = "Raccourcis";
 "settings_paste_format" = "Format de collage";
 "settings_lists" = "Listes";
@@ -497,6 +498,20 @@
 "paste_stack_order_stack" = "Ordre de la pile";
 "paste_stack_order_queue" = "Ordre de la file d'attente";
 "paste_stack_order_shuffle" = "Ordre aléatoire";
+
+// MARK: - Permissions
+"permissions_required" = "Autorisations requises";
+"permissions_required_desc" = "Pour afficher le menu rapide au curseur de texte et activer la file d'attente de collage, veuillez activer l'accessibilité et la surveillance des entrées. L'état actuel est affiché ci-dessous ; vous pouvez ouvrir les paramètres pour tout élément désactivé.";
+"permissions_quick_add" = "Ajout rapide";
+"permissions_quick_add_desc" = "Faites glisser l'icône de l'application dans la liste des paramètres système pour accorder rapidement les autorisations.";
+"permissions_status" = "État des autorisations";
+"permissions_accessibility" = "Accessibilité";
+"permissions_accessibility_desc" = "Utilisé pour déclencher le collage et les opérations d'assistance.";
+"permissions_input_monitoring" = "Surveillance des entrées";
+"permissions_input_monitoring_desc" = "Utilisé pour écouter Cmd+V afin de gérer la file d'attente de collage.";
+"permissions_open_settings" = "Ouvrir les paramètres…";
+"permissions_recheck" = "Vérifier à nouveau";
+"permissions_enabled" = "Activé";
 
 "paste_queue_auto_follow_focus" = "Déplacer automatiquement vers le moniteur avec le focus";
 

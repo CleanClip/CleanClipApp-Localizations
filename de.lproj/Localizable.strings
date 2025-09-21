@@ -422,6 +422,7 @@
 // MARK: - settings
 // MARK: settings name
 "settings_general" = "Allgemein";
+"settings_permissions" = "Berechtigungen";
 "settings_shortcuts" = "Tastenkombinationen";
 "settings_paste_format" = "Einfügeformat";
 "settings_lists" = "Listen";
@@ -497,6 +498,20 @@
 "paste_stack_order_stack" = "Stapelreihenfolge";
 "paste_stack_order_queue" = "Warteschlangenreihenfolge";
 "paste_stack_order_shuffle" = "Zufallsreihenfolge";
+
+// MARK: - Permissions
+"permissions_required" = "Erforderliche Berechtigungen";
+"permissions_required_desc" = "Um das Schnellmenü am Textcursor anzuzeigen und die Zwischenablage zu aktivieren, aktivieren Sie bitte die Barrierefreiheit und die Eingabeverbesserung. Der aktuelle Status wird unten angezeigt; Sie können die Einstellungen für jedes deaktivierte Element öffnen.";
+"permissions_quick_add" = "Schnell hinzufügen";
+"permissions_quick_add_desc" = "Ziehen Sie das App-Symbol in die Liste in den Systemeinstellungen, um Berechtigungen schnell zu gewähren.";
+"permissions_status" = "Berechtigungsstatus";
+"permissions_accessibility" = "Barrierefreiheit";
+"permissions_accessibility_desc" = "Wird verwendet, um Einfügen und Hilfsoperationen auszulösen.";
+"permissions_input_monitoring" = "Eingabeverbesserung";
+"permissions_input_monitoring_desc" = "Wird verwendet, um auf Cmd+V zu hören, um die Zwischenablage zu steuern.";
+"permissions_open_settings" = "Einstellungen öffnen…";
+"permissions_recheck" = "Erneut überprüfen";
+"permissions_enabled" = "Aktiviert";
 
 "paste_queue_auto_follow_focus" = "Automatisch zum Monitor mit Fokus wechseln";
 

@@ -422,6 +422,7 @@
 // MARK: - settings
 // MARK: settings name
 "settings_general" = "Algemeen";
+"settings_permissions" = "Machtigingen";
 "settings_shortcuts" = "Sneltoetsen";
 "settings_paste_format" = "Plakken opmaak";
 "settings_lists" = "Lijsten";
@@ -497,6 +498,20 @@
 "paste_stack_order_stack" = "Stapelvolgorde";
 "paste_stack_order_queue" = "Wachtrijvolgorde";
 "paste_stack_order_shuffle" = "Willekeurige volgorde";
+
+// MARK: - Permissions
+"permissions_required" = "Vereiste Machtigingen";
+"permissions_required_desc" = "Om het snelmenu bij de tekstcursor weer te geven en de plakwachtrij in te schakelen, moet u Toegankelijkheid en Invoermonitoring inschakelen. De huidige status wordt hieronder weergegeven; u kunt de instellingen openen voor elk uitgeschakeld item.";
+"permissions_quick_add" = "Snel Toevoegen";
+"permissions_quick_add_desc" = "Sleep het app-pictogram naar de lijst in Systeeminstellingen om snel machtigingen te verlenen.";
+"permissions_status" = "Machtiging Status";
+"permissions_accessibility" = "Toegankelijkheid";
+"permissions_accessibility_desc" = "Gebruikt om Plakken en assistentbewerkingen te activeren.";
+"permissions_input_monitoring" = "Invoermonitoring";
+"permissions_input_monitoring_desc" = "Gebruikt om te luisteren naar Cmd+V om de plakwachtrij aan te sturen.";
+"permissions_open_settings" = "Instellingen Openen…";
+"permissions_recheck" = "Opnieuw Controleren";
+"permissions_enabled" = "Ingeschakeld";
 
 "paste_queue_auto_follow_focus" = "Automatisch verplaatsen naar de monitor met focus";
 

@@ -422,6 +422,7 @@
 // MARK: - settings
 // MARK: settings name
 "settings_general" = "عام";
+"settings_permissions" = "الأذونات";
 "settings_shortcuts" = "اختصارات";
 "settings_paste_format" = "تنسيق اللصق";
 "settings_lists" = "القوائم";
@@ -497,6 +498,20 @@
 "paste_stack_order_stack" = "ترتيب المكدس";
 "paste_stack_order_queue" = "ترتيب الطابور";
 "paste_stack_order_shuffle" = "ترتيب عشوائي";
+
+// MARK: - Permissions
+"permissions_required" = "الأذونات المطلوبة";
+"permissions_required_desc" = "لإظهار القائمة السريعة عند مؤشر النص وتمكين قائمة اللصق، يرجى تمكين إمكانية الوصول ومراقبة الإدخال. الحالة الحالية موضحة أدناه؛ يمكنك فتح الإعدادات لأي عنصر معطل.";
+"permissions_quick_add" = "إضافة سريعة";
+"permissions_quick_add_desc" = "اسحب رمز التطبيق إلى القائمة في إعدادات النظام لمنح الأذونات بسرعة.";
+"permissions_status" = "حالة الأذونات";
+"permissions_accessibility" = "إمكانية الوصول";
+"permissions_accessibility_desc" = "يستخدم لتفعيل اللصق وعمليات المساعدة.";
+"permissions_input_monitoring" = "مراقبة الإدخال";
+"permissions_input_monitoring_desc" = "يستخدم للاستماع إلى Cmd+V لتشغيل قائمة اللصق.";
+"permissions_open_settings" = "فتح الإعدادات…";
+"permissions_recheck" = "إعادة التحقق";
+"permissions_enabled" = "مفعل";
 
 "paste_queue_auto_follow_focus" = "الانتقال تلقائيًا إلى الشاشة التي بها التركيز";
 
